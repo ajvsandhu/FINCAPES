@@ -1,0 +1,225 @@
+entity,entity_code,is_aggregate_entity,electricity-generation/yearly,power-sector-emissions/yearly,carbon-intensity/yearly,electricity-demand/yearly,electricity-generation/monthly,power-sector-emissions/monthly,carbon-intensity/monthly,electricity-demand/monthly,installed-capacity/monthly
+Afghanistan,AFG,False,425,425,25,,0,0,0,0,0
+Albania,ALB,False,425,425,25,,0,0,0,0,0
+Algeria,DZA,False,425,425,25,,0,0,0,0,0
+American Samoa,ASM,False,425,425,25,,0,0,0,0,0
+Angola,AGO,False,425,425,25,,0,0,0,0,0
+Antigua and Barbuda,ATG,False,425,425,25,,0,0,0,0,0
+Argentina,ARG,False,626,626,41,,1664,1664,104,104,512
+Armenia,ARM,False,442,442,26,,1377,1377,87,87,0
+Aruba,ABW,False,425,425,25,,0,0,0,0,0
+Australia,AUS,False,605,605,41,,4472,4472,320,320,516
+Austria,AUT,False,612,612,36,,2240,2240,140,140,0
+Azerbaijan,AZE,False,442,442,26,,1380,1380,87,87,0
+Bahamas,BHS,False,425,425,25,,0,0,0,0,0
+Bahrain,BHR,False,425,425,25,,0,0,0,0,0
+Bangladesh,BGD,False,442,442,26,,1219,1219,91,91,0
+Barbados,BRB,False,425,425,25,,0,0,0,0,0
+Belarus,BLR,False,442,442,26,,1380,1380,87,87,0
+Belgium,BEL,False,612,612,36,,2380,2380,140,140,545
+Belize,BLZ,False,425,425,25,,0,0,0,0,0
+Benin,BEN,False,425,425,25,,0,0,0,0,0
+Bhutan,BTN,False,425,425,25,,0,0,0,0,0
+Bolivia,BOL,False,442,442,26,,2331,2331,211,211,0
+Bosnia Herzegovina,BIH,False,373,373,26,,1149,1149,92,92,0
+Botswana,BWA,False,425,425,25,,0,0,0,0,0
+Brazil,BRA,False,636,636,41,,1545,1545,103,103,516
+Brunei Darussalam,BRN,False,425,425,25,,0,0,0,0,0
+Bulgaria,BGR,False,608,608,36,,2194,2194,140,140,0
+Burkina Faso,BFA,False,425,425,25,,0,0,0,0,0
+Burundi,BDI,False,425,425,25,,0,0,0,0,0
+Cabo Verde,CPV,False,425,425,25,,0,0,0,0,0
+Cambodia,KHM,False,338,338,26,,0,0,0,0,0
+Cameroon,CMR,False,425,425,25,,0,0,0,0,0
+Canada,CAN,False,636,636,41,,3258,3258,198,198,0
+Cayman Islands,CYM,False,425,425,25,,0,0,0,0,0
+Central African Republic,CAF,False,408,408,24,,0,0,0,0,0
+Chad,TCD,False,425,425,25,,0,0,0,0,0
+Chile,CHL,False,442,442,26,,1846,1846,124,124,364
+China,CHN,False,641,641,41,,2048,2048,128,128,640
+Colombia,COL,False,441,441,26,,1766,1766,120,120,0
+Comoros,COM,False,408,408,24,,0,0,0,0,0
+Congo,COG,False,425,425,25,,0,0,0,0,0
+Congo (DRC),COD,False,425,425,25,,0,0,0,0,0
+Cook Islands (the),COK,False,425,425,25,,0,0,0,0,0
+Costa Rica,CRI,False,442,442,26,,1288,1288,92,92,0
+Cote d'Ivoire,CIV,False,425,425,25,,0,0,0,0,0
+Croatia,HRV,False,608,608,36,,1488,1488,93,93,0
+Cuba,CUB,False,425,425,25,,0,0,0,0,0
+Cyprus,CYP,False,608,608,36,,1877,1877,200,200,0
+Czechia,CZE,False,611,611,36,,2380,2380,140,140,0
+Denmark,DNK,False,612,612,36,,2240,2240,140,140,645
+Djibouti,DJI,False,425,425,25,,0,0,0,0,0
+Dominica,DMA,False,408,408,24,,0,0,0,0,0
+Dominican Republic,DOM,False,442,442,26,,616,616,44,44,0
+Ecuador,ECU,False,442,442,26,,1260,1260,90,90,0
+Egypt,EGY,False,605,605,41,,1577,1577,125,125,0
+El Salvador,SLV,False,344,344,26,,1224,1224,84,84,0
+Equatorial Guinea,GNQ,False,425,425,25,,0,0,0,0,0
+Eritrea,ERI,False,425,425,25,,0,0,0,0,0
+Estonia,EST,False,610,610,36,,2100,2100,140,140,0
+Eswatini,SWZ,False,425,425,25,,0,0,0,0,0
+Ethiopia,ETH,False,442,442,26,,0,0,0,0,0
+Falkland Islands (Malvinas),FLK,False,408,408,24,,0,0,0,0,0
+Faroe Islands,FRO,False,408,408,24,,0,0,0,0,0
+Fiji,FJI,False,425,425,25,,0,0,0,0,0
+Finland,FIN,False,612,612,36,,2332,2332,140,140,438
+France,FRA,False,612,612,36,,2240,2240,140,140,645
+French Guiana,GUF,False,278,278,24,,0,0,0,0,0
+French Polynesia,PYF,False,425,425,25,,0,0,0,0,0
+Gabon,GAB,False,425,425,25,,0,0,0,0,0
+Gambia,GMB,False,425,425,25,,0,0,0,0,0
+Georgia,GEO,False,442,442,26,,2045,2045,199,199,0
+Germany,DEU,False,632,632,41,,2380,2380,140,140,640
+Ghana,GHA,False,425,425,25,,0,0,0,0,0
+Greece,GRC,False,612,612,36,,1960,1960,140,140,0
+Greenland,GRL,False,425,425,25,,0,0,0,0,0
+Grenada,GRD,False,425,425,25,,0,0,0,0,0
+Guadeloupe,GLP,False,355,355,24,,0,0,0,0,0
+Guam,GUM,False,425,425,25,,0,0,0,0,0
+Guatemala,GTM,False,425,425,25,,0,0,0,0,0
+Guinea,GIN,False,425,425,25,,0,0,0,0,0
+Guinea-Bissau,GNB,False,425,425,25,,0,0,0,0,0
+Guyana,GUY,False,425,425,25,,0,0,0,0,0
+Haiti,HTI,False,425,425,25,,0,0,0,0,0
+Honduras,HND,False,425,425,25,,0,0,0,0,0
+Hong Kong (SAR of China),HKG,False,425,425,25,,0,0,0,0,0
+Hungary,HUN,False,611,611,36,,2332,2332,140,140,512
+Iceland,ISL,False,442,442,26,,3312,3312,320,320,0
+India,IND,False,641,641,41,,1547,1547,91,91,360
+Indonesia,IDN,False,416,416,26,,0,0,0,0,0
+Iran,IRN,False,610,610,41,,760,760,76,76,0
+Iraq,IRQ,False,425,425,25,,0,0,0,0,0
+Ireland,IRL,False,612,612,36,,3000,3000,200,200,0
+Israel,ISR,False,442,442,26,,0,0,0,0,0
+Italy,ITA,False,612,612,36,,2048,2048,128,128,345
+Jamaica,JAM,False,425,425,25,,0,0,0,0,0
+Japan,JPN,False,641,641,41,,1600,1600,100,100,635
+Jordan,JOR,False,425,425,25,,0,0,0,0,0
+Kazakhstan,KAZ,False,595,595,41,,1386,1386,99,99,0
+Kenya,KEN,False,442,442,26,,1260,1260,90,90,0
+Kiribati,KIR,False,425,425,25,,0,0,0,0,0
+Kosovo,XKX,False,430,430,26,,594,594,54,54,0
+Kuwait,KWT,False,442,442,26,,475,475,95,95,0
+Kyrgyzstan,KGZ,False,442,442,26,,1335,1335,87,87,0
+Lao PDR,LAO,False,425,425,25,,0,0,0,0,0
+Latvia,LVA,False,612,612,36,,1876,1876,140,140,0
+Lebanon,LBN,False,425,425,25,,0,0,0,0,0
+Lesotho,LSO,False,425,425,25,,0,0,0,0,0
+Liberia,LBR,False,425,425,25,,0,0,0,0,0
+Libya,LBY,False,425,425,25,,0,0,0,0,0
+Lithuania,LTU,False,608,608,36,,1960,1960,140,140,0
+Luxembourg,LUX,False,612,612,36,,1442,1442,103,103,0
+Macao (SAR of China),MAC,False,425,425,25,,0,0,0,0,0
+Madagascar,MDG,False,425,425,25,,0,0,0,0,0
+Malawi,MWI,False,425,425,25,,0,0,0,0,0
+Malaysia,MYS,False,615,615,41,,1414,1414,101,101,0
+Maldives,MDV,False,425,425,25,,0,0,0,0,0
+Mali,MLI,False,425,425,25,,0,0,0,0,0
+Malta,MLT,False,600,600,36,,1547,1547,91,91,0
+Martinique,MTQ,False,280,280,24,,0,0,0,0,0
+Mauritania,MRT,False,425,425,25,,0,0,0,0,0
+Mauritius,MUS,False,425,425,25,,0,0,0,0,0
+Mexico,MEX,False,641,641,41,,1456,1456,91,91,0
+Moldova,MDA,False,442,442,26,,1200,1200,80,80,0
+Mongolia,MNG,False,442,442,26,,2552,2552,319,319,0
+Montenegro,MNE,False,345,345,21,,1689,1689,139,139,0
+Montserrat,MSR,False,425,425,25,,0,0,0,0,0
+Morocco,MAR,False,442,442,26,,1638,1638,117,117,0
+Mozambique,MOZ,False,425,425,25,,0,0,0,0,0
+Myanmar,MMR,False,425,425,25,,0,0,0,0,0
+Namibia,NAM,False,425,425,25,,0,0,0,0,0
+Nauru,NRU,False,425,425,25,,0,0,0,0,0
+Nepal,NPL,False,425,425,25,,0,0,0,0,0
+Netherlands,NLD,False,612,612,36,,2380,2380,140,140,645
+New Caledonia,NCL,False,425,425,25,,0,0,0,0,0
+New Zealand,NZL,False,442,442,26,,2800,2800,200,200,0
+Nicaragua,NIC,False,425,425,25,,0,0,0,0,0
+Niger,NER,False,425,425,25,,0,0,0,0,0
+Nigeria,NGA,False,442,442,26,,736,736,92,92,0
+North Korea,PRK,False,425,425,25,,0,0,0,0,0
+North Macedonia,MKD,False,598,598,36,,1938,1938,114,114,0
+Norway,NOR,False,612,612,36,,1842,1842,140,140,0
+Oman,OMN,False,441,441,26,,600,600,150,150,0
+Pakistan,PAK,False,416,416,26,,1335,1335,89,89,0
+Palestine (State of),PSE,False,425,425,25,,0,0,0,0,0
+Panama,PAN,False,425,425,25,,0,0,0,0,0
+Papua New Guinea,PNG,False,424,424,25,,0,0,0,0,0
+Paraguay,PRY,False,442,442,26,,0,0,0,0,0
+Peru,PER,False,442,442,26,,1380,1380,92,92,0
+Poland,POL,False,612,612,36,,2079,2079,140,140,508
+Portugal,PRT,False,612,612,36,,2100,2100,140,140,640
+Puerto Rico,PRI,False,441,441,26,,1260,1260,90,90,0
+Qatar,QAT,False,441,441,26,,336,336,84,84,0
+Reunion,REU,False,324,324,24,,0,0,0,0,0
+Romania,ROU,False,607,607,36,,2100,2100,140,140,0
+Russia,RUS,False,621,621,41,,1456,1456,91,91,0
+Rwanda,RWA,False,425,425,25,,0,0,0,0,0
+Saint Kitts and Nevis,KNA,False,424,424,25,,0,0,0,0,0
+Saint Lucia,LCA,False,424,424,25,,0,0,0,0,0
+Saint Pierre and Miquelon,SPM,False,408,408,24,,0,0,0,0,0
+Saint Vincent and the Grenadines,VCT,False,424,424,25,,0,0,0,0,0
+Samoa,WSM,False,424,424,25,,0,0,0,0,0
+Sao Tome and Principe,STP,False,408,408,24,,0,0,0,0,0
+Saudi Arabia,SAU,False,575,575,40,,0,0,0,0,0
+Senegal,SEN,False,425,425,25,,0,0,0,0,0
+Serbia,SRB,False,600,600,36,,1610,1610,115,115,0
+Seychelles,SYC,False,425,425,25,,0,0,0,0,0
+Sierra Leone,SLE,False,425,425,25,,0,0,0,0,0
+Singapore,SGP,False,338,338,26,,1929,1929,209,209,0
+Slovakia,SVK,False,609,609,36,,2363,2363,139,139,0
+Slovenia,SVN,False,599,599,36,,2052,2052,128,128,0
+Solomon Islands,SLB,False,425,425,25,,0,0,0,0,0
+Somalia,SOM,False,425,425,25,,0,0,0,0,0
+South Africa,ZAF,False,416,416,26,,1648,1648,103,103,276
+South Korea,KOR,False,641,641,41,,1456,1456,91,91,424
+South Sudan,SSD,False,221,221,13,,0,0,0,0,0
+Spain,ESP,False,612,612,36,,2380,2380,140,140,508
+Sri Lanka,LKA,False,357,357,26,,1482,1482,114,114,0
+Sudan,SDN,False,425,425,25,,0,0,0,0,0
+Suriname,SUR,False,425,425,25,,0,0,0,0,0
+Sweden,SWE,False,612,612,36,,1794,1794,140,140,0
+Switzerland,CHE,False,416,416,26,,1469,1469,113,113,0
+Syria,SYR,False,425,425,25,,0,0,0,0,0
+Taiwan (China),TWN,False,641,641,41,,5104,5104,319,319,640
+Tajikistan,TJK,False,442,442,26,,1371,1371,87,87,0
+Tanzania (the United Republic of),TZA,False,425,425,25,,0,0,0,0,0
+Thailand,THA,False,615,615,41,,1335,1335,89,89,0
+The Philippines,PHL,False,441,441,26,,1710,1710,114,114,635
+Togo,TGO,False,425,425,25,,0,0,0,0,0
+Tonga,TON,False,425,425,25,,0,0,0,0,0
+Trinidad and Tobago,TTO,False,425,425,25,,0,0,0,0,0
+Tunisia,TUN,False,442,442,26,,847,847,77,77,0
+Turkmenistan,TKM,False,425,425,25,,0,0,0,0,0
+Turks and Caicos Islands,TCA,False,425,425,25,,0,0,0,0,0
+Türkiye,TUR,False,612,612,36,,1664,1664,104,104,512
+Uganda,UGA,False,425,425,25,,0,0,0,0,0
+Ukraine,UKR,False,616,616,38,,1365,1365,105,105,0
+United Arab Emirates,ARE,False,572,572,40,,0,0,0,0,0
+United Kingdom,GBR,False,682,682,41,,2224,2224,139,139,632
+United States,USA,False,442,442,26,,5212,5212,308,308,635
+Uruguay,URY,False,442,442,26,,1196,1196,92,92,0
+Uzbekistan,UZB,False,442,442,26,,0,0,0,0,0
+Vanuatu,VUT,False,408,408,24,,0,0,0,0,0
+Venezuela,VEN,False,425,425,25,,0,0,0,0,0
+Viet Nam,VNM,False,616,616,41,,1066,1066,82,82,0
+Virgin Islands (British),VGB,False,408,408,24,,0,0,0,0,0
+Virgin Islands (U.S.),VIR,False,408,408,24,,0,0,0,0,0
+Yemen,YEM,False,425,425,25,,0,0,0,0,0
+Zambia,ZMB,False,425,425,25,,0,0,0,0,0
+Zimbabwe,ZWE,False,425,425,25,,0,0,0,0,0
+ASEAN,,True,416,416,26,,1424,1424,89,89,0
+AU,,True,416,416,26,,0,0,0,0,0
+Africa,,True,416,416,26,,0,0,0,0,0
+Asia,,True,416,416,26,,1456,1456,91,91,0
+EU,,True,442,442,26,,2176,2176,128,128,272
+Europe,,True,416,416,26,,2048,2048,128,128,0
+G20,,True,416,416,26,,1456,1456,91,91,276
+G7,,True,416,416,26,,1456,1456,91,91,272
+Latin America and Caribbean,,True,416,416,26,,1456,1456,91,91,0
+MENA,,True,416,416,26,,0,0,0,0,0
+Middle East,,True,416,416,26,,0,0,0,0,0
+North America,,True,416,416,26,,3168,3168,198,198,0
+OECD,,True,416,416,26,,1456,1456,91,91,272
+Oceania,,True,416,416,26,,1350,1350,90,90,0
+World,,True,416,416,26,,1456,1456,91,91,276

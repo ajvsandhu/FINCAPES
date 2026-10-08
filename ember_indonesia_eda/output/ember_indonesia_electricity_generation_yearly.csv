@@ -1,0 +1,417 @@
+entity,entity_code,is_aggregate_entity,date,series,is_aggregate_series,generation_twh,share_of_generation_pct
+Indonesia,IDN,False,2000,Bioenergy,False,9.21,6.37
+Indonesia,IDN,False,2000,Clean,True,27.49,19.02
+Indonesia,IDN,False,2000,Coal,False,66.27,45.85
+Indonesia,IDN,False,2000,Demand,True,144.55,100.0
+Indonesia,IDN,False,2000,Fossil,True,117.06,80.98
+Indonesia,IDN,False,2000,Gas,False,33.48,23.16
+Indonesia,IDN,False,2000,Hydro,False,12.92,8.94
+Indonesia,IDN,False,2000,"Hydro, bioenergy and other renewables",True,27.42,18.97
+Indonesia,IDN,False,2000,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2000,Other fossil,False,17.31,11.97
+Indonesia,IDN,False,2000,Other renewables,False,5.3,3.66
+Indonesia,IDN,False,2000,Renewables,True,27.49,19.02
+Indonesia,IDN,False,2000,Solar,False,0.07,0.05
+Indonesia,IDN,False,2000,Total generation,True,144.55,100.0
+Indonesia,IDN,False,2000,Wind,False,0.0,0.0
+Indonesia,IDN,False,2000,Wind and solar,True,0.07,0.05
+Indonesia,IDN,False,2001,Bioenergy,False,9.59,6.28
+Indonesia,IDN,False,2001,Clean,True,30.18,19.74
+Indonesia,IDN,False,2001,Coal,False,70.1,45.85
+Indonesia,IDN,False,2001,Demand,True,152.9,100.0
+Indonesia,IDN,False,2001,Fossil,True,122.71,80.26
+Indonesia,IDN,False,2001,Gas,False,34.64,22.66
+Indonesia,IDN,False,2001,Hydro,False,14.56,9.52
+Indonesia,IDN,False,2001,"Hydro, bioenergy and other renewables",True,30.11,19.7
+Indonesia,IDN,False,2001,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2001,Other fossil,False,17.97,11.75
+Indonesia,IDN,False,2001,Other renewables,False,5.96,3.9
+Indonesia,IDN,False,2001,Renewables,True,30.18,19.74
+Indonesia,IDN,False,2001,Solar,False,0.07,0.05
+Indonesia,IDN,False,2001,Total generation,True,152.9,100.0
+Indonesia,IDN,False,2001,Wind,False,0.0,0.0
+Indonesia,IDN,False,2001,Wind and solar,True,0.07,0.05
+Indonesia,IDN,False,2002,Bioenergy,False,9.84,6.1
+Indonesia,IDN,False,2002,Clean,True,29.12,18.06
+Indonesia,IDN,False,2002,Coal,False,76.6,47.52
+Indonesia,IDN,False,2002,Demand,True,161.18,100.0
+Indonesia,IDN,False,2002,Fossil,True,132.07,81.94
+Indonesia,IDN,False,2002,Gas,False,30.82,19.12
+Indonesia,IDN,False,2002,Hydro,False,12.83,7.96
+Indonesia,IDN,False,2002,"Hydro, bioenergy and other renewables",True,29.04,18.02
+Indonesia,IDN,False,2002,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2002,Other fossil,False,24.65,15.29
+Indonesia,IDN,False,2002,Other renewables,False,6.37,3.96
+Indonesia,IDN,False,2002,Renewables,True,29.12,18.06
+Indonesia,IDN,False,2002,Solar,False,0.07,0.04
+Indonesia,IDN,False,2002,Total generation,True,161.18,100.0
+Indonesia,IDN,False,2002,Wind,False,0.0,0.0
+Indonesia,IDN,False,2002,Wind and solar,True,0.07,0.04
+Indonesia,IDN,False,2003,Bioenergy,False,10.05,6.07
+Indonesia,IDN,False,2003,Clean,True,28.04,16.92
+Indonesia,IDN,False,2003,Coal,False,80.16,48.38
+Indonesia,IDN,False,2003,Demand,True,165.67,100.0
+Indonesia,IDN,False,2003,Fossil,True,137.63,83.08
+Indonesia,IDN,False,2003,Gas,False,29.51,17.81
+Indonesia,IDN,False,2003,Hydro,False,12.0,7.24
+Indonesia,IDN,False,2003,"Hydro, bioenergy and other renewables",True,27.97,16.88
+Indonesia,IDN,False,2003,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2003,Other fossil,False,27.96,16.88
+Indonesia,IDN,False,2003,Other renewables,False,5.92,3.57
+Indonesia,IDN,False,2003,Renewables,True,28.04,16.92
+Indonesia,IDN,False,2003,Solar,False,0.07,0.04
+Indonesia,IDN,False,2003,Total generation,True,165.67,100.0
+Indonesia,IDN,False,2003,Wind,False,0.0,0.0
+Indonesia,IDN,False,2003,Wind and solar,True,0.07,0.04
+Indonesia,IDN,False,2004,Bioenergy,False,10.42,5.99
+Indonesia,IDN,False,2004,Clean,True,30.04,17.28
+Indonesia,IDN,False,2004,Coal,False,81.82,47.07
+Indonesia,IDN,False,2004,Demand,True,173.81,100.0
+Indonesia,IDN,False,2004,Fossil,True,143.78,82.72
+Indonesia,IDN,False,2004,Gas,False,28.32,16.29
+Indonesia,IDN,False,2004,Hydro,False,13.26,7.63
+Indonesia,IDN,False,2004,"Hydro, bioenergy and other renewables",True,29.97,17.24
+Indonesia,IDN,False,2004,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2004,Other fossil,False,33.64,19.35
+Indonesia,IDN,False,2004,Other renewables,False,6.29,3.62
+Indonesia,IDN,False,2004,Renewables,True,30.04,17.28
+Indonesia,IDN,False,2004,Solar,False,0.07,0.04
+Indonesia,IDN,False,2004,Total generation,True,173.81,100.0
+Indonesia,IDN,False,2004,Wind,False,0.0,0.0
+Indonesia,IDN,False,2004,Wind and solar,True,0.07,0.04
+Indonesia,IDN,False,2005,Bioenergy,False,10.93,6.0
+Indonesia,IDN,False,2005,Clean,True,31.99,17.54
+Indonesia,IDN,False,2005,Coal,False,85.61,46.95
+Indonesia,IDN,False,2005,Demand,True,182.36,100.0
+Indonesia,IDN,False,2005,Fossil,True,150.37,82.46
+Indonesia,IDN,False,2005,Gas,False,23.25,12.75
+Indonesia,IDN,False,2005,Hydro,False,14.38,7.89
+Indonesia,IDN,False,2005,"Hydro, bioenergy and other renewables",True,31.92,17.5
+Indonesia,IDN,False,2005,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2005,Other fossil,False,41.5,22.76
+Indonesia,IDN,False,2005,Other renewables,False,6.6,3.62
+Indonesia,IDN,False,2005,Renewables,True,31.99,17.54
+Indonesia,IDN,False,2005,Solar,False,0.07,0.04
+Indonesia,IDN,False,2005,Total generation,True,182.36,100.0
+Indonesia,IDN,False,2005,Wind,False,0.0,0.0
+Indonesia,IDN,False,2005,Wind and solar,True,0.07,0.04
+Indonesia,IDN,False,2006,Bioenergy,False,10.71,5.68
+Indonesia,IDN,False,2006,Clean,True,30.69,16.26
+Indonesia,IDN,False,2006,Coal,False,93.51,49.56
+Indonesia,IDN,False,2006,Demand,True,188.7,100.0
+Indonesia,IDN,False,2006,Fossil,True,158.02,83.74
+Indonesia,IDN,False,2006,Gas,False,25.5,13.52
+Indonesia,IDN,False,2006,Hydro,False,13.25,7.02
+Indonesia,IDN,False,2006,"Hydro, bioenergy and other renewables",True,30.62,16.23
+Indonesia,IDN,False,2006,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2006,Other fossil,False,39.0,20.67
+Indonesia,IDN,False,2006,Other renewables,False,6.66,3.53
+Indonesia,IDN,False,2006,Renewables,True,30.69,16.26
+Indonesia,IDN,False,2006,Solar,False,0.07,0.04
+Indonesia,IDN,False,2006,Total generation,True,188.7,100.0
+Indonesia,IDN,False,2006,Wind,False,0.0,0.0
+Indonesia,IDN,False,2006,Wind and solar,True,0.07,0.04
+Indonesia,IDN,False,2007,Bioenergy,False,11.74,5.83
+Indonesia,IDN,False,2007,Clean,True,33.63,16.7
+Indonesia,IDN,False,2007,Coal,False,101.15,50.24
+Indonesia,IDN,False,2007,Demand,True,201.35,100.0
+Indonesia,IDN,False,2007,Fossil,True,167.72,83.3
+Indonesia,IDN,False,2007,Gas,False,26.36,13.09
+Indonesia,IDN,False,2007,Hydro,False,14.8,7.35
+Indonesia,IDN,False,2007,"Hydro, bioenergy and other renewables",True,33.56,16.67
+Indonesia,IDN,False,2007,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2007,Other fossil,False,40.21,19.97
+Indonesia,IDN,False,2007,Other renewables,False,7.02,3.49
+Indonesia,IDN,False,2007,Renewables,True,33.63,16.7
+Indonesia,IDN,False,2007,Solar,False,0.07,0.04
+Indonesia,IDN,False,2007,Total generation,True,201.35,100.0
+Indonesia,IDN,False,2007,Wind,False,0.0,0.0
+Indonesia,IDN,False,2007,Wind and solar,True,0.07,0.04
+Indonesia,IDN,False,2008,Bioenergy,False,12.4,5.9
+Indonesia,IDN,False,2008,Clean,True,35.83,17.04
+Indonesia,IDN,False,2008,Coal,False,100.01,47.56
+Indonesia,IDN,False,2008,Demand,True,210.27,100.0
+Indonesia,IDN,False,2008,Fossil,True,174.44,82.96
+Indonesia,IDN,False,2008,Gas,False,29.32,13.94
+Indonesia,IDN,False,2008,Hydro,False,15.04,7.16
+Indonesia,IDN,False,2008,"Hydro, bioenergy and other renewables",True,35.76,17.0
+Indonesia,IDN,False,2008,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2008,Other fossil,False,45.12,21.46
+Indonesia,IDN,False,2008,Other renewables,False,8.31,3.95
+Indonesia,IDN,False,2008,Renewables,True,35.83,17.04
+Indonesia,IDN,False,2008,Solar,False,0.07,0.03
+Indonesia,IDN,False,2008,Total generation,True,210.27,100.0
+Indonesia,IDN,False,2008,Wind,False,0.0,0.0
+Indonesia,IDN,False,2008,Wind and solar,True,0.07,0.03
+Indonesia,IDN,False,2009,Bioenergy,False,12.11,5.58
+Indonesia,IDN,False,2009,Clean,True,36.6,16.85
+Indonesia,IDN,False,2009,Coal,False,104.07,47.91
+Indonesia,IDN,False,2009,Demand,True,217.19,100.0
+Indonesia,IDN,False,2009,Fossil,True,180.59,83.15
+Indonesia,IDN,False,2009,Gas,False,41.95,19.32
+Indonesia,IDN,False,2009,Hydro,False,15.12,6.96
+Indonesia,IDN,False,2009,"Hydro, bioenergy and other renewables",True,36.53,16.82
+Indonesia,IDN,False,2009,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2009,Other fossil,False,34.57,15.92
+Indonesia,IDN,False,2009,Other renewables,False,9.3,4.28
+Indonesia,IDN,False,2009,Renewables,True,36.6,16.85
+Indonesia,IDN,False,2009,Solar,False,0.07,0.03
+Indonesia,IDN,False,2009,Total generation,True,217.19,100.0
+Indonesia,IDN,False,2009,Wind,False,0.0,0.0
+Indonesia,IDN,False,2009,Wind and solar,True,0.07,0.03
+Indonesia,IDN,False,2010,Bioenergy,False,14.23,6.05
+Indonesia,IDN,False,2010,Clean,True,47.79,20.31
+Indonesia,IDN,False,2010,Coal,False,105.3,44.75
+Indonesia,IDN,False,2010,Demand,True,235.29,100.0
+Indonesia,IDN,False,2010,Fossil,True,187.5,79.69
+Indonesia,IDN,False,2010,Gas,False,40.38,17.16
+Indonesia,IDN,False,2010,Hydro,False,24.13,10.26
+Indonesia,IDN,False,2010,"Hydro, bioenergy and other renewables",True,47.72,20.28
+Indonesia,IDN,False,2010,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2010,Other fossil,False,41.82,17.77
+Indonesia,IDN,False,2010,Other renewables,False,9.36,3.98
+Indonesia,IDN,False,2010,Renewables,True,47.79,20.31
+Indonesia,IDN,False,2010,Solar,False,0.07,0.03
+Indonesia,IDN,False,2010,Total generation,True,235.29,100.0
+Indonesia,IDN,False,2010,Wind,False,0.0,0.0
+Indonesia,IDN,False,2010,Wind and solar,True,0.07,0.03
+Indonesia,IDN,False,2011,Bioenergy,False,15.19,5.89
+Indonesia,IDN,False,2011,Clean,True,43.61,16.91
+Indonesia,IDN,False,2011,Coal,False,126.16,48.93
+Indonesia,IDN,False,2011,Demand,True,257.87,100.0
+Indonesia,IDN,False,2011,Fossil,True,214.25,83.09
+Indonesia,IDN,False,2011,Gas,False,40.72,15.79
+Indonesia,IDN,False,2011,Hydro,False,18.96,7.35
+Indonesia,IDN,False,2011,"Hydro, bioenergy and other renewables",True,43.54,16.89
+Indonesia,IDN,False,2011,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2011,Other fossil,False,47.37,18.37
+Indonesia,IDN,False,2011,Other renewables,False,9.39,3.64
+Indonesia,IDN,False,2011,Renewables,True,43.61,16.91
+Indonesia,IDN,False,2011,Solar,False,0.07,0.03
+Indonesia,IDN,False,2011,Total generation,True,257.86,100.0
+Indonesia,IDN,False,2011,Wind,False,0.0,0.0
+Indonesia,IDN,False,2011,Wind and solar,True,0.08,0.03
+Indonesia,IDN,False,2012,Bioenergy,False,15.71,5.61
+Indonesia,IDN,False,2012,Clean,True,44.62,15.93
+Indonesia,IDN,False,2012,Coal,False,152.0,54.27
+Indonesia,IDN,False,2012,Demand,True,280.07,100.0
+Indonesia,IDN,False,2012,Fossil,True,235.45,84.07
+Indonesia,IDN,False,2012,Gas,False,50.48,18.02
+Indonesia,IDN,False,2012,Hydro,False,19.4,6.92
+Indonesia,IDN,False,2012,"Hydro, bioenergy and other renewables",True,44.55,15.9
+Indonesia,IDN,False,2012,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2012,Other fossil,False,32.96,11.77
+Indonesia,IDN,False,2012,Other renewables,False,9.44,3.37
+Indonesia,IDN,False,2012,Renewables,True,44.62,15.93
+Indonesia,IDN,False,2012,Solar,False,0.07,0.03
+Indonesia,IDN,False,2012,Total generation,True,280.07,100.0
+Indonesia,IDN,False,2012,Wind,False,0.0,0.0
+Indonesia,IDN,False,2012,Wind and solar,True,0.08,0.03
+Indonesia,IDN,False,2013,Bioenergy,False,16.16,5.33
+Indonesia,IDN,False,2013,Clean,True,49.29,16.26
+Indonesia,IDN,False,2013,Coal,False,167.64,55.3
+Indonesia,IDN,False,2013,Demand,True,303.12,100.0
+Indonesia,IDN,False,2013,Fossil,True,253.82,83.74
+Indonesia,IDN,False,2013,Gas,False,59.6,19.66
+Indonesia,IDN,False,2013,Hydro,False,23.62,7.79
+Indonesia,IDN,False,2013,"Hydro, bioenergy and other renewables",True,49.22,16.24
+Indonesia,IDN,False,2013,Net imports,False,0.0,0.0
+Indonesia,IDN,False,2013,Other fossil,False,26.58,8.77
+Indonesia,IDN,False,2013,Other renewables,False,9.43,3.11
+Indonesia,IDN,False,2013,Renewables,True,49.29,16.26
+Indonesia,IDN,False,2013,Solar,False,0.08,0.02
+Indonesia,IDN,False,2013,Total generation,True,303.12,100.0
+Indonesia,IDN,False,2013,Wind,False,0.0,0.0
+Indonesia,IDN,False,2013,Wind and solar,True,0.08,0.02
+Indonesia,IDN,False,2014,Bioenergy,False,16.34,5.53
+Indonesia,IDN,False,2014,Clean,True,47.69,16.15
+Indonesia,IDN,False,2014,Coal,False,156.26,52.92
+Indonesia,IDN,False,2014,Demand,True,295.3,100.0
+Indonesia,IDN,False,2014,Fossil,True,247.61,83.85
+Indonesia,IDN,False,2014,Gas,False,62.09,21.03
+Indonesia,IDN,False,2014,Hydro,False,21.21,7.18
+Indonesia,IDN,False,2014,"Hydro, bioenergy and other renewables",True,47.61,16.12
+Indonesia,IDN,False,2014,Net imports,False,0.01,0.0
+Indonesia,IDN,False,2014,Other fossil,False,29.26,9.91
+Indonesia,IDN,False,2014,Other renewables,False,10.06,3.4
+Indonesia,IDN,False,2014,Renewables,True,47.69,16.15
+Indonesia,IDN,False,2014,Solar,False,0.08,0.03
+Indonesia,IDN,False,2014,Total generation,True,295.3,100.0
+Indonesia,IDN,False,2014,Wind,False,0.0,0.0
+Indonesia,IDN,False,2014,Wind and solar,True,0.08,0.03
+Indonesia,IDN,False,2015,Bioenergy,False,17.11,5.68
+Indonesia,IDN,False,2015,Clean,True,47.72,15.85
+Indonesia,IDN,False,2015,Coal,False,160.48,53.31
+Indonesia,IDN,False,2015,Demand,True,301.02,100.0
+Indonesia,IDN,False,2015,Fossil,True,253.3,84.15
+Indonesia,IDN,False,2015,Gas,False,55.69,18.5
+Indonesia,IDN,False,2015,Hydro,False,20.47,6.8
+Indonesia,IDN,False,2015,"Hydro, bioenergy and other renewables",True,47.64,15.83
+Indonesia,IDN,False,2015,Net imports,False,0.01,0.0
+Indonesia,IDN,False,2015,Other fossil,False,37.12,12.33
+Indonesia,IDN,False,2015,Other renewables,False,10.06,3.34
+Indonesia,IDN,False,2015,Renewables,True,47.72,15.85
+Indonesia,IDN,False,2015,Solar,False,0.08,0.02
+Indonesia,IDN,False,2015,Total generation,True,301.01,100.0
+Indonesia,IDN,False,2015,Wind,False,0.0,0.0
+Indonesia,IDN,False,2015,Wind and solar,True,0.08,0.03
+Indonesia,IDN,False,2016,Bioenergy,False,17.63,5.54
+Indonesia,IDN,False,2016,Clean,True,53.62,16.83
+Indonesia,IDN,False,2016,Coal,False,174.61,54.81
+Indonesia,IDN,False,2016,Demand,True,319.27,100.22
+Indonesia,IDN,False,2016,Fossil,True,264.96,83.17
+Indonesia,IDN,False,2016,Gas,False,63.34,19.88
+Indonesia,IDN,False,2016,Hydro,False,25.24,7.92
+Indonesia,IDN,False,2016,"Hydro, bioenergy and other renewables",True,53.53,16.8
+Indonesia,IDN,False,2016,Net imports,False,0.69,0.22
+Indonesia,IDN,False,2016,Other fossil,False,27.0,8.48
+Indonesia,IDN,False,2016,Other renewables,False,10.66,3.35
+Indonesia,IDN,False,2016,Renewables,True,53.62,16.83
+Indonesia,IDN,False,2016,Solar,False,0.09,0.03
+Indonesia,IDN,False,2016,Total generation,True,318.58,100.0
+Indonesia,IDN,False,2016,Wind,False,0.01,0.0
+Indonesia,IDN,False,2016,Wind and solar,True,0.1,0.03
+Indonesia,IDN,False,2017,Bioenergy,False,19.53,5.86
+Indonesia,IDN,False,2017,Clean,True,57.49,17.26
+Indonesia,IDN,False,2017,Coal,False,193.19,57.99
+Indonesia,IDN,False,2017,Demand,True,334.24,100.34
+Indonesia,IDN,False,2017,Fossil,True,275.63,82.74
+Indonesia,IDN,False,2017,Gas,False,57.39,17.23
+Indonesia,IDN,False,2017,Hydro,False,24.8,7.45
+Indonesia,IDN,False,2017,"Hydro, bioenergy and other renewables",True,57.39,17.23
+Indonesia,IDN,False,2017,Net imports,False,1.12,0.34
+Indonesia,IDN,False,2017,Other fossil,False,25.05,7.52
+Indonesia,IDN,False,2017,Other renewables,False,13.06,3.92
+Indonesia,IDN,False,2017,Renewables,True,57.49,17.26
+Indonesia,IDN,False,2017,Solar,False,0.1,0.03
+Indonesia,IDN,False,2017,Total generation,True,333.12,100.0
+Indonesia,IDN,False,2017,Wind,False,0.0,0.0
+Indonesia,IDN,False,2017,Wind and solar,True,0.1,0.03
+Indonesia,IDN,False,2018,Bioenergy,False,20.45,5.68
+Indonesia,IDN,False,2018,Clean,True,63.27,17.59
+Indonesia,IDN,False,2018,Coal,False,213.28,59.29
+Indonesia,IDN,False,2018,Demand,True,361.2,100.42
+Indonesia,IDN,False,2018,Fossil,True,296.43,82.41
+Indonesia,IDN,False,2018,Gas,False,59.0,16.4
+Indonesia,IDN,False,2018,Hydro,False,28.15,7.82
+Indonesia,IDN,False,2018,"Hydro, bioenergy and other renewables",True,62.92,17.49
+Indonesia,IDN,False,2018,Net imports,False,1.5,0.42
+Indonesia,IDN,False,2018,Other fossil,False,24.15,6.71
+Indonesia,IDN,False,2018,Other renewables,False,14.33,3.98
+Indonesia,IDN,False,2018,Renewables,True,63.27,17.59
+Indonesia,IDN,False,2018,Solar,False,0.16,0.04
+Indonesia,IDN,False,2018,Total generation,True,359.71,100.0
+Indonesia,IDN,False,2018,Wind,False,0.19,0.05
+Indonesia,IDN,False,2018,Wind and solar,True,0.35,0.1
+Indonesia,IDN,False,2019,Bioenergy,False,20.71,5.42
+Indonesia,IDN,False,2019,Clean,True,63.27,16.56
+Indonesia,IDN,False,2019,Coal,False,237.5,62.18
+Indonesia,IDN,False,2019,Demand,True,383.64,100.44
+Indonesia,IDN,False,2019,Fossil,True,318.68,83.44
+Indonesia,IDN,False,2019,Gas,False,64.39,16.86
+Indonesia,IDN,False,2019,Hydro,False,27.78,7.27
+Indonesia,IDN,False,2019,"Hydro, bioenergy and other renewables",True,62.6,16.39
+Indonesia,IDN,False,2019,Net imports,False,1.68,0.44
+Indonesia,IDN,False,2019,Other fossil,False,16.79,4.4
+Indonesia,IDN,False,2019,Other renewables,False,14.11,3.69
+Indonesia,IDN,False,2019,Renewables,True,63.27,16.56
+Indonesia,IDN,False,2019,Solar,False,0.19,0.05
+Indonesia,IDN,False,2019,Total generation,True,381.95,100.0
+Indonesia,IDN,False,2019,Wind,False,0.48,0.13
+Indonesia,IDN,False,2019,Wind and solar,True,0.67,0.18
+Indonesia,IDN,False,2020,Bioenergy,False,21.09,5.55
+Indonesia,IDN,False,2020,Clean,True,68.26,17.96
+Indonesia,IDN,False,2020,Coal,False,245.38,64.58
+Indonesia,IDN,False,2020,Demand,True,381.53,100.41
+Indonesia,IDN,False,2020,Fossil,True,311.72,82.04
+Indonesia,IDN,False,2020,Gas,False,53.35,14.04
+Indonesia,IDN,False,2020,Hydro,False,30.88,8.13
+Indonesia,IDN,False,2020,"Hydro, bioenergy and other renewables",True,67.54,17.78
+Indonesia,IDN,False,2020,Net imports,False,1.55,0.41
+Indonesia,IDN,False,2020,Other fossil,False,12.98,3.42
+Indonesia,IDN,False,2020,Other renewables,False,15.57,4.1
+Indonesia,IDN,False,2020,Renewables,True,68.26,17.96
+Indonesia,IDN,False,2020,Solar,False,0.24,0.06
+Indonesia,IDN,False,2020,Total generation,True,379.98,100.0
+Indonesia,IDN,False,2020,Wind,False,0.48,0.12
+Indonesia,IDN,False,2020,Wind and solar,True,0.72,0.19
+Indonesia,IDN,False,2021,Bioenergy,False,21.93,5.4
+Indonesia,IDN,False,2021,Clean,True,69.7,17.17
+Indonesia,IDN,False,2021,Coal,False,263.35,64.87
+Indonesia,IDN,False,2021,Demand,True,406.94,100.24
+Indonesia,IDN,False,2021,Fossil,True,336.26,82.83
+Indonesia,IDN,False,2021,Gas,False,60.05,14.79
+Indonesia,IDN,False,2021,Hydro,False,31.16,7.68
+Indonesia,IDN,False,2021,"Hydro, bioenergy and other renewables",True,69.0,17.0
+Indonesia,IDN,False,2021,Net imports,False,0.98,0.24
+Indonesia,IDN,False,2021,Other fossil,False,12.87,3.17
+Indonesia,IDN,False,2021,Other renewables,False,15.91,3.92
+Indonesia,IDN,False,2021,Renewables,True,69.7,17.17
+Indonesia,IDN,False,2021,Solar,False,0.26,0.06
+Indonesia,IDN,False,2021,Total generation,True,405.96,100.0
+Indonesia,IDN,False,2021,Wind,False,0.44,0.11
+Indonesia,IDN,False,2021,Wind and solar,True,0.7,0.17
+Indonesia,IDN,False,2022,Bioenergy,False,21.96,4.98
+Indonesia,IDN,False,2022,Clean,True,72.98,16.56
+Indonesia,IDN,False,2022,Coal,False,294.7,66.88
+Indonesia,IDN,False,2022,Demand,True,441.49,100.18
+Indonesia,IDN,False,2022,Fossil,True,367.7,83.44
+Indonesia,IDN,False,2022,Gas,False,60.68,13.77
+Indonesia,IDN,False,2022,Hydro,False,33.47,7.6
+Indonesia,IDN,False,2022,"Hydro, bioenergy and other renewables",True,72.11,16.36
+Indonesia,IDN,False,2022,Net imports,False,0.81,0.18
+Indonesia,IDN,False,2022,Other fossil,False,12.31,2.79
+Indonesia,IDN,False,2022,Other renewables,False,16.68,3.79
+Indonesia,IDN,False,2022,Renewables,True,72.98,16.56
+Indonesia,IDN,False,2022,Solar,False,0.51,0.12
+Indonesia,IDN,False,2022,Total generation,True,440.68,100.0
+Indonesia,IDN,False,2022,Wind,False,0.36,0.08
+Indonesia,IDN,False,2022,Wind and solar,True,0.87,0.2
+Indonesia,IDN,False,2023,Bioenergy,False,22.48,4.74
+Indonesia,IDN,False,2023,Clean,True,71.61,15.1
+Indonesia,IDN,False,2023,Coal,False,324.38,68.38
+Indonesia,IDN,False,2023,Demand,True,475.28,100.19
+Indonesia,IDN,False,2023,Fossil,True,402.78,84.9
+Indonesia,IDN,False,2023,Gas,False,65.62,13.83
+Indonesia,IDN,False,2023,Hydro,False,30.92,6.52
+Indonesia,IDN,False,2023,"Hydro, bioenergy and other renewables",True,70.35,14.83
+Indonesia,IDN,False,2023,Net imports,False,0.89,0.19
+Indonesia,IDN,False,2023,Other fossil,False,12.78,2.69
+Indonesia,IDN,False,2023,Other renewables,False,16.94,3.57
+Indonesia,IDN,False,2023,Renewables,True,71.61,15.1
+Indonesia,IDN,False,2023,Solar,False,0.78,0.16
+Indonesia,IDN,False,2023,Total generation,True,474.39,100.0
+Indonesia,IDN,False,2023,Wind,False,0.48,0.1
+Indonesia,IDN,False,2023,Wind and solar,True,1.26,0.27
+Indonesia,IDN,False,2024,Bioenergy,False,23.17,4.57
+Indonesia,IDN,False,2024,Clean,True,75.18,14.82
+Indonesia,IDN,False,2024,Coal,False,347.09,68.42
+Indonesia,IDN,False,2024,Demand,True,508.22,100.19
+Indonesia,IDN,False,2024,Fossil,True,432.08,85.18
+Indonesia,IDN,False,2024,Gas,False,71.68,14.13
+Indonesia,IDN,False,2024,Hydro,False,33.35,6.58
+Indonesia,IDN,False,2024,"Hydro, bioenergy and other renewables",True,73.29,14.45
+Indonesia,IDN,False,2024,Net imports,False,0.96,0.19
+Indonesia,IDN,False,2024,Other fossil,False,13.32,2.62
+Indonesia,IDN,False,2024,Other renewables,False,16.77,3.31
+Indonesia,IDN,False,2024,Renewables,True,75.18,14.82
+Indonesia,IDN,False,2024,Solar,False,1.42,0.28
+Indonesia,IDN,False,2024,Total generation,True,507.26,100.0
+Indonesia,IDN,False,2024,Wind,False,0.47,0.09
+Indonesia,IDN,False,2024,Wind and solar,True,1.89,0.37
+Indonesia,IDN,False,2025,Bioenergy,False,28.2,5.34
+Indonesia,IDN,False,2025,Clean,True,83.49,15.81
+Indonesia,IDN,False,2025,Coal,False,366.46,69.38
+Indonesia,IDN,False,2025,Demand,True,529.17,100.18
+Indonesia,IDN,False,2025,Fossil,True,444.71,84.19
+Indonesia,IDN,False,2025,Gas,False,61.34,11.61
+Indonesia,IDN,False,2025,Hydro,False,35.57,6.73
+Indonesia,IDN,False,2025,"Hydro, bioenergy and other renewables",True,81.52,15.43
+Indonesia,IDN,False,2025,Net imports,False,0.96,0.18
+Indonesia,IDN,False,2025,Other fossil,False,16.91,3.2
+Indonesia,IDN,False,2025,Other renewables,False,17.75,3.36
+Indonesia,IDN,False,2025,Renewables,True,83.49,15.81
+Indonesia,IDN,False,2025,Solar,False,1.59,0.3
+Indonesia,IDN,False,2025,Total generation,True,528.21,100.0
+Indonesia,IDN,False,2025,Wind,False,0.38,0.07
+Indonesia,IDN,False,2025,Wind and solar,True,1.98,0.37

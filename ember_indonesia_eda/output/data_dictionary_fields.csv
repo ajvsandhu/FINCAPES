@@ -1,0 +1,15 @@
+field,datasets,type,unit,meaning
+entity,all,text,,"Country or region name, e.g. Indonesia, ASEAN, World"
+entity_code,all,text,,3-letter ISO country code; blank for regions
+is_aggregate_entity,all,true/false,,True if the entity is a region made of several countries
+date,all,text,,"Year (YYYY) for yearly datasets, first day of the month for monthly datasets"
+series,"generation, emissions, capacity",text,,Fuel or group of fuels the row describes (see series table)
+is_aggregate_series,"generation, emissions, capacity",true/false,,True if the series is a total Ember sums from several fuels
+generation_twh,electricity-generation,number,TWh,"Electricity generated in the period, terawatt-hours"
+share_of_generation_pct,electricity-generation,number,%,Series generation as a percent of total generation; Demand can exceed 100
+emissions_mtco2,power-sector-emissions,number,MtCO2e,"Lifecycle greenhouse gas emissions from generating the electricity, million tonnes CO2-equivalent; Ember multiplies generation by fuel emission factors that include mining, methane leaks and manufacturing, so solar, wind and hydro are small but not zero"
+share_of_emissions_pct,power-sector-emissions,number,%,Series emissions as a percent of total power-sector emissions
+emissions_intensity_gco2_per_kwh,carbon-intensity,number,gCO2e/kWh,Lifecycle grams of CO2-equivalent emitted per kilowatt-hour generated (total emissions / total generation)
+demand_twh,electricity-demand,number,TWh,"Electricity demand: generation plus net imports, terawatt-hours"
+capacity_gw,installed-capacity,number,GW,"Installed generating capacity, gigawatts"
+capacity_w_per_capita,installed-capacity,number,W/person,"Installed capacity per person, watts"

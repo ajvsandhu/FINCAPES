@@ -1,0 +1,10 @@
+dataset,rows,columns,entities,first_date,last_date,note
+electricity-generation/yearly,104203,8,224,1985,2025,
+power-sector-emissions/yearly,104203,8,224,1985,2025,
+carbon-intensity/yearly,6305,5,224,1985,2025,
+electricity-demand/yearly,,,,,,Ember API returned 500: Internal Server Error
+electricity-generation/monthly,178200,8,99,1998-12,2026-08,
+power-sector-emissions/monthly,178200,8,99,1998-12,2026-08,
+carbon-intensity/monthly,12569,5,99,2000-01,2026-08,
+electricity-demand/monthly,12569,5,99,2000-01,2026-08,
+installed-capacity/monthly,14736,8,30,2016-01,2026-09,

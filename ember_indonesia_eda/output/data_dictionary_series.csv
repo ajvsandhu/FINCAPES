@@ -1,0 +1,18 @@
+series,is_aggregate_series,meaning
+Coal,False,Coal-fired generation
+Gas,False,Natural gas generation
+Other fossil,False,Oil and other fossil fuels
+Nuclear,False,Nuclear generation (not present for Indonesia)
+Hydro,False,Hydropower
+Bioenergy,False,Biomass and biogas
+Solar,False,Solar PV and solar thermal
+Wind,False,Onshore and offshore wind
+Other renewables,False,"Mainly geothermal, plus tidal and wave"
+Net imports,False,Imports minus exports; not generated in the country
+Fossil,True,Coal + Gas + Other fossil
+Renewables,True,Hydro + Bioenergy + Solar + Wind + Other renewables
+Clean,True,Renewables + Nuclear
+Wind and solar,True,Wind + Solar
+"Hydro, bioenergy and other renewables",True,Hydro + Bioenergy + Other renewables
+Total generation,True,"Sum of all generation fuels, excluding Net imports"
+Demand,True,Total generation + Net imports

@@ -1,0 +1,34 @@
+table,field,type,unit,meaning
+sites,id,number,,GENESIS site ID
+sites,nama_pltp,text,,Geothermal power plant (PLTP) or site name
+sites,nama_badan_usaha,text,,Developer / operating company; often blank
+sites,kapasitas_terpasang,number,MW,Installed capacity today
+sites,rencana_pengembangan,number,MW,Planned additional capacity in PLN's 2025-2034 electricity plan (RUPTL)
+sites,latitude,number,degrees,Site latitude
+sites,longitude,number,degrees,Site longitude
+sites,status,text,,Development stage: Produksi = Production; Eksploitasi = Exploitation (development); Eksplorasi = Exploration; PSPE = Preliminary survey and exploration assignment; Wilayah Terbuka = Open area (not yet awarded)
+sites,icon_placemark,text,,Path of the map icon image on the GENESIS server
+sites,dokumen_pendukung,text,,"Path of a supporting PDF on the GENESIS server, if any"
+sites,jarak,number,,Distance value the GENESIS map uses to order sites; reference point not documented
+sites,encrypt_id,text,,Encrypted site ID used internally by GENESIS
+sites,provinsi_kode,text,,Province code (flattened from the nested provinsi field)
+sites,provinsi_nama,text,,Province name
+sites,kota_kode,text,,"Regency/city codes the site spans, separated by ';'"
+sites,kota_nama,text,,"Regency/city names the site spans, separated by ';'"
+planned units,id,number,,GENESIS ID of the planned unit
+planned units,pltp_id,number,,Site ID the unit belongs to (matches sites.id)
+planned units,nama_unit,text,,"Unit name, e.g. Unit 1"
+planned units,tahun,number,year,Year the unit is planned to come online
+planned units,kapasitas_tambahan_mw,number,MW,Capacity the unit adds
+planned units,keterangan,text,,Notes; mostly blank or the text 'null'
+planned units,created_at / updated_at,text,,When the record was created / last updated in GENESIS
+planned units,nama_pltp / nama_badan_usaha,text,,"Site name and developer, joined from the sites table by GENESIS"
+planned units,encrypted_id / DT_RowIndex,text,,Internal ID and table row number used by the GENESIS website
+capacity outlook,tahun,number,year,Year
+capacity outlook,kapasitas_tambahan_mw,number,MW,Capacity added in the year
+capacity outlook,kapasitas_terpasang_mw,number,MW,Cumulative installed capacity at the end of the year
+planned by region,region / label / provinsi,text,,"Region key, display name and provinces it covers"
+planned by region,mw,number,MW,Planned additional capacity in the region
+planned by region,proyek,number,,Number of planned projects in the region
+planned by period,periode,text,,Planning period
+planned by period,total_mw,number,MW,Planned additional capacity in the period

@@ -1,0 +1,1099 @@
+entity,entity_code,is_aggregate_entity,dataset,rows,first_date,last_date
+Afghanistan,AFG,False,carbon-intensity/yearly,25,2000,2024
+Afghanistan,AFG,False,electricity-generation/yearly,425,2000,2024
+Afghanistan,AFG,False,power-sector-emissions/yearly,425,2000,2024
+Albania,ALB,False,carbon-intensity/yearly,25,2000,2024
+Albania,ALB,False,electricity-generation/yearly,425,2000,2024
+Albania,ALB,False,power-sector-emissions/yearly,425,2000,2024
+Algeria,DZA,False,carbon-intensity/yearly,25,2000,2024
+Algeria,DZA,False,electricity-generation/yearly,425,2000,2024
+Algeria,DZA,False,power-sector-emissions/yearly,425,2000,2024
+American Samoa,ASM,False,carbon-intensity/yearly,25,2000,2024
+American Samoa,ASM,False,electricity-generation/yearly,425,2000,2024
+American Samoa,ASM,False,power-sector-emissions/yearly,425,2000,2024
+Angola,AGO,False,carbon-intensity/yearly,25,2000,2024
+Angola,AGO,False,electricity-generation/yearly,425,2000,2024
+Angola,AGO,False,power-sector-emissions/yearly,425,2000,2024
+Antigua and Barbuda,ATG,False,carbon-intensity/yearly,25,2000,2024
+Antigua and Barbuda,ATG,False,electricity-generation/yearly,425,2000,2024
+Antigua and Barbuda,ATG,False,power-sector-emissions/yearly,425,2000,2024
+Argentina,ARG,False,carbon-intensity/monthly,104,2018-01,2026-08
+Argentina,ARG,False,carbon-intensity/yearly,41,1985,2025
+Argentina,ARG,False,electricity-demand/monthly,104,2018-01,2026-08
+Argentina,ARG,False,electricity-generation/monthly,1664,2018-01,2026-08
+Argentina,ARG,False,electricity-generation/yearly,626,1985,2025
+Argentina,ARG,False,installed-capacity/monthly,512,2016-01,2026-08
+Argentina,ARG,False,power-sector-emissions/monthly,1664,2018-01,2026-08
+Argentina,ARG,False,power-sector-emissions/yearly,626,1985,2025
+Armenia,ARM,False,carbon-intensity/monthly,87,2019-01,2026-03
+Armenia,ARM,False,carbon-intensity/yearly,26,2000,2025
+Armenia,ARM,False,electricity-demand/monthly,87,2019-01,2026-03
+Armenia,ARM,False,electricity-generation/monthly,1377,2019-01,2026-03
+Armenia,ARM,False,electricity-generation/yearly,442,2000,2025
+Armenia,ARM,False,power-sector-emissions/monthly,1377,2019-01,2026-03
+Armenia,ARM,False,power-sector-emissions/yearly,442,2000,2025
+Aruba,ABW,False,carbon-intensity/yearly,25,2000,2024
+Aruba,ABW,False,electricity-generation/yearly,425,2000,2024
+Aruba,ABW,False,power-sector-emissions/yearly,425,2000,2024
+Australia,AUS,False,carbon-intensity/monthly,320,2000-01,2026-08
+Australia,AUS,False,carbon-intensity/yearly,41,1985,2025
+Australia,AUS,False,electricity-demand/monthly,320,2000-01,2026-08
+Australia,AUS,False,electricity-generation/monthly,4472,1998-12,2026-08
+Australia,AUS,False,electricity-generation/yearly,605,1985,2025
+Australia,AUS,False,installed-capacity/monthly,516,2016-01,2026-09
+Australia,AUS,False,power-sector-emissions/monthly,4472,1998-12,2026-08
+Australia,AUS,False,power-sector-emissions/yearly,605,1985,2025
+Austria,AUT,False,carbon-intensity/monthly,140,2015-01,2026-08
+Austria,AUT,False,carbon-intensity/yearly,36,1990,2025
+Austria,AUT,False,electricity-demand/monthly,140,2015-01,2026-08
+Austria,AUT,False,electricity-generation/monthly,2240,2015-01,2026-08
+Austria,AUT,False,electricity-generation/yearly,612,1990,2025
+Austria,AUT,False,power-sector-emissions/monthly,2240,2015-01,2026-08
+Austria,AUT,False,power-sector-emissions/yearly,612,1990,2025
+Azerbaijan,AZE,False,carbon-intensity/monthly,87,2019-01,2026-03
+Azerbaijan,AZE,False,carbon-intensity/yearly,26,2000,2025
+Azerbaijan,AZE,False,electricity-demand/monthly,87,2019-01,2026-03
+Azerbaijan,AZE,False,electricity-generation/monthly,1380,2019-01,2026-03
+Azerbaijan,AZE,False,electricity-generation/yearly,442,2000,2025
+Azerbaijan,AZE,False,power-sector-emissions/monthly,1380,2019-01,2026-03
+Azerbaijan,AZE,False,power-sector-emissions/yearly,442,2000,2025
+Bahamas,BHS,False,carbon-intensity/yearly,25,2000,2024
+Bahamas,BHS,False,electricity-generation/yearly,425,2000,2024
+Bahamas,BHS,False,power-sector-emissions/yearly,425,2000,2024
+Bahrain,BHR,False,carbon-intensity/yearly,25,2000,2024
+Bahrain,BHR,False,electricity-generation/yearly,425,2000,2024
+Bahrain,BHR,False,power-sector-emissions/yearly,425,2000,2024
+Bangladesh,BGD,False,carbon-intensity/monthly,91,2019-01,2026-07
+Bangladesh,BGD,False,carbon-intensity/yearly,26,2000,2025
+Bangladesh,BGD,False,electricity-demand/monthly,91,2019-01,2026-07
+Bangladesh,BGD,False,electricity-generation/monthly,1219,2019-01,2026-07
+Bangladesh,BGD,False,electricity-generation/yearly,442,2000,2025
+Bangladesh,BGD,False,power-sector-emissions/monthly,1219,2019-01,2026-07
+Bangladesh,BGD,False,power-sector-emissions/yearly,442,2000,2025
+Barbados,BRB,False,carbon-intensity/yearly,25,2000,2024
+Barbados,BRB,False,electricity-generation/yearly,425,2000,2024
+Barbados,BRB,False,power-sector-emissions/yearly,425,2000,2024
+Belarus,BLR,False,carbon-intensity/monthly,87,2019-01,2026-03
+Belarus,BLR,False,carbon-intensity/yearly,26,2000,2025
+Belarus,BLR,False,electricity-demand/monthly,87,2019-01,2026-03
+Belarus,BLR,False,electricity-generation/monthly,1380,2019-01,2026-03
+Belarus,BLR,False,electricity-generation/yearly,442,2000,2025
+Belarus,BLR,False,power-sector-emissions/monthly,1380,2019-01,2026-03
+Belarus,BLR,False,power-sector-emissions/yearly,442,2000,2025
+Belgium,BEL,False,carbon-intensity/monthly,140,2015-01,2026-08
+Belgium,BEL,False,carbon-intensity/yearly,36,1990,2025
+Belgium,BEL,False,electricity-demand/monthly,140,2015-01,2026-08
+Belgium,BEL,False,electricity-generation/monthly,2380,2015-01,2026-08
+Belgium,BEL,False,electricity-generation/yearly,612,1990,2025
+Belgium,BEL,False,installed-capacity/monthly,545,2016-01,2026-09
+Belgium,BEL,False,power-sector-emissions/monthly,2380,2015-01,2026-08
+Belgium,BEL,False,power-sector-emissions/yearly,612,1990,2025
+Belize,BLZ,False,carbon-intensity/yearly,25,2000,2024
+Belize,BLZ,False,electricity-generation/yearly,425,2000,2024
+Belize,BLZ,False,power-sector-emissions/yearly,425,2000,2024
+Benin,BEN,False,carbon-intensity/yearly,25,2000,2024
+Benin,BEN,False,electricity-generation/yearly,425,2000,2024
+Benin,BEN,False,power-sector-emissions/yearly,425,2000,2024
+Bhutan,BTN,False,carbon-intensity/yearly,25,2000,2024
+Bhutan,BTN,False,electricity-generation/yearly,425,2000,2024
+Bhutan,BTN,False,power-sector-emissions/yearly,425,2000,2024
+Bolivia,BOL,False,carbon-intensity/monthly,211,2009-01,2026-07
+Bolivia,BOL,False,carbon-intensity/yearly,26,2000,2025
+Bolivia,BOL,False,electricity-demand/monthly,211,2009-01,2026-07
+Bolivia,BOL,False,electricity-generation/monthly,2331,2009-01,2026-07
+Bolivia,BOL,False,electricity-generation/yearly,442,2000,2025
+Bolivia,BOL,False,power-sector-emissions/monthly,2331,2009-01,2026-07
+Bolivia,BOL,False,power-sector-emissions/yearly,442,2000,2025
+Bosnia Herzegovina,BIH,False,carbon-intensity/monthly,92,2019-01,2026-08
+Bosnia Herzegovina,BIH,False,carbon-intensity/yearly,26,2000,2025
+Bosnia Herzegovina,BIH,False,electricity-demand/monthly,92,2019-01,2026-08
+Bosnia Herzegovina,BIH,False,electricity-generation/monthly,1149,2019-01,2026-08
+Bosnia Herzegovina,BIH,False,electricity-generation/yearly,373,2000,2025
+Bosnia Herzegovina,BIH,False,power-sector-emissions/monthly,1149,2019-01,2026-08
+Bosnia Herzegovina,BIH,False,power-sector-emissions/yearly,373,2000,2025
+Botswana,BWA,False,carbon-intensity/yearly,25,2000,2024
+Botswana,BWA,False,electricity-generation/yearly,425,2000,2024
+Botswana,BWA,False,power-sector-emissions/yearly,425,2000,2024
+Brazil,BRA,False,carbon-intensity/monthly,103,2018-01,2026-07
+Brazil,BRA,False,carbon-intensity/yearly,41,1985,2025
+Brazil,BRA,False,electricity-demand/monthly,103,2018-01,2026-07
+Brazil,BRA,False,electricity-generation/monthly,1545,2018-01,2026-07
+Brazil,BRA,False,electricity-generation/yearly,636,1985,2025
+Brazil,BRA,False,installed-capacity/monthly,516,2016-01,2026-09
+Brazil,BRA,False,power-sector-emissions/monthly,1545,2018-01,2026-07
+Brazil,BRA,False,power-sector-emissions/yearly,636,1985,2025
+Brunei Darussalam,BRN,False,carbon-intensity/yearly,25,2000,2024
+Brunei Darussalam,BRN,False,electricity-generation/yearly,425,2000,2024
+Brunei Darussalam,BRN,False,power-sector-emissions/yearly,425,2000,2024
+Bulgaria,BGR,False,carbon-intensity/monthly,140,2015-01,2026-08
+Bulgaria,BGR,False,carbon-intensity/yearly,36,1990,2025
+Bulgaria,BGR,False,electricity-demand/monthly,140,2015-01,2026-08
+Bulgaria,BGR,False,electricity-generation/monthly,2194,2015-01,2026-08
+Bulgaria,BGR,False,electricity-generation/yearly,608,1990,2025
+Bulgaria,BGR,False,power-sector-emissions/monthly,2194,2015-01,2026-08
+Bulgaria,BGR,False,power-sector-emissions/yearly,608,1990,2025
+Burkina Faso,BFA,False,carbon-intensity/yearly,25,2000,2024
+Burkina Faso,BFA,False,electricity-generation/yearly,425,2000,2024
+Burkina Faso,BFA,False,power-sector-emissions/yearly,425,2000,2024
+Burundi,BDI,False,carbon-intensity/yearly,25,2000,2024
+Burundi,BDI,False,electricity-generation/yearly,425,2000,2024
+Burundi,BDI,False,power-sector-emissions/yearly,425,2000,2024
+Cabo Verde,CPV,False,carbon-intensity/yearly,25,2000,2024
+Cabo Verde,CPV,False,electricity-generation/yearly,425,2000,2024
+Cabo Verde,CPV,False,power-sector-emissions/yearly,425,2000,2024
+Cambodia,KHM,False,carbon-intensity/yearly,26,2000,2025
+Cambodia,KHM,False,electricity-generation/yearly,338,2000,2025
+Cambodia,KHM,False,power-sector-emissions/yearly,338,2000,2025
+Cameroon,CMR,False,carbon-intensity/yearly,25,2000,2024
+Cameroon,CMR,False,electricity-generation/yearly,425,2000,2024
+Cameroon,CMR,False,power-sector-emissions/yearly,425,2000,2024
+Canada,CAN,False,carbon-intensity/monthly,198,2010-01,2026-06
+Canada,CAN,False,carbon-intensity/yearly,41,1985,2025
+Canada,CAN,False,electricity-demand/monthly,198,2010-01,2026-06
+Canada,CAN,False,electricity-generation/monthly,3258,2010-01,2026-06
+Canada,CAN,False,electricity-generation/yearly,636,1985,2025
+Canada,CAN,False,power-sector-emissions/monthly,3258,2010-01,2026-06
+Canada,CAN,False,power-sector-emissions/yearly,636,1985,2025
+Cayman Islands,CYM,False,carbon-intensity/yearly,25,2000,2024
+Cayman Islands,CYM,False,electricity-generation/yearly,425,2000,2024
+Cayman Islands,CYM,False,power-sector-emissions/yearly,425,2000,2024
+Central African Republic,CAF,False,carbon-intensity/yearly,24,2000,2023
+Central African Republic,CAF,False,electricity-generation/yearly,408,2000,2023
+Central African Republic,CAF,False,power-sector-emissions/yearly,408,2000,2023
+Chad,TCD,False,carbon-intensity/yearly,25,2000,2024
+Chad,TCD,False,electricity-generation/yearly,425,2000,2024
+Chad,TCD,False,power-sector-emissions/yearly,425,2000,2024
+Chile,CHL,False,carbon-intensity/monthly,124,2016-01,2026-04
+Chile,CHL,False,carbon-intensity/yearly,26,2000,2025
+Chile,CHL,False,electricity-demand/monthly,124,2016-01,2026-04
+Chile,CHL,False,electricity-generation/monthly,1846,2016-01,2026-04
+Chile,CHL,False,electricity-generation/yearly,442,2000,2025
+Chile,CHL,False,installed-capacity/monthly,364,2019-02,2026-08
+Chile,CHL,False,power-sector-emissions/monthly,1846,2016-01,2026-04
+Chile,CHL,False,power-sector-emissions/yearly,442,2000,2025
+China,CHN,False,carbon-intensity/monthly,128,2016-01,2026-08
+China,CHN,False,carbon-intensity/yearly,41,1985,2025
+China,CHN,False,electricity-demand/monthly,128,2016-01,2026-08
+China,CHN,False,electricity-generation/monthly,2048,2016-01,2026-08
+China,CHN,False,electricity-generation/yearly,641,1985,2025
+China,CHN,False,installed-capacity/monthly,640,2016-01,2026-08
+China,CHN,False,power-sector-emissions/monthly,2048,2016-01,2026-08
+China,CHN,False,power-sector-emissions/yearly,641,1985,2025
+Colombia,COL,False,carbon-intensity/monthly,120,2016-01,2025-12
+Colombia,COL,False,carbon-intensity/yearly,26,2000,2025
+Colombia,COL,False,electricity-demand/monthly,120,2016-01,2025-12
+Colombia,COL,False,electricity-generation/monthly,1766,2016-01,2025-12
+Colombia,COL,False,electricity-generation/yearly,441,2000,2025
+Colombia,COL,False,power-sector-emissions/monthly,1766,2016-01,2025-12
+Colombia,COL,False,power-sector-emissions/yearly,441,2000,2025
+Comoros,COM,False,carbon-intensity/yearly,24,2000,2023
+Comoros,COM,False,electricity-generation/yearly,408,2000,2023
+Comoros,COM,False,power-sector-emissions/yearly,408,2000,2023
+Congo,COG,False,carbon-intensity/yearly,25,2000,2024
+Congo,COG,False,electricity-generation/yearly,425,2000,2024
+Congo,COG,False,power-sector-emissions/yearly,425,2000,2024
+Congo (DRC),COD,False,carbon-intensity/yearly,25,2000,2024
+Congo (DRC),COD,False,electricity-generation/yearly,425,2000,2024
+Congo (DRC),COD,False,power-sector-emissions/yearly,425,2000,2024
+Cook Islands (the),COK,False,carbon-intensity/yearly,25,2000,2024
+Cook Islands (the),COK,False,electricity-generation/yearly,425,2000,2024
+Cook Islands (the),COK,False,power-sector-emissions/yearly,425,2000,2024
+Costa Rica,CRI,False,carbon-intensity/monthly,92,2019-01,2026-08
+Costa Rica,CRI,False,carbon-intensity/yearly,26,2000,2025
+Costa Rica,CRI,False,electricity-demand/monthly,92,2019-01,2026-08
+Costa Rica,CRI,False,electricity-generation/monthly,1288,2019-01,2026-08
+Costa Rica,CRI,False,electricity-generation/yearly,442,2000,2025
+Costa Rica,CRI,False,power-sector-emissions/monthly,1288,2019-01,2026-08
+Costa Rica,CRI,False,power-sector-emissions/yearly,442,2000,2025
+Cote d'Ivoire,CIV,False,carbon-intensity/yearly,25,2000,2024
+Cote d'Ivoire,CIV,False,electricity-generation/yearly,425,2000,2024
+Cote d'Ivoire,CIV,False,power-sector-emissions/yearly,425,2000,2024
+Croatia,HRV,False,carbon-intensity/monthly,93,2018-12,2026-08
+Croatia,HRV,False,carbon-intensity/yearly,36,1990,2025
+Croatia,HRV,False,electricity-demand/monthly,93,2018-12,2026-08
+Croatia,HRV,False,electricity-generation/monthly,1488,2018-12,2026-08
+Croatia,HRV,False,electricity-generation/yearly,608,1990,2025
+Croatia,HRV,False,power-sector-emissions/monthly,1488,2018-12,2026-08
+Croatia,HRV,False,power-sector-emissions/yearly,608,1990,2025
+Cuba,CUB,False,carbon-intensity/yearly,25,2000,2024
+Cuba,CUB,False,electricity-generation/yearly,425,2000,2024
+Cuba,CUB,False,power-sector-emissions/yearly,425,2000,2024
+Cyprus,CYP,False,carbon-intensity/monthly,200,2010-01,2026-08
+Cyprus,CYP,False,carbon-intensity/yearly,36,1990,2025
+Cyprus,CYP,False,electricity-demand/monthly,200,2010-01,2026-08
+Cyprus,CYP,False,electricity-generation/monthly,1877,2010-01,2026-08
+Cyprus,CYP,False,electricity-generation/yearly,608,1990,2025
+Cyprus,CYP,False,power-sector-emissions/monthly,1877,2010-01,2026-08
+Cyprus,CYP,False,power-sector-emissions/yearly,608,1990,2025
+Czechia,CZE,False,carbon-intensity/monthly,140,2015-01,2026-08
+Czechia,CZE,False,carbon-intensity/yearly,36,1990,2025
+Czechia,CZE,False,electricity-demand/monthly,140,2015-01,2026-08
+Czechia,CZE,False,electricity-generation/monthly,2380,2015-01,2026-08
+Czechia,CZE,False,electricity-generation/yearly,611,1990,2025
+Czechia,CZE,False,power-sector-emissions/monthly,2380,2015-01,2026-08
+Czechia,CZE,False,power-sector-emissions/yearly,611,1990,2025
+Denmark,DNK,False,carbon-intensity/monthly,140,2015-01,2026-08
+Denmark,DNK,False,carbon-intensity/yearly,36,1990,2025
+Denmark,DNK,False,electricity-demand/monthly,140,2015-01,2026-08
+Denmark,DNK,False,electricity-generation/monthly,2240,2015-01,2026-08
+Denmark,DNK,False,electricity-generation/yearly,612,1990,2025
+Denmark,DNK,False,installed-capacity/monthly,645,2016-01,2026-09
+Denmark,DNK,False,power-sector-emissions/monthly,2240,2015-01,2026-08
+Denmark,DNK,False,power-sector-emissions/yearly,612,1990,2025
+Djibouti,DJI,False,carbon-intensity/yearly,25,2000,2024
+Djibouti,DJI,False,electricity-generation/yearly,425,2000,2024
+Djibouti,DJI,False,power-sector-emissions/yearly,425,2000,2024
+Dominica,DMA,False,carbon-intensity/yearly,24,2000,2023
+Dominica,DMA,False,electricity-generation/yearly,408,2000,2023
+Dominica,DMA,False,power-sector-emissions/yearly,408,2000,2023
+Dominican Republic,DOM,False,carbon-intensity/monthly,44,2022-10,2026-05
+Dominican Republic,DOM,False,carbon-intensity/yearly,26,2000,2025
+Dominican Republic,DOM,False,electricity-demand/monthly,44,2022-10,2026-05
+Dominican Republic,DOM,False,electricity-generation/monthly,616,2022-10,2026-05
+Dominican Republic,DOM,False,electricity-generation/yearly,442,2000,2025
+Dominican Republic,DOM,False,power-sector-emissions/monthly,616,2022-10,2026-05
+Dominican Republic,DOM,False,power-sector-emissions/yearly,442,2000,2025
+Ecuador,ECU,False,carbon-intensity/monthly,90,2019-01,2026-06
+Ecuador,ECU,False,carbon-intensity/yearly,26,2000,2025
+Ecuador,ECU,False,electricity-demand/monthly,90,2019-01,2026-06
+Ecuador,ECU,False,electricity-generation/monthly,1260,2019-01,2026-06
+Ecuador,ECU,False,electricity-generation/yearly,442,2000,2025
+Ecuador,ECU,False,power-sector-emissions/monthly,1260,2019-01,2026-06
+Ecuador,ECU,False,power-sector-emissions/yearly,442,2000,2025
+Egypt,EGY,False,carbon-intensity/monthly,125,2016-01,2026-05
+Egypt,EGY,False,carbon-intensity/yearly,41,1985,2025
+Egypt,EGY,False,electricity-demand/monthly,125,2016-01,2026-05
+Egypt,EGY,False,electricity-generation/monthly,1577,2016-01,2026-05
+Egypt,EGY,False,electricity-generation/yearly,605,1985,2025
+Egypt,EGY,False,power-sector-emissions/monthly,1577,2016-01,2026-05
+Egypt,EGY,False,power-sector-emissions/yearly,605,1985,2025
+El Salvador,SLV,False,carbon-intensity/monthly,84,2019-01,2025-12
+El Salvador,SLV,False,carbon-intensity/yearly,26,2000,2025
+El Salvador,SLV,False,electricity-demand/monthly,84,2019-01,2025-12
+El Salvador,SLV,False,electricity-generation/monthly,1224,2019-01,2025-12
+El Salvador,SLV,False,electricity-generation/yearly,344,2000,2025
+El Salvador,SLV,False,power-sector-emissions/monthly,1224,2019-01,2025-12
+El Salvador,SLV,False,power-sector-emissions/yearly,344,2000,2025
+Equatorial Guinea,GNQ,False,carbon-intensity/yearly,25,2000,2024
+Equatorial Guinea,GNQ,False,electricity-generation/yearly,425,2000,2024
+Equatorial Guinea,GNQ,False,power-sector-emissions/yearly,425,2000,2024
+Eritrea,ERI,False,carbon-intensity/yearly,25,2000,2024
+Eritrea,ERI,False,electricity-generation/yearly,425,2000,2024
+Eritrea,ERI,False,power-sector-emissions/yearly,425,2000,2024
+Estonia,EST,False,carbon-intensity/monthly,140,2015-01,2026-08
+Estonia,EST,False,carbon-intensity/yearly,36,1990,2025
+Estonia,EST,False,electricity-demand/monthly,140,2015-01,2026-08
+Estonia,EST,False,electricity-generation/monthly,2100,2015-01,2026-08
+Estonia,EST,False,electricity-generation/yearly,610,1990,2025
+Estonia,EST,False,power-sector-emissions/monthly,2100,2015-01,2026-08
+Estonia,EST,False,power-sector-emissions/yearly,610,1990,2025
+Eswatini,SWZ,False,carbon-intensity/yearly,25,2000,2024
+Eswatini,SWZ,False,electricity-generation/yearly,425,2000,2024
+Eswatini,SWZ,False,power-sector-emissions/yearly,425,2000,2024
+Ethiopia,ETH,False,carbon-intensity/yearly,26,2000,2025
+Ethiopia,ETH,False,electricity-generation/yearly,442,2000,2025
+Ethiopia,ETH,False,power-sector-emissions/yearly,442,2000,2025
+Falkland Islands (Malvinas),FLK,False,carbon-intensity/yearly,24,2000,2023
+Falkland Islands (Malvinas),FLK,False,electricity-generation/yearly,408,2000,2023
+Falkland Islands (Malvinas),FLK,False,power-sector-emissions/yearly,408,2000,2023
+Faroe Islands,FRO,False,carbon-intensity/yearly,24,2000,2023
+Faroe Islands,FRO,False,electricity-generation/yearly,408,2000,2023
+Faroe Islands,FRO,False,power-sector-emissions/yearly,408,2000,2023
+Fiji,FJI,False,carbon-intensity/yearly,25,2000,2024
+Fiji,FJI,False,electricity-generation/yearly,425,2000,2024
+Fiji,FJI,False,power-sector-emissions/yearly,425,2000,2024
+Finland,FIN,False,carbon-intensity/monthly,140,2015-01,2026-08
+Finland,FIN,False,carbon-intensity/yearly,36,1990,2025
+Finland,FIN,False,electricity-demand/monthly,140,2015-01,2026-08
+Finland,FIN,False,electricity-generation/monthly,2332,2015-01,2026-08
+Finland,FIN,False,electricity-generation/yearly,612,1990,2025
+Finland,FIN,False,installed-capacity/monthly,438,2016-01,2026-09
+Finland,FIN,False,power-sector-emissions/monthly,2332,2015-01,2026-08
+Finland,FIN,False,power-sector-emissions/yearly,612,1990,2025
+France,FRA,False,carbon-intensity/monthly,140,2015-01,2026-08
+France,FRA,False,carbon-intensity/yearly,36,1990,2025
+France,FRA,False,electricity-demand/monthly,140,2015-01,2026-08
+France,FRA,False,electricity-generation/monthly,2240,2015-01,2026-08
+France,FRA,False,electricity-generation/yearly,612,1990,2025
+France,FRA,False,installed-capacity/monthly,645,2016-01,2026-09
+France,FRA,False,power-sector-emissions/monthly,2240,2015-01,2026-08
+France,FRA,False,power-sector-emissions/yearly,612,1990,2025
+French Guiana,GUF,False,carbon-intensity/yearly,24,2000,2023
+French Guiana,GUF,False,electricity-generation/yearly,278,2000,2023
+French Guiana,GUF,False,power-sector-emissions/yearly,278,2000,2023
+French Polynesia,PYF,False,carbon-intensity/yearly,25,2000,2024
+French Polynesia,PYF,False,electricity-generation/yearly,425,2000,2024
+French Polynesia,PYF,False,power-sector-emissions/yearly,425,2000,2024
+Gabon,GAB,False,carbon-intensity/yearly,25,2000,2024
+Gabon,GAB,False,electricity-generation/yearly,425,2000,2024
+Gabon,GAB,False,power-sector-emissions/yearly,425,2000,2024
+Gambia,GMB,False,carbon-intensity/yearly,25,2000,2024
+Gambia,GMB,False,electricity-generation/yearly,425,2000,2024
+Gambia,GMB,False,power-sector-emissions/yearly,425,2000,2024
+Georgia,GEO,False,carbon-intensity/monthly,199,2010-01,2026-07
+Georgia,GEO,False,carbon-intensity/yearly,26,2000,2025
+Georgia,GEO,False,electricity-demand/monthly,199,2010-01,2026-07
+Georgia,GEO,False,electricity-generation/monthly,2045,2010-01,2026-07
+Georgia,GEO,False,electricity-generation/yearly,442,2000,2025
+Georgia,GEO,False,power-sector-emissions/monthly,2045,2010-01,2026-07
+Georgia,GEO,False,power-sector-emissions/yearly,442,2000,2025
+Germany,DEU,False,carbon-intensity/monthly,140,2015-01,2026-08
+Germany,DEU,False,carbon-intensity/yearly,41,1985,2025
+Germany,DEU,False,electricity-demand/monthly,140,2015-01,2026-08
+Germany,DEU,False,electricity-generation/monthly,2380,2015-01,2026-08
+Germany,DEU,False,electricity-generation/yearly,632,1985,2025
+Germany,DEU,False,installed-capacity/monthly,640,2016-01,2026-08
+Germany,DEU,False,power-sector-emissions/monthly,2380,2015-01,2026-08
+Germany,DEU,False,power-sector-emissions/yearly,632,1985,2025
+Ghana,GHA,False,carbon-intensity/yearly,25,2000,2024
+Ghana,GHA,False,electricity-generation/yearly,425,2000,2024
+Ghana,GHA,False,power-sector-emissions/yearly,425,2000,2024
+Greece,GRC,False,carbon-intensity/monthly,140,2015-01,2026-08
+Greece,GRC,False,carbon-intensity/yearly,36,1990,2025
+Greece,GRC,False,electricity-demand/monthly,140,2015-01,2026-08
+Greece,GRC,False,electricity-generation/monthly,1960,2015-01,2026-08
+Greece,GRC,False,electricity-generation/yearly,612,1990,2025
+Greece,GRC,False,power-sector-emissions/monthly,1960,2015-01,2026-08
+Greece,GRC,False,power-sector-emissions/yearly,612,1990,2025
+Greenland,GRL,False,carbon-intensity/yearly,25,2000,2024
+Greenland,GRL,False,electricity-generation/yearly,425,2000,2024
+Greenland,GRL,False,power-sector-emissions/yearly,425,2000,2024
+Grenada,GRD,False,carbon-intensity/yearly,25,2000,2024
+Grenada,GRD,False,electricity-generation/yearly,425,2000,2024
+Grenada,GRD,False,power-sector-emissions/yearly,425,2000,2024
+Guadeloupe,GLP,False,carbon-intensity/yearly,24,2000,2023
+Guadeloupe,GLP,False,electricity-generation/yearly,355,2000,2023
+Guadeloupe,GLP,False,power-sector-emissions/yearly,355,2000,2023
+Guam,GUM,False,carbon-intensity/yearly,25,2000,2024
+Guam,GUM,False,electricity-generation/yearly,425,2000,2024
+Guam,GUM,False,power-sector-emissions/yearly,425,2000,2024
+Guatemala,GTM,False,carbon-intensity/yearly,25,2000,2024
+Guatemala,GTM,False,electricity-generation/yearly,425,2000,2024
+Guatemala,GTM,False,power-sector-emissions/yearly,425,2000,2024
+Guinea,GIN,False,carbon-intensity/yearly,25,2000,2024
+Guinea,GIN,False,electricity-generation/yearly,425,2000,2024
+Guinea,GIN,False,power-sector-emissions/yearly,425,2000,2024
+Guinea-Bissau,GNB,False,carbon-intensity/yearly,25,2000,2024
+Guinea-Bissau,GNB,False,electricity-generation/yearly,425,2000,2024
+Guinea-Bissau,GNB,False,power-sector-emissions/yearly,425,2000,2024
+Guyana,GUY,False,carbon-intensity/yearly,25,2000,2024
+Guyana,GUY,False,electricity-generation/yearly,425,2000,2024
+Guyana,GUY,False,power-sector-emissions/yearly,425,2000,2024
+Haiti,HTI,False,carbon-intensity/yearly,25,2000,2024
+Haiti,HTI,False,electricity-generation/yearly,425,2000,2024
+Haiti,HTI,False,power-sector-emissions/yearly,425,2000,2024
+Honduras,HND,False,carbon-intensity/yearly,25,2000,2024
+Honduras,HND,False,electricity-generation/yearly,425,2000,2024
+Honduras,HND,False,power-sector-emissions/yearly,425,2000,2024
+Hong Kong (SAR of China),HKG,False,carbon-intensity/yearly,25,2000,2024
+Hong Kong (SAR of China),HKG,False,electricity-generation/yearly,425,2000,2024
+Hong Kong (SAR of China),HKG,False,power-sector-emissions/yearly,425,2000,2024
+Hungary,HUN,False,carbon-intensity/monthly,140,2015-01,2026-08
+Hungary,HUN,False,carbon-intensity/yearly,36,1990,2025
+Hungary,HUN,False,electricity-demand/monthly,140,2015-01,2026-08
+Hungary,HUN,False,electricity-generation/monthly,2332,2015-01,2026-08
+Hungary,HUN,False,electricity-generation/yearly,611,1990,2025
+Hungary,HUN,False,installed-capacity/monthly,512,2016-01,2026-08
+Hungary,HUN,False,power-sector-emissions/monthly,2332,2015-01,2026-08
+Hungary,HUN,False,power-sector-emissions/yearly,611,1990,2025
+Iceland,ISL,False,carbon-intensity/monthly,320,2000-01,2026-08
+Iceland,ISL,False,carbon-intensity/yearly,26,2000,2025
+Iceland,ISL,False,electricity-demand/monthly,320,2000-01,2026-08
+Iceland,ISL,False,electricity-generation/monthly,3312,2000-01,2026-08
+Iceland,ISL,False,electricity-generation/yearly,442,2000,2025
+Iceland,ISL,False,power-sector-emissions/monthly,3312,2000-01,2026-08
+Iceland,ISL,False,power-sector-emissions/yearly,442,2000,2025
+India,IND,False,carbon-intensity/monthly,91,2019-01,2026-07
+India,IND,False,carbon-intensity/yearly,41,1985,2025
+India,IND,False,electricity-demand/monthly,91,2019-01,2026-07
+India,IND,False,electricity-generation/monthly,1547,2019-01,2026-07
+India,IND,False,electricity-generation/yearly,641,1985,2025
+India,IND,False,installed-capacity/monthly,360,2019-03,2026-08
+India,IND,False,power-sector-emissions/monthly,1547,2019-01,2026-07
+India,IND,False,power-sector-emissions/yearly,641,1985,2025
+Indonesia,IDN,False,carbon-intensity/yearly,26,2000,2025
+Indonesia,IDN,False,electricity-generation/yearly,416,2000,2025
+Indonesia,IDN,False,power-sector-emissions/yearly,416,2000,2025
+Iran,IRN,False,carbon-intensity/monthly,76,2019-01,2025-04
+Iran,IRN,False,carbon-intensity/yearly,41,1985,2025
+Iran,IRN,False,electricity-demand/monthly,76,2019-01,2025-04
+Iran,IRN,False,electricity-generation/monthly,760,2019-01,2025-04
+Iran,IRN,False,electricity-generation/yearly,610,1985,2025
+Iran,IRN,False,power-sector-emissions/monthly,760,2019-01,2025-04
+Iran,IRN,False,power-sector-emissions/yearly,610,1985,2025
+Iraq,IRQ,False,carbon-intensity/yearly,25,2000,2024
+Iraq,IRQ,False,electricity-generation/yearly,425,2000,2024
+Iraq,IRQ,False,power-sector-emissions/yearly,425,2000,2024
+Ireland,IRL,False,carbon-intensity/monthly,200,2010-01,2026-08
+Ireland,IRL,False,carbon-intensity/yearly,36,1990,2025
+Ireland,IRL,False,electricity-demand/monthly,200,2010-01,2026-08
+Ireland,IRL,False,electricity-generation/monthly,3000,2010-01,2026-08
+Ireland,IRL,False,electricity-generation/yearly,612,1990,2025
+Ireland,IRL,False,power-sector-emissions/monthly,3000,2010-01,2026-08
+Ireland,IRL,False,power-sector-emissions/yearly,612,1990,2025
+Israel,ISR,False,carbon-intensity/yearly,26,2000,2025
+Israel,ISR,False,electricity-generation/yearly,442,2000,2025
+Israel,ISR,False,power-sector-emissions/yearly,442,2000,2025
+Italy,ITA,False,carbon-intensity/monthly,128,2016-01,2026-08
+Italy,ITA,False,carbon-intensity/yearly,36,1990,2025
+Italy,ITA,False,electricity-demand/monthly,128,2016-01,2026-08
+Italy,ITA,False,electricity-generation/monthly,2048,2016-01,2026-08
+Italy,ITA,False,electricity-generation/yearly,612,1990,2025
+Italy,ITA,False,installed-capacity/monthly,345,2020-12,2026-08
+Italy,ITA,False,power-sector-emissions/monthly,2048,2016-01,2026-08
+Italy,ITA,False,power-sector-emissions/yearly,612,1990,2025
+Jamaica,JAM,False,carbon-intensity/yearly,25,2000,2024
+Jamaica,JAM,False,electricity-generation/yearly,425,2000,2024
+Jamaica,JAM,False,power-sector-emissions/yearly,425,2000,2024
+Japan,JPN,False,carbon-intensity/monthly,100,2018-04,2026-07
+Japan,JPN,False,carbon-intensity/yearly,41,1985,2025
+Japan,JPN,False,electricity-demand/monthly,100,2018-04,2026-07
+Japan,JPN,False,electricity-generation/monthly,1600,2018-04,2026-07
+Japan,JPN,False,electricity-generation/yearly,641,1985,2025
+Japan,JPN,False,installed-capacity/monthly,635,2016-01,2026-07
+Japan,JPN,False,power-sector-emissions/monthly,1600,2018-04,2026-07
+Japan,JPN,False,power-sector-emissions/yearly,641,1985,2025
+Jordan,JOR,False,carbon-intensity/yearly,25,2000,2024
+Jordan,JOR,False,electricity-generation/yearly,425,2000,2024
+Jordan,JOR,False,power-sector-emissions/yearly,425,2000,2024
+Kazakhstan,KAZ,False,carbon-intensity/monthly,99,2018-01,2026-03
+Kazakhstan,KAZ,False,carbon-intensity/yearly,41,1985,2025
+Kazakhstan,KAZ,False,electricity-demand/monthly,99,2018-01,2026-03
+Kazakhstan,KAZ,False,electricity-generation/monthly,1386,2018-01,2026-03
+Kazakhstan,KAZ,False,electricity-generation/yearly,595,1985,2025
+Kazakhstan,KAZ,False,power-sector-emissions/monthly,1386,2018-01,2026-03
+Kazakhstan,KAZ,False,power-sector-emissions/yearly,595,1985,2025
+Kenya,KEN,False,carbon-intensity/monthly,90,2019-01,2026-06
+Kenya,KEN,False,carbon-intensity/yearly,26,2000,2025
+Kenya,KEN,False,electricity-demand/monthly,90,2019-01,2026-06
+Kenya,KEN,False,electricity-generation/monthly,1260,2019-01,2026-06
+Kenya,KEN,False,electricity-generation/yearly,442,2000,2025
+Kenya,KEN,False,power-sector-emissions/monthly,1260,2019-01,2026-06
+Kenya,KEN,False,power-sector-emissions/yearly,442,2000,2025
+Kiribati,KIR,False,carbon-intensity/yearly,25,2000,2024
+Kiribati,KIR,False,electricity-generation/yearly,425,2000,2024
+Kiribati,KIR,False,power-sector-emissions/yearly,425,2000,2024
+Kosovo,XKX,False,carbon-intensity/monthly,54,2022-01,2026-06
+Kosovo,XKX,False,carbon-intensity/yearly,26,2000,2025
+Kosovo,XKX,False,electricity-demand/monthly,54,2022-01,2026-06
+Kosovo,XKX,False,electricity-generation/monthly,594,2022-01,2026-06
+Kosovo,XKX,False,electricity-generation/yearly,430,2000,2025
+Kosovo,XKX,False,power-sector-emissions/monthly,594,2022-01,2026-06
+Kosovo,XKX,False,power-sector-emissions/yearly,430,2000,2025
+Kuwait,KWT,False,carbon-intensity/monthly,95,2018-01,2025-11
+Kuwait,KWT,False,carbon-intensity/yearly,26,2000,2025
+Kuwait,KWT,False,electricity-demand/monthly,95,2018-01,2025-11
+Kuwait,KWT,False,electricity-generation/monthly,475,2018-01,2025-11
+Kuwait,KWT,False,electricity-generation/yearly,442,2000,2025
+Kuwait,KWT,False,power-sector-emissions/monthly,475,2018-01,2025-11
+Kuwait,KWT,False,power-sector-emissions/yearly,442,2000,2025
+Kyrgyzstan,KGZ,False,carbon-intensity/monthly,87,2019-01,2026-03
+Kyrgyzstan,KGZ,False,carbon-intensity/yearly,26,2000,2025
+Kyrgyzstan,KGZ,False,electricity-demand/monthly,87,2019-01,2026-03
+Kyrgyzstan,KGZ,False,electricity-generation/monthly,1335,2019-01,2026-03
+Kyrgyzstan,KGZ,False,electricity-generation/yearly,442,2000,2025
+Kyrgyzstan,KGZ,False,power-sector-emissions/monthly,1335,2019-01,2026-03
+Kyrgyzstan,KGZ,False,power-sector-emissions/yearly,442,2000,2025
+Lao PDR,LAO,False,carbon-intensity/yearly,25,2000,2024
+Lao PDR,LAO,False,electricity-generation/yearly,425,2000,2024
+Lao PDR,LAO,False,power-sector-emissions/yearly,425,2000,2024
+Latvia,LVA,False,carbon-intensity/monthly,140,2015-01,2026-08
+Latvia,LVA,False,carbon-intensity/yearly,36,1990,2025
+Latvia,LVA,False,electricity-demand/monthly,140,2015-01,2026-08
+Latvia,LVA,False,electricity-generation/monthly,1876,2015-01,2026-08
+Latvia,LVA,False,electricity-generation/yearly,612,1990,2025
+Latvia,LVA,False,power-sector-emissions/monthly,1876,2015-01,2026-08
+Latvia,LVA,False,power-sector-emissions/yearly,612,1990,2025
+Lebanon,LBN,False,carbon-intensity/yearly,25,2000,2024
+Lebanon,LBN,False,electricity-generation/yearly,425,2000,2024
+Lebanon,LBN,False,power-sector-emissions/yearly,425,2000,2024
+Lesotho,LSO,False,carbon-intensity/yearly,25,2000,2024
+Lesotho,LSO,False,electricity-generation/yearly,425,2000,2024
+Lesotho,LSO,False,power-sector-emissions/yearly,425,2000,2024
+Liberia,LBR,False,carbon-intensity/yearly,25,2000,2024
+Liberia,LBR,False,electricity-generation/yearly,425,2000,2024
+Liberia,LBR,False,power-sector-emissions/yearly,425,2000,2024
+Libya,LBY,False,carbon-intensity/yearly,25,2000,2024
+Libya,LBY,False,electricity-generation/yearly,425,2000,2024
+Libya,LBY,False,power-sector-emissions/yearly,425,2000,2024
+Lithuania,LTU,False,carbon-intensity/monthly,140,2015-01,2026-08
+Lithuania,LTU,False,carbon-intensity/yearly,36,1990,2025
+Lithuania,LTU,False,electricity-demand/monthly,140,2015-01,2026-08
+Lithuania,LTU,False,electricity-generation/monthly,1960,2015-01,2026-08
+Lithuania,LTU,False,electricity-generation/yearly,608,1990,2025
+Lithuania,LTU,False,power-sector-emissions/monthly,1960,2015-01,2026-08
+Lithuania,LTU,False,power-sector-emissions/yearly,608,1990,2025
+Luxembourg,LUX,False,carbon-intensity/monthly,103,2018-01,2026-07
+Luxembourg,LUX,False,carbon-intensity/yearly,36,1990,2025
+Luxembourg,LUX,False,electricity-demand/monthly,103,2018-01,2026-07
+Luxembourg,LUX,False,electricity-generation/monthly,1442,2018-01,2026-07
+Luxembourg,LUX,False,electricity-generation/yearly,612,1990,2025
+Luxembourg,LUX,False,power-sector-emissions/monthly,1442,2018-01,2026-07
+Luxembourg,LUX,False,power-sector-emissions/yearly,612,1990,2025
+Macao (SAR of China),MAC,False,carbon-intensity/yearly,25,2000,2024
+Macao (SAR of China),MAC,False,electricity-generation/yearly,425,2000,2024
+Macao (SAR of China),MAC,False,power-sector-emissions/yearly,425,2000,2024
+Madagascar,MDG,False,carbon-intensity/yearly,25,2000,2024
+Madagascar,MDG,False,electricity-generation/yearly,425,2000,2024
+Madagascar,MDG,False,power-sector-emissions/yearly,425,2000,2024
+Malawi,MWI,False,carbon-intensity/yearly,25,2000,2024
+Malawi,MWI,False,electricity-generation/yearly,425,2000,2024
+Malawi,MWI,False,power-sector-emissions/yearly,425,2000,2024
+Malaysia,MYS,False,carbon-intensity/monthly,101,2018-01,2026-05
+Malaysia,MYS,False,carbon-intensity/yearly,41,1985,2025
+Malaysia,MYS,False,electricity-demand/monthly,101,2018-01,2026-05
+Malaysia,MYS,False,electricity-generation/monthly,1414,2018-01,2026-05
+Malaysia,MYS,False,electricity-generation/yearly,615,1985,2025
+Malaysia,MYS,False,power-sector-emissions/monthly,1414,2018-01,2026-05
+Malaysia,MYS,False,power-sector-emissions/yearly,615,1985,2025
+Maldives,MDV,False,carbon-intensity/yearly,25,2000,2024
+Maldives,MDV,False,electricity-generation/yearly,425,2000,2024
+Maldives,MDV,False,power-sector-emissions/yearly,425,2000,2024
+Mali,MLI,False,carbon-intensity/yearly,25,2000,2024
+Mali,MLI,False,electricity-generation/yearly,425,2000,2024
+Mali,MLI,False,power-sector-emissions/yearly,425,2000,2024
+Malta,MLT,False,carbon-intensity/monthly,91,2019-01,2026-07
+Malta,MLT,False,carbon-intensity/yearly,36,1990,2025
+Malta,MLT,False,electricity-demand/monthly,91,2019-01,2026-07
+Malta,MLT,False,electricity-generation/monthly,1547,2019-01,2026-07
+Malta,MLT,False,electricity-generation/yearly,600,1990,2025
+Malta,MLT,False,power-sector-emissions/monthly,1547,2019-01,2026-07
+Malta,MLT,False,power-sector-emissions/yearly,600,1990,2025
+Martinique,MTQ,False,carbon-intensity/yearly,24,2000,2023
+Martinique,MTQ,False,electricity-generation/yearly,280,2000,2023
+Martinique,MTQ,False,power-sector-emissions/yearly,280,2000,2023
+Mauritania,MRT,False,carbon-intensity/yearly,25,2000,2024
+Mauritania,MRT,False,electricity-generation/yearly,425,2000,2024
+Mauritania,MRT,False,power-sector-emissions/yearly,425,2000,2024
+Mauritius,MUS,False,carbon-intensity/yearly,25,2000,2024
+Mauritius,MUS,False,electricity-generation/yearly,425,2000,2024
+Mauritius,MUS,False,power-sector-emissions/yearly,425,2000,2024
+Mexico,MEX,False,carbon-intensity/monthly,91,2019-01,2026-07
+Mexico,MEX,False,carbon-intensity/yearly,41,1985,2025
+Mexico,MEX,False,electricity-demand/monthly,91,2019-01,2026-07
+Mexico,MEX,False,electricity-generation/monthly,1456,2019-01,2026-07
+Mexico,MEX,False,electricity-generation/yearly,641,1985,2025
+Mexico,MEX,False,power-sector-emissions/monthly,1456,2019-01,2026-07
+Mexico,MEX,False,power-sector-emissions/yearly,641,1985,2025
+Moldova,MDA,False,carbon-intensity/monthly,80,2020-01,2026-08
+Moldova,MDA,False,carbon-intensity/yearly,26,2000,2025
+Moldova,MDA,False,electricity-demand/monthly,80,2020-01,2026-08
+Moldova,MDA,False,electricity-generation/monthly,1200,2020-01,2026-08
+Moldova,MDA,False,electricity-generation/yearly,442,2000,2025
+Moldova,MDA,False,power-sector-emissions/monthly,1200,2020-01,2026-08
+Moldova,MDA,False,power-sector-emissions/yearly,442,2000,2025
+Mongolia,MNG,False,carbon-intensity/monthly,319,2000-01,2026-07
+Mongolia,MNG,False,carbon-intensity/yearly,26,2000,2025
+Mongolia,MNG,False,electricity-demand/monthly,319,2000-01,2026-07
+Mongolia,MNG,False,electricity-generation/monthly,2552,2000-01,2026-07
+Mongolia,MNG,False,electricity-generation/yearly,442,2000,2025
+Mongolia,MNG,False,power-sector-emissions/monthly,2552,2000-01,2026-07
+Mongolia,MNG,False,power-sector-emissions/yearly,442,2000,2025
+Montenegro,MNE,False,carbon-intensity/monthly,139,2015-01,2026-07
+Montenegro,MNE,False,carbon-intensity/yearly,21,2005,2025
+Montenegro,MNE,False,electricity-demand/monthly,139,2015-01,2026-07
+Montenegro,MNE,False,electricity-generation/monthly,1689,2015-01,2026-07
+Montenegro,MNE,False,electricity-generation/yearly,345,2005,2025
+Montenegro,MNE,False,power-sector-emissions/monthly,1689,2015-01,2026-07
+Montenegro,MNE,False,power-sector-emissions/yearly,345,2005,2025
+Montserrat,MSR,False,carbon-intensity/yearly,25,2000,2024
+Montserrat,MSR,False,electricity-generation/yearly,425,2000,2024
+Montserrat,MSR,False,power-sector-emissions/yearly,425,2000,2024
+Morocco,MAR,False,carbon-intensity/monthly,117,2016-07,2026-03
+Morocco,MAR,False,carbon-intensity/yearly,26,2000,2025
+Morocco,MAR,False,electricity-demand/monthly,117,2016-07,2026-03
+Morocco,MAR,False,electricity-generation/monthly,1638,2016-07,2026-03
+Morocco,MAR,False,electricity-generation/yearly,442,2000,2025
+Morocco,MAR,False,power-sector-emissions/monthly,1638,2016-07,2026-03
+Morocco,MAR,False,power-sector-emissions/yearly,442,2000,2025
+Mozambique,MOZ,False,carbon-intensity/yearly,25,2000,2024
+Mozambique,MOZ,False,electricity-generation/yearly,425,2000,2024
+Mozambique,MOZ,False,power-sector-emissions/yearly,425,2000,2024
+Myanmar,MMR,False,carbon-intensity/yearly,25,2000,2024
+Myanmar,MMR,False,electricity-generation/yearly,425,2000,2024
+Myanmar,MMR,False,power-sector-emissions/yearly,425,2000,2024
+Namibia,NAM,False,carbon-intensity/yearly,25,2000,2024
+Namibia,NAM,False,electricity-generation/yearly,425,2000,2024
+Namibia,NAM,False,power-sector-emissions/yearly,425,2000,2024
+Nauru,NRU,False,carbon-intensity/yearly,25,2000,2024
+Nauru,NRU,False,electricity-generation/yearly,425,2000,2024
+Nauru,NRU,False,power-sector-emissions/yearly,425,2000,2024
+Nepal,NPL,False,carbon-intensity/yearly,25,2000,2024
+Nepal,NPL,False,electricity-generation/yearly,425,2000,2024
+Nepal,NPL,False,power-sector-emissions/yearly,425,2000,2024
+Netherlands,NLD,False,carbon-intensity/monthly,140,2015-01,2026-08
+Netherlands,NLD,False,carbon-intensity/yearly,36,1990,2025
+Netherlands,NLD,False,electricity-demand/monthly,140,2015-01,2026-08
+Netherlands,NLD,False,electricity-generation/monthly,2380,2015-01,2026-08
+Netherlands,NLD,False,electricity-generation/yearly,612,1990,2025
+Netherlands,NLD,False,installed-capacity/monthly,645,2016-01,2026-09
+Netherlands,NLD,False,power-sector-emissions/monthly,2380,2015-01,2026-08
+Netherlands,NLD,False,power-sector-emissions/yearly,612,1990,2025
+New Caledonia,NCL,False,carbon-intensity/yearly,25,2000,2024
+New Caledonia,NCL,False,electricity-generation/yearly,425,2000,2024
+New Caledonia,NCL,False,power-sector-emissions/yearly,425,2000,2024
+New Zealand,NZL,False,carbon-intensity/monthly,200,2010-01,2026-08
+New Zealand,NZL,False,carbon-intensity/yearly,26,2000,2025
+New Zealand,NZL,False,electricity-demand/monthly,200,2010-01,2026-08
+New Zealand,NZL,False,electricity-generation/monthly,2800,2010-01,2026-08
+New Zealand,NZL,False,electricity-generation/yearly,442,2000,2025
+New Zealand,NZL,False,power-sector-emissions/monthly,2800,2010-01,2026-08
+New Zealand,NZL,False,power-sector-emissions/yearly,442,2000,2025
+Nicaragua,NIC,False,carbon-intensity/yearly,25,2000,2024
+Nicaragua,NIC,False,electricity-generation/yearly,425,2000,2024
+Nicaragua,NIC,False,power-sector-emissions/yearly,425,2000,2024
+Niger,NER,False,carbon-intensity/yearly,25,2000,2024
+Niger,NER,False,electricity-generation/yearly,425,2000,2024
+Niger,NER,False,power-sector-emissions/yearly,425,2000,2024
+Nigeria,NGA,False,carbon-intensity/monthly,92,2019-01,2026-08
+Nigeria,NGA,False,carbon-intensity/yearly,26,2000,2025
+Nigeria,NGA,False,electricity-demand/monthly,92,2019-01,2026-08
+Nigeria,NGA,False,electricity-generation/monthly,736,2019-01,2026-08
+Nigeria,NGA,False,electricity-generation/yearly,442,2000,2025
+Nigeria,NGA,False,power-sector-emissions/monthly,736,2019-01,2026-08
+Nigeria,NGA,False,power-sector-emissions/yearly,442,2000,2025
+North Korea,PRK,False,carbon-intensity/yearly,25,2000,2024
+North Korea,PRK,False,electricity-generation/yearly,425,2000,2024
+North Korea,PRK,False,power-sector-emissions/yearly,425,2000,2024
+North Macedonia,MKD,False,carbon-intensity/monthly,114,2017-01,2026-06
+North Macedonia,MKD,False,carbon-intensity/yearly,36,1990,2025
+North Macedonia,MKD,False,electricity-demand/monthly,114,2017-01,2026-06
+North Macedonia,MKD,False,electricity-generation/monthly,1938,2017-01,2026-06
+North Macedonia,MKD,False,electricity-generation/yearly,598,1990,2025
+North Macedonia,MKD,False,power-sector-emissions/monthly,1938,2017-01,2026-06
+North Macedonia,MKD,False,power-sector-emissions/yearly,598,1990,2025
+Norway,NOR,False,carbon-intensity/monthly,140,2015-01,2026-08
+Norway,NOR,False,carbon-intensity/yearly,36,1990,2025
+Norway,NOR,False,electricity-demand/monthly,140,2015-01,2026-08
+Norway,NOR,False,electricity-generation/monthly,1842,2015-01,2026-08
+Norway,NOR,False,electricity-generation/yearly,612,1990,2025
+Norway,NOR,False,power-sector-emissions/monthly,1842,2015-01,2026-08
+Norway,NOR,False,power-sector-emissions/yearly,612,1990,2025
+Oman,OMN,False,carbon-intensity/monthly,150,2014-01,2026-06
+Oman,OMN,False,carbon-intensity/yearly,26,2000,2025
+Oman,OMN,False,electricity-demand/monthly,150,2014-01,2026-06
+Oman,OMN,False,electricity-generation/monthly,600,2014-01,2026-06
+Oman,OMN,False,electricity-generation/yearly,441,2000,2025
+Oman,OMN,False,power-sector-emissions/monthly,600,2014-01,2026-06
+Oman,OMN,False,power-sector-emissions/yearly,441,2000,2025
+Pakistan,PAK,False,carbon-intensity/monthly,89,2018-11,2026-03
+Pakistan,PAK,False,carbon-intensity/yearly,26,2000,2025
+Pakistan,PAK,False,electricity-demand/monthly,89,2018-11,2026-03
+Pakistan,PAK,False,electricity-generation/monthly,1335,2018-11,2026-03
+Pakistan,PAK,False,electricity-generation/yearly,416,2000,2025
+Pakistan,PAK,False,power-sector-emissions/monthly,1335,2018-11,2026-03
+Pakistan,PAK,False,power-sector-emissions/yearly,416,2000,2025
+Palestine (State of),PSE,False,carbon-intensity/yearly,25,2000,2024
+Palestine (State of),PSE,False,electricity-generation/yearly,425,2000,2024
+Palestine (State of),PSE,False,power-sector-emissions/yearly,425,2000,2024
+Panama,PAN,False,carbon-intensity/yearly,25,2000,2024
+Panama,PAN,False,electricity-generation/yearly,425,2000,2024
+Panama,PAN,False,power-sector-emissions/yearly,425,2000,2024
+Papua New Guinea,PNG,False,carbon-intensity/yearly,25,2000,2024
+Papua New Guinea,PNG,False,electricity-generation/yearly,424,2000,2024
+Papua New Guinea,PNG,False,power-sector-emissions/yearly,424,2000,2024
+Paraguay,PRY,False,carbon-intensity/yearly,26,2000,2025
+Paraguay,PRY,False,electricity-generation/yearly,442,2000,2025
+Paraguay,PRY,False,power-sector-emissions/yearly,442,2000,2025
+Peru,PER,False,carbon-intensity/monthly,92,2019-01,2026-08
+Peru,PER,False,carbon-intensity/yearly,26,2000,2025
+Peru,PER,False,electricity-demand/monthly,92,2019-01,2026-08
+Peru,PER,False,electricity-generation/monthly,1380,2019-01,2026-08
+Peru,PER,False,electricity-generation/yearly,442,2000,2025
+Peru,PER,False,power-sector-emissions/monthly,1380,2019-01,2026-08
+Peru,PER,False,power-sector-emissions/yearly,442,2000,2025
+Poland,POL,False,carbon-intensity/monthly,140,2015-01,2026-08
+Poland,POL,False,carbon-intensity/yearly,36,1990,2025
+Poland,POL,False,electricity-demand/monthly,140,2015-01,2026-08
+Poland,POL,False,electricity-generation/monthly,2079,2015-01,2026-08
+Poland,POL,False,electricity-generation/yearly,612,1990,2025
+Poland,POL,False,installed-capacity/monthly,508,2016-01,2026-07
+Poland,POL,False,power-sector-emissions/monthly,2079,2015-01,2026-08
+Poland,POL,False,power-sector-emissions/yearly,612,1990,2025
+Portugal,PRT,False,carbon-intensity/monthly,140,2015-01,2026-08
+Portugal,PRT,False,carbon-intensity/yearly,36,1990,2025
+Portugal,PRT,False,electricity-demand/monthly,140,2015-01,2026-08
+Portugal,PRT,False,electricity-generation/monthly,2100,2015-01,2026-08
+Portugal,PRT,False,electricity-generation/yearly,612,1990,2025
+Portugal,PRT,False,installed-capacity/monthly,640,2016-01,2026-08
+Portugal,PRT,False,power-sector-emissions/monthly,2100,2015-01,2026-08
+Portugal,PRT,False,power-sector-emissions/yearly,612,1990,2025
+Puerto Rico,PRI,False,carbon-intensity/monthly,90,2019-01,2026-06
+Puerto Rico,PRI,False,carbon-intensity/yearly,26,2000,2025
+Puerto Rico,PRI,False,electricity-demand/monthly,90,2019-01,2026-06
+Puerto Rico,PRI,False,electricity-generation/monthly,1260,2019-01,2026-06
+Puerto Rico,PRI,False,electricity-generation/yearly,441,2000,2025
+Puerto Rico,PRI,False,power-sector-emissions/monthly,1260,2019-01,2026-06
+Puerto Rico,PRI,False,power-sector-emissions/yearly,441,2000,2025
+Qatar,QAT,False,carbon-intensity/monthly,84,2018-01,2024-12
+Qatar,QAT,False,carbon-intensity/yearly,26,2000,2025
+Qatar,QAT,False,electricity-demand/monthly,84,2018-01,2024-12
+Qatar,QAT,False,electricity-generation/monthly,336,2018-01,2024-12
+Qatar,QAT,False,electricity-generation/yearly,441,2000,2025
+Qatar,QAT,False,power-sector-emissions/monthly,336,2018-01,2024-12
+Qatar,QAT,False,power-sector-emissions/yearly,441,2000,2025
+Reunion,REU,False,carbon-intensity/yearly,24,2000,2023
+Reunion,REU,False,electricity-generation/yearly,324,2000,2023
+Reunion,REU,False,power-sector-emissions/yearly,324,2000,2023
+Romania,ROU,False,carbon-intensity/monthly,140,2015-01,2026-08
+Romania,ROU,False,carbon-intensity/yearly,36,1990,2025
+Romania,ROU,False,electricity-demand/monthly,140,2015-01,2026-08
+Romania,ROU,False,electricity-generation/monthly,2100,2015-01,2026-08
+Romania,ROU,False,electricity-generation/yearly,607,1990,2025
+Romania,ROU,False,power-sector-emissions/monthly,2100,2015-01,2026-08
+Romania,ROU,False,power-sector-emissions/yearly,607,1990,2025
+Russia,RUS,False,carbon-intensity/monthly,91,2019-01,2026-07
+Russia,RUS,False,carbon-intensity/yearly,41,1985,2025
+Russia,RUS,False,electricity-demand/monthly,91,2019-01,2026-07
+Russia,RUS,False,electricity-generation/monthly,1456,2019-01,2026-07
+Russia,RUS,False,electricity-generation/yearly,621,1985,2025
+Russia,RUS,False,power-sector-emissions/monthly,1456,2019-01,2026-07
+Russia,RUS,False,power-sector-emissions/yearly,621,1985,2025
+Rwanda,RWA,False,carbon-intensity/yearly,25,2000,2024
+Rwanda,RWA,False,electricity-generation/yearly,425,2000,2024
+Rwanda,RWA,False,power-sector-emissions/yearly,425,2000,2024
+Saint Kitts and Nevis,KNA,False,carbon-intensity/yearly,25,2000,2024
+Saint Kitts and Nevis,KNA,False,electricity-generation/yearly,424,2000,2024
+Saint Kitts and Nevis,KNA,False,power-sector-emissions/yearly,424,2000,2024
+Saint Lucia,LCA,False,carbon-intensity/yearly,25,2000,2024
+Saint Lucia,LCA,False,electricity-generation/yearly,424,2000,2024
+Saint Lucia,LCA,False,power-sector-emissions/yearly,424,2000,2024
+Saint Pierre and Miquelon,SPM,False,carbon-intensity/yearly,24,2000,2023
+Saint Pierre and Miquelon,SPM,False,electricity-generation/yearly,408,2000,2023
+Saint Pierre and Miquelon,SPM,False,power-sector-emissions/yearly,408,2000,2023
+Saint Vincent and the Grenadines,VCT,False,carbon-intensity/yearly,25,2000,2024
+Saint Vincent and the Grenadines,VCT,False,electricity-generation/yearly,424,2000,2024
+Saint Vincent and the Grenadines,VCT,False,power-sector-emissions/yearly,424,2000,2024
+Samoa,WSM,False,carbon-intensity/yearly,25,2000,2024
+Samoa,WSM,False,electricity-generation/yearly,424,2000,2024
+Samoa,WSM,False,power-sector-emissions/yearly,424,2000,2024
+Sao Tome and Principe,STP,False,carbon-intensity/yearly,24,2000,2023
+Sao Tome and Principe,STP,False,electricity-generation/yearly,408,2000,2023
+Sao Tome and Principe,STP,False,power-sector-emissions/yearly,408,2000,2023
+Saudi Arabia,SAU,False,carbon-intensity/yearly,40,1985,2024
+Saudi Arabia,SAU,False,electricity-generation/yearly,575,1985,2024
+Saudi Arabia,SAU,False,power-sector-emissions/yearly,575,1985,2024
+Senegal,SEN,False,carbon-intensity/yearly,25,2000,2024
+Senegal,SEN,False,electricity-generation/yearly,425,2000,2024
+Senegal,SEN,False,power-sector-emissions/yearly,425,2000,2024
+Serbia,SRB,False,carbon-intensity/monthly,115,2017-01,2026-07
+Serbia,SRB,False,carbon-intensity/yearly,36,1990,2025
+Serbia,SRB,False,electricity-demand/monthly,115,2017-01,2026-07
+Serbia,SRB,False,electricity-generation/monthly,1610,2017-01,2026-07
+Serbia,SRB,False,electricity-generation/yearly,600,1990,2025
+Serbia,SRB,False,power-sector-emissions/monthly,1610,2017-01,2026-07
+Serbia,SRB,False,power-sector-emissions/yearly,600,1990,2025
+Seychelles,SYC,False,carbon-intensity/yearly,25,2000,2024
+Seychelles,SYC,False,electricity-generation/yearly,425,2000,2024
+Seychelles,SYC,False,power-sector-emissions/yearly,425,2000,2024
+Sierra Leone,SLE,False,carbon-intensity/yearly,25,2000,2024
+Sierra Leone,SLE,False,electricity-generation/yearly,425,2000,2024
+Sierra Leone,SLE,False,power-sector-emissions/yearly,425,2000,2024
+Singapore,SGP,False,carbon-intensity/monthly,209,2009-01,2026-05
+Singapore,SGP,False,carbon-intensity/yearly,26,2000,2025
+Singapore,SGP,False,electricity-demand/monthly,209,2009-01,2026-05
+Singapore,SGP,False,electricity-generation/monthly,1929,2009-01,2026-05
+Singapore,SGP,False,electricity-generation/yearly,338,2000,2025
+Singapore,SGP,False,power-sector-emissions/monthly,1929,2009-01,2026-05
+Singapore,SGP,False,power-sector-emissions/yearly,338,2000,2025
+Slovakia,SVK,False,carbon-intensity/monthly,139,2015-01,2026-07
+Slovakia,SVK,False,carbon-intensity/yearly,36,1990,2025
+Slovakia,SVK,False,electricity-demand/monthly,139,2015-01,2026-07
+Slovakia,SVK,False,electricity-generation/monthly,2363,2015-01,2026-07
+Slovakia,SVK,False,electricity-generation/yearly,609,1990,2025
+Slovakia,SVK,False,power-sector-emissions/monthly,2363,2015-01,2026-07
+Slovakia,SVK,False,power-sector-emissions/yearly,609,1990,2025
+Slovenia,SVN,False,carbon-intensity/monthly,128,2016-01,2026-08
+Slovenia,SVN,False,carbon-intensity/yearly,36,1990,2025
+Slovenia,SVN,False,electricity-demand/monthly,128,2016-01,2026-08
+Slovenia,SVN,False,electricity-generation/monthly,2052,2016-01,2026-08
+Slovenia,SVN,False,electricity-generation/yearly,599,1990,2025
+Slovenia,SVN,False,power-sector-emissions/monthly,2052,2016-01,2026-08
+Slovenia,SVN,False,power-sector-emissions/yearly,599,1990,2025
+Solomon Islands,SLB,False,carbon-intensity/yearly,25,2000,2024
+Solomon Islands,SLB,False,electricity-generation/yearly,425,2000,2024
+Solomon Islands,SLB,False,power-sector-emissions/yearly,425,2000,2024
+Somalia,SOM,False,carbon-intensity/yearly,25,2000,2024
+Somalia,SOM,False,electricity-generation/yearly,425,2000,2024
+Somalia,SOM,False,power-sector-emissions/yearly,425,2000,2024
+South Africa,ZAF,False,carbon-intensity/monthly,103,2018-01,2026-07
+South Africa,ZAF,False,carbon-intensity/yearly,26,2000,2025
+South Africa,ZAF,False,electricity-demand/monthly,103,2018-01,2026-07
+South Africa,ZAF,False,electricity-generation/monthly,1648,2018-01,2026-07
+South Africa,ZAF,False,electricity-generation/yearly,416,2000,2025
+South Africa,ZAF,False,installed-capacity/monthly,276,2020-12,2026-08
+South Africa,ZAF,False,power-sector-emissions/monthly,1648,2018-01,2026-07
+South Africa,ZAF,False,power-sector-emissions/yearly,416,2000,2025
+South Korea,KOR,False,carbon-intensity/monthly,91,2019-01,2026-07
+South Korea,KOR,False,carbon-intensity/yearly,41,1985,2025
+South Korea,KOR,False,electricity-demand/monthly,91,2019-01,2026-07
+South Korea,KOR,False,electricity-generation/monthly,1456,2019-01,2026-07
+South Korea,KOR,False,electricity-generation/yearly,641,1985,2025
+South Korea,KOR,False,installed-capacity/monthly,424,2017-12,2026-09
+South Korea,KOR,False,power-sector-emissions/monthly,1456,2019-01,2026-07
+South Korea,KOR,False,power-sector-emissions/yearly,641,1985,2025
+South Sudan,SSD,False,carbon-intensity/yearly,13,2012,2024
+South Sudan,SSD,False,electricity-generation/yearly,221,2012,2024
+South Sudan,SSD,False,power-sector-emissions/yearly,221,2012,2024
+Spain,ESP,False,carbon-intensity/monthly,140,2015-01,2026-08
+Spain,ESP,False,carbon-intensity/yearly,36,1990,2025
+Spain,ESP,False,electricity-demand/monthly,140,2015-01,2026-08
+Spain,ESP,False,electricity-generation/monthly,2380,2015-01,2026-08
+Spain,ESP,False,electricity-generation/yearly,612,1990,2025
+Spain,ESP,False,installed-capacity/monthly,508,2016-01,2026-07
+Spain,ESP,False,power-sector-emissions/monthly,2380,2015-01,2026-08
+Spain,ESP,False,power-sector-emissions/yearly,612,1990,2025
+Sri Lanka,LKA,False,carbon-intensity/monthly,114,2015-01,2024-06
+Sri Lanka,LKA,False,carbon-intensity/yearly,26,2000,2025
+Sri Lanka,LKA,False,electricity-demand/monthly,114,2015-01,2024-06
+Sri Lanka,LKA,False,electricity-generation/monthly,1482,2015-01,2024-06
+Sri Lanka,LKA,False,electricity-generation/yearly,357,2000,2025
+Sri Lanka,LKA,False,power-sector-emissions/monthly,1482,2015-01,2024-06
+Sri Lanka,LKA,False,power-sector-emissions/yearly,357,2000,2025
+Sudan,SDN,False,carbon-intensity/yearly,25,2000,2024
+Sudan,SDN,False,electricity-generation/yearly,425,2000,2024
+Sudan,SDN,False,power-sector-emissions/yearly,425,2000,2024
+Suriname,SUR,False,carbon-intensity/yearly,25,2000,2024
+Suriname,SUR,False,electricity-generation/yearly,425,2000,2024
+Suriname,SUR,False,power-sector-emissions/yearly,425,2000,2024
+Sweden,SWE,False,carbon-intensity/monthly,140,2015-01,2026-08
+Sweden,SWE,False,carbon-intensity/yearly,36,1990,2025
+Sweden,SWE,False,electricity-demand/monthly,140,2015-01,2026-08
+Sweden,SWE,False,electricity-generation/monthly,1794,2015-01,2026-08
+Sweden,SWE,False,electricity-generation/yearly,612,1990,2025
+Sweden,SWE,False,power-sector-emissions/monthly,1794,2015-01,2026-08
+Sweden,SWE,False,power-sector-emissions/yearly,612,1990,2025
+Switzerland,CHE,False,carbon-intensity/monthly,113,2017-01,2026-05
+Switzerland,CHE,False,carbon-intensity/yearly,26,2000,2025
+Switzerland,CHE,False,electricity-demand/monthly,113,2017-01,2026-05
+Switzerland,CHE,False,electricity-generation/monthly,1469,2017-01,2026-05
+Switzerland,CHE,False,electricity-generation/yearly,416,2000,2025
+Switzerland,CHE,False,power-sector-emissions/monthly,1469,2017-01,2026-05
+Switzerland,CHE,False,power-sector-emissions/yearly,416,2000,2025
+Syria,SYR,False,carbon-intensity/yearly,25,2000,2024
+Syria,SYR,False,electricity-generation/yearly,425,2000,2024
+Syria,SYR,False,power-sector-emissions/yearly,425,2000,2024
+Taiwan (China),TWN,False,carbon-intensity/monthly,319,2000-01,2026-07
+Taiwan (China),TWN,False,carbon-intensity/yearly,41,1985,2025
+Taiwan (China),TWN,False,electricity-demand/monthly,319,2000-01,2026-07
+Taiwan (China),TWN,False,electricity-generation/monthly,5104,2000-01,2026-07
+Taiwan (China),TWN,False,electricity-generation/yearly,641,1985,2025
+Taiwan (China),TWN,False,installed-capacity/monthly,640,2016-01,2026-08
+Taiwan (China),TWN,False,power-sector-emissions/monthly,5104,2000-01,2026-07
+Taiwan (China),TWN,False,power-sector-emissions/yearly,641,1985,2025
+Tajikistan,TJK,False,carbon-intensity/monthly,87,2019-01,2026-03
+Tajikistan,TJK,False,carbon-intensity/yearly,26,2000,2025
+Tajikistan,TJK,False,electricity-demand/monthly,87,2019-01,2026-03
+Tajikistan,TJK,False,electricity-generation/monthly,1371,2019-01,2026-03
+Tajikistan,TJK,False,electricity-generation/yearly,442,2000,2025
+Tajikistan,TJK,False,power-sector-emissions/monthly,1371,2019-01,2026-03
+Tajikistan,TJK,False,power-sector-emissions/yearly,442,2000,2025
+Tanzania (the United Republic of),TZA,False,carbon-intensity/yearly,25,2000,2024
+Tanzania (the United Republic of),TZA,False,electricity-generation/yearly,425,2000,2024
+Tanzania (the United Republic of),TZA,False,power-sector-emissions/yearly,425,2000,2024
+Thailand,THA,False,carbon-intensity/monthly,89,2019-01,2026-05
+Thailand,THA,False,carbon-intensity/yearly,41,1985,2025
+Thailand,THA,False,electricity-demand/monthly,89,2019-01,2026-05
+Thailand,THA,False,electricity-generation/monthly,1335,2019-01,2026-05
+Thailand,THA,False,electricity-generation/yearly,615,1985,2025
+Thailand,THA,False,power-sector-emissions/monthly,1335,2019-01,2026-05
+Thailand,THA,False,power-sector-emissions/yearly,615,1985,2025
+The Philippines,PHL,False,carbon-intensity/monthly,114,2017-01,2026-06
+The Philippines,PHL,False,carbon-intensity/yearly,26,2000,2025
+The Philippines,PHL,False,electricity-demand/monthly,114,2017-01,2026-06
+The Philippines,PHL,False,electricity-generation/monthly,1710,2017-01,2026-06
+The Philippines,PHL,False,electricity-generation/yearly,441,2000,2025
+The Philippines,PHL,False,installed-capacity/monthly,635,2016-01,2026-07
+The Philippines,PHL,False,power-sector-emissions/monthly,1710,2017-01,2026-06
+The Philippines,PHL,False,power-sector-emissions/yearly,441,2000,2025
+Togo,TGO,False,carbon-intensity/yearly,25,2000,2024
+Togo,TGO,False,electricity-generation/yearly,425,2000,2024
+Togo,TGO,False,power-sector-emissions/yearly,425,2000,2024
+Tonga,TON,False,carbon-intensity/yearly,25,2000,2024
+Tonga,TON,False,electricity-generation/yearly,425,2000,2024
+Tonga,TON,False,power-sector-emissions/yearly,425,2000,2024
+Trinidad and Tobago,TTO,False,carbon-intensity/yearly,25,2000,2024
+Trinidad and Tobago,TTO,False,electricity-generation/yearly,425,2000,2024
+Trinidad and Tobago,TTO,False,power-sector-emissions/yearly,425,2000,2024
+Tunisia,TUN,False,carbon-intensity/monthly,77,2020-01,2026-05
+Tunisia,TUN,False,carbon-intensity/yearly,26,2000,2025
+Tunisia,TUN,False,electricity-demand/monthly,77,2020-01,2026-05
+Tunisia,TUN,False,electricity-generation/monthly,847,2020-01,2026-05
+Tunisia,TUN,False,electricity-generation/yearly,442,2000,2025
+Tunisia,TUN,False,power-sector-emissions/monthly,847,2020-01,2026-05
+Tunisia,TUN,False,power-sector-emissions/yearly,442,2000,2025
+Turkmenistan,TKM,False,carbon-intensity/yearly,25,2000,2024
+Turkmenistan,TKM,False,electricity-generation/yearly,425,2000,2024
+Turkmenistan,TKM,False,power-sector-emissions/yearly,425,2000,2024
+Turks and Caicos Islands,TCA,False,carbon-intensity/yearly,25,2000,2024
+Turks and Caicos Islands,TCA,False,electricity-generation/yearly,425,2000,2024
+Turks and Caicos Islands,TCA,False,power-sector-emissions/yearly,425,2000,2024
+Türkiye,TUR,False,carbon-intensity/monthly,104,2018-01,2026-08
+Türkiye,TUR,False,carbon-intensity/yearly,36,1990,2025
+Türkiye,TUR,False,electricity-demand/monthly,104,2018-01,2026-08
+Türkiye,TUR,False,electricity-generation/monthly,1664,2018-01,2026-08
+Türkiye,TUR,False,electricity-generation/yearly,612,1990,2025
+Türkiye,TUR,False,installed-capacity/monthly,512,2016-01,2026-08
+Türkiye,TUR,False,power-sector-emissions/monthly,1664,2018-01,2026-08
+Türkiye,TUR,False,power-sector-emissions/yearly,612,1990,2025
+Uganda,UGA,False,carbon-intensity/yearly,25,2000,2024
+Uganda,UGA,False,electricity-generation/yearly,425,2000,2024
+Uganda,UGA,False,power-sector-emissions/yearly,425,2000,2024
+Ukraine,UKR,False,carbon-intensity/monthly,105,2014-01,2022-09
+Ukraine,UKR,False,carbon-intensity/yearly,38,1985,2022
+Ukraine,UKR,False,electricity-demand/monthly,105,2014-01,2022-09
+Ukraine,UKR,False,electricity-generation/monthly,1365,2014-01,2022-09
+Ukraine,UKR,False,electricity-generation/yearly,616,1985,2022
+Ukraine,UKR,False,power-sector-emissions/monthly,1365,2014-01,2022-09
+Ukraine,UKR,False,power-sector-emissions/yearly,616,1985,2022
+United Arab Emirates,ARE,False,carbon-intensity/yearly,40,1985,2024
+United Arab Emirates,ARE,False,electricity-generation/yearly,572,1985,2024
+United Arab Emirates,ARE,False,power-sector-emissions/yearly,572,1985,2024
+United Kingdom,GBR,False,carbon-intensity/monthly,139,2015-01,2026-07
+United Kingdom,GBR,False,carbon-intensity/yearly,41,1985,2025
+United Kingdom,GBR,False,electricity-demand/monthly,139,2015-01,2026-07
+United Kingdom,GBR,False,electricity-generation/monthly,2224,2015-01,2026-07
+United Kingdom,GBR,False,electricity-generation/yearly,682,1985,2025
+United Kingdom,GBR,False,installed-capacity/monthly,632,2016-01,2026-08
+United Kingdom,GBR,False,power-sector-emissions/monthly,2224,2015-01,2026-07
+United Kingdom,GBR,False,power-sector-emissions/yearly,682,1985,2025
+United States,USA,False,carbon-intensity/monthly,308,2001-01,2026-08
+United States,USA,False,carbon-intensity/yearly,26,2000,2025
+United States,USA,False,electricity-demand/monthly,308,2001-01,2026-08
+United States,USA,False,electricity-generation/monthly,5212,2001-01,2026-08
+United States,USA,False,electricity-generation/yearly,442,2000,2025
+United States,USA,False,installed-capacity/monthly,635,2016-01,2026-07
+United States,USA,False,power-sector-emissions/monthly,5212,2001-01,2026-08
+United States,USA,False,power-sector-emissions/yearly,442,2000,2025
+Uruguay,URY,False,carbon-intensity/monthly,92,2019-01,2026-08
+Uruguay,URY,False,carbon-intensity/yearly,26,2000,2025
+Uruguay,URY,False,electricity-demand/monthly,92,2019-01,2026-08
+Uruguay,URY,False,electricity-generation/monthly,1196,2019-01,2026-08
+Uruguay,URY,False,electricity-generation/yearly,442,2000,2025
+Uruguay,URY,False,power-sector-emissions/monthly,1196,2019-01,2026-08
+Uruguay,URY,False,power-sector-emissions/yearly,442,2000,2025
+Uzbekistan,UZB,False,carbon-intensity/yearly,26,2000,2025
+Uzbekistan,UZB,False,electricity-generation/yearly,442,2000,2025
+Uzbekistan,UZB,False,power-sector-emissions/yearly,442,2000,2025
+Vanuatu,VUT,False,carbon-intensity/yearly,24,2000,2023
+Vanuatu,VUT,False,electricity-generation/yearly,408,2000,2023
+Vanuatu,VUT,False,power-sector-emissions/yearly,408,2000,2023
+Venezuela,VEN,False,carbon-intensity/yearly,25,2000,2024
+Venezuela,VEN,False,electricity-generation/yearly,425,2000,2024
+Venezuela,VEN,False,power-sector-emissions/yearly,425,2000,2024
+Viet Nam,VNM,False,carbon-intensity/monthly,82,2019-01,2025-10
+Viet Nam,VNM,False,carbon-intensity/yearly,41,1985,2025
+Viet Nam,VNM,False,electricity-demand/monthly,82,2019-01,2025-10
+Viet Nam,VNM,False,electricity-generation/monthly,1066,2019-01,2025-10
+Viet Nam,VNM,False,electricity-generation/yearly,616,1985,2025
+Viet Nam,VNM,False,power-sector-emissions/monthly,1066,2019-01,2025-10
+Viet Nam,VNM,False,power-sector-emissions/yearly,616,1985,2025
+Virgin Islands (British),VGB,False,carbon-intensity/yearly,24,2000,2023
+Virgin Islands (British),VGB,False,electricity-generation/yearly,408,2000,2023
+Virgin Islands (British),VGB,False,power-sector-emissions/yearly,408,2000,2023
+Virgin Islands (U.S.),VIR,False,carbon-intensity/yearly,24,2000,2023
+Virgin Islands (U.S.),VIR,False,electricity-generation/yearly,408,2000,2023
+Virgin Islands (U.S.),VIR,False,power-sector-emissions/yearly,408,2000,2023
+Yemen,YEM,False,carbon-intensity/yearly,25,2000,2024
+Yemen,YEM,False,electricity-generation/yearly,425,2000,2024
+Yemen,YEM,False,power-sector-emissions/yearly,425,2000,2024
+Zambia,ZMB,False,carbon-intensity/yearly,25,2000,2024
+Zambia,ZMB,False,electricity-generation/yearly,425,2000,2024
+Zambia,ZMB,False,power-sector-emissions/yearly,425,2000,2024
+Zimbabwe,ZWE,False,carbon-intensity/yearly,25,2000,2024
+Zimbabwe,ZWE,False,electricity-generation/yearly,425,2000,2024
+Zimbabwe,ZWE,False,power-sector-emissions/yearly,425,2000,2024
+ASEAN,,True,carbon-intensity/monthly,89,2019-01,2026-05
+ASEAN,,True,carbon-intensity/yearly,26,2000,2025
+ASEAN,,True,electricity-demand/monthly,89,2019-01,2026-05
+ASEAN,,True,electricity-generation/monthly,1424,2019-01,2026-05
+ASEAN,,True,electricity-generation/yearly,416,2000,2025
+ASEAN,,True,power-sector-emissions/monthly,1424,2019-01,2026-05
+ASEAN,,True,power-sector-emissions/yearly,416,2000,2025
+AU,,True,carbon-intensity/yearly,26,2000,2025
+AU,,True,electricity-generation/yearly,416,2000,2025
+AU,,True,power-sector-emissions/yearly,416,2000,2025
+Africa,,True,carbon-intensity/yearly,26,2000,2025
+Africa,,True,electricity-generation/yearly,416,2000,2025
+Africa,,True,power-sector-emissions/yearly,416,2000,2025
+Asia,,True,carbon-intensity/monthly,91,2019-01,2026-07
+Asia,,True,carbon-intensity/yearly,26,2000,2025
+Asia,,True,electricity-demand/monthly,91,2019-01,2026-07
+Asia,,True,electricity-generation/monthly,1456,2019-01,2026-07
+Asia,,True,electricity-generation/yearly,416,2000,2025
+Asia,,True,power-sector-emissions/monthly,1456,2019-01,2026-07
+Asia,,True,power-sector-emissions/yearly,416,2000,2025
+EU,,True,carbon-intensity/monthly,128,2016-01,2026-08
+EU,,True,carbon-intensity/yearly,26,2000,2025
+EU,,True,electricity-demand/monthly,128,2016-01,2026-08
+EU,,True,electricity-generation/monthly,2176,2016-01,2026-08
+EU,,True,electricity-generation/yearly,442,2000,2025
+EU,,True,installed-capacity/monthly,272,2020-12,2026-07
+EU,,True,power-sector-emissions/monthly,2176,2016-01,2026-08
+EU,,True,power-sector-emissions/yearly,442,2000,2025
+Europe,,True,carbon-intensity/monthly,128,2016-01,2026-08
+Europe,,True,carbon-intensity/yearly,26,2000,2025
+Europe,,True,electricity-demand/monthly,128,2016-01,2026-08
+Europe,,True,electricity-generation/monthly,2048,2016-01,2026-08
+Europe,,True,electricity-generation/yearly,416,2000,2025
+Europe,,True,power-sector-emissions/monthly,2048,2016-01,2026-08
+Europe,,True,power-sector-emissions/yearly,416,2000,2025
+G20,,True,carbon-intensity/monthly,91,2019-01,2026-07
+G20,,True,carbon-intensity/yearly,26,2000,2025
+G20,,True,electricity-demand/monthly,91,2019-01,2026-07
+G20,,True,electricity-generation/monthly,1456,2019-01,2026-07
+G20,,True,electricity-generation/yearly,416,2000,2025
+G20,,True,installed-capacity/monthly,276,2020-12,2026-08
+G20,,True,power-sector-emissions/monthly,1456,2019-01,2026-07
+G20,,True,power-sector-emissions/yearly,416,2000,2025
+G7,,True,carbon-intensity/monthly,91,2019-01,2026-07
+G7,,True,carbon-intensity/yearly,26,2000,2025
+G7,,True,electricity-demand/monthly,91,2019-01,2026-07
+G7,,True,electricity-generation/monthly,1456,2019-01,2026-07
+G7,,True,electricity-generation/yearly,416,2000,2025
+G7,,True,installed-capacity/monthly,272,2020-12,2026-07
+G7,,True,power-sector-emissions/monthly,1456,2019-01,2026-07
+G7,,True,power-sector-emissions/yearly,416,2000,2025
+Latin America and Caribbean,,True,carbon-intensity/monthly,91,2019-01,2026-07
+Latin America and Caribbean,,True,carbon-intensity/yearly,26,2000,2025
+Latin America and Caribbean,,True,electricity-demand/monthly,91,2019-01,2026-07
+Latin America and Caribbean,,True,electricity-generation/monthly,1456,2019-01,2026-07
+Latin America and Caribbean,,True,electricity-generation/yearly,416,2000,2025
+Latin America and Caribbean,,True,power-sector-emissions/monthly,1456,2019-01,2026-07
+Latin America and Caribbean,,True,power-sector-emissions/yearly,416,2000,2025
+MENA,,True,carbon-intensity/yearly,26,2000,2025
+MENA,,True,electricity-generation/yearly,416,2000,2025
+MENA,,True,power-sector-emissions/yearly,416,2000,2025
+Middle East,,True,carbon-intensity/yearly,26,2000,2025
+Middle East,,True,electricity-generation/yearly,416,2000,2025
+Middle East,,True,power-sector-emissions/yearly,416,2000,2025
+North America,,True,carbon-intensity/monthly,198,2010-01,2026-06
+North America,,True,carbon-intensity/yearly,26,2000,2025
+North America,,True,electricity-demand/monthly,198,2010-01,2026-06
+North America,,True,electricity-generation/monthly,3168,2010-01,2026-06
+North America,,True,electricity-generation/yearly,416,2000,2025
+North America,,True,power-sector-emissions/monthly,3168,2010-01,2026-06
+North America,,True,power-sector-emissions/yearly,416,2000,2025
+OECD,,True,carbon-intensity/monthly,91,2019-01,2026-07
+OECD,,True,carbon-intensity/yearly,26,2000,2025
+OECD,,True,electricity-demand/monthly,91,2019-01,2026-07
+OECD,,True,electricity-generation/monthly,1456,2019-01,2026-07
+OECD,,True,electricity-generation/yearly,416,2000,2025
+OECD,,True,installed-capacity/monthly,272,2020-12,2026-07
+OECD,,True,power-sector-emissions/monthly,1456,2019-01,2026-07
+OECD,,True,power-sector-emissions/yearly,416,2000,2025
+Oceania,,True,carbon-intensity/monthly,90,2019-01,2026-06
+Oceania,,True,carbon-intensity/yearly,26,2000,2025
+Oceania,,True,electricity-demand/monthly,90,2019-01,2026-06
+Oceania,,True,electricity-generation/monthly,1350,2019-01,2026-06
+Oceania,,True,electricity-generation/yearly,416,2000,2025
+Oceania,,True,power-sector-emissions/monthly,1350,2019-01,2026-06
+Oceania,,True,power-sector-emissions/yearly,416,2000,2025
+World,,True,carbon-intensity/monthly,91,2019-01,2026-07
+World,,True,carbon-intensity/yearly,26,2000,2025
+World,,True,electricity-demand/monthly,91,2019-01,2026-07
+World,,True,electricity-generation/monthly,1456,2019-01,2026-07
+World,,True,electricity-generation/yearly,416,2000,2025
+World,,True,installed-capacity/monthly,276,2020-12,2026-08
+World,,True,power-sector-emissions/monthly,1456,2019-01,2026-07
+World,,True,power-sector-emissions/yearly,416,2000,2025
