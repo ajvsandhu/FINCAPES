@@ -1,0 +1,8 @@
+measure,g_per_kwh,basis
+Ember national average,698.7,"All generation, lifecycle CO2e"
+ESDM Jamali operating margin only,800.0,Lower bound (calculated)
+ESDM Jamali 75/25,840.0,Solar and wind (published)
+ESDM Jamali 50/50 (The UN's standard method for grid emission factors),870.0,"The UN's standard method for grid emission factors: geothermal, first crediting period (published)"
+ESDM Jamali 25/75,905.0,"Geothermal, second and third crediting periods (calculated)"
+ESDM Jamali build margin only,940.0,Upper bound (calculated)
+Coal assumption,917.0,Coal plants only

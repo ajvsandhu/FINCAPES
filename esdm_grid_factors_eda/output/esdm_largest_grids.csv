@@ -1,0 +1,16 @@
+no,grid,province,num_plants,om_tco2_per_mwh,bm_tco2_per_mwh,cm_expost_50_50,cm_expost_75_25,cm_exante_50_50,cm_exante_75_25,source_note
+125,Sumatera,Aceh; Bengkulu; Jambi; Lampung; Riau; Sumatera Barat; Sumatera Selatan; Sumatera Utara,463,0.77,1.12,0.94,0.86,0.93,0.84,
+38,Jamali,Banten; DKI Jakarta; Jawa Barat; Jawa Tengah; DI Yogyakarta; Jawa Timur,302,0.8,0.94,0.87,0.84,0.87,0.83,
+141,Ternate-Tidore,Maluku Utara,140,0.42,0.54,0.48,0.45,0.62,0.66,
+123,Sulselbar,Sulawesi Selatan; Sulawesi Barat,137,0.73,1.17,0.95,0.84,0.95,0.84,
+10,Barito,Kalimantan Tengah,121,1.2,1.41,1.31,1.25,1.28,1.21,
+32,Ende,Nusa Tenggara Timur,105,1.08,0.97,1.03,1.05,1.12,1.2,
+73,Mahakam,Kalimantan Timur,97,1.12,1.16,1.14,1.13,1.14,1.13,
+124,Sulutgo,Sulawesi Utara; Gorontalo,73,0.67,0.9,0.78,0.73,0.78,0.72,'0m78' in source read as 0.78
+68,Lombok,Nusa Tenggara Barat,54,1.27,1.96,1.61,1.44,1.39,1.11,
+149,Waingapu,Nusa Tenggara Timur,51,0.54,0.57,0.55,0.54,0.6,0.61,
+83,Maumere,Nusa Tenggara Timur,50,0.57,0.54,0.56,0.56,0.61,0.63,
+8,Bangka,Bangka Belitung,48,1.04,0.74,0.89,0.97,0.88,0.95,
+11,Batam-Tanjung Pinang,Kepulauan Riau,47,0.76,0.88,0.82,0.79,0.85,0.83,
+48,Khatulistiwa,Kalimantan Barat,46,1.67,1.59,1.63,1.65,1.41,1.31,
+46,Kendari,Sulawesi Tenggara,41,0.87,1.18,1.02,0.95,1.08,1.04,

@@ -1,0 +1,451 @@
+grid,scenario,year,fuel_ruptl,fuel,generation_gwh
+Sumatera,RE Base,2025,Air,Hydro,9440.0
+Sumatera,RE Base,2026,Air,Hydro,11911.0
+Sumatera,RE Base,2027,Air,Hydro,13809.0
+Sumatera,RE Base,2028,Air,Hydro,14537.0
+Sumatera,RE Base,2029,Air,Hydro,15709.0
+Sumatera,RE Base,2030,Air,Hydro,16507.0
+Sumatera,RE Base,2031,Air,Hydro,18116.0
+Sumatera,RE Base,2032,Air,Hydro,20436.0
+Sumatera,RE Base,2033,Air,Hydro,20737.0
+Sumatera,RE Base,2034,Air,Hydro,21787.0
+Sumatera,RE Base,2025,Panas Bumi,Geothermal,6544.0
+Sumatera,RE Base,2026,Panas Bumi,Geothermal,6869.0
+Sumatera,RE Base,2027,Panas Bumi,Geothermal,7076.0
+Sumatera,RE Base,2028,Panas Bumi,Geothermal,8090.0
+Sumatera,RE Base,2029,Panas Bumi,Geothermal,9232.0
+Sumatera,RE Base,2030,Panas Bumi,Geothermal,9566.0
+Sumatera,RE Base,2031,Panas Bumi,Geothermal,11373.0
+Sumatera,RE Base,2032,Panas Bumi,Geothermal,12023.0
+Sumatera,RE Base,2033,Panas Bumi,Geothermal,12588.0
+Sumatera,RE Base,2034,Panas Bumi,Geothermal,15747.0
+Sumatera,RE Base,2025,Biomassa,Bioenergy,471.0
+Sumatera,RE Base,2026,Biomassa,Bioenergy,473.0
+Sumatera,RE Base,2027,Biomassa,Bioenergy,510.0
+Sumatera,RE Base,2028,Biomassa,Bioenergy,573.0
+Sumatera,RE Base,2029,Biomassa,Bioenergy,603.0
+Sumatera,RE Base,2030,Biomassa,Bioenergy,1243.0
+Sumatera,RE Base,2031,Biomassa,Bioenergy,1993.0
+Sumatera,RE Base,2032,Biomassa,Bioenergy,2171.0
+Sumatera,RE Base,2033,Biomassa,Bioenergy,2193.0
+Sumatera,RE Base,2034,Biomassa,Bioenergy,2298.0
+Sumatera,RE Base,2025,Sampah,Bioenergy,0.0
+Sumatera,RE Base,2026,Sampah,Bioenergy,21.0
+Sumatera,RE Base,2027,Sampah,Bioenergy,85.0
+Sumatera,RE Base,2028,Sampah,Bioenergy,85.0
+Sumatera,RE Base,2029,Sampah,Bioenergy,85.0
+Sumatera,RE Base,2030,Sampah,Bioenergy,85.0
+Sumatera,RE Base,2031,Sampah,Bioenergy,85.0
+Sumatera,RE Base,2032,Sampah,Bioenergy,85.0
+Sumatera,RE Base,2033,Sampah,Bioenergy,85.0
+Sumatera,RE Base,2034,Sampah,Bioenergy,85.0
+Sumatera,RE Base,2025,Surya,Solar,88.0
+Sumatera,RE Base,2026,Surya,Solar,134.0
+Sumatera,RE Base,2027,Surya,Solar,229.0
+Sumatera,RE Base,2028,Surya,Solar,315.0
+Sumatera,RE Base,2029,Surya,Solar,486.0
+Sumatera,RE Base,2030,Surya,Solar,1074.0
+Sumatera,RE Base,2031,Surya,Solar,1392.0
+Sumatera,RE Base,2032,Surya,Solar,1663.0
+Sumatera,RE Base,2033,Surya,Solar,2091.0
+Sumatera,RE Base,2034,Surya,Solar,2755.0
+Sumatera,RE Base,2025,Bayu,Wind,0.0
+Sumatera,RE Base,2026,Bayu,Wind,42.0
+Sumatera,RE Base,2027,Bayu,Wind,169.0
+Sumatera,RE Base,2028,Bayu,Wind,211.0
+Sumatera,RE Base,2029,Bayu,Wind,337.0
+Sumatera,RE Base,2030,Bayu,Wind,422.0
+Sumatera,RE Base,2031,Bayu,Wind,675.0
+Sumatera,RE Base,2032,Bayu,Wind,675.0
+Sumatera,RE Base,2033,Bayu,Wind,881.0
+Sumatera,RE Base,2034,Bayu,Wind,1579.0
+Sumatera,RE Base,2025,Lainnya,Other renewables,578.0
+Sumatera,RE Base,2026,Lainnya,Other renewables,561.0
+Sumatera,RE Base,2027,Lainnya,Other renewables,382.0
+Sumatera,RE Base,2028,Lainnya,Other renewables,254.0
+Sumatera,RE Base,2029,Lainnya,Other renewables,150.0
+Sumatera,RE Base,2030,Lainnya,Other renewables,154.0
+Sumatera,RE Base,2031,Lainnya,Other renewables,164.0
+Sumatera,RE Base,2032,Lainnya,Other renewables,159.0
+Sumatera,RE Base,2033,Lainnya,Other renewables,153.0
+Sumatera,RE Base,2034,Lainnya,Other renewables,119.0
+Sumatera,RE Base,2025,Gas,Gas,11366.0
+Sumatera,RE Base,2026,Gas,Gas,11190.0
+Sumatera,RE Base,2027,Gas,Gas,11859.0
+Sumatera,RE Base,2028,Gas,Gas,12026.0
+Sumatera,RE Base,2029,Gas,Gas,12049.0
+Sumatera,RE Base,2030,Gas,Gas,11969.0
+Sumatera,RE Base,2031,Gas,Gas,11556.0
+Sumatera,RE Base,2032,Gas,Gas,11505.0
+Sumatera,RE Base,2033,Gas,Gas,10713.0
+Sumatera,RE Base,2034,Gas,Gas,11005.0
+Sumatera,RE Base,2025,BBM,Oil,1476.0
+Sumatera,RE Base,2026,BBM,Oil,1444.0
+Sumatera,RE Base,2027,BBM,Oil,891.0
+Sumatera,RE Base,2028,BBM,Oil,592.0
+Sumatera,RE Base,2029,BBM,Oil,349.0
+Sumatera,RE Base,2030,BBM,Oil,359.0
+Sumatera,RE Base,2031,BBM,Oil,384.0
+Sumatera,RE Base,2032,BBM,Oil,370.0
+Sumatera,RE Base,2033,BBM,Oil,356.0
+Sumatera,RE Base,2034,BBM,Oil,278.0
+Sumatera,RE Base,2025,Batubara,Coal,30225.0
+Sumatera,RE Base,2026,Batubara,Coal,29804.0
+Sumatera,RE Base,2027,Batubara,Coal,32404.0
+Sumatera,RE Base,2028,Batubara,Coal,33169.0
+Sumatera,RE Base,2029,Batubara,Coal,34286.0
+Sumatera,RE Base,2030,Batubara,Coal,35862.0
+Sumatera,RE Base,2031,Batubara,Coal,39594.0
+Sumatera,RE Base,2032,Batubara,Coal,46367.0
+Sumatera,RE Base,2033,Batubara,Coal,52846.0
+Sumatera,RE Base,2034,Batubara,Coal,53760.0
+Sumatera,RE Base,2025,Impor,Imports,655.0
+Sumatera,RE Base,2026,Impor,Imports,691.0
+Sumatera,RE Base,2027,Impor,Imports,745.0
+Sumatera,RE Base,2028,Impor,Imports,777.0
+Sumatera,RE Base,2029,Impor,Imports,796.0
+Sumatera,RE Base,2030,Impor,Imports,843.0
+Sumatera,RE Base,2031,Impor,Imports,868.0
+Sumatera,RE Base,2032,Impor,Imports,921.0
+Sumatera,RE Base,2033,Impor,Imports,980.0
+Sumatera,RE Base,2034,Impor,Imports,1040.0
+Sumatera,ARED,2025,Air,Hydro,9440.0
+Sumatera,ARED,2026,Air,Hydro,11911.0
+Sumatera,ARED,2027,Air,Hydro,13809.0
+Sumatera,ARED,2028,Air,Hydro,14537.0
+Sumatera,ARED,2029,Air,Hydro,15709.0
+Sumatera,ARED,2030,Air,Hydro,16507.0
+Sumatera,ARED,2031,Air,Hydro,18116.0
+Sumatera,ARED,2032,Air,Hydro,20436.0
+Sumatera,ARED,2033,Air,Hydro,20737.0
+Sumatera,ARED,2034,Air,Hydro,21787.0
+Sumatera,ARED,2025,Panas Bumi,Geothermal,6544.0
+Sumatera,ARED,2026,Panas Bumi,Geothermal,6869.0
+Sumatera,ARED,2027,Panas Bumi,Geothermal,7076.0
+Sumatera,ARED,2028,Panas Bumi,Geothermal,8090.0
+Sumatera,ARED,2029,Panas Bumi,Geothermal,9232.0
+Sumatera,ARED,2030,Panas Bumi,Geothermal,9566.0
+Sumatera,ARED,2031,Panas Bumi,Geothermal,11373.0
+Sumatera,ARED,2032,Panas Bumi,Geothermal,12023.0
+Sumatera,ARED,2033,Panas Bumi,Geothermal,12588.0
+Sumatera,ARED,2034,Panas Bumi,Geothermal,15747.0
+Sumatera,ARED,2025,Biomassa,Bioenergy,471.0
+Sumatera,ARED,2026,Biomassa,Bioenergy,473.0
+Sumatera,ARED,2027,Biomassa,Bioenergy,510.0
+Sumatera,ARED,2028,Biomassa,Bioenergy,573.0
+Sumatera,ARED,2029,Biomassa,Bioenergy,1450.0
+Sumatera,ARED,2030,Biomassa,Bioenergy,1808.0
+Sumatera,ARED,2031,Biomassa,Bioenergy,2558.0
+Sumatera,ARED,2032,Biomassa,Bioenergy,2699.0
+Sumatera,ARED,2033,Biomassa,Bioenergy,2609.0
+Sumatera,ARED,2034,Biomassa,Bioenergy,2734.0
+Sumatera,ARED,2025,Sampah,Bioenergy,0.0
+Sumatera,ARED,2026,Sampah,Bioenergy,21.0
+Sumatera,ARED,2027,Sampah,Bioenergy,85.0
+Sumatera,ARED,2028,Sampah,Bioenergy,85.0
+Sumatera,ARED,2029,Sampah,Bioenergy,85.0
+Sumatera,ARED,2030,Sampah,Bioenergy,85.0
+Sumatera,ARED,2031,Sampah,Bioenergy,85.0
+Sumatera,ARED,2032,Sampah,Bioenergy,85.0
+Sumatera,ARED,2033,Sampah,Bioenergy,85.0
+Sumatera,ARED,2034,Sampah,Bioenergy,85.0
+Sumatera,ARED,2025,Surya,Solar,88.0
+Sumatera,ARED,2026,Surya,Solar,134.0
+Sumatera,ARED,2027,Surya,Solar,229.0
+Sumatera,ARED,2028,Surya,Solar,315.0
+Sumatera,ARED,2029,Surya,Solar,486.0
+Sumatera,ARED,2030,Surya,Solar,1074.0
+Sumatera,ARED,2031,Surya,Solar,1392.0
+Sumatera,ARED,2032,Surya,Solar,1663.0
+Sumatera,ARED,2033,Surya,Solar,2091.0
+Sumatera,ARED,2034,Surya,Solar,2755.0
+Sumatera,ARED,2025,Bayu,Wind,0.0
+Sumatera,ARED,2026,Bayu,Wind,42.0
+Sumatera,ARED,2027,Bayu,Wind,169.0
+Sumatera,ARED,2028,Bayu,Wind,211.0
+Sumatera,ARED,2029,Bayu,Wind,337.0
+Sumatera,ARED,2030,Bayu,Wind,422.0
+Sumatera,ARED,2031,Bayu,Wind,675.0
+Sumatera,ARED,2032,Bayu,Wind,675.0
+Sumatera,ARED,2033,Bayu,Wind,881.0
+Sumatera,ARED,2034,Bayu,Wind,1579.0
+Sumatera,ARED,2025,Nuklir,Nuclear,0.0
+Sumatera,ARED,2026,Nuklir,Nuclear,0.0
+Sumatera,ARED,2027,Nuklir,Nuclear,0.0
+Sumatera,ARED,2028,Nuklir,Nuclear,0.0
+Sumatera,ARED,2029,Nuklir,Nuclear,0.0
+Sumatera,ARED,2030,Nuklir,Nuclear,0.0
+Sumatera,ARED,2031,Nuklir,Nuclear,0.0
+Sumatera,ARED,2032,Nuklir,Nuclear,438.0
+Sumatera,ARED,2033,Nuklir,Nuclear,1752.0
+Sumatera,ARED,2034,Nuklir,Nuclear,1752.0
+Sumatera,ARED,2025,Lainnya,Other renewables,578.0
+Sumatera,ARED,2026,Lainnya,Other renewables,561.0
+Sumatera,ARED,2027,Lainnya,Other renewables,382.0
+Sumatera,ARED,2028,Lainnya,Other renewables,254.0
+Sumatera,ARED,2029,Lainnya,Other renewables,150.0
+Sumatera,ARED,2030,Lainnya,Other renewables,154.0
+Sumatera,ARED,2031,Lainnya,Other renewables,164.0
+Sumatera,ARED,2032,Lainnya,Other renewables,159.0
+Sumatera,ARED,2033,Lainnya,Other renewables,153.0
+Sumatera,ARED,2034,Lainnya,Other renewables,119.0
+Sumatera,ARED,2025,Gas,Gas,11366.0
+Sumatera,ARED,2026,Gas,Gas,11190.0
+Sumatera,ARED,2027,Gas,Gas,11859.0
+Sumatera,ARED,2028,Gas,Gas,12026.0
+Sumatera,ARED,2029,Gas,Gas,12049.0
+Sumatera,ARED,2030,Gas,Gas,11969.0
+Sumatera,ARED,2031,Gas,Gas,11556.0
+Sumatera,ARED,2032,Gas,Gas,11505.0
+Sumatera,ARED,2033,Gas,Gas,10713.0
+Sumatera,ARED,2034,Gas,Gas,11005.0
+Sumatera,ARED,2025,BBM,Oil,1476.0
+Sumatera,ARED,2026,BBM,Oil,1444.0
+Sumatera,ARED,2027,BBM,Oil,891.0
+Sumatera,ARED,2028,BBM,Oil,592.0
+Sumatera,ARED,2029,BBM,Oil,349.0
+Sumatera,ARED,2030,BBM,Oil,359.0
+Sumatera,ARED,2031,BBM,Oil,384.0
+Sumatera,ARED,2032,BBM,Oil,370.0
+Sumatera,ARED,2033,BBM,Oil,356.0
+Sumatera,ARED,2034,BBM,Oil,278.0
+Sumatera,ARED,2025,Batubara,Coal,30225.0
+Sumatera,ARED,2026,Batubara,Coal,29804.0
+Sumatera,ARED,2027,Batubara,Coal,32404.0
+Sumatera,ARED,2028,Batubara,Coal,33169.0
+Sumatera,ARED,2029,Batubara,Coal,33438.0
+Sumatera,ARED,2030,Batubara,Coal,35297.0
+Sumatera,ARED,2031,Batubara,Coal,39029.0
+Sumatera,ARED,2032,Batubara,Coal,45401.0
+Sumatera,ARED,2033,Batubara,Coal,50679.0
+Sumatera,ARED,2034,Batubara,Coal,51571.0
+Sumatera,ARED,2025,Impor,Imports,655.0
+Sumatera,ARED,2026,Impor,Imports,691.0
+Sumatera,ARED,2027,Impor,Imports,745.0
+Sumatera,ARED,2028,Impor,Imports,777.0
+Sumatera,ARED,2029,Impor,Imports,796.0
+Sumatera,ARED,2030,Impor,Imports,843.0
+Sumatera,ARED,2031,Impor,Imports,868.0
+Sumatera,ARED,2032,Impor,Imports,921.0
+Sumatera,ARED,2033,Impor,Imports,980.0
+Sumatera,ARED,2034,Impor,Imports,1040.0
+Jamali,RE Base,2025,Air,Hydro,11191.0
+Jamali,RE Base,2026,Air,Hydro,11263.0
+Jamali,RE Base,2027,Air,Hydro,11852.0
+Jamali,RE Base,2028,Air,Hydro,14817.0
+Jamali,RE Base,2029,Air,Hydro,14908.0
+Jamali,RE Base,2030,Air,Hydro,15058.0
+Jamali,RE Base,2031,Air,Hydro,20324.0
+Jamali,RE Base,2032,Air,Hydro,26252.0
+Jamali,RE Base,2033,Air,Hydro,29598.0
+Jamali,RE Base,2034,Air,Hydro,29600.0
+Jamali,RE Base,2025,Panas Bumi,Geothermal,9682.0
+Jamali,RE Base,2026,Panas Bumi,Geothermal,10389.0
+Jamali,RE Base,2027,Panas Bumi,Geothermal,11341.0
+Jamali,RE Base,2028,Panas Bumi,Geothermal,12289.0
+Jamali,RE Base,2029,Panas Bumi,Geothermal,13078.0
+Jamali,RE Base,2030,Panas Bumi,Geothermal,15252.0
+Jamali,RE Base,2031,Panas Bumi,Geothermal,23262.0
+Jamali,RE Base,2032,Panas Bumi,Geothermal,27529.0
+Jamali,RE Base,2033,Panas Bumi,Geothermal,35043.0
+Jamali,RE Base,2034,Panas Bumi,Geothermal,37613.0
+Jamali,RE Base,2025,Biomassa,Bioenergy,2333.0
+Jamali,RE Base,2026,Biomassa,Bioenergy,2731.0
+Jamali,RE Base,2027,Biomassa,Bioenergy,3357.0
+Jamali,RE Base,2028,Biomassa,Bioenergy,3366.0
+Jamali,RE Base,2029,Biomassa,Bioenergy,3357.0
+Jamali,RE Base,2030,Biomassa,Bioenergy,1937.0
+Jamali,RE Base,2031,Biomassa,Bioenergy,1870.0
+Jamali,RE Base,2032,Biomassa,Bioenergy,1875.0
+Jamali,RE Base,2033,Biomassa,Bioenergy,1870.0
+Jamali,RE Base,2034,Biomassa,Bioenergy,1798.0
+Jamali,RE Base,2025,Sampah,Bioenergy,98.0
+Jamali,RE Base,2026,Sampah,Bioenergy,98.0
+Jamali,RE Base,2027,Sampah,Bioenergy,98.0
+Jamali,RE Base,2028,Sampah,Bioenergy,627.0
+Jamali,RE Base,2029,Sampah,Bioenergy,1409.0
+Jamali,RE Base,2030,Sampah,Bioenergy,1973.0
+Jamali,RE Base,2031,Sampah,Bioenergy,2142.0
+Jamali,RE Base,2032,Sampah,Bioenergy,2148.0
+Jamali,RE Base,2033,Sampah,Bioenergy,2242.0
+Jamali,RE Base,2034,Sampah,Bioenergy,2242.0
+Jamali,RE Base,2025,Surya,Solar,2008.0
+Jamali,RE Base,2026,Surya,Solar,2294.0
+Jamali,RE Base,2027,Surya,Solar,2832.0
+Jamali,RE Base,2028,Surya,Solar,4455.0
+Jamali,RE Base,2029,Surya,Solar,4671.0
+Jamali,RE Base,2030,Surya,Solar,5855.0
+Jamali,RE Base,2031,Surya,Solar,6400.0
+Jamali,RE Base,2032,Surya,Solar,6834.0
+Jamali,RE Base,2033,Surya,Solar,7315.0
+Jamali,RE Base,2034,Surya,Solar,8478.0
+Jamali,RE Base,2025,Bayu,Wind,0.0
+Jamali,RE Base,2026,Bayu,Wind,177.0
+Jamali,RE Base,2027,Bayu,Wind,254.0
+Jamali,RE Base,2028,Bayu,Wind,415.0
+Jamali,RE Base,2029,Bayu,Wind,611.0
+Jamali,RE Base,2030,Bayu,Wind,763.0
+Jamali,RE Base,2031,Bayu,Wind,1000.0
+Jamali,RE Base,2032,Bayu,Wind,1438.0
+Jamali,RE Base,2033,Bayu,Wind,1669.0
+Jamali,RE Base,2034,Bayu,Wind,2242.0
+Jamali,RE Base,2025,Lainnya,Other renewables,0.0
+Jamali,RE Base,2026,Lainnya,Other renewables,0.0
+Jamali,RE Base,2027,Lainnya,Other renewables,0.0
+Jamali,RE Base,2028,Lainnya,Other renewables,0.0
+Jamali,RE Base,2029,Lainnya,Other renewables,0.0
+Jamali,RE Base,2030,Lainnya,Other renewables,0.0
+Jamali,RE Base,2031,Lainnya,Other renewables,0.0
+Jamali,RE Base,2032,Lainnya,Other renewables,0.0
+Jamali,RE Base,2033,Lainnya,Other renewables,0.0
+Jamali,RE Base,2034,Lainnya,Other renewables,0.0
+Jamali,RE Base,2025,Gas,Gas,38983.0
+Jamali,RE Base,2026,Gas,Gas,43072.0
+Jamali,RE Base,2027,Gas,Gas,44957.0
+Jamali,RE Base,2028,Gas,Gas,49309.0
+Jamali,RE Base,2029,Gas,Gas,59724.0
+Jamali,RE Base,2030,Gas,Gas,67717.0
+Jamali,RE Base,2031,Gas,Gas,70802.0
+Jamali,RE Base,2032,Gas,Gas,74782.0
+Jamali,RE Base,2033,Gas,Gas,79013.0
+Jamali,RE Base,2034,Gas,Gas,95231.0
+Jamali,RE Base,2025,BBM,Oil,1904.0
+Jamali,RE Base,2026,BBM,Oil,967.0
+Jamali,RE Base,2027,BBM,Oil,561.0
+Jamali,RE Base,2028,BBM,Oil,319.0
+Jamali,RE Base,2029,BBM,Oil,79.0
+Jamali,RE Base,2030,BBM,Oil,80.0
+Jamali,RE Base,2031,BBM,Oil,65.0
+Jamali,RE Base,2032,BBM,Oil,37.0
+Jamali,RE Base,2033,BBM,Oil,0.0
+Jamali,RE Base,2034,BBM,Oil,0.0
+Jamali,RE Base,2025,Batubara,Coal,185202.0
+Jamali,RE Base,2026,Batubara,Coal,192173.0
+Jamali,RE Base,2027,Batubara,Coal,199830.0
+Jamali,RE Base,2028,Batubara,Coal,203950.0
+Jamali,RE Base,2029,Batubara,Coal,203592.0
+Jamali,RE Base,2030,Batubara,Coal,205012.0
+Jamali,RE Base,2031,Batubara,Coal,199905.0
+Jamali,RE Base,2032,Batubara,Coal,200453.0
+Jamali,RE Base,2033,Batubara,Coal,199905.0
+Jamali,RE Base,2034,Batubara,Coal,192216.0
+Jamali,RE Base,2025,Impor,Imports,0.0
+Jamali,RE Base,2026,Impor,Imports,0.0
+Jamali,RE Base,2027,Impor,Imports,0.0
+Jamali,RE Base,2028,Impor,Imports,0.0
+Jamali,RE Base,2029,Impor,Imports,0.0
+Jamali,RE Base,2030,Impor,Imports,0.0
+Jamali,RE Base,2031,Impor,Imports,0.0
+Jamali,RE Base,2032,Impor,Imports,0.0
+Jamali,RE Base,2033,Impor,Imports,0.0
+Jamali,RE Base,2034,Impor,Imports,0.0
+Jamali,ARED,2025,Air,Hydro,11191.0
+Jamali,ARED,2026,Air,Hydro,11263.0
+Jamali,ARED,2027,Air,Hydro,11852.0
+Jamali,ARED,2028,Air,Hydro,14817.0
+Jamali,ARED,2029,Air,Hydro,14908.0
+Jamali,ARED,2030,Air,Hydro,15058.0
+Jamali,ARED,2031,Air,Hydro,20324.0
+Jamali,ARED,2032,Air,Hydro,26252.0
+Jamali,ARED,2033,Air,Hydro,29598.0
+Jamali,ARED,2034,Air,Hydro,29600.0
+Jamali,ARED,2025,Panas Bumi,Geothermal,9682.0
+Jamali,ARED,2026,Panas Bumi,Geothermal,10408.0
+Jamali,ARED,2027,Panas Bumi,Geothermal,11341.0
+Jamali,ARED,2028,Panas Bumi,Geothermal,12289.0
+Jamali,ARED,2029,Panas Bumi,Geothermal,13078.0
+Jamali,ARED,2030,Panas Bumi,Geothermal,15194.0
+Jamali,ARED,2031,Panas Bumi,Geothermal,22658.0
+Jamali,ARED,2032,Panas Bumi,Geothermal,25957.0
+Jamali,ARED,2033,Panas Bumi,Geothermal,32661.0
+Jamali,ARED,2034,Panas Bumi,Geothermal,35993.0
+Jamali,ARED,2025,Biomassa,Bioenergy,10370.0
+Jamali,ARED,2026,Biomassa,Bioenergy,8648.0
+Jamali,ARED,2027,Biomassa,Bioenergy,8632.0
+Jamali,ARED,2028,Biomassa,Bioenergy,7011.0
+Jamali,ARED,2029,Biomassa,Bioenergy,3863.0
+Jamali,ARED,2030,Biomassa,Bioenergy,1937.0
+Jamali,ARED,2031,Biomassa,Bioenergy,1870.0
+Jamali,ARED,2032,Biomassa,Bioenergy,1875.0
+Jamali,ARED,2033,Biomassa,Bioenergy,1870.0
+Jamali,ARED,2034,Biomassa,Bioenergy,1798.0
+Jamali,ARED,2025,Sampah,Bioenergy,98.0
+Jamali,ARED,2026,Sampah,Bioenergy,98.0
+Jamali,ARED,2027,Sampah,Bioenergy,98.0
+Jamali,ARED,2028,Sampah,Bioenergy,627.0
+Jamali,ARED,2029,Sampah,Bioenergy,1362.0
+Jamali,ARED,2030,Sampah,Bioenergy,1926.0
+Jamali,ARED,2031,Sampah,Bioenergy,2095.0
+Jamali,ARED,2032,Sampah,Bioenergy,2101.0
+Jamali,ARED,2033,Sampah,Bioenergy,2195.0
+Jamali,ARED,2034,Sampah,Bioenergy,2242.0
+Jamali,ARED,2025,Surya,Solar,2302.0
+Jamali,ARED,2026,Surya,Solar,3913.0
+Jamali,ARED,2027,Surya,Solar,5604.0
+Jamali,ARED,2028,Surya,Solar,7090.0
+Jamali,ARED,2029,Surya,Solar,7767.0
+Jamali,ARED,2030,Surya,Solar,8706.0
+Jamali,ARED,2031,Surya,Solar,11551.0
+Jamali,ARED,2032,Surya,Solar,14531.0
+Jamali,ARED,2033,Surya,Solar,18572.0
+Jamali,ARED,2034,Surya,Solar,22499.0
+Jamali,ARED,2025,Bayu,Wind,0.0
+Jamali,ARED,2026,Bayu,Wind,177.0
+Jamali,ARED,2027,Bayu,Wind,528.0
+Jamali,ARED,2028,Bayu,Wind,942.0
+Jamali,ARED,2029,Bayu,Wind,1391.0
+Jamali,ARED,2030,Bayu,Wind,2985.0
+Jamali,ARED,2031,Bayu,Wind,4206.0
+Jamali,ARED,2032,Bayu,Wind,5715.0
+Jamali,ARED,2033,Bayu,Wind,7446.0
+Jamali,ARED,2034,Bayu,Wind,9406.0
+Jamali,ARED,2025,Lainnya,Other renewables,0.0
+Jamali,ARED,2026,Lainnya,Other renewables,0.0
+Jamali,ARED,2027,Lainnya,Other renewables,0.0
+Jamali,ARED,2028,Lainnya,Other renewables,0.0
+Jamali,ARED,2029,Lainnya,Other renewables,0.0
+Jamali,ARED,2030,Lainnya,Other renewables,0.0
+Jamali,ARED,2031,Lainnya,Other renewables,0.0
+Jamali,ARED,2032,Lainnya,Other renewables,0.0
+Jamali,ARED,2033,Lainnya,Other renewables,0.0
+Jamali,ARED,2034,Lainnya,Other renewables,0.0
+Jamali,ARED,2025,Gas,Gas,38983.0
+Jamali,ARED,2026,Gas,Gas,42369.0
+Jamali,ARED,2027,Gas,Gas,43552.0
+Jamali,ARED,2028,Gas,Gas,46926.0
+Jamali,ARED,2029,Gas,Gas,56688.0
+Jamali,ARED,2030,Gas,Gas,62911.0
+Jamali,ARED,2031,Gas,Gas,63284.0
+Jamali,ARED,2032,Gas,Gas,64632.0
+Jamali,ARED,2033,Gas,Gas,64645.0
+Jamali,ARED,2034,Gas,Gas,72495.0
+Jamali,ARED,2025,BBM,Oil,1904.0
+Jamali,ARED,2026,BBM,Oil,803.0
+Jamali,ARED,2027,BBM,Oil,561.0
+Jamali,ARED,2028,BBM,Oil,319.0
+Jamali,ARED,2029,BBM,Oil,79.0
+Jamali,ARED,2030,BBM,Oil,80.0
+Jamali,ARED,2031,BBM,Oil,65.0
+Jamali,ARED,2032,BBM,Oil,37.0
+Jamali,ARED,2033,BBM,Oil,0.0
+Jamali,ARED,2034,BBM,Oil,0.0
+Jamali,ARED,2025,Batubara,Coal,176871.0
+Jamali,ARED,2026,Batubara,Coal,185486.0
+Jamali,ARED,2027,Batubara,Coal,192915.0
+Jamali,ARED,2028,Batubara,Coal,199527.0
+Jamali,ARED,2029,Batubara,Coal,202293.0
+Jamali,ARED,2030,Batubara,Coal,204849.0
+Jamali,ARED,2031,Batubara,Coal,199718.0
+Jamali,ARED,2032,Batubara,Coal,200247.0
+Jamali,ARED,2033,Batubara,Coal,199668.0
+Jamali,ARED,2034,Batubara,Coal,195386.0
+Jamali,ARED,2025,Impor,Imports,0.0
+Jamali,ARED,2026,Impor,Imports,0.0
+Jamali,ARED,2027,Impor,Imports,0.0
+Jamali,ARED,2028,Impor,Imports,0.0
+Jamali,ARED,2029,Impor,Imports,0.0
+Jamali,ARED,2030,Impor,Imports,0.0
+Jamali,ARED,2031,Impor,Imports,0.0
+Jamali,ARED,2032,Impor,Imports,0.0
+Jamali,ARED,2033,Impor,Imports,0.0
+Jamali,ARED,2034,Impor,Imports,0.0

@@ -1,0 +1,12 @@
+field,type,unit,meaning
+no,number,,Row number in the decree's table
+grid,text,,Name of the power system (an interconnected grid or an isolated island system)
+province,text,,"Province(s) the grid serves, separated by ';'"
+num_plants,number,,Number of power plants on the grid
+om_tco2_per_mwh,number,tCO2/MWh,Operating margin: emissions per MWh of the plants that would run less if clean power were added
+bm_tco2_per_mwh,number,tCO2/MWh,Build margin: emissions per MWh of the most recently built plants
+cm_expost_50_50,number,tCO2/MWh,"Combined margin from actual 2019 data, 0.5 x OM + 0.5 x BM; general default"
+cm_expost_75_25,number,tCO2/MWh,"Combined margin from actual 2019 data, 0.75 x OM + 0.25 x BM; used for solar and wind"
+cm_exante_50_50,number,tCO2/MWh,"Combined margin projected for 2022-2030, 50/50 weighting"
+cm_exante_75_25,number,tCO2/MWh,"Combined margin projected for 2022-2030, 75/25 weighting"
+source_note,text,,"Corrections made when transcribing the table, if any"

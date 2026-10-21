@@ -1,0 +1,6 @@
+weighting,Jamali,Sumatera,use
+operating margin only,0.8,0.77,Lower bound (calculated)
+75/25,0.84,0.86,Solar and wind (published)
+50/50,0.87,0.94,"The UN's standard method for grid emission factors: geothermal, first crediting period (published)"
+25/75,0.905,1.033,"Geothermal, second and third crediting periods (calculated)"
+build margin only,0.94,1.12,Upper bound (calculated)

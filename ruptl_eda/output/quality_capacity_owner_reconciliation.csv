@@ -1,0 +1,62 @@
+grid,scenario,technology_ruptl,sum_of_owners,total_block,ownership_incomplete,difference
+Jamali,ARED,BESS,4214.2,4214.0,False,0.1999999999998181
+Jamali,ARED,PLTA,50.0,50.0,False,0.0
+Jamali,ARED,PLTA PS,3743.0,3743.0,False,0.0
+Jamali,ARED,PLTB,5377.0,5377.0,False,0.0
+Jamali,ARED,PLTD,0.0,0.0,False,0.0
+Jamali,ARED,PLTG,600.0,600.0,False,0.0
+Jamali,ARED,PLTGU,3150.0,3150.0,False,0.0
+Jamali,ARED,PLTM,382.0,382.0,False,0.0
+Jamali,ARED,PLTMG,203.0,203.0,False,0.0
+Jamali,ARED,PLTP,2503.0,2503.0,False,0.0
+Jamali,ARED,PLTS,10319.0,10319.0,False,0.0
+Jamali,ARED,PLTS+BESS,613.0,613.0,False,0.0
+Jamali,ARED,PLTSa,399.0,399.0,False,0.0
+Jamali,ARED,PLTU,2000.0,2000.0,False,0.0
+Jamali,ARED,PLTU MT,0.0,0.0,False,0.0
+Jamali,RE Base,BESS,1313.7,1314.0,False,-0.2999999999999545
+Jamali,RE Base,PLTA,50.0,50.0,False,0.0
+Jamali,RE Base,PLTA PS,3743.0,3743.0,False,0.0
+Jamali,RE Base,PLTB,1277.0,1277.0,False,0.0
+Jamali,RE Base,PLTD,0.0,0.0,False,0.0
+Jamali,RE Base,PLTG,600.0,600.0,False,0.0
+Jamali,RE Base,PLTGU,4650.0,4650.0,False,0.0
+Jamali,RE Base,PLTM,382.0,382.0,False,0.0
+Jamali,RE Base,PLTMG,203.0,203.0,False,0.0
+Jamali,RE Base,PLTP,2503.0,2503.0,False,0.0
+Jamali,RE Base,PLTS,2566.0,2564.0,False,2.0
+Jamali,RE Base,PLTS+BESS,613.0,613.0,False,0.0
+Jamali,RE Base,PLTSa,399.0,399.0,False,0.0
+Jamali,RE Base,PLTU,2000.0,2000.0,False,0.0
+Jamali,RE Base,PLTU MT,0.0,0.0,False,0.0
+Sumatera,ARED,BESS,1075.0,1075.0,False,0.0
+Sumatera,ARED,PLTA,4673.0,4673.0,False,0.0
+Sumatera,ARED,PLTA PS,500.0,500.0,False,0.0
+Sumatera,ARED,PLTB,590.0,590.0,False,0.0
+Sumatera,ARED,PLTBg,13.0,13.0,False,0.0
+Sumatera,ARED,PLTBm,47.0,47.0,False,0.0
+Sumatera,ARED,PLTG,300.0,300.0,False,0.0
+Sumatera,ARED,PLTGU,80.0,80.0,False,0.0
+Sumatera,ARED,PLTM,267.0,267.0,False,0.0
+Sumatera,ARED,PLTMG,321.0,321.0,False,0.0
+Sumatera,ARED,PLTN,250.0,250.0,False,0.0
+Sumatera,ARED,PLTP,,2017.0,True,
+Sumatera,ARED,PLTS,1607.0,1606.0,False,1.0
+Sumatera,ARED,PLTSa,18.0,18.0,False,0.0
+Sumatera,ARED,PLTU,0.0,0.0,False,0.0
+Sumatera,ARED,PLTU MT,3300.0,3300.0,False,0.0
+Sumatera,RE Base,BESS,1075.0,1075.0,False,0.0
+Sumatera,RE Base,PLTA,4673.0,4673.0,False,0.0
+Sumatera,RE Base,PLTA PS,500.0,500.0,False,0.0
+Sumatera,RE Base,PLTB,590.0,590.0,False,0.0
+Sumatera,RE Base,PLTBg,13.0,13.0,False,0.0
+Sumatera,RE Base,PLTBm,47.0,47.0,False,0.0
+Sumatera,RE Base,PLTG,300.0,300.0,False,0.0
+Sumatera,RE Base,PLTGU,80.0,80.0,False,0.0
+Sumatera,RE Base,PLTM,267.0,267.0,False,0.0
+Sumatera,RE Base,PLTMG,321.0,321.0,False,0.0
+Sumatera,RE Base,PLTP,2017.0,2017.0,False,0.0
+Sumatera,RE Base,PLTS,1607.0,1606.0,False,1.0
+Sumatera,RE Base,PLTSa,18.0,18.0,False,0.0
+Sumatera,RE Base,PLTU,0.0,0.0,False,0.0
+Sumatera,RE Base,PLTU MT,3300.0,3300.0,False,0.0

@@ -1,0 +1,11 @@
+grid,factor_method,factor_tco2_per_mwh,factor_source
+Jamali,OM,0.8,ESDM 2019
+Jamali,BM,0.94,ESDM 2019
+Jamali,CM ex-post 50/50,0.87,ESDM 2019
+Jamali,CM ex-ante 50/50,0.87,ESDM 2019
+Sumatera,OM,0.77,ESDM 2019
+Sumatera,BM,1.12,ESDM 2019
+Sumatera,CM ex-post 50/50,0.94,ESDM 2019
+Sumatera,CM ex-ante 50/50,0.93,ESDM 2019
+Jamali,JCM alternative,0.619,JCM Indonesia grid note (2016-2018)
+Sumatera,JCM alternative,0.458,JCM Indonesia grid note (2016-2018)

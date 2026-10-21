@@ -1,0 +1,8 @@
+topic,note
+Extraction,"Tables were read from the RUPTL PDF with PyMuPDF. Stray spaces inside numbers (e.g. '3 7.601') were removed; '.' is the thousands separator and ',' the decimal point, except where a value has a single digit after '.' (e.g. '202.8' MtCO2), which is read as a decimal."
+Regions,"RUPTL historical generation for Sumatera is only published together with Kalimantan (Sumkal). Kalimantan has no geothermal plants, so the geothermal row is Sumatera's. Other fuels cannot be split."
+Regions,"RUPTL 'Sumatera' projections cover the whole Sumatera region, including island systems and Bangka (planned to join the grid); slightly wider than the ESDM decree's Sumatera grid."
+Interconnection,"From the 2030s, Jamali's projected hydro and geothermal include energy imported from Sumatera over the Sumatera-Java interconnection (ISJ), per the table footnote. Jamali solar includes rooftop PV."
+Partial year,2024 historical generation is unaudited and runs to October only; it is kept but flagged and excluded from trend charts. 2024 sales are a forecast (prognosa).
+Fuel groups,"BIO HSD (diesel blended with biodiesel) is grouped with oil. 'EBT' and 'BBM' subtotal rows are not stored, to avoid double counting; they are rebuilt from their components and checked."
+Coverage,"RUPTL covers PLN's system (own plants, rented plants and IPPs). Captive industrial plants are excluded, so totals are lower than Ember's national figures."

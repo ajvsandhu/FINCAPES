@@ -1,0 +1,301 @@
+grid,year,fuel_ruptl,generation_gwh,fuel,partial_year
+Jamali,2015,BBN (Biofuel),13.0,Bioenergy,False
+Jamali,2015,Biomassa,6.0,Bioenergy,False
+Jamali,2015,Batubara,112482.0,Coal,False
+Jamali,2015,Gas,43255.0,Gas,False
+Jamali,2015,Panas Bumi,8549.0,Geothermal,False
+Jamali,2015,Air,6293.0,Hydro,False
+Jamali,2015,Impor,0.0,Imports,False
+Jamali,2015,HSD,1141.0,Oil,False
+Jamali,2015,MFO,498.0,Oil,False
+Jamali,2015,IDO,0.0,Oil,False
+Jamali,2015,HFO,0.0,Oil,False
+Jamali,2015,BIO HSD,0.0,Oil,False
+Jamali,2015,EBT Lain,0.0,Other renewables,False
+Jamali,2015,Surya,14.0,Solar,False
+Jamali,2015,Bayu,0.0,Wind,False
+Jamali,2016,BBN (Biofuel),6.0,Bioenergy,False
+Jamali,2016,Biomassa,8.0,Bioenergy,False
+Jamali,2016,Batubara,115007.0,Coal,False
+Jamali,2016,Gas,47511.0,Gas,False
+Jamali,2016,Panas Bumi,9216.0,Geothermal,False
+Jamali,2016,Air,9981.0,Hydro,False
+Jamali,2016,Impor,0.0,Imports,False
+Jamali,2016,HSD,375.0,Oil,False
+Jamali,2016,MFO,97.0,Oil,False
+Jamali,2016,IDO,0.0,Oil,False
+Jamali,2016,HFO,0.0,Oil,False
+Jamali,2016,BIO HSD,0.0,Oil,False
+Jamali,2016,EBT Lain,0.0,Other renewables,False
+Jamali,2016,Surya,5.0,Solar,False
+Jamali,2016,Bayu,0.0,Wind,False
+Jamali,2017,BBN (Biofuel),1.0,Bioenergy,False
+Jamali,2017,Biomassa,14.0,Bioenergy,False
+Jamali,2017,Batubara,126454.0,Coal,False
+Jamali,2017,Gas,41692.0,Gas,False
+Jamali,2017,Panas Bumi,9429.0,Geothermal,False
+Jamali,2017,Air,8600.0,Hydro,False
+Jamali,2017,Impor,0.0,Imports,False
+Jamali,2017,HSD,363.0,Oil,False
+Jamali,2017,MFO,62.0,Oil,False
+Jamali,2017,IDO,0.0,Oil,False
+Jamali,2017,HFO,0.0,Oil,False
+Jamali,2017,BIO HSD,0.0,Oil,False
+Jamali,2017,EBT Lain,0.0,Other renewables,False
+Jamali,2017,Surya,3.0,Solar,False
+Jamali,2017,Bayu,0.0,Wind,False
+Jamali,2018,BBN (Biofuel),6.0,Bioenergy,False
+Jamali,2018,Biomassa,10.0,Bioenergy,False
+Jamali,2018,Batubara,134565.0,Coal,False
+Jamali,2018,Gas,42179.0,Gas,False
+Jamali,2018,Panas Bumi,9774.0,Geothermal,False
+Jamali,2018,Air,6508.0,Hydro,False
+Jamali,2018,Impor,0.0,Imports,False
+Jamali,2018,HSD,1428.0,Oil,False
+Jamali,2018,MFO,577.0,Oil,False
+Jamali,2018,IDO,0.0,Oil,False
+Jamali,2018,HFO,0.0,Oil,False
+Jamali,2018,BIO HSD,0.0,Oil,False
+Jamali,2018,EBT Lain,0.0,Other renewables,False
+Jamali,2018,Surya,2.0,Solar,False
+Jamali,2018,Bayu,0.0,Wind,False
+Jamali,2019,BBN (Biofuel),12.0,Bioenergy,False
+Jamali,2019,Biomassa,21.0,Bioenergy,False
+Jamali,2019,Batubara,143848.0,Coal,False
+Jamali,2019,Gas,42278.0,Gas,False
+Jamali,2019,Panas Bumi,9493.0,Geothermal,False
+Jamali,2019,Air,6163.0,Hydro,False
+Jamali,2019,Impor,0.0,Imports,False
+Jamali,2019,HSD,185.0,Oil,False
+Jamali,2019,MFO,174.0,Oil,False
+Jamali,2019,IDO,0.0,Oil,False
+Jamali,2019,HFO,0.0,Oil,False
+Jamali,2019,BIO HSD,53.0,Oil,False
+Jamali,2019,EBT Lain,0.0,Other renewables,False
+Jamali,2019,Surya,2.0,Solar,False
+Jamali,2019,Bayu,0.0,Wind,False
+Jamali,2020,BBN (Biofuel),20.0,Bioenergy,False
+Jamali,2020,Biomassa,29.0,Bioenergy,False
+Jamali,2020,Batubara,145101.0,Coal,False
+Jamali,2020,Gas,32501.0,Gas,False
+Jamali,2020,Panas Bumi,9613.0,Geothermal,False
+Jamali,2020,Air,7608.0,Hydro,False
+Jamali,2020,Impor,0.0,Imports,False
+Jamali,2020,HSD,119.0,Oil,False
+Jamali,2020,MFO,92.0,Oil,False
+Jamali,2020,IDO,0.0,Oil,False
+Jamali,2020,HFO,0.0,Oil,False
+Jamali,2020,BIO HSD,48.0,Oil,False
+Jamali,2020,EBT Lain,0.0,Other renewables,False
+Jamali,2020,Surya,2.0,Solar,False
+Jamali,2020,Bayu,0.0,Wind,False
+Jamali,2021,BBN (Biofuel),23.0,Bioenergy,False
+Jamali,2021,Biomassa,295.0,Bioenergy,False
+Jamali,2021,Batubara,151013.0,Coal,False
+Jamali,2021,Gas,34826.0,Gas,False
+Jamali,2021,Panas Bumi,9650.0,Geothermal,False
+Jamali,2021,Air,7664.0,Hydro,False
+Jamali,2021,Impor,0.0,Imports,False
+Jamali,2021,HSD,854.0,Oil,False
+Jamali,2021,MFO,290.0,Oil,False
+Jamali,2021,IDO,0.0,Oil,False
+Jamali,2021,HFO,0.0,Oil,False
+Jamali,2021,BIO HSD,55.0,Oil,False
+Jamali,2021,EBT Lain,0.0,Other renewables,False
+Jamali,2021,Surya,2.0,Solar,False
+Jamali,2021,Bayu,0.0,Wind,False
+Jamali,2022,BBN (Biofuel),25.0,Bioenergy,False
+Jamali,2022,Biomassa,578.0,Bioenergy,False
+Jamali,2022,Batubara,165097.0,Coal,False
+Jamali,2022,Gas,31862.0,Gas,False
+Jamali,2022,Panas Bumi,9500.0,Geothermal,False
+Jamali,2022,Air,9401.0,Hydro,False
+Jamali,2022,Impor,0.0,Imports,False
+Jamali,2022,HSD,179.0,Oil,False
+Jamali,2022,MFO,112.0,Oil,False
+Jamali,2022,IDO,0.0,Oil,False
+Jamali,2022,HFO,0.0,Oil,False
+Jamali,2022,BIO HSD,60.0,Oil,False
+Jamali,2022,EBT Lain,0.0,Other renewables,False
+Jamali,2022,Surya,2.0,Solar,False
+Jamali,2022,Bayu,0.0,Wind,False
+Jamali,2023,BBN (Biofuel),33.0,Bioenergy,False
+Jamali,2023,Biomassa,932.0,Bioenergy,False
+Jamali,2023,Batubara,171829.0,Coal,False
+Jamali,2023,Gas,35445.0,Gas,False
+Jamali,2023,Panas Bumi,9796.0,Geothermal,False
+Jamali,2023,Air,6800.0,Hydro,False
+Jamali,2023,Impor,0.0,Imports,False
+Jamali,2023,HSD,332.0,Oil,False
+Jamali,2023,MFO,263.0,Oil,False
+Jamali,2023,IDO,0.0,Oil,False
+Jamali,2023,HFO,0.0,Oil,False
+Jamali,2023,BIO HSD,71.0,Oil,False
+Jamali,2023,EBT Lain,0.0,Other renewables,False
+Jamali,2023,Surya,44.0,Solar,False
+Jamali,2023,Bayu,0.0,Wind,False
+Jamali,2024,BBN (Biofuel),41.0,Bioenergy,True
+Jamali,2024,Biomassa,1008.0,Bioenergy,True
+Jamali,2024,Batubara,148882.0,Coal,True
+Jamali,2024,Gas,33416.0,Gas,True
+Jamali,2024,Panas Bumi,7825.0,Geothermal,True
+Jamali,2024,Air,6060.0,Hydro,True
+Jamali,2024,Impor,0.0,Imports,True
+Jamali,2024,HSD,817.0,Oil,True
+Jamali,2024,MFO,235.0,Oil,True
+Jamali,2024,IDO,0.0,Oil,True
+Jamali,2024,HFO,0.0,Oil,True
+Jamali,2024,BIO HSD,81.0,Oil,True
+Jamali,2024,EBT Lain,0.0,Other renewables,True
+Jamali,2024,Surya,247.0,Solar,True
+Jamali,2024,Bayu,0.0,Wind,True
+Sumatera + Kalimantan,2015,BBN (Biofuel),301.0,Bioenergy,False
+Sumatera + Kalimantan,2015,Biomassa,431.0,Bioenergy,False
+Sumatera + Kalimantan,2015,Batubara,14522.0,Coal,False
+Sumatera + Kalimantan,2015,Gas,11985.0,Gas,False
+Sumatera + Kalimantan,2015,Panas Bumi,876.0,Geothermal,False
+Sumatera + Kalimantan,2015,Air,5293.0,Hydro,False
+Sumatera + Kalimantan,2015,Impor,8.0,Imports,False
+Sumatera + Kalimantan,2015,HSD,8896.0,Oil,False
+Sumatera + Kalimantan,2015,MFO,2519.0,Oil,False
+Sumatera + Kalimantan,2015,IDO,9.0,Oil,False
+Sumatera + Kalimantan,2015,HFO,0.0,Oil,False
+Sumatera + Kalimantan,2015,BIO HSD,0.0,Oil,False
+Sumatera + Kalimantan,2015,EBT Lain,0.0,Other renewables,False
+Sumatera + Kalimantan,2015,Surya,1.0,Solar,False
+Sumatera + Kalimantan,2015,Bayu,4.0,Wind,False
+Sumatera + Kalimantan,2016,BBN (Biofuel),658.0,Bioenergy,False
+Sumatera + Kalimantan,2016,Biomassa,576.0,Bioenergy,False
+Sumatera + Kalimantan,2016,Batubara,16316.0,Coal,False
+Sumatera + Kalimantan,2016,Gas,14234.0,Gas,False
+Sumatera + Kalimantan,2016,Panas Bumi,970.0,Geothermal,False
+Sumatera + Kalimantan,2016,Air,6469.0,Hydro,False
+Sumatera + Kalimantan,2016,Impor,837.0,Imports,False
+Sumatera + Kalimantan,2016,HSD,5946.0,Oil,False
+Sumatera + Kalimantan,2016,MFO,2899.0,Oil,False
+Sumatera + Kalimantan,2016,IDO,4.0,Oil,False
+Sumatera + Kalimantan,2016,HFO,0.0,Oil,False
+Sumatera + Kalimantan,2016,BIO HSD,0.0,Oil,False
+Sumatera + Kalimantan,2016,EBT Lain,0.0,Other renewables,False
+Sumatera + Kalimantan,2016,Surya,0.0,Solar,False
+Sumatera + Kalimantan,2016,Bayu,6.0,Wind,False
+Sumatera + Kalimantan,2017,BBN (Biofuel),610.0,Bioenergy,False
+Sumatera + Kalimantan,2017,Biomassa,576.0,Bioenergy,False
+Sumatera + Kalimantan,2017,Batubara,16888.0,Coal,False
+Sumatera + Kalimantan,2017,Gas,14201.0,Gas,False
+Sumatera + Kalimantan,2017,Panas Bumi,2400.0,Geothermal,False
+Sumatera + Kalimantan,2017,Air,6998.0,Hydro,False
+Sumatera + Kalimantan,2017,Impor,1469.0,Imports,False
+Sumatera + Kalimantan,2017,HSD,4578.0,Oil,False
+Sumatera + Kalimantan,2017,MFO,2868.0,Oil,False
+Sumatera + Kalimantan,2017,IDO,2.0,Oil,False
+Sumatera + Kalimantan,2017,HFO,0.0,Oil,False
+Sumatera + Kalimantan,2017,BIO HSD,0.0,Oil,False
+Sumatera + Kalimantan,2017,EBT Lain,0.0,Other renewables,False
+Sumatera + Kalimantan,2017,Surya,1.0,Solar,False
+Sumatera + Kalimantan,2017,Bayu,0.0,Wind,False
+Sumatera + Kalimantan,2018,BBN (Biofuel),649.0,Bioenergy,False
+Sumatera + Kalimantan,2018,Biomassa,612.0,Bioenergy,False
+Sumatera + Kalimantan,2018,Batubara,19020.0,Coal,False
+Sumatera + Kalimantan,2018,Gas,13967.0,Gas,False
+Sumatera + Kalimantan,2018,Panas Bumi,3475.0,Geothermal,False
+Sumatera + Kalimantan,2018,Air,7781.0,Hydro,False
+Sumatera + Kalimantan,2018,Impor,1848.0,Imports,False
+Sumatera + Kalimantan,2018,HSD,4037.0,Oil,False
+Sumatera + Kalimantan,2018,MFO,2439.0,Oil,False
+Sumatera + Kalimantan,2018,IDO,0.0,Oil,False
+Sumatera + Kalimantan,2018,HFO,0.0,Oil,False
+Sumatera + Kalimantan,2018,BIO HSD,0.0,Oil,False
+Sumatera + Kalimantan,2018,EBT Lain,0.0,Other renewables,False
+Sumatera + Kalimantan,2018,Surya,2.0,Solar,False
+Sumatera + Kalimantan,2018,Bayu,0.0,Wind,False
+Sumatera + Kalimantan,2019,BBN (Biofuel),672.0,Bioenergy,False
+Sumatera + Kalimantan,2019,Biomassa,345.0,Bioenergy,False
+Sumatera + Kalimantan,2019,Batubara,23219.0,Coal,False
+Sumatera + Kalimantan,2019,Gas,15136.0,Gas,False
+Sumatera + Kalimantan,2019,Panas Bumi,3735.0,Geothermal,False
+Sumatera + Kalimantan,2019,Air,8084.0,Hydro,False
+Sumatera + Kalimantan,2019,Impor,2072.0,Imports,False
+Sumatera + Kalimantan,2019,HSD,559.0,Oil,False
+Sumatera + Kalimantan,2019,MFO,797.0,Oil,False
+Sumatera + Kalimantan,2019,IDO,1.0,Oil,False
+Sumatera + Kalimantan,2019,HFO,0.0,Oil,False
+Sumatera + Kalimantan,2019,BIO HSD,2469.0,Oil,False
+Sumatera + Kalimantan,2019,EBT Lain,0.0,Other renewables,False
+Sumatera + Kalimantan,2019,Surya,3.0,Solar,False
+Sumatera + Kalimantan,2019,Bayu,0.0,Wind,False
+Sumatera + Kalimantan,2020,BBN (Biofuel),749.0,Bioenergy,False
+Sumatera + Kalimantan,2020,Biomassa,288.0,Bioenergy,False
+Sumatera + Kalimantan,2020,Batubara,27711.0,Coal,False
+Sumatera + Kalimantan,2020,Gas,11659.0,Gas,False
+Sumatera + Kalimantan,2020,Panas Bumi,5065.0,Geothermal,False
+Sumatera + Kalimantan,2020,Air,9138.0,Hydro,False
+Sumatera + Kalimantan,2020,Impor,1996.0,Imports,False
+Sumatera + Kalimantan,2020,HSD,317.0,Oil,False
+Sumatera + Kalimantan,2020,MFO,216.0,Oil,False
+Sumatera + Kalimantan,2020,IDO,0.0,Oil,False
+Sumatera + Kalimantan,2020,HFO,0.0,Oil,False
+Sumatera + Kalimantan,2020,BIO HSD,2000.0,Oil,False
+Sumatera + Kalimantan,2020,EBT Lain,0.0,Other renewables,False
+Sumatera + Kalimantan,2020,Surya,2.0,Solar,False
+Sumatera + Kalimantan,2020,Bayu,0.0,Wind,False
+Sumatera + Kalimantan,2021,BBN (Biofuel),779.0,Bioenergy,False
+Sumatera + Kalimantan,2021,Biomassa,336.0,Bioenergy,False
+Sumatera + Kalimantan,2021,Batubara,30467.0,Coal,False
+Sumatera + Kalimantan,2021,Gas,12230.0,Gas,False
+Sumatera + Kalimantan,2021,Panas Bumi,5417.0,Geothermal,False
+Sumatera + Kalimantan,2021,Air,8820.0,Hydro,False
+Sumatera + Kalimantan,2021,Impor,1456.0,Imports,False
+Sumatera + Kalimantan,2021,HSD,681.0,Oil,False
+Sumatera + Kalimantan,2021,MFO,8.0,Oil,False
+Sumatera + Kalimantan,2021,IDO,1.0,Oil,False
+Sumatera + Kalimantan,2021,HFO,0.0,Oil,False
+Sumatera + Kalimantan,2021,BIO HSD,2023.0,Oil,False
+Sumatera + Kalimantan,2021,EBT Lain,0.0,Other renewables,False
+Sumatera + Kalimantan,2021,Surya,2.0,Solar,False
+Sumatera + Kalimantan,2021,Bayu,0.0,Wind,False
+Sumatera + Kalimantan,2022,BBN (Biofuel),762.0,Bioenergy,False
+Sumatera + Kalimantan,2022,Biomassa,360.0,Bioenergy,False
+Sumatera + Kalimantan,2022,Batubara,30576.0,Coal,False
+Sumatera + Kalimantan,2022,Gas,15248.0,Gas,False
+Sumatera + Kalimantan,2022,Panas Bumi,6229.0,Geothermal,False
+Sumatera + Kalimantan,2022,Air,8708.0,Hydro,False
+Sumatera + Kalimantan,2022,Impor,1367.0,Imports,False
+Sumatera + Kalimantan,2022,HSD,698.0,Oil,False
+Sumatera + Kalimantan,2022,MFO,4.0,Oil,False
+Sumatera + Kalimantan,2022,IDO,0.0,Oil,False
+Sumatera + Kalimantan,2022,HFO,0.0,Oil,False
+Sumatera + Kalimantan,2022,BIO HSD,1971.0,Oil,False
+Sumatera + Kalimantan,2022,EBT Lain,0.0,Other renewables,False
+Sumatera + Kalimantan,2022,Surya,2.0,Solar,False
+Sumatera + Kalimantan,2022,Bayu,0.0,Wind,False
+Sumatera + Kalimantan,2023,BBN (Biofuel),872.0,Bioenergy,False
+Sumatera + Kalimantan,2023,Biomassa,480.0,Bioenergy,False
+Sumatera + Kalimantan,2023,Batubara,34346.0,Coal,False
+Sumatera + Kalimantan,2023,Gas,15654.0,Gas,False
+Sumatera + Kalimantan,2023,Panas Bumi,6173.0,Geothermal,False
+Sumatera + Kalimantan,2023,Air,9006.0,Hydro,False
+Sumatera + Kalimantan,2023,Impor,1488.0,Imports,False
+Sumatera + Kalimantan,2023,HSD,407.0,Oil,False
+Sumatera + Kalimantan,2023,MFO,11.0,Oil,False
+Sumatera + Kalimantan,2023,IDO,3.0,Oil,False
+Sumatera + Kalimantan,2023,HFO,0.0,Oil,False
+Sumatera + Kalimantan,2023,BIO HSD,1867.0,Oil,False
+Sumatera + Kalimantan,2023,EBT Lain,0.0,Other renewables,False
+Sumatera + Kalimantan,2023,Surya,2.0,Solar,False
+Sumatera + Kalimantan,2023,Bayu,0.0,Wind,False
+Sumatera + Kalimantan,2024,BBN (Biofuel),844.0,Bioenergy,True
+Sumatera + Kalimantan,2024,Biomassa,602.0,Bioenergy,True
+Sumatera + Kalimantan,2024,Batubara,32095.0,Coal,True
+Sumatera + Kalimantan,2024,Gas,12725.0,Gas,True
+Sumatera + Kalimantan,2024,Panas Bumi,5226.0,Geothermal,True
+Sumatera + Kalimantan,2024,Air,7819.0,Hydro,True
+Sumatera + Kalimantan,2024,Impor,1345.0,Imports,True
+Sumatera + Kalimantan,2024,HSD,591.0,Oil,True
+Sumatera + Kalimantan,2024,MFO,3.0,Oil,True
+Sumatera + Kalimantan,2024,IDO,1.0,Oil,True
+Sumatera + Kalimantan,2024,HFO,0.0,Oil,True
+Sumatera + Kalimantan,2024,BIO HSD,1665.0,Oil,True
+Sumatera + Kalimantan,2024,EBT Lain,0.0,Other renewables,True
+Sumatera + Kalimantan,2024,Surya,9.0,Solar,True
+Sumatera + Kalimantan,2024,Bayu,0.0,Wind,True

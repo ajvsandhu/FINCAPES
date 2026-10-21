@@ -1,0 +1,207 @@
+
+======================================================================
+Shape of each extracted table
+======================================================================
+Historical sales: 100 rows x 4 columns, years 2015-2024, missing values 0  [Tabel 4.2 (Sumatera), 4.3 (Jamali)]
+Historical generation by fuel: 300 rows x 6 columns, years 2015-2024, missing values 0  [Tabel 4.32 (Sumatera + Kalimantan), 4.33 (Jamali)]
+Projected sales: 100 rows x 4 columns, years 2025-2034, missing values 0  [Tabel 5.68 (Sumatera), 5.69 (Jamali)]
+Projected generation by fuel: 450 rows x 6 columns, years 2025-2034, missing values 0  [Tabel 5.135/5.136 (Sumatera), 5.143/5.144 (Jamali)]
+Projected emissions by fuel: 160 rows x 5 columns, years 2025-2034, missing values 0  [Tabel 5.177/5.178 (Sumatera), 5.179/5.180 (Jamali)]
+Capacity additions: 2020 rows x 7 columns, years 2025-2034, missing values 10  [Tabel 5.84/5.85 (Sumatera), 5.88/5.89 (Jamali)]
+
+======================================================================
+Check: historical fuel rows add up to the RUPTL subtotal (GWh)
+======================================================================
+                            sum_of_fuels  ruptl_subtotal  difference
+grid                  year                                          
+Jamali                2015      172251.0        172249.0         2.0
+                      2016      182206.0        182206.0         0.0
+                      2017      186618.0        186618.0         0.0
+                      2018      195049.0        195049.0         0.0
+                      2019      202229.0        202228.0         1.0
+                      2020      195133.0        195132.0         1.0
+                      2021      204672.0        204672.0         0.0
+                      2022      216816.0        216816.0         0.0
+                      2023      225545.0        225545.0         0.0
+                      2024      198612.0        198614.0        -2.0
+Sumatera + Kalimantan 2015       44845.0         44845.0         0.0
+                      2016       48915.0         48916.0        -1.0
+                      2017       50591.0         50592.0        -1.0
+                      2018       53830.0         53831.0        -1.0
+                      2019       57092.0         57093.0        -1.0
+                      2020       59141.0         59141.0         0.0
+                      2021       62220.0         62221.0        -1.0
+                      2022       65925.0         65926.0        -1.0
+                      2023       70309.0         70307.0         2.0
+                      2024       62925.0         62927.0        -2.0
+Years outside ±3 GWh: 0
+
+======================================================================
+Check: projected fuel rows add up to the RUPTL total (GWh)
+======================================================================
+40 grid-scenario-years checked, 0 outside ±3 GWh
+
+======================================================================
+Check: projected emissions by fuel add up to the total (MtCO2)
+======================================================================
+40 grid-scenario-years checked, 5 outside ±0.15 Mt
+fuel                   Coal   Gas   Oil  Total  difference
+grid   scenario year                                      
+Jamali ARED     2028  218.2  19.0  0.30  237.2        0.30
+                2030  224.3  28.5  0.10  253.2       -0.30
+                2031  218.7  29.7  0.10  248.8       -0.30
+                2032  219.3  34.3  0.03  253.9       -0.27
+                2033  218.6  34.4  0.00  253.4       -0.40
+
+======================================================================
+Check: sales by customer group add up to the total (GWh)
+======================================================================
+historical: 20 grid-years checked, 2 outside ±3 GWh
+projected: 20 grid-years checked, 0 outside ±3 GWh
+
+Historical sales where 2024 repeats 2023 exactly (source-table anomaly; cause unconfirmed):
+year                        2023     2024
+grid     customer_group                  
+Sumatera Business         7930.0   7930.0
+         Household       23538.0  23538.0
+         Industry        10538.0  10538.0
+         Total           46133.0  46133.0
+
+======================================================================
+Comparison: RE Base and ARED in 2025 (differences are not automatically errors) (generation, GWh)
+======================================================================
+scenario              ARED   RE Base  difference
+grid   fuel                                     
+Jamali Bioenergy   10468.0    2431.0      8037.0
+       Coal       176871.0  185202.0     -8331.0
+       Solar        2302.0    2008.0       294.0
+
+======================================================================
+Check: capacity additions by owner add up to the Total block (MW)
+======================================================================
+Rows blank in the source PDF (preserved as missing):
+  Sumatera ARED IPP PLTP
+Kerjasama Wilus excluded from this reconciliation per PDF p.345 footnote; missing ownership cells remain unresolved.
+61 grid-scenario-technologies checked, 1 differ by more than 1 MW
+                                  sum_of_owners  total_block  ownership_incomplete  difference
+grid   scenario technology_ruptl                                                              
+Jamali RE Base  PLTS                     2566.0       2564.0                 False         2.0
+Incomplete ownership groups: 1; differences not computed.
+
+======================================================================
+Historical generation by fuel, full years (TWh)
+======================================================================
+grid    Jamali                                                                        Sumatera + Kalimantan                                                                       
+fuel Bioenergy   Coal   Gas Geothermal Hydro Imports  Oil Other renewables Solar Wind             Bioenergy  Coal   Gas Geothermal Hydro Imports   Oil Other renewables Solar Wind
+year                                                                                                                                                                              
+2015       0.0  112.5  43.3        8.5   6.3     0.0  1.6              0.0   0.0  0.0                   0.7  14.5  12.0        0.9   5.3     0.0  11.4              0.0   0.0  0.0
+2016       0.0  115.0  47.5        9.2  10.0     0.0  0.5              0.0   0.0  0.0                   1.2  16.3  14.2        1.0   6.5     0.8   8.8              0.0   0.0  0.0
+2017       0.0  126.5  41.7        9.4   8.6     0.0  0.4              0.0   0.0  0.0                   1.2  16.9  14.2        2.4   7.0     1.5   7.4              0.0   0.0  0.0
+2018       0.0  134.6  42.2        9.8   6.5     0.0  2.0              0.0   0.0  0.0                   1.3  19.0  14.0        3.5   7.8     1.8   6.5              0.0   0.0  0.0
+2019       0.0  143.8  42.3        9.5   6.2     0.0  0.4              0.0   0.0  0.0                   1.0  23.2  15.1        3.7   8.1     2.1   3.8              0.0   0.0  0.0
+2020       0.0  145.1  32.5        9.6   7.6     0.0  0.3              0.0   0.0  0.0                   1.0  27.7  11.7        5.1   9.1     2.0   2.5              0.0   0.0  0.0
+2021       0.3  151.0  34.8        9.6   7.7     0.0  1.2              0.0   0.0  0.0                   1.1  30.5  12.2        5.4   8.8     1.5   2.7              0.0   0.0  0.0
+2022       0.6  165.1  31.9        9.5   9.4     0.0  0.4              0.0   0.0  0.0                   1.1  30.6  15.2        6.2   8.7     1.4   2.7              0.0   0.0  0.0
+2023       1.0  171.8  35.4        9.8   6.8     0.0  0.7              0.0   0.0  0.0                   1.4  34.3  15.7        6.2   9.0     1.5   2.3              0.0   0.0  0.0
+
+======================================================================
+Projected generation mix, 2025 and 2034 (% of total)
+======================================================================
+fuel                    Bioenergy  Coal   Gas  Geothermal  Hydro  Imports  Nuclear  Oil  Other renewables  Solar  Wind
+grid     scenario year                                                                                                
+Jamali   ARED     2025        4.2  70.4  15.5         3.9    4.5      0.0      NaN  0.8               0.0    0.9   0.0
+                  2034        1.1  52.9  19.6         9.7    8.0      0.0      NaN  0.0               0.0    6.1   2.5
+         RE Base  2025        1.0  73.7  15.5         3.9    4.5      0.0      NaN  0.8               0.0    0.8   0.0
+                  2034        1.1  52.0  25.8        10.2    8.0      0.0      NaN  0.0               0.0    2.3   0.6
+Sumatera ARED     2025        0.8  49.7  18.7        10.8   15.5      1.1      0.0  2.4               0.9    0.1   0.0
+                  2034        2.6  46.7  10.0        14.3   19.7      0.9      1.6  0.3               0.1    2.5   1.4
+         RE Base  2025        0.8  49.7  18.7        10.8   15.5      1.1      NaN  2.4               0.9    0.1   0.0
+                  2034        2.2  48.7  10.0        14.3   19.7      0.9      NaN  0.3               0.1    2.5   1.4
+
+======================================================================
+Projected emission intensity (tCO2/MWh)
+======================================================================
+         average_tco2_per_mwh                          fossil_tco2_per_mwh                         
+grid                   Jamali         Sumatera                      Jamali         Sumatera        
+scenario                 ARED RE Base     ARED RE Base                ARED RE Base     ARED RE Base
+year                                                                                               
+2025                    0.844   0.882    0.695   0.695               0.974   0.981    0.982   0.982
+2026                    0.840   0.871    0.649   0.649               0.967   0.970    0.966   0.966
+2027                    0.835   0.865    0.635   0.635               0.969   0.970    0.959   0.959
+2028                    0.819   0.839    0.622   0.622               0.961   0.958    0.959   0.959
+2029                    0.804   0.811    0.590   0.603               0.935   0.928    0.953   0.958
+2030                    0.807   0.811    0.583   0.592               0.945   0.933    0.955   0.959
+2031                    0.764   0.771    0.572   0.579               0.946   0.928    0.967   0.968
+2032                    0.744   0.753    0.583   0.595               0.958   0.934    0.981   0.984
+2033                    0.710   0.723    0.594   0.618               0.959   0.925    0.998   1.001
+2034                    0.680   0.695    0.568   0.590               0.938   0.893    0.998   1.002
+
+======================================================================
+Capacity additions 2025-2034 by technology (MW, Total block)
+======================================================================
+grid                Jamali         Sumatera        
+scenario              ARED RE Base     ARED RE Base
+technology                                         
+Battery             4214.0  1314.0   1075.0  1075.0
+Bioenergy            399.0   399.0     78.0    78.0
+Coal                2000.0  2000.0      0.0     0.0
+Coal (mine-mouth)      0.0     0.0   3300.0  3300.0
+Diesel                 0.0     0.0      NaN     NaN
+Gas                 3953.0  5453.0    701.0   701.0
+Geothermal          2503.0  2503.0   2017.0  2017.0
+Hydro                432.0   432.0   4940.0  4940.0
+Nuclear                NaN     NaN    250.0     NaN
+Pumped storage      3743.0  3743.0    500.0   500.0
+Solar              10932.0  3177.0   1606.0  1606.0
+Wind                5377.0  1277.0    590.0   590.0
+
+======================================================================
+Cross-check: RUPTL geothermal capacity additions vs GENESIS (MW, 2025-2034)
+======================================================================
+scenario    ARED  RE Base  GENESIS (by province)
+grid                                            
+Jamali    2503.0   2503.0                   2503
+Sumatera  2017.0   2017.0                   2017
+
+======================================================================
+Cross-check: RUPTL geothermal generation vs Ember 'Other renewables' (TWh)
+======================================================================
+grid  Jamali  Sumatera + Kalimantan  RUPTL Jamali + Sumatera  Ember national (mostly geothermal)  RUPTL share of Ember (%)
+year                                                                                                                      
+2015    8.55                   0.88                     9.42                               10.06                      93.7
+2016    9.22                   0.97                    10.19                               10.66                      95.6
+2017    9.43                   2.40                    11.83                               13.06                      90.6
+2018    9.77                   3.48                    13.25                               14.33                      92.5
+2019    9.49                   3.74                    13.23                               14.11                      93.7
+2020    9.61                   5.07                    14.68                               15.57                      94.3
+2021    9.65                   5.42                    15.07                               15.91                      94.7
+2022    9.50                   6.23                    15.73                               16.68                      94.3
+2023    9.80                   6.17                    15.97                               16.94                      94.3
+
+======================================================================
+Cross-check: RUPTL 2025 intensity vs ESDM 2019 factors (tCO2/MWh)
+======================================================================
+    grid  RUPTL 2025 average  RUPTL 2025 fossil-only  ESDM 2019 OM  ESDM 2019 BM  ESDM 2019 CM 50/50
+  Jamali               0.882                   0.981          0.80          0.94                0.87
+Sumatera               0.695                   0.982          0.77          1.12                0.94
+
+======================================================================
+Diagnostic: geothermal generation / GENESIS start-of-year capacity (not an estimated capacity factor)
+======================================================================
+grid     Jamali         Sumatera        
+scenario   ARED RE Base     ARED RE Base
+year                                    
+2025       81.6    81.6     60.1    60.1
+2026       84.9    84.8     59.0    59.0
+2027       84.9    84.9     60.7    60.7
+2028       84.3    84.3     64.4    64.4
+2029       85.6    85.6     64.9    64.9
+2030       98.0    98.4     67.2    67.2
+2031      126.2   129.6     69.5    69.5
+2032      121.5   128.8     50.0    50.0
+2033      132.4   142.0     52.4    52.4
+2034      106.5   111.3     55.3    55.3
+Values above 100% flag incompatible timing or boundaries, not a measured plant capacity factor; for Jamali this includes Sumatera geothermal imported over the interconnection.
+HTML report saved: /Users/ajay/Github REPOS/FINCAPES/ruptl_eda/output/ruptl_data.html
+
+Tables and plots saved to /Users/ajay/Github REPOS/FINCAPES/ruptl_eda/output/

@@ -1,0 +1,6 @@
+topic,note
+Transcription,Values come from the decree's table as reprinted in the Ministry of Forestry carbon footprint manual (March 2025); the ESDM PDF does not download from a script. Spot-check against the PDF.
+Transcription,"Two values printed with 'm' instead of a decimal point (Saumlaki, Sulutgo) were read as decimals; see source_note."
+Missing values,"N/A in the decree means ESDM did not calculate that factor, usually because the grid is too small or has no recent plants."
+Headline factor,"Jamali cm_expost_50_50: Jamali (Java-Madura-Bali) supplies about 70% of Indonesia's electricity, and geothermal runs around the clock, so it takes the 50/50 weighting; 75/25 is for solar and wind."
+Comparison with Ember,"Ember's intensity is a national average over all generation, in lifecycle CO2-equivalent. ESDM factors are per grid, margin-based, and in tCO2; they are not expected to match."

@@ -1,0 +1,16 @@
+table,field,type,unit,meaning
+all,grid,text,,"Jamali (Java-Madura-Bali), Sumatera, or 'Sumatera + Kalimantan' where the RUPTL only reports the two together"
+all,year,number,year,Calendar year
+historical_sales / projected_sales,customer_group,text,,"Household, Business, Public, Industry, or Total"
+historical_sales / projected_sales,sales_gwh,number,GWh,Electricity sold by PLN to customers
+historical_generation,fuel_ruptl,text,,Fuel row as labelled in the RUPTL (Indonesian)
+historical_generation / projected_generation,fuel,text,,Fuel group used in this analysis
+historical_generation / projected_generation,generation_gwh,number,GWh,"Electricity produced (PLN-owned, rented and IPP plants; excludes captive power)"
+historical_generation,partial_year,true/false,,True for 2024: unaudited data to October only
+projected_*,scenario,text,,RE Base (base case) or ARED (accelerated renewables)
+projected_emissions,emissions_mtco2,number,MtCO2,Projected CO2 from fuel combustion
+projected_intensity,average_tco2_per_mwh,number,tCO2/MWh,Total emissions / total generation
+projected_intensity,fossil_tco2_per_mwh,number,tCO2/MWh,"Total emissions / coal + gas + oil generation; a descriptive fossil-only intensity, not an official operating margin"
+capacity_additions,owner,text,,"PLN, SH-PLN (PLN subsidiaries), IPP, Kerjasama (cooperation), or Total"
+capacity_additions,technology_ruptl / technology,text,,Plant type code from the RUPTL (e.g. PLTP = geothermal) and its English group
+capacity_additions,capacity_mw,number,MW,Capacity added in the year

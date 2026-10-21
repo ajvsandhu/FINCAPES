@@ -1,0 +1,161 @@
+grid,scenario,year,fuel,emissions_mtco2
+Sumatera,RE Base,2025,Gas,7.0
+Sumatera,RE Base,2026,Gas,6.9
+Sumatera,RE Base,2027,Gas,7.2
+Sumatera,RE Base,2028,Gas,7.3
+Sumatera,RE Base,2029,Gas,7.2
+Sumatera,RE Base,2030,Gas,7.1
+Sumatera,RE Base,2031,Gas,6.9
+Sumatera,RE Base,2032,Gas,6.9
+Sumatera,RE Base,2033,Gas,6.5
+Sumatera,RE Base,2034,Gas,6.7
+Sumatera,RE Base,2025,Oil,1.8
+Sumatera,RE Base,2026,Oil,1.8
+Sumatera,RE Base,2027,Oil,1.1
+Sumatera,RE Base,2028,Oil,0.7
+Sumatera,RE Base,2029,Oil,0.4
+Sumatera,RE Base,2030,Oil,0.4
+Sumatera,RE Base,2031,Oil,0.5
+Sumatera,RE Base,2032,Oil,0.4
+Sumatera,RE Base,2033,Oil,0.4
+Sumatera,RE Base,2034,Oil,0.3
+Sumatera,RE Base,2025,Coal,33.5
+Sumatera,RE Base,2026,Coal,32.3
+Sumatera,RE Base,2027,Coal,34.97
+Sumatera,RE Base,2028,Coal,35.9
+Sumatera,RE Base,2029,Coal,37.1
+Sumatera,RE Base,2030,Coal,38.6
+Sumatera,RE Base,2031,Coal,42.6
+Sumatera,RE Base,2032,Coal,50.0
+Sumatera,RE Base,2033,Coal,57.1
+Sumatera,RE Base,2034,Coal,58.1
+Sumatera,RE Base,2025,Total,42.3
+Sumatera,RE Base,2026,Total,41.0
+Sumatera,RE Base,2027,Total,43.3
+Sumatera,RE Base,2028,Total,43.9
+Sumatera,RE Base,2029,Total,44.7
+Sumatera,RE Base,2030,Total,46.2
+Sumatera,RE Base,2031,Total,49.9
+Sumatera,RE Base,2032,Total,57.3
+Sumatera,RE Base,2033,Total,64.0
+Sumatera,RE Base,2034,Total,65.2
+Sumatera,ARED,2025,Gas,7.0
+Sumatera,ARED,2026,Gas,6.9
+Sumatera,ARED,2027,Gas,7.2
+Sumatera,ARED,2028,Gas,7.3
+Sumatera,ARED,2029,Gas,7.2
+Sumatera,ARED,2030,Gas,7.1
+Sumatera,ARED,2031,Gas,6.9
+Sumatera,ARED,2032,Gas,6.9
+Sumatera,ARED,2033,Gas,6.5
+Sumatera,ARED,2034,Gas,6.7
+Sumatera,ARED,2025,Oil,1.8
+Sumatera,ARED,2026,Oil,1.8
+Sumatera,ARED,2027,Oil,1.1
+Sumatera,ARED,2028,Oil,0.7
+Sumatera,ARED,2029,Oil,0.4
+Sumatera,ARED,2030,Oil,0.4
+Sumatera,ARED,2031,Oil,0.5
+Sumatera,ARED,2032,Oil,0.4
+Sumatera,ARED,2033,Oil,0.4
+Sumatera,ARED,2034,Oil,0.3
+Sumatera,ARED,2025,Coal,33.5
+Sumatera,ARED,2026,Coal,32.3
+Sumatera,ARED,2027,Coal,35.0
+Sumatera,ARED,2028,Coal,35.9
+Sumatera,ARED,2029,Coal,36.1
+Sumatera,ARED,2030,Coal,38.0
+Sumatera,ARED,2031,Coal,41.9
+Sumatera,ARED,2032,Coal,48.9
+Sumatera,ARED,2033,Coal,54.7
+Sumatera,ARED,2034,Coal,55.6
+Sumatera,ARED,2025,Total,42.3
+Sumatera,ARED,2026,Total,41.0
+Sumatera,ARED,2027,Total,43.3
+Sumatera,ARED,2028,Total,43.9
+Sumatera,ARED,2029,Total,43.7
+Sumatera,ARED,2030,Total,45.5
+Sumatera,ARED,2031,Total,49.3
+Sumatera,ARED,2032,Total,56.2
+Sumatera,ARED,2033,Total,61.6
+Sumatera,ARED,2034,Total,62.7
+Jamali,RE Base,2025,Gas,16.9
+Jamali,RE Base,2026,Gas,18.4
+Jamali,RE Base,2027,Gas,18.7
+Jamali,RE Base,2028,Gas,19.4
+Jamali,RE Base,2029,Gas,21.5
+Jamali,RE Base,2030,Gas,30.0
+Jamali,RE Base,2031,Gas,32.3
+Jamali,RE Base,2032,Gas,37.5
+Jamali,RE Base,2033,Gas,39.0
+Jamali,RE Base,2034,Gas,46.3
+Jamali,RE Base,2025,Oil,1.9
+Jamali,RE Base,2026,Oil,1.0
+Jamali,RE Base,2027,Oil,0.6
+Jamali,RE Base,2028,Oil,0.3
+Jamali,RE Base,2029,Oil,0.1
+Jamali,RE Base,2030,Oil,0.1
+Jamali,RE Base,2031,Oil,0.1
+Jamali,RE Base,2032,Oil,0.03
+Jamali,RE Base,2033,Oil,0.0
+Jamali,RE Base,2034,Oil,0.0
+Jamali,RE Base,2025,Coal,202.8
+Jamali,RE Base,2026,Coal,209.8
+Jamali,RE Base,2027,Coal,218.8
+Jamali,RE Base,2028,Coal,223.2
+Jamali,RE Base,2029,Coal,222.8
+Jamali,RE Base,2030,Coal,224.5
+Jamali,RE Base,2031,Coal,218.9
+Jamali,RE Base,2032,Coal,219.5
+Jamali,RE Base,2033,Coal,218.9
+Jamali,RE Base,2034,Coal,210.5
+Jamali,RE Base,2025,Total,221.7
+Jamali,RE Base,2026,Total,229.2
+Jamali,RE Base,2027,Total,238.0
+Jamali,RE Base,2028,Total,242.9
+Jamali,RE Base,2029,Total,244.4
+Jamali,RE Base,2030,Total,254.5
+Jamali,RE Base,2031,Total,251.2
+Jamali,RE Base,2032,Total,257.0
+Jamali,RE Base,2033,Total,257.9
+Jamali,RE Base,2034,Total,256.8
+Jamali,ARED,2025,Gas,16.9
+Jamali,ARED,2026,Gas,18.1
+Jamali,ARED,2027,Gas,18.3
+Jamali,ARED,2028,Gas,19.0
+Jamali,ARED,2029,Gas,20.7
+Jamali,ARED,2030,Gas,28.5
+Jamali,ARED,2031,Gas,29.7
+Jamali,ARED,2032,Gas,34.3
+Jamali,ARED,2033,Gas,34.4
+Jamali,ARED,2034,Gas,37.5
+Jamali,ARED,2025,Oil,1.9
+Jamali,ARED,2026,Oil,0.8
+Jamali,ARED,2027,Oil,0.6
+Jamali,ARED,2028,Oil,0.3
+Jamali,ARED,2029,Oil,0.1
+Jamali,ARED,2030,Oil,0.1
+Jamali,ARED,2031,Oil,0.1
+Jamali,ARED,2032,Oil,0.03
+Jamali,ARED,2033,Oil,0.0
+Jamali,ARED,2034,Oil,0.0
+Jamali,ARED,2025,Coal,193.3
+Jamali,ARED,2026,Coal,202.1
+Jamali,ARED,2027,Coal,210.9
+Jamali,ARED,2028,Coal,218.2
+Jamali,ARED,2029,Coal,221.4
+Jamali,ARED,2030,Coal,224.3
+Jamali,ARED,2031,Coal,218.7
+Jamali,ARED,2032,Coal,219.3
+Jamali,ARED,2033,Coal,218.6
+Jamali,ARED,2034,Coal,213.7
+Jamali,ARED,2025,Total,212.1
+Jamali,ARED,2026,Total,221.1
+Jamali,ARED,2027,Total,229.7
+Jamali,ARED,2028,Total,237.2
+Jamali,ARED,2029,Total,242.3
+Jamali,ARED,2030,Total,253.2
+Jamali,ARED,2031,Total,248.8
+Jamali,ARED,2032,Total,253.9
+Jamali,ARED,2033,Total,253.4
+Jamali,ARED,2034,Total,251.3

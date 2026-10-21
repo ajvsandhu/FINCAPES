@@ -1,0 +1,2021 @@
+grid,scenario,owner,technology_ruptl,technology,year,capacity_mw
+Sumatera,RE Base,PLN,PLTP,Geothermal,2025,0.0
+Sumatera,RE Base,PLN,PLTP,Geothermal,2026,0.0
+Sumatera,RE Base,PLN,PLTP,Geothermal,2027,0.0
+Sumatera,RE Base,PLN,PLTP,Geothermal,2028,110.0
+Sumatera,RE Base,PLN,PLTP,Geothermal,2029,0.0
+Sumatera,RE Base,PLN,PLTP,Geothermal,2030,0.0
+Sumatera,RE Base,PLN,PLTP,Geothermal,2031,0.0
+Sumatera,RE Base,PLN,PLTP,Geothermal,2032,0.0
+Sumatera,RE Base,PLN,PLTP,Geothermal,2033,0.0
+Sumatera,RE Base,PLN,PLTP,Geothermal,2034,0.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2025,0.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2026,200.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2027,0.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2028,0.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2029,0.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2030,0.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2031,0.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2032,0.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2033,0.0
+Sumatera,RE Base,PLN,PLTMG,Gas,2034,0.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2025,262.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2026,0.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2027,0.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2028,0.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2029,89.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2030,0.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2031,0.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2032,0.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2033,0.0
+Sumatera,RE Base,PLN,PLTA,Hydro,2034,0.0
+Sumatera,RE Base,PLN,PLTS,Solar,2025,4.0
+Sumatera,RE Base,PLN,PLTS,Solar,2026,1.0
+Sumatera,RE Base,PLN,PLTS,Solar,2027,8.0
+Sumatera,RE Base,PLN,PLTS,Solar,2028,0.0
+Sumatera,RE Base,PLN,PLTS,Solar,2029,0.0
+Sumatera,RE Base,PLN,PLTS,Solar,2030,0.0
+Sumatera,RE Base,PLN,PLTS,Solar,2031,0.0
+Sumatera,RE Base,PLN,PLTS,Solar,2032,0.0
+Sumatera,RE Base,PLN,PLTS,Solar,2033,0.0
+Sumatera,RE Base,PLN,PLTS,Solar,2034,0.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2025,0.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2026,0.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2027,0.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2028,0.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2029,0.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2030,110.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2031,0.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2032,0.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2033,75.0
+Sumatera,RE Base,SH-PLN,PLTP,Geothermal,2034,0.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2025,0.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2026,0.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2027,0.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2028,80.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2029,0.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2030,0.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2031,0.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2032,0.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2033,0.0
+Sumatera,RE Base,SH-PLN,PLTGU,Gas,2034,0.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2025,0.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2026,0.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2027,0.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2028,0.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2029,300.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2030,0.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2031,0.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2032,0.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2033,0.0
+Sumatera,RE Base,SH-PLN,PLTG,Gas,2034,0.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2025,0.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2026,0.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2027,46.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2028,30.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2029,0.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2030,0.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2031,10.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2032,0.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2033,10.0
+Sumatera,RE Base,SH-PLN,PLTMG,Gas,2034,0.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2025,0.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2026,0.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2027,0.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2028,0.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2029,0.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2030,0.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2031,0.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2032,0.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2033,94.0
+Sumatera,RE Base,SH-PLN,PLTA,Hydro,2034,0.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2025,0.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2026,0.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2027,0.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2028,0.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2029,0.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2030,0.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2031,0.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2032,0.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2033,500.0
+Sumatera,RE Base,SH-PLN,PLTA PS,Pumped storage,2034,0.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2025,0.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2026,6.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2027,0.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2028,0.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2029,236.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2030,0.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2031,0.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2032,0.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2033,0.0
+Sumatera,RE Base,SH-PLN,PLTS,Solar,2034,10.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2025,0.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2026,55.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2027,0.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2028,55.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2029,0.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2030,0.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2031,0.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2032,0.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2033,0.0
+Sumatera,RE Base,SH-PLN,PLTB,Wind,2034,0.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2025,0.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2026,50.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2027,50.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2028,100.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2029,350.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2030,100.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2031,0.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2032,0.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2033,0.0
+Sumatera,RE Base,SH-PLN,BESS,Battery,2034,0.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2025,900.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2026,0.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2027,0.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2028,0.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2029,0.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2030,600.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2031,0.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2032,1200.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2033,600.0
+Sumatera,RE Base,IPP,PLTU MT,Coal (mine-mouth),2034,0.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2025,88.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2026,0.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2027,105.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2028,85.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2029,0.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2030,134.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2031,815.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2032,0.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2033,495.0
+Sumatera,RE Base,IPP,PLTP,Geothermal,2034,0.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2025,0.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2026,0.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2027,0.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2028,25.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2029,0.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2030,0.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2031,0.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2032,0.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2033,0.0
+Sumatera,RE Base,IPP,PLTMG,Gas,2034,0.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2025,0.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2026,3.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2027,0.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2028,0.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2029,2.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2030,0.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2031,0.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2032,4.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2033,4.0
+Sumatera,RE Base,IPP,PLTBg,Bioenergy,2034,0.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2025,85.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2026,47.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2027,68.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2028,18.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2029,25.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2030,4.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2031,20.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2032,0.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2033,0.0
+Sumatera,RE Base,IPP,PLTM,Hydro,2034,0.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2025,350.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2026,510.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2027,0.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2028,250.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2029,40.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2030,200.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2031,1871.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2032,607.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2033,300.0
+Sumatera,RE Base,IPP,PLTA,Hydro,2034,100.0
+Sumatera,RE Base,IPP,PLTS,Solar,2025,1.0
+Sumatera,RE Base,IPP,PLTS,Solar,2026,57.0
+Sumatera,RE Base,IPP,PLTS,Solar,2027,50.0
+Sumatera,RE Base,IPP,PLTS,Solar,2028,27.0
+Sumatera,RE Base,IPP,PLTS,Solar,2029,78.0
+Sumatera,RE Base,IPP,PLTS,Solar,2030,193.0
+Sumatera,RE Base,IPP,PLTS,Solar,2031,53.0
+Sumatera,RE Base,IPP,PLTS,Solar,2032,179.0
+Sumatera,RE Base,IPP,PLTS,Solar,2033,603.0
+Sumatera,RE Base,IPP,PLTS,Solar,2034,101.0
+Sumatera,RE Base,IPP,PLTB,Wind,2025,0.0
+Sumatera,RE Base,IPP,PLTB,Wind,2026,0.0
+Sumatera,RE Base,IPP,PLTB,Wind,2027,0.0
+Sumatera,RE Base,IPP,PLTB,Wind,2028,0.0
+Sumatera,RE Base,IPP,PLTB,Wind,2029,0.0
+Sumatera,RE Base,IPP,PLTB,Wind,2030,110.0
+Sumatera,RE Base,IPP,PLTB,Wind,2031,0.0
+Sumatera,RE Base,IPP,PLTB,Wind,2032,0.0
+Sumatera,RE Base,IPP,PLTB,Wind,2033,270.0
+Sumatera,RE Base,IPP,PLTB,Wind,2034,100.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2025,0.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2026,18.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2027,0.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2028,0.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2029,0.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2030,0.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2031,0.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2032,0.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2033,0.0
+Sumatera,RE Base,IPP,PLTSa,Bioenergy,2034,0.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2025,10.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2026,0.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2027,13.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2028,3.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2029,18.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2030,0.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2031,0.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2032,0.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2033,3.0
+Sumatera,RE Base,IPP,PLTBm,Bioenergy,2034,0.0
+Sumatera,RE Base,IPP,BESS,Battery,2025,0.0
+Sumatera,RE Base,IPP,BESS,Battery,2026,0.0
+Sumatera,RE Base,IPP,BESS,Battery,2027,0.0
+Sumatera,RE Base,IPP,BESS,Battery,2028,0.0
+Sumatera,RE Base,IPP,BESS,Battery,2029,0.0
+Sumatera,RE Base,IPP,BESS,Battery,2030,75.0
+Sumatera,RE Base,IPP,BESS,Battery,2031,0.0
+Sumatera,RE Base,IPP,BESS,Battery,2032,75.0
+Sumatera,RE Base,IPP,BESS,Battery,2033,275.0
+Sumatera,RE Base,IPP,BESS,Battery,2034,0.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2025,0.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2026,0.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2027,0.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2028,300.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2029,0.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2030,0.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2031,0.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2032,0.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2033,0.0
+Sumatera,RE Base,Kerjasama,PLTU,Coal,2034,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2025,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2026,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2027,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2028,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2029,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2030,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2031,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2032,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2033,0.0
+Sumatera,RE Base,Total,PLTU,Coal,2034,0.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2025,900.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2026,0.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2027,0.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2028,0.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2029,0.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2030,600.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2031,0.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2032,1200.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2033,600.0
+Sumatera,RE Base,Total,PLTU MT,Coal (mine-mouth),2034,0.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2025,88.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2026,0.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2027,105.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2028,195.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2029,0.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2030,244.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2031,815.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2032,0.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2033,570.0
+Sumatera,RE Base,Total,PLTP,Geothermal,2034,0.0
+Sumatera,RE Base,Total,PLTGU,Gas,2025,0.0
+Sumatera,RE Base,Total,PLTGU,Gas,2026,0.0
+Sumatera,RE Base,Total,PLTGU,Gas,2027,0.0
+Sumatera,RE Base,Total,PLTGU,Gas,2028,80.0
+Sumatera,RE Base,Total,PLTGU,Gas,2029,0.0
+Sumatera,RE Base,Total,PLTGU,Gas,2030,0.0
+Sumatera,RE Base,Total,PLTGU,Gas,2031,0.0
+Sumatera,RE Base,Total,PLTGU,Gas,2032,0.0
+Sumatera,RE Base,Total,PLTGU,Gas,2033,0.0
+Sumatera,RE Base,Total,PLTGU,Gas,2034,0.0
+Sumatera,RE Base,Total,PLTG,Gas,2025,0.0
+Sumatera,RE Base,Total,PLTG,Gas,2026,0.0
+Sumatera,RE Base,Total,PLTG,Gas,2027,0.0
+Sumatera,RE Base,Total,PLTG,Gas,2028,0.0
+Sumatera,RE Base,Total,PLTG,Gas,2029,300.0
+Sumatera,RE Base,Total,PLTG,Gas,2030,0.0
+Sumatera,RE Base,Total,PLTG,Gas,2031,0.0
+Sumatera,RE Base,Total,PLTG,Gas,2032,0.0
+Sumatera,RE Base,Total,PLTG,Gas,2033,0.0
+Sumatera,RE Base,Total,PLTG,Gas,2034,0.0
+Sumatera,RE Base,Total,PLTMG,Gas,2025,0.0
+Sumatera,RE Base,Total,PLTMG,Gas,2026,200.0
+Sumatera,RE Base,Total,PLTMG,Gas,2027,46.0
+Sumatera,RE Base,Total,PLTMG,Gas,2028,55.0
+Sumatera,RE Base,Total,PLTMG,Gas,2029,0.0
+Sumatera,RE Base,Total,PLTMG,Gas,2030,0.0
+Sumatera,RE Base,Total,PLTMG,Gas,2031,10.0
+Sumatera,RE Base,Total,PLTMG,Gas,2032,0.0
+Sumatera,RE Base,Total,PLTMG,Gas,2033,10.0
+Sumatera,RE Base,Total,PLTMG,Gas,2034,0.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2025,0.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2026,3.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2027,0.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2028,0.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2029,2.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2030,0.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2031,0.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2032,4.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2033,4.0
+Sumatera,RE Base,Total,PLTBg,Bioenergy,2034,0.0
+Sumatera,RE Base,Total,PLTM,Hydro,2025,85.0
+Sumatera,RE Base,Total,PLTM,Hydro,2026,47.0
+Sumatera,RE Base,Total,PLTM,Hydro,2027,68.0
+Sumatera,RE Base,Total,PLTM,Hydro,2028,18.0
+Sumatera,RE Base,Total,PLTM,Hydro,2029,25.0
+Sumatera,RE Base,Total,PLTM,Hydro,2030,4.0
+Sumatera,RE Base,Total,PLTM,Hydro,2031,20.0
+Sumatera,RE Base,Total,PLTM,Hydro,2032,0.0
+Sumatera,RE Base,Total,PLTM,Hydro,2033,0.0
+Sumatera,RE Base,Total,PLTM,Hydro,2034,0.0
+Sumatera,RE Base,Total,PLTA,Hydro,2025,612.0
+Sumatera,RE Base,Total,PLTA,Hydro,2026,510.0
+Sumatera,RE Base,Total,PLTA,Hydro,2027,0.0
+Sumatera,RE Base,Total,PLTA,Hydro,2028,250.0
+Sumatera,RE Base,Total,PLTA,Hydro,2029,129.0
+Sumatera,RE Base,Total,PLTA,Hydro,2030,200.0
+Sumatera,RE Base,Total,PLTA,Hydro,2031,1871.0
+Sumatera,RE Base,Total,PLTA,Hydro,2032,607.0
+Sumatera,RE Base,Total,PLTA,Hydro,2033,394.0
+Sumatera,RE Base,Total,PLTA,Hydro,2034,100.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2025,0.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2026,0.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2027,0.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2028,0.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2029,0.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2030,0.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2031,0.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2032,0.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2033,500.0
+Sumatera,RE Base,Total,PLTA PS,Pumped storage,2034,0.0
+Sumatera,RE Base,Total,PLTS,Solar,2025,5.0
+Sumatera,RE Base,Total,PLTS,Solar,2026,64.0
+Sumatera,RE Base,Total,PLTS,Solar,2027,57.0
+Sumatera,RE Base,Total,PLTS,Solar,2028,27.0
+Sumatera,RE Base,Total,PLTS,Solar,2029,314.0
+Sumatera,RE Base,Total,PLTS,Solar,2030,193.0
+Sumatera,RE Base,Total,PLTS,Solar,2031,53.0
+Sumatera,RE Base,Total,PLTS,Solar,2032,179.0
+Sumatera,RE Base,Total,PLTS,Solar,2033,603.0
+Sumatera,RE Base,Total,PLTS,Solar,2034,111.0
+Sumatera,RE Base,Total,PLTB,Wind,2025,0.0
+Sumatera,RE Base,Total,PLTB,Wind,2026,55.0
+Sumatera,RE Base,Total,PLTB,Wind,2027,0.0
+Sumatera,RE Base,Total,PLTB,Wind,2028,55.0
+Sumatera,RE Base,Total,PLTB,Wind,2029,0.0
+Sumatera,RE Base,Total,PLTB,Wind,2030,110.0
+Sumatera,RE Base,Total,PLTB,Wind,2031,0.0
+Sumatera,RE Base,Total,PLTB,Wind,2032,0.0
+Sumatera,RE Base,Total,PLTB,Wind,2033,270.0
+Sumatera,RE Base,Total,PLTB,Wind,2034,100.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2025,0.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2026,18.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2027,0.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2028,0.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2029,0.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2030,0.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2031,0.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2032,0.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2033,0.0
+Sumatera,RE Base,Total,PLTSa,Bioenergy,2034,0.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2025,10.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2026,0.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2027,13.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2028,3.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2029,18.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2030,0.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2031,0.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2032,0.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2033,3.0
+Sumatera,RE Base,Total,PLTBm,Bioenergy,2034,0.0
+Sumatera,RE Base,Total,BESS,Battery,2025,0.0
+Sumatera,RE Base,Total,BESS,Battery,2026,50.0
+Sumatera,RE Base,Total,BESS,Battery,2027,50.0
+Sumatera,RE Base,Total,BESS,Battery,2028,100.0
+Sumatera,RE Base,Total,BESS,Battery,2029,350.0
+Sumatera,RE Base,Total,BESS,Battery,2030,175.0
+Sumatera,RE Base,Total,BESS,Battery,2031,0.0
+Sumatera,RE Base,Total,BESS,Battery,2032,75.0
+Sumatera,RE Base,Total,BESS,Battery,2033,275.0
+Sumatera,RE Base,Total,BESS,Battery,2034,0.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2025,0.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2026,0.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2027,0.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2028,110.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2029,0.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2030,0.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2031,0.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2032,0.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2033,0.0
+Sumatera,ARED,PLN,PLTP,Geothermal,2034,0.0
+Sumatera,ARED,PLN,PLTMG,Gas,2025,0.0
+Sumatera,ARED,PLN,PLTMG,Gas,2026,200.0
+Sumatera,ARED,PLN,PLTMG,Gas,2027,0.0
+Sumatera,ARED,PLN,PLTMG,Gas,2028,0.0
+Sumatera,ARED,PLN,PLTMG,Gas,2029,0.0
+Sumatera,ARED,PLN,PLTMG,Gas,2030,0.0
+Sumatera,ARED,PLN,PLTMG,Gas,2031,0.0
+Sumatera,ARED,PLN,PLTMG,Gas,2032,0.0
+Sumatera,ARED,PLN,PLTMG,Gas,2033,0.0
+Sumatera,ARED,PLN,PLTMG,Gas,2034,0.0
+Sumatera,ARED,PLN,PLTA,Hydro,2025,262.0
+Sumatera,ARED,PLN,PLTA,Hydro,2026,0.0
+Sumatera,ARED,PLN,PLTA,Hydro,2027,0.0
+Sumatera,ARED,PLN,PLTA,Hydro,2028,0.0
+Sumatera,ARED,PLN,PLTA,Hydro,2029,89.0
+Sumatera,ARED,PLN,PLTA,Hydro,2030,0.0
+Sumatera,ARED,PLN,PLTA,Hydro,2031,0.0
+Sumatera,ARED,PLN,PLTA,Hydro,2032,0.0
+Sumatera,ARED,PLN,PLTA,Hydro,2033,0.0
+Sumatera,ARED,PLN,PLTA,Hydro,2034,0.0
+Sumatera,ARED,PLN,PLTS,Solar,2025,4.0
+Sumatera,ARED,PLN,PLTS,Solar,2026,1.0
+Sumatera,ARED,PLN,PLTS,Solar,2027,8.0
+Sumatera,ARED,PLN,PLTS,Solar,2028,0.0
+Sumatera,ARED,PLN,PLTS,Solar,2029,0.0
+Sumatera,ARED,PLN,PLTS,Solar,2030,0.0
+Sumatera,ARED,PLN,PLTS,Solar,2031,0.0
+Sumatera,ARED,PLN,PLTS,Solar,2032,0.0
+Sumatera,ARED,PLN,PLTS,Solar,2033,0.0
+Sumatera,ARED,PLN,PLTS,Solar,2034,0.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2025,0.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2026,0.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2027,0.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2028,0.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2029,0.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2030,110.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2031,0.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2032,0.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2033,75.0
+Sumatera,ARED,SH-PLN,PLTP,Geothermal,2034,0.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2025,0.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2026,0.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2027,0.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2028,80.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2029,0.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2030,0.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2031,0.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2032,0.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2033,0.0
+Sumatera,ARED,SH-PLN,PLTGU,Gas,2034,0.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2025,0.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2026,0.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2027,0.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2028,0.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2029,300.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2030,0.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2031,0.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2032,0.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2033,0.0
+Sumatera,ARED,SH-PLN,PLTG,Gas,2034,0.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2025,0.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2026,0.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2027,46.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2028,30.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2029,0.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2030,0.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2031,10.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2032,0.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2033,10.0
+Sumatera,ARED,SH-PLN,PLTMG,Gas,2034,0.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2025,0.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2026,0.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2027,0.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2028,0.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2029,0.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2030,0.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2031,0.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2032,0.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2033,94.0
+Sumatera,ARED,SH-PLN,PLTA,Hydro,2034,0.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2025,0.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2026,0.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2027,0.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2028,0.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2029,0.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2030,0.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2031,0.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2032,0.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2033,500.0
+Sumatera,ARED,SH-PLN,PLTA PS,Pumped storage,2034,0.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2025,0.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2026,6.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2027,0.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2028,0.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2029,236.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2030,0.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2031,0.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2032,0.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2033,0.0
+Sumatera,ARED,SH-PLN,PLTS,Solar,2034,10.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2025,0.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2026,55.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2027,0.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2028,55.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2029,0.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2030,0.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2031,0.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2032,0.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2033,0.0
+Sumatera,ARED,SH-PLN,PLTB,Wind,2034,0.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2025,0.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2026,50.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2027,50.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2028,100.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2029,350.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2030,100.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2031,0.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2032,0.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2033,0.0
+Sumatera,ARED,SH-PLN,BESS,Battery,2034,0.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2025,900.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2026,0.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2027,0.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2028,0.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2029,0.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2030,600.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2031,0.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2032,1200.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2033,600.0
+Sumatera,ARED,IPP,PLTU MT,Coal (mine-mouth),2034,0.0
+Sumatera,ARED,IPP,PLTP,Geothermal,2025,
+Sumatera,ARED,IPP,PLTP,Geothermal,2026,
+Sumatera,ARED,IPP,PLTP,Geothermal,2027,
+Sumatera,ARED,IPP,PLTP,Geothermal,2028,
+Sumatera,ARED,IPP,PLTP,Geothermal,2029,
+Sumatera,ARED,IPP,PLTP,Geothermal,2030,
+Sumatera,ARED,IPP,PLTP,Geothermal,2031,
+Sumatera,ARED,IPP,PLTP,Geothermal,2032,
+Sumatera,ARED,IPP,PLTP,Geothermal,2033,
+Sumatera,ARED,IPP,PLTP,Geothermal,2034,
+Sumatera,ARED,IPP,PLTMG,Gas,2025,0.0
+Sumatera,ARED,IPP,PLTMG,Gas,2026,0.0
+Sumatera,ARED,IPP,PLTMG,Gas,2027,0.0
+Sumatera,ARED,IPP,PLTMG,Gas,2028,25.0
+Sumatera,ARED,IPP,PLTMG,Gas,2029,0.0
+Sumatera,ARED,IPP,PLTMG,Gas,2030,0.0
+Sumatera,ARED,IPP,PLTMG,Gas,2031,0.0
+Sumatera,ARED,IPP,PLTMG,Gas,2032,0.0
+Sumatera,ARED,IPP,PLTMG,Gas,2033,0.0
+Sumatera,ARED,IPP,PLTMG,Gas,2034,0.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2025,0.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2026,3.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2027,0.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2028,0.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2029,2.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2030,0.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2031,0.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2032,4.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2033,4.0
+Sumatera,ARED,IPP,PLTBg,Bioenergy,2034,0.0
+Sumatera,ARED,IPP,PLTM,Hydro,2025,85.0
+Sumatera,ARED,IPP,PLTM,Hydro,2026,47.0
+Sumatera,ARED,IPP,PLTM,Hydro,2027,68.0
+Sumatera,ARED,IPP,PLTM,Hydro,2028,18.0
+Sumatera,ARED,IPP,PLTM,Hydro,2029,25.0
+Sumatera,ARED,IPP,PLTM,Hydro,2030,4.0
+Sumatera,ARED,IPP,PLTM,Hydro,2031,20.0
+Sumatera,ARED,IPP,PLTM,Hydro,2032,0.0
+Sumatera,ARED,IPP,PLTM,Hydro,2033,0.0
+Sumatera,ARED,IPP,PLTM,Hydro,2034,0.0
+Sumatera,ARED,IPP,PLTA,Hydro,2025,350.0
+Sumatera,ARED,IPP,PLTA,Hydro,2026,510.0
+Sumatera,ARED,IPP,PLTA,Hydro,2027,0.0
+Sumatera,ARED,IPP,PLTA,Hydro,2028,250.0
+Sumatera,ARED,IPP,PLTA,Hydro,2029,40.0
+Sumatera,ARED,IPP,PLTA,Hydro,2030,200.0
+Sumatera,ARED,IPP,PLTA,Hydro,2031,1871.0
+Sumatera,ARED,IPP,PLTA,Hydro,2032,607.0
+Sumatera,ARED,IPP,PLTA,Hydro,2033,300.0
+Sumatera,ARED,IPP,PLTA,Hydro,2034,100.0
+Sumatera,ARED,IPP,PLTS,Solar,2025,1.0
+Sumatera,ARED,IPP,PLTS,Solar,2026,57.0
+Sumatera,ARED,IPP,PLTS,Solar,2027,50.0
+Sumatera,ARED,IPP,PLTS,Solar,2028,27.0
+Sumatera,ARED,IPP,PLTS,Solar,2029,78.0
+Sumatera,ARED,IPP,PLTS,Solar,2030,193.0
+Sumatera,ARED,IPP,PLTS,Solar,2031,53.0
+Sumatera,ARED,IPP,PLTS,Solar,2032,179.0
+Sumatera,ARED,IPP,PLTS,Solar,2033,603.0
+Sumatera,ARED,IPP,PLTS,Solar,2034,101.0
+Sumatera,ARED,IPP,PLTB,Wind,2025,0.0
+Sumatera,ARED,IPP,PLTB,Wind,2026,0.0
+Sumatera,ARED,IPP,PLTB,Wind,2027,0.0
+Sumatera,ARED,IPP,PLTB,Wind,2028,0.0
+Sumatera,ARED,IPP,PLTB,Wind,2029,0.0
+Sumatera,ARED,IPP,PLTB,Wind,2030,110.0
+Sumatera,ARED,IPP,PLTB,Wind,2031,0.0
+Sumatera,ARED,IPP,PLTB,Wind,2032,0.0
+Sumatera,ARED,IPP,PLTB,Wind,2033,270.0
+Sumatera,ARED,IPP,PLTB,Wind,2034,100.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2025,0.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2026,18.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2027,0.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2028,0.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2029,0.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2030,0.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2031,0.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2032,0.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2033,0.0
+Sumatera,ARED,IPP,PLTSa,Bioenergy,2034,0.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2025,10.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2026,0.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2027,13.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2028,3.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2029,18.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2030,0.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2031,0.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2032,0.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2033,3.0
+Sumatera,ARED,IPP,PLTBm,Bioenergy,2034,0.0
+Sumatera,ARED,IPP,BESS,Battery,2025,0.0
+Sumatera,ARED,IPP,BESS,Battery,2026,0.0
+Sumatera,ARED,IPP,BESS,Battery,2027,0.0
+Sumatera,ARED,IPP,BESS,Battery,2028,0.0
+Sumatera,ARED,IPP,BESS,Battery,2029,0.0
+Sumatera,ARED,IPP,BESS,Battery,2030,75.0
+Sumatera,ARED,IPP,BESS,Battery,2031,0.0
+Sumatera,ARED,IPP,BESS,Battery,2032,75.0
+Sumatera,ARED,IPP,BESS,Battery,2033,275.0
+Sumatera,ARED,IPP,BESS,Battery,2034,0.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2025,0.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2026,0.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2027,0.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2028,0.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2029,0.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2030,0.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2031,0.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2032,250.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2033,0.0
+Sumatera,ARED,IPP,PLTN,Nuclear,2034,0.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2025,0.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2026,0.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2027,0.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2028,300.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2029,0.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2030,0.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2031,0.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2032,0.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2033,0.0
+Sumatera,ARED,Kerjasama,PLTU,Coal,2034,0.0
+Sumatera,ARED,Total,PLTU,Coal,2025,0.0
+Sumatera,ARED,Total,PLTU,Coal,2026,0.0
+Sumatera,ARED,Total,PLTU,Coal,2027,0.0
+Sumatera,ARED,Total,PLTU,Coal,2028,0.0
+Sumatera,ARED,Total,PLTU,Coal,2029,0.0
+Sumatera,ARED,Total,PLTU,Coal,2030,0.0
+Sumatera,ARED,Total,PLTU,Coal,2031,0.0
+Sumatera,ARED,Total,PLTU,Coal,2032,0.0
+Sumatera,ARED,Total,PLTU,Coal,2033,0.0
+Sumatera,ARED,Total,PLTU,Coal,2034,0.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2025,900.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2026,0.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2027,0.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2028,0.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2029,0.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2030,600.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2031,0.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2032,1200.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2033,600.0
+Sumatera,ARED,Total,PLTU MT,Coal (mine-mouth),2034,0.0
+Sumatera,ARED,Total,PLTP,Geothermal,2025,88.0
+Sumatera,ARED,Total,PLTP,Geothermal,2026,0.0
+Sumatera,ARED,Total,PLTP,Geothermal,2027,105.0
+Sumatera,ARED,Total,PLTP,Geothermal,2028,195.0
+Sumatera,ARED,Total,PLTP,Geothermal,2029,0.0
+Sumatera,ARED,Total,PLTP,Geothermal,2030,244.0
+Sumatera,ARED,Total,PLTP,Geothermal,2031,815.0
+Sumatera,ARED,Total,PLTP,Geothermal,2032,0.0
+Sumatera,ARED,Total,PLTP,Geothermal,2033,570.0
+Sumatera,ARED,Total,PLTP,Geothermal,2034,0.0
+Sumatera,ARED,Total,PLTGU,Gas,2025,0.0
+Sumatera,ARED,Total,PLTGU,Gas,2026,0.0
+Sumatera,ARED,Total,PLTGU,Gas,2027,0.0
+Sumatera,ARED,Total,PLTGU,Gas,2028,80.0
+Sumatera,ARED,Total,PLTGU,Gas,2029,0.0
+Sumatera,ARED,Total,PLTGU,Gas,2030,0.0
+Sumatera,ARED,Total,PLTGU,Gas,2031,0.0
+Sumatera,ARED,Total,PLTGU,Gas,2032,0.0
+Sumatera,ARED,Total,PLTGU,Gas,2033,0.0
+Sumatera,ARED,Total,PLTGU,Gas,2034,0.0
+Sumatera,ARED,Total,PLTG,Gas,2025,0.0
+Sumatera,ARED,Total,PLTG,Gas,2026,0.0
+Sumatera,ARED,Total,PLTG,Gas,2027,0.0
+Sumatera,ARED,Total,PLTG,Gas,2028,0.0
+Sumatera,ARED,Total,PLTG,Gas,2029,300.0
+Sumatera,ARED,Total,PLTG,Gas,2030,0.0
+Sumatera,ARED,Total,PLTG,Gas,2031,0.0
+Sumatera,ARED,Total,PLTG,Gas,2032,0.0
+Sumatera,ARED,Total,PLTG,Gas,2033,0.0
+Sumatera,ARED,Total,PLTG,Gas,2034,0.0
+Sumatera,ARED,Total,PLTMG,Gas,2025,0.0
+Sumatera,ARED,Total,PLTMG,Gas,2026,200.0
+Sumatera,ARED,Total,PLTMG,Gas,2027,46.0
+Sumatera,ARED,Total,PLTMG,Gas,2028,55.0
+Sumatera,ARED,Total,PLTMG,Gas,2029,0.0
+Sumatera,ARED,Total,PLTMG,Gas,2030,0.0
+Sumatera,ARED,Total,PLTMG,Gas,2031,10.0
+Sumatera,ARED,Total,PLTMG,Gas,2032,0.0
+Sumatera,ARED,Total,PLTMG,Gas,2033,10.0
+Sumatera,ARED,Total,PLTMG,Gas,2034,0.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2025,0.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2026,3.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2027,0.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2028,0.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2029,2.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2030,0.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2031,0.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2032,4.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2033,4.0
+Sumatera,ARED,Total,PLTBg,Bioenergy,2034,0.0
+Sumatera,ARED,Total,PLTM,Hydro,2025,85.0
+Sumatera,ARED,Total,PLTM,Hydro,2026,47.0
+Sumatera,ARED,Total,PLTM,Hydro,2027,68.0
+Sumatera,ARED,Total,PLTM,Hydro,2028,18.0
+Sumatera,ARED,Total,PLTM,Hydro,2029,25.0
+Sumatera,ARED,Total,PLTM,Hydro,2030,4.0
+Sumatera,ARED,Total,PLTM,Hydro,2031,20.0
+Sumatera,ARED,Total,PLTM,Hydro,2032,0.0
+Sumatera,ARED,Total,PLTM,Hydro,2033,0.0
+Sumatera,ARED,Total,PLTM,Hydro,2034,0.0
+Sumatera,ARED,Total,PLTA,Hydro,2025,612.0
+Sumatera,ARED,Total,PLTA,Hydro,2026,510.0
+Sumatera,ARED,Total,PLTA,Hydro,2027,0.0
+Sumatera,ARED,Total,PLTA,Hydro,2028,250.0
+Sumatera,ARED,Total,PLTA,Hydro,2029,129.0
+Sumatera,ARED,Total,PLTA,Hydro,2030,200.0
+Sumatera,ARED,Total,PLTA,Hydro,2031,1871.0
+Sumatera,ARED,Total,PLTA,Hydro,2032,607.0
+Sumatera,ARED,Total,PLTA,Hydro,2033,394.0
+Sumatera,ARED,Total,PLTA,Hydro,2034,100.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2025,0.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2026,0.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2027,0.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2028,0.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2029,0.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2030,0.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2031,0.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2032,0.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2033,500.0
+Sumatera,ARED,Total,PLTA PS,Pumped storage,2034,0.0
+Sumatera,ARED,Total,PLTS,Solar,2025,5.0
+Sumatera,ARED,Total,PLTS,Solar,2026,64.0
+Sumatera,ARED,Total,PLTS,Solar,2027,57.0
+Sumatera,ARED,Total,PLTS,Solar,2028,27.0
+Sumatera,ARED,Total,PLTS,Solar,2029,314.0
+Sumatera,ARED,Total,PLTS,Solar,2030,193.0
+Sumatera,ARED,Total,PLTS,Solar,2031,53.0
+Sumatera,ARED,Total,PLTS,Solar,2032,179.0
+Sumatera,ARED,Total,PLTS,Solar,2033,603.0
+Sumatera,ARED,Total,PLTS,Solar,2034,111.0
+Sumatera,ARED,Total,PLTB,Wind,2025,0.0
+Sumatera,ARED,Total,PLTB,Wind,2026,55.0
+Sumatera,ARED,Total,PLTB,Wind,2027,0.0
+Sumatera,ARED,Total,PLTB,Wind,2028,55.0
+Sumatera,ARED,Total,PLTB,Wind,2029,0.0
+Sumatera,ARED,Total,PLTB,Wind,2030,110.0
+Sumatera,ARED,Total,PLTB,Wind,2031,0.0
+Sumatera,ARED,Total,PLTB,Wind,2032,0.0
+Sumatera,ARED,Total,PLTB,Wind,2033,270.0
+Sumatera,ARED,Total,PLTB,Wind,2034,100.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2025,0.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2026,18.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2027,0.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2028,0.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2029,0.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2030,0.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2031,0.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2032,0.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2033,0.0
+Sumatera,ARED,Total,PLTSa,Bioenergy,2034,0.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2025,10.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2026,0.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2027,13.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2028,3.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2029,18.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2030,0.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2031,0.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2032,0.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2033,3.0
+Sumatera,ARED,Total,PLTBm,Bioenergy,2034,0.0
+Sumatera,ARED,Total,BESS,Battery,2025,0.0
+Sumatera,ARED,Total,BESS,Battery,2026,50.0
+Sumatera,ARED,Total,BESS,Battery,2027,50.0
+Sumatera,ARED,Total,BESS,Battery,2028,100.0
+Sumatera,ARED,Total,BESS,Battery,2029,350.0
+Sumatera,ARED,Total,BESS,Battery,2030,175.0
+Sumatera,ARED,Total,BESS,Battery,2031,0.0
+Sumatera,ARED,Total,BESS,Battery,2032,75.0
+Sumatera,ARED,Total,BESS,Battery,2033,275.0
+Sumatera,ARED,Total,BESS,Battery,2034,0.0
+Sumatera,ARED,Total,PLTN,Nuclear,2025,0.0
+Sumatera,ARED,Total,PLTN,Nuclear,2026,0.0
+Sumatera,ARED,Total,PLTN,Nuclear,2027,0.0
+Sumatera,ARED,Total,PLTN,Nuclear,2028,0.0
+Sumatera,ARED,Total,PLTN,Nuclear,2029,0.0
+Sumatera,ARED,Total,PLTN,Nuclear,2030,0.0
+Sumatera,ARED,Total,PLTN,Nuclear,2031,0.0
+Sumatera,ARED,Total,PLTN,Nuclear,2032,250.0
+Sumatera,ARED,Total,PLTN,Nuclear,2033,0.0
+Sumatera,ARED,Total,PLTN,Nuclear,2034,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2025,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2026,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2027,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2028,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2029,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2030,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2031,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2032,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2033,0.0
+Jamali,RE Base,PLN,PLTU,Coal,2034,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2025,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2026,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2027,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2028,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2029,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2030,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2031,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2032,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2033,0.0
+Jamali,RE Base,PLN,PLTU MT,Coal (mine-mouth),2034,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2025,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2026,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2027,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2028,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2029,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2030,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2031,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2032,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2033,0.0
+Jamali,RE Base,PLN,PLTP,Geothermal,2034,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2025,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2026,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2027,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2028,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2029,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2030,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2031,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2032,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2033,0.0
+Jamali,RE Base,PLN,PLTGU,Gas,2034,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2025,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2026,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2027,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2028,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2029,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2030,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2031,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2032,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2033,0.0
+Jamali,RE Base,PLN,PLTG,Gas,2034,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2025,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2026,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2027,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2028,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2029,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2030,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2031,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2032,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2033,0.0
+Jamali,RE Base,PLN,PLTMG,Gas,2034,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2025,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2026,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2027,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2028,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2029,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2030,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2031,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2032,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2033,0.0
+Jamali,RE Base,PLN,PLTD,Diesel,2034,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2025,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2026,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2027,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2028,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2029,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2030,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2031,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2032,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2033,0.0
+Jamali,RE Base,PLN,PLTM,Hydro,2034,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2025,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2026,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2027,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2028,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2029,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2030,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2031,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2032,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2033,0.0
+Jamali,RE Base,PLN,PLTA,Hydro,2034,0.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2025,0.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2026,0.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2027,0.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2028,1040.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2029,0.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2030,0.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2031,0.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2032,943.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2033,0.0
+Jamali,RE Base,PLN,PLTA PS,Pumped storage,2034,0.0
+Jamali,RE Base,PLN,PLTS,Solar,2025,6.0
+Jamali,RE Base,PLN,PLTS,Solar,2026,1.0
+Jamali,RE Base,PLN,PLTS,Solar,2027,7.0
+Jamali,RE Base,PLN,PLTS,Solar,2028,0.0
+Jamali,RE Base,PLN,PLTS,Solar,2029,0.0
+Jamali,RE Base,PLN,PLTS,Solar,2030,0.0
+Jamali,RE Base,PLN,PLTS,Solar,2031,0.0
+Jamali,RE Base,PLN,PLTS,Solar,2032,0.0
+Jamali,RE Base,PLN,PLTS,Solar,2033,0.0
+Jamali,RE Base,PLN,PLTS,Solar,2034,0.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2025,0.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2026,0.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2027,0.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2028,4.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2029,0.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2030,0.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2031,0.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2032,0.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2033,0.0
+Jamali,RE Base,PLN,PLTS+BESS,Solar,2034,0.0
+Jamali,RE Base,PLN,PLTB,Wind,2025,0.0
+Jamali,RE Base,PLN,PLTB,Wind,2026,0.0
+Jamali,RE Base,PLN,PLTB,Wind,2027,0.0
+Jamali,RE Base,PLN,PLTB,Wind,2028,100.0
+Jamali,RE Base,PLN,PLTB,Wind,2029,100.0
+Jamali,RE Base,PLN,PLTB,Wind,2030,0.0
+Jamali,RE Base,PLN,PLTB,Wind,2031,0.0
+Jamali,RE Base,PLN,PLTB,Wind,2032,0.0
+Jamali,RE Base,PLN,PLTB,Wind,2033,0.0
+Jamali,RE Base,PLN,PLTB,Wind,2034,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2025,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2026,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2027,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2028,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2029,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2030,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2031,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2032,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2033,0.0
+Jamali,RE Base,PLN,PLTSa,Bioenergy,2034,0.0
+Jamali,RE Base,PLN,BESS,Battery,2025,0.0
+Jamali,RE Base,PLN,BESS,Battery,2026,0.0
+Jamali,RE Base,PLN,BESS,Battery,2027,1.5
+Jamali,RE Base,PLN,BESS,Battery,2028,0.0
+Jamali,RE Base,PLN,BESS,Battery,2029,0.0
+Jamali,RE Base,PLN,BESS,Battery,2030,0.0
+Jamali,RE Base,PLN,BESS,Battery,2031,0.0
+Jamali,RE Base,PLN,BESS,Battery,2032,0.0
+Jamali,RE Base,PLN,BESS,Battery,2033,0.0
+Jamali,RE Base,PLN,BESS,Battery,2034,150.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2025,0.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2026,0.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2027,0.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2028,0.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2029,0.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2030,0.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2031,0.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2032,0.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2033,0.0
+Jamali,RE Base,SH-PLN,PLTU,Coal,2034,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2025,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2026,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2027,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2028,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2029,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2030,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2031,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2032,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2033,0.0
+Jamali,RE Base,SH-PLN,PLTU MT,Coal (mine-mouth),2034,0.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2025,0.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2026,0.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2027,0.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2028,0.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2029,0.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2030,0.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2031,55.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2032,40.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2033,0.0
+Jamali,RE Base,SH-PLN,PLTP,Geothermal,2034,0.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2025,0.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2026,0.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2027,1250.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2028,0.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2029,0.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2030,500.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2031,0.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2032,0.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2033,0.0
+Jamali,RE Base,SH-PLN,PLTGU,Gas,2034,0.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2025,0.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2026,0.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2027,0.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2028,0.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2029,600.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2030,0.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2031,0.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2032,0.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2033,0.0
+Jamali,RE Base,SH-PLN,PLTG,Gas,2034,0.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2025,0.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2026,200.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2027,0.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2028,0.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2029,0.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2030,0.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2031,0.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2032,3.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2033,0.0
+Jamali,RE Base,SH-PLN,PLTMG,Gas,2034,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2025,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2026,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2027,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2028,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2029,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2030,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2031,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2032,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2033,0.0
+Jamali,RE Base,SH-PLN,PLTD,Diesel,2034,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2025,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2026,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2027,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2028,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2029,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2030,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2031,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2032,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2033,0.0
+Jamali,RE Base,SH-PLN,PLTM,Hydro,2034,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2025,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2026,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2027,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2028,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2029,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2030,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2031,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2032,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2033,0.0
+Jamali,RE Base,SH-PLN,PLTA,Hydro,2034,0.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2025,0.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2026,0.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2027,0.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2028,0.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2029,0.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2030,0.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2031,0.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2032,0.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2033,1000.0
+Jamali,RE Base,SH-PLN,PLTA PS,Pumped storage,2034,0.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2025,410.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2026,62.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2027,150.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2028,100.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2029,0.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2030,104.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2031,0.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2032,0.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2033,0.0
+Jamali,RE Base,SH-PLN,PLTS,Solar,2034,198.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2025,0.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2026,0.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2027,100.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2028,206.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2029,3.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2030,0.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2031,0.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2032,0.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2033,0.0
+Jamali,RE Base,SH-PLN,PLTS+BESS,Solar,2034,0.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2025,0.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2026,12.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2027,0.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2028,0.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2029,0.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2030,0.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2031,0.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2032,0.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2033,0.0
+Jamali,RE Base,SH-PLN,PLTB,Wind,2034,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2025,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2026,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2027,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2028,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2029,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2030,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2031,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2032,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2033,0.0
+Jamali,RE Base,SH-PLN,PLTSa,Bioenergy,2034,0.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2025,50.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2026,61.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2027,50.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2028,0.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2029,0.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2030,1.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2031,0.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2032,0.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2033,0.0
+Jamali,RE Base,SH-PLN,BESS,Battery,2034,1000.0
+Jamali,RE Base,IPP,PLTU,Coal,2025,2000.0
+Jamali,RE Base,IPP,PLTU,Coal,2026,0.0
+Jamali,RE Base,IPP,PLTU,Coal,2027,0.0
+Jamali,RE Base,IPP,PLTU,Coal,2028,0.0
+Jamali,RE Base,IPP,PLTU,Coal,2029,0.0
+Jamali,RE Base,IPP,PLTU,Coal,2030,0.0
+Jamali,RE Base,IPP,PLTU,Coal,2031,0.0
+Jamali,RE Base,IPP,PLTU,Coal,2032,0.0
+Jamali,RE Base,IPP,PLTU,Coal,2033,0.0
+Jamali,RE Base,IPP,PLTU,Coal,2034,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2025,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2026,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2027,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2028,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2029,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2030,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2031,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2032,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2033,0.0
+Jamali,RE Base,IPP,PLTU MT,Coal (mine-mouth),2034,0.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2025,45.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2026,95.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2027,170.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2028,80.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2029,25.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2030,280.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2031,335.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2032,338.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2033,1040.0
+Jamali,RE Base,IPP,PLTP,Geothermal,2034,0.0
+Jamali,RE Base,IPP,PLTGU,Gas,2025,0.0
+Jamali,RE Base,IPP,PLTGU,Gas,2026,0.0
+Jamali,RE Base,IPP,PLTGU,Gas,2027,0.0
+Jamali,RE Base,IPP,PLTGU,Gas,2028,450.0
+Jamali,RE Base,IPP,PLTGU,Gas,2029,1450.0
+Jamali,RE Base,IPP,PLTGU,Gas,2030,0.0
+Jamali,RE Base,IPP,PLTGU,Gas,2031,0.0
+Jamali,RE Base,IPP,PLTGU,Gas,2032,0.0
+Jamali,RE Base,IPP,PLTGU,Gas,2033,0.0
+Jamali,RE Base,IPP,PLTGU,Gas,2034,1000.0
+Jamali,RE Base,IPP,PLTG,Gas,2025,0.0
+Jamali,RE Base,IPP,PLTG,Gas,2026,0.0
+Jamali,RE Base,IPP,PLTG,Gas,2027,0.0
+Jamali,RE Base,IPP,PLTG,Gas,2028,0.0
+Jamali,RE Base,IPP,PLTG,Gas,2029,0.0
+Jamali,RE Base,IPP,PLTG,Gas,2030,0.0
+Jamali,RE Base,IPP,PLTG,Gas,2031,0.0
+Jamali,RE Base,IPP,PLTG,Gas,2032,0.0
+Jamali,RE Base,IPP,PLTG,Gas,2033,0.0
+Jamali,RE Base,IPP,PLTG,Gas,2034,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2025,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2026,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2027,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2028,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2029,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2030,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2031,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2032,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2033,0.0
+Jamali,RE Base,IPP,PLTMG,Gas,2034,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2025,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2026,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2027,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2028,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2029,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2030,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2031,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2032,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2033,0.0
+Jamali,RE Base,IPP,PLTD,Diesel,2034,0.0
+Jamali,RE Base,IPP,PLTM,Hydro,2025,14.0
+Jamali,RE Base,IPP,PLTM,Hydro,2026,21.0
+Jamali,RE Base,IPP,PLTM,Hydro,2027,301.0
+Jamali,RE Base,IPP,PLTM,Hydro,2028,33.0
+Jamali,RE Base,IPP,PLTM,Hydro,2029,1.0
+Jamali,RE Base,IPP,PLTM,Hydro,2030,12.0
+Jamali,RE Base,IPP,PLTM,Hydro,2031,0.0
+Jamali,RE Base,IPP,PLTM,Hydro,2032,0.0
+Jamali,RE Base,IPP,PLTM,Hydro,2033,0.0
+Jamali,RE Base,IPP,PLTM,Hydro,2034,0.0
+Jamali,RE Base,IPP,PLTA,Hydro,2025,0.0
+Jamali,RE Base,IPP,PLTA,Hydro,2026,0.0
+Jamali,RE Base,IPP,PLTA,Hydro,2027,0.0
+Jamali,RE Base,IPP,PLTA,Hydro,2028,0.0
+Jamali,RE Base,IPP,PLTA,Hydro,2029,50.0
+Jamali,RE Base,IPP,PLTA,Hydro,2030,0.0
+Jamali,RE Base,IPP,PLTA,Hydro,2031,0.0
+Jamali,RE Base,IPP,PLTA,Hydro,2032,0.0
+Jamali,RE Base,IPP,PLTA,Hydro,2033,0.0
+Jamali,RE Base,IPP,PLTA,Hydro,2034,0.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2025,0.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2026,0.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2027,0.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2028,0.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2029,0.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2030,0.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2031,760.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2032,0.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2033,0.0
+Jamali,RE Base,IPP,PLTA PS,Pumped storage,2034,0.0
+Jamali,RE Base,IPP,PLTS,Solar,2025,250.0
+Jamali,RE Base,IPP,PLTS,Solar,2026,50.0
+Jamali,RE Base,IPP,PLTS,Solar,2027,1.0
+Jamali,RE Base,IPP,PLTS,Solar,2028,130.0
+Jamali,RE Base,IPP,PLTS,Solar,2029,0.0
+Jamali,RE Base,IPP,PLTS,Solar,2030,340.0
+Jamali,RE Base,IPP,PLTS,Solar,2031,80.0
+Jamali,RE Base,IPP,PLTS,Solar,2032,0.0
+Jamali,RE Base,IPP,PLTS,Solar,2033,0.0
+Jamali,RE Base,IPP,PLTS,Solar,2034,677.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2025,0.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2026,0.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2027,0.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2028,80.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2029,0.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2030,170.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2031,50.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2032,0.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2033,0.0
+Jamali,RE Base,IPP,PLTS+BESS,Solar,2034,0.0
+Jamali,RE Base,IPP,PLTB,Wind,2025,0.0
+Jamali,RE Base,IPP,PLTB,Wind,2026,150.0
+Jamali,RE Base,IPP,PLTB,Wind,2027,0.0
+Jamali,RE Base,IPP,PLTB,Wind,2028,0.0
+Jamali,RE Base,IPP,PLTB,Wind,2029,0.0
+Jamali,RE Base,IPP,PLTB,Wind,2030,80.0
+Jamali,RE Base,IPP,PLTB,Wind,2031,135.0
+Jamali,RE Base,IPP,PLTB,Wind,2032,250.0
+Jamali,RE Base,IPP,PLTB,Wind,2033,150.0
+Jamali,RE Base,IPP,PLTB,Wind,2034,300.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2025,0.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2026,0.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2027,0.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2028,165.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2029,150.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2030,65.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2031,0.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2032,0.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2033,19.0
+Jamali,RE Base,IPP,PLTSa,Bioenergy,2034,0.0
+Jamali,RE Base,IPP,BESS,Battery,2025,0.0
+Jamali,RE Base,IPP,BESS,Battery,2026,0.0
+Jamali,RE Base,IPP,BESS,Battery,2027,0.2
+Jamali,RE Base,IPP,BESS,Battery,2028,0.0
+Jamali,RE Base,IPP,BESS,Battery,2029,0.0
+Jamali,RE Base,IPP,BESS,Battery,2030,0.0
+Jamali,RE Base,IPP,BESS,Battery,2031,0.0
+Jamali,RE Base,IPP,BESS,Battery,2032,0.0
+Jamali,RE Base,IPP,BESS,Battery,2033,0.0
+Jamali,RE Base,IPP,BESS,Battery,2034,0.0
+Jamali,RE Base,Total,PLTU,Coal,2025,2000.0
+Jamali,RE Base,Total,PLTU,Coal,2026,0.0
+Jamali,RE Base,Total,PLTU,Coal,2027,0.0
+Jamali,RE Base,Total,PLTU,Coal,2028,0.0
+Jamali,RE Base,Total,PLTU,Coal,2029,0.0
+Jamali,RE Base,Total,PLTU,Coal,2030,0.0
+Jamali,RE Base,Total,PLTU,Coal,2031,0.0
+Jamali,RE Base,Total,PLTU,Coal,2032,0.0
+Jamali,RE Base,Total,PLTU,Coal,2033,0.0
+Jamali,RE Base,Total,PLTU,Coal,2034,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2025,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2026,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2027,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2028,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2029,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2030,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2031,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2032,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2033,0.0
+Jamali,RE Base,Total,PLTU MT,Coal (mine-mouth),2034,0.0
+Jamali,RE Base,Total,PLTP,Geothermal,2025,45.0
+Jamali,RE Base,Total,PLTP,Geothermal,2026,95.0
+Jamali,RE Base,Total,PLTP,Geothermal,2027,170.0
+Jamali,RE Base,Total,PLTP,Geothermal,2028,80.0
+Jamali,RE Base,Total,PLTP,Geothermal,2029,25.0
+Jamali,RE Base,Total,PLTP,Geothermal,2030,280.0
+Jamali,RE Base,Total,PLTP,Geothermal,2031,390.0
+Jamali,RE Base,Total,PLTP,Geothermal,2032,378.0
+Jamali,RE Base,Total,PLTP,Geothermal,2033,1040.0
+Jamali,RE Base,Total,PLTP,Geothermal,2034,0.0
+Jamali,RE Base,Total,PLTGU,Gas,2025,0.0
+Jamali,RE Base,Total,PLTGU,Gas,2026,0.0
+Jamali,RE Base,Total,PLTGU,Gas,2027,1250.0
+Jamali,RE Base,Total,PLTGU,Gas,2028,450.0
+Jamali,RE Base,Total,PLTGU,Gas,2029,1450.0
+Jamali,RE Base,Total,PLTGU,Gas,2030,500.0
+Jamali,RE Base,Total,PLTGU,Gas,2031,0.0
+Jamali,RE Base,Total,PLTGU,Gas,2032,0.0
+Jamali,RE Base,Total,PLTGU,Gas,2033,0.0
+Jamali,RE Base,Total,PLTGU,Gas,2034,1000.0
+Jamali,RE Base,Total,PLTG,Gas,2025,0.0
+Jamali,RE Base,Total,PLTG,Gas,2026,0.0
+Jamali,RE Base,Total,PLTG,Gas,2027,0.0
+Jamali,RE Base,Total,PLTG,Gas,2028,0.0
+Jamali,RE Base,Total,PLTG,Gas,2029,600.0
+Jamali,RE Base,Total,PLTG,Gas,2030,0.0
+Jamali,RE Base,Total,PLTG,Gas,2031,0.0
+Jamali,RE Base,Total,PLTG,Gas,2032,0.0
+Jamali,RE Base,Total,PLTG,Gas,2033,0.0
+Jamali,RE Base,Total,PLTG,Gas,2034,0.0
+Jamali,RE Base,Total,PLTMG,Gas,2025,0.0
+Jamali,RE Base,Total,PLTMG,Gas,2026,200.0
+Jamali,RE Base,Total,PLTMG,Gas,2027,0.0
+Jamali,RE Base,Total,PLTMG,Gas,2028,0.0
+Jamali,RE Base,Total,PLTMG,Gas,2029,0.0
+Jamali,RE Base,Total,PLTMG,Gas,2030,0.0
+Jamali,RE Base,Total,PLTMG,Gas,2031,0.0
+Jamali,RE Base,Total,PLTMG,Gas,2032,3.0
+Jamali,RE Base,Total,PLTMG,Gas,2033,0.0
+Jamali,RE Base,Total,PLTMG,Gas,2034,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2025,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2026,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2027,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2028,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2029,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2030,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2031,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2032,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2033,0.0
+Jamali,RE Base,Total,PLTD,Diesel,2034,0.0
+Jamali,RE Base,Total,PLTM,Hydro,2025,14.0
+Jamali,RE Base,Total,PLTM,Hydro,2026,21.0
+Jamali,RE Base,Total,PLTM,Hydro,2027,301.0
+Jamali,RE Base,Total,PLTM,Hydro,2028,33.0
+Jamali,RE Base,Total,PLTM,Hydro,2029,1.0
+Jamali,RE Base,Total,PLTM,Hydro,2030,12.0
+Jamali,RE Base,Total,PLTM,Hydro,2031,0.0
+Jamali,RE Base,Total,PLTM,Hydro,2032,0.0
+Jamali,RE Base,Total,PLTM,Hydro,2033,0.0
+Jamali,RE Base,Total,PLTM,Hydro,2034,0.0
+Jamali,RE Base,Total,PLTA,Hydro,2025,0.0
+Jamali,RE Base,Total,PLTA,Hydro,2026,0.0
+Jamali,RE Base,Total,PLTA,Hydro,2027,0.0
+Jamali,RE Base,Total,PLTA,Hydro,2028,0.0
+Jamali,RE Base,Total,PLTA,Hydro,2029,50.0
+Jamali,RE Base,Total,PLTA,Hydro,2030,0.0
+Jamali,RE Base,Total,PLTA,Hydro,2031,0.0
+Jamali,RE Base,Total,PLTA,Hydro,2032,0.0
+Jamali,RE Base,Total,PLTA,Hydro,2033,0.0
+Jamali,RE Base,Total,PLTA,Hydro,2034,0.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2025,0.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2026,0.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2027,0.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2028,1040.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2029,0.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2030,0.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2031,760.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2032,943.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2033,1000.0
+Jamali,RE Base,Total,PLTA PS,Pumped storage,2034,0.0
+Jamali,RE Base,Total,PLTS,Solar,2025,666.0
+Jamali,RE Base,Total,PLTS,Solar,2026,113.0
+Jamali,RE Base,Total,PLTS,Solar,2027,157.0
+Jamali,RE Base,Total,PLTS,Solar,2028,230.0
+Jamali,RE Base,Total,PLTS,Solar,2029,0.0
+Jamali,RE Base,Total,PLTS,Solar,2030,444.0
+Jamali,RE Base,Total,PLTS,Solar,2031,80.0
+Jamali,RE Base,Total,PLTS,Solar,2032,0.0
+Jamali,RE Base,Total,PLTS,Solar,2033,0.0
+Jamali,RE Base,Total,PLTS,Solar,2034,874.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2025,0.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2026,0.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2027,100.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2028,290.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2029,3.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2030,170.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2031,50.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2032,0.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2033,0.0
+Jamali,RE Base,Total,PLTS+BESS,Solar,2034,0.0
+Jamali,RE Base,Total,PLTB,Wind,2025,0.0
+Jamali,RE Base,Total,PLTB,Wind,2026,162.0
+Jamali,RE Base,Total,PLTB,Wind,2027,0.0
+Jamali,RE Base,Total,PLTB,Wind,2028,100.0
+Jamali,RE Base,Total,PLTB,Wind,2029,100.0
+Jamali,RE Base,Total,PLTB,Wind,2030,80.0
+Jamali,RE Base,Total,PLTB,Wind,2031,135.0
+Jamali,RE Base,Total,PLTB,Wind,2032,250.0
+Jamali,RE Base,Total,PLTB,Wind,2033,150.0
+Jamali,RE Base,Total,PLTB,Wind,2034,300.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2025,0.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2026,0.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2027,0.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2028,165.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2029,150.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2030,65.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2031,0.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2032,0.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2033,19.0
+Jamali,RE Base,Total,PLTSa,Bioenergy,2034,0.0
+Jamali,RE Base,Total,BESS,Battery,2025,50.0
+Jamali,RE Base,Total,BESS,Battery,2026,61.0
+Jamali,RE Base,Total,BESS,Battery,2027,52.0
+Jamali,RE Base,Total,BESS,Battery,2028,0.0
+Jamali,RE Base,Total,BESS,Battery,2029,0.0
+Jamali,RE Base,Total,BESS,Battery,2030,1.0
+Jamali,RE Base,Total,BESS,Battery,2031,0.0
+Jamali,RE Base,Total,BESS,Battery,2032,0.0
+Jamali,RE Base,Total,BESS,Battery,2033,0.0
+Jamali,RE Base,Total,BESS,Battery,2034,1150.0
+Jamali,ARED,PLN,PLTU,Coal,2025,0.0
+Jamali,ARED,PLN,PLTU,Coal,2026,0.0
+Jamali,ARED,PLN,PLTU,Coal,2027,0.0
+Jamali,ARED,PLN,PLTU,Coal,2028,0.0
+Jamali,ARED,PLN,PLTU,Coal,2029,0.0
+Jamali,ARED,PLN,PLTU,Coal,2030,0.0
+Jamali,ARED,PLN,PLTU,Coal,2031,0.0
+Jamali,ARED,PLN,PLTU,Coal,2032,0.0
+Jamali,ARED,PLN,PLTU,Coal,2033,0.0
+Jamali,ARED,PLN,PLTU,Coal,2034,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2025,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2026,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2027,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2028,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2029,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2030,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2031,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2032,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2033,0.0
+Jamali,ARED,PLN,PLTU MT,Coal (mine-mouth),2034,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2025,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2026,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2027,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2028,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2029,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2030,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2031,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2032,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2033,0.0
+Jamali,ARED,PLN,PLTP,Geothermal,2034,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2025,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2026,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2027,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2028,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2029,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2030,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2031,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2032,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2033,0.0
+Jamali,ARED,PLN,PLTGU,Gas,2034,0.0
+Jamali,ARED,PLN,PLTG,Gas,2025,0.0
+Jamali,ARED,PLN,PLTG,Gas,2026,0.0
+Jamali,ARED,PLN,PLTG,Gas,2027,0.0
+Jamali,ARED,PLN,PLTG,Gas,2028,0.0
+Jamali,ARED,PLN,PLTG,Gas,2029,0.0
+Jamali,ARED,PLN,PLTG,Gas,2030,0.0
+Jamali,ARED,PLN,PLTG,Gas,2031,0.0
+Jamali,ARED,PLN,PLTG,Gas,2032,0.0
+Jamali,ARED,PLN,PLTG,Gas,2033,0.0
+Jamali,ARED,PLN,PLTG,Gas,2034,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2025,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2026,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2027,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2028,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2029,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2030,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2031,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2032,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2033,0.0
+Jamali,ARED,PLN,PLTMG,Gas,2034,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2025,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2026,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2027,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2028,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2029,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2030,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2031,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2032,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2033,0.0
+Jamali,ARED,PLN,PLTD,Diesel,2034,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2025,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2026,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2027,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2028,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2029,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2030,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2031,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2032,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2033,0.0
+Jamali,ARED,PLN,PLTM,Hydro,2034,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2025,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2026,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2027,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2028,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2029,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2030,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2031,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2032,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2033,0.0
+Jamali,ARED,PLN,PLTA,Hydro,2034,0.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2025,0.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2026,0.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2027,0.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2028,1040.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2029,0.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2030,0.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2031,0.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2032,943.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2033,0.0
+Jamali,ARED,PLN,PLTA PS,Pumped storage,2034,0.0
+Jamali,ARED,PLN,PLTS,Solar,2025,6.0
+Jamali,ARED,PLN,PLTS,Solar,2026,1.0
+Jamali,ARED,PLN,PLTS,Solar,2027,7.0
+Jamali,ARED,PLN,PLTS,Solar,2028,0.0
+Jamali,ARED,PLN,PLTS,Solar,2029,0.0
+Jamali,ARED,PLN,PLTS,Solar,2030,0.0
+Jamali,ARED,PLN,PLTS,Solar,2031,0.0
+Jamali,ARED,PLN,PLTS,Solar,2032,0.0
+Jamali,ARED,PLN,PLTS,Solar,2033,0.0
+Jamali,ARED,PLN,PLTS,Solar,2034,0.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2025,0.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2026,0.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2027,0.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2028,4.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2029,0.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2030,0.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2031,0.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2032,0.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2033,0.0
+Jamali,ARED,PLN,PLTS+BESS,Solar,2034,0.0
+Jamali,ARED,PLN,PLTB,Wind,2025,0.0
+Jamali,ARED,PLN,PLTB,Wind,2026,0.0
+Jamali,ARED,PLN,PLTB,Wind,2027,0.0
+Jamali,ARED,PLN,PLTB,Wind,2028,100.0
+Jamali,ARED,PLN,PLTB,Wind,2029,100.0
+Jamali,ARED,PLN,PLTB,Wind,2030,0.0
+Jamali,ARED,PLN,PLTB,Wind,2031,0.0
+Jamali,ARED,PLN,PLTB,Wind,2032,0.0
+Jamali,ARED,PLN,PLTB,Wind,2033,0.0
+Jamali,ARED,PLN,PLTB,Wind,2034,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2025,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2026,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2027,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2028,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2029,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2030,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2031,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2032,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2033,0.0
+Jamali,ARED,PLN,PLTSa,Bioenergy,2034,0.0
+Jamali,ARED,PLN,BESS,Battery,2025,0.0
+Jamali,ARED,PLN,BESS,Battery,2026,0.0
+Jamali,ARED,PLN,BESS,Battery,2027,252.0
+Jamali,ARED,PLN,BESS,Battery,2028,100.0
+Jamali,ARED,PLN,BESS,Battery,2029,100.0
+Jamali,ARED,PLN,BESS,Battery,2030,250.0
+Jamali,ARED,PLN,BESS,Battery,2031,400.0
+Jamali,ARED,PLN,BESS,Battery,2032,100.0
+Jamali,ARED,PLN,BESS,Battery,2033,150.0
+Jamali,ARED,PLN,BESS,Battery,2034,250.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2025,0.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2026,0.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2027,0.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2028,0.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2029,0.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2030,0.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2031,0.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2032,0.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2033,0.0
+Jamali,ARED,SH-PLN,PLTU,Coal,2034,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2025,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2026,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2027,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2028,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2029,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2030,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2031,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2032,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2033,0.0
+Jamali,ARED,SH-PLN,PLTU MT,Coal (mine-mouth),2034,0.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2025,0.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2026,0.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2027,0.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2028,0.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2029,0.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2030,0.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2031,55.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2032,40.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2033,0.0
+Jamali,ARED,SH-PLN,PLTP,Geothermal,2034,0.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2025,0.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2026,0.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2027,1250.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2028,0.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2029,0.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2030,0.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2031,0.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2032,0.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2033,0.0
+Jamali,ARED,SH-PLN,PLTGU,Gas,2034,0.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2025,0.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2026,0.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2027,0.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2028,0.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2029,600.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2030,0.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2031,0.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2032,0.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2033,0.0
+Jamali,ARED,SH-PLN,PLTG,Gas,2034,0.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2025,0.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2026,200.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2027,0.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2028,0.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2029,0.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2030,0.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2031,0.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2032,3.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2033,0.0
+Jamali,ARED,SH-PLN,PLTMG,Gas,2034,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2025,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2026,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2027,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2028,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2029,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2030,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2031,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2032,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2033,0.0
+Jamali,ARED,SH-PLN,PLTD,Diesel,2034,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2025,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2026,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2027,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2028,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2029,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2030,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2031,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2032,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2033,0.0
+Jamali,ARED,SH-PLN,PLTM,Hydro,2034,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2025,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2026,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2027,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2028,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2029,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2030,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2031,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2032,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2033,0.0
+Jamali,ARED,SH-PLN,PLTA,Hydro,2034,0.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2025,0.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2026,0.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2027,0.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2028,0.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2029,0.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2030,0.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2031,0.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2032,0.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2033,1000.0
+Jamali,ARED,SH-PLN,PLTA PS,Pumped storage,2034,0.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2025,410.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2026,259.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2027,150.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2028,200.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2029,0.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2030,4.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2031,0.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2032,0.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2033,0.0
+Jamali,ARED,SH-PLN,PLTS,Solar,2034,0.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2025,0.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2026,300.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2027,0.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2028,6.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2029,3.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2030,0.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2031,0.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2032,0.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2033,0.0
+Jamali,ARED,SH-PLN,PLTS+BESS,Solar,2034,0.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2025,0.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2026,12.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2027,0.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2028,0.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2029,0.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2030,0.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2031,0.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2032,0.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2033,0.0
+Jamali,ARED,SH-PLN,PLTB,Wind,2034,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2025,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2026,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2027,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2028,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2029,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2030,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2031,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2032,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2033,0.0
+Jamali,ARED,SH-PLN,PLTSa,Bioenergy,2034,0.0
+Jamali,ARED,SH-PLN,BESS,Battery,2025,50.0
+Jamali,ARED,SH-PLN,BESS,Battery,2026,161.0
+Jamali,ARED,SH-PLN,BESS,Battery,2027,50.0
+Jamali,ARED,SH-PLN,BESS,Battery,2028,0.0
+Jamali,ARED,SH-PLN,BESS,Battery,2029,0.0
+Jamali,ARED,SH-PLN,BESS,Battery,2030,1.0
+Jamali,ARED,SH-PLN,BESS,Battery,2031,200.0
+Jamali,ARED,SH-PLN,BESS,Battery,2032,700.0
+Jamali,ARED,SH-PLN,BESS,Battery,2033,400.0
+Jamali,ARED,SH-PLN,BESS,Battery,2034,1000.0
+Jamali,ARED,IPP,PLTU,Coal,2025,2000.0
+Jamali,ARED,IPP,PLTU,Coal,2026,0.0
+Jamali,ARED,IPP,PLTU,Coal,2027,0.0
+Jamali,ARED,IPP,PLTU,Coal,2028,0.0
+Jamali,ARED,IPP,PLTU,Coal,2029,0.0
+Jamali,ARED,IPP,PLTU,Coal,2030,0.0
+Jamali,ARED,IPP,PLTU,Coal,2031,0.0
+Jamali,ARED,IPP,PLTU,Coal,2032,0.0
+Jamali,ARED,IPP,PLTU,Coal,2033,0.0
+Jamali,ARED,IPP,PLTU,Coal,2034,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2025,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2026,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2027,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2028,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2029,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2030,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2031,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2032,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2033,0.0
+Jamali,ARED,IPP,PLTU MT,Coal (mine-mouth),2034,0.0
+Jamali,ARED,IPP,PLTP,Geothermal,2025,45.0
+Jamali,ARED,IPP,PLTP,Geothermal,2026,125.0
+Jamali,ARED,IPP,PLTP,Geothermal,2027,140.0
+Jamali,ARED,IPP,PLTP,Geothermal,2028,80.0
+Jamali,ARED,IPP,PLTP,Geothermal,2029,25.0
+Jamali,ARED,IPP,PLTP,Geothermal,2030,280.0
+Jamali,ARED,IPP,PLTP,Geothermal,2031,335.0
+Jamali,ARED,IPP,PLTP,Geothermal,2032,338.0
+Jamali,ARED,IPP,PLTP,Geothermal,2033,1040.0
+Jamali,ARED,IPP,PLTP,Geothermal,2034,0.0
+Jamali,ARED,IPP,PLTGU,Gas,2025,0.0
+Jamali,ARED,IPP,PLTGU,Gas,2026,0.0
+Jamali,ARED,IPP,PLTGU,Gas,2027,0.0
+Jamali,ARED,IPP,PLTGU,Gas,2028,450.0
+Jamali,ARED,IPP,PLTGU,Gas,2029,1450.0
+Jamali,ARED,IPP,PLTGU,Gas,2030,0.0
+Jamali,ARED,IPP,PLTGU,Gas,2031,0.0
+Jamali,ARED,IPP,PLTGU,Gas,2032,0.0
+Jamali,ARED,IPP,PLTGU,Gas,2033,0.0
+Jamali,ARED,IPP,PLTGU,Gas,2034,0.0
+Jamali,ARED,IPP,PLTG,Gas,2025,0.0
+Jamali,ARED,IPP,PLTG,Gas,2026,0.0
+Jamali,ARED,IPP,PLTG,Gas,2027,0.0
+Jamali,ARED,IPP,PLTG,Gas,2028,0.0
+Jamali,ARED,IPP,PLTG,Gas,2029,0.0
+Jamali,ARED,IPP,PLTG,Gas,2030,0.0
+Jamali,ARED,IPP,PLTG,Gas,2031,0.0
+Jamali,ARED,IPP,PLTG,Gas,2032,0.0
+Jamali,ARED,IPP,PLTG,Gas,2033,0.0
+Jamali,ARED,IPP,PLTG,Gas,2034,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2025,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2026,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2027,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2028,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2029,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2030,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2031,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2032,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2033,0.0
+Jamali,ARED,IPP,PLTMG,Gas,2034,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2025,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2026,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2027,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2028,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2029,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2030,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2031,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2032,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2033,0.0
+Jamali,ARED,IPP,PLTD,Diesel,2034,0.0
+Jamali,ARED,IPP,PLTM,Hydro,2025,14.0
+Jamali,ARED,IPP,PLTM,Hydro,2026,21.0
+Jamali,ARED,IPP,PLTM,Hydro,2027,301.0
+Jamali,ARED,IPP,PLTM,Hydro,2028,33.0
+Jamali,ARED,IPP,PLTM,Hydro,2029,1.0
+Jamali,ARED,IPP,PLTM,Hydro,2030,12.0
+Jamali,ARED,IPP,PLTM,Hydro,2031,0.0
+Jamali,ARED,IPP,PLTM,Hydro,2032,0.0
+Jamali,ARED,IPP,PLTM,Hydro,2033,0.0
+Jamali,ARED,IPP,PLTM,Hydro,2034,0.0
+Jamali,ARED,IPP,PLTA,Hydro,2025,0.0
+Jamali,ARED,IPP,PLTA,Hydro,2026,0.0
+Jamali,ARED,IPP,PLTA,Hydro,2027,0.0
+Jamali,ARED,IPP,PLTA,Hydro,2028,0.0
+Jamali,ARED,IPP,PLTA,Hydro,2029,50.0
+Jamali,ARED,IPP,PLTA,Hydro,2030,0.0
+Jamali,ARED,IPP,PLTA,Hydro,2031,0.0
+Jamali,ARED,IPP,PLTA,Hydro,2032,0.0
+Jamali,ARED,IPP,PLTA,Hydro,2033,0.0
+Jamali,ARED,IPP,PLTA,Hydro,2034,0.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2025,0.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2026,0.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2027,0.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2028,0.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2029,0.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2030,0.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2031,760.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2032,0.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2033,0.0
+Jamali,ARED,IPP,PLTA PS,Pumped storage,2034,0.0
+Jamali,ARED,IPP,PLTS,Solar,2025,250.0
+Jamali,ARED,IPP,PLTS,Solar,2026,173.0
+Jamali,ARED,IPP,PLTS,Solar,2027,384.0
+Jamali,ARED,IPP,PLTS,Solar,2028,130.0
+Jamali,ARED,IPP,PLTS,Solar,2029,200.0
+Jamali,ARED,IPP,PLTS,Solar,2030,845.0
+Jamali,ARED,IPP,PLTS,Solar,2031,1858.0
+Jamali,ARED,IPP,PLTS,Solar,2032,1813.0
+Jamali,ARED,IPP,PLTS,Solar,2033,2593.0
+Jamali,ARED,IPP,PLTS,Solar,2034,1036.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2025,0.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2026,0.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2027,170.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2028,130.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2029,0.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2030,0.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2031,0.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2032,0.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2033,0.0
+Jamali,ARED,IPP,PLTS+BESS,Solar,2034,0.0
+Jamali,ARED,IPP,PLTB,Wind,2025,0.0
+Jamali,ARED,IPP,PLTB,Wind,2026,150.0
+Jamali,ARED,IPP,PLTB,Wind,2027,250.0
+Jamali,ARED,IPP,PLTB,Wind,2028,100.0
+Jamali,ARED,IPP,PLTB,Wind,2029,110.0
+Jamali,ARED,IPP,PLTB,Wind,2030,1055.0
+Jamali,ARED,IPP,PLTB,Wind,2031,700.0
+Jamali,ARED,IPP,PLTB,Wind,2032,900.0
+Jamali,ARED,IPP,PLTB,Wind,2033,1000.0
+Jamali,ARED,IPP,PLTB,Wind,2034,900.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2025,0.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2026,0.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2027,0.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2028,165.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2029,150.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2030,65.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2031,0.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2032,0.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2033,19.0
+Jamali,ARED,IPP,PLTSa,Bioenergy,2034,0.0
+Jamali,ARED,IPP,BESS,Battery,2025,0.0
+Jamali,ARED,IPP,BESS,Battery,2026,50.0
+Jamali,ARED,IPP,BESS,Battery,2027,0.2
+Jamali,ARED,IPP,BESS,Battery,2028,0.0
+Jamali,ARED,IPP,BESS,Battery,2029,0.0
+Jamali,ARED,IPP,BESS,Battery,2030,0.0
+Jamali,ARED,IPP,BESS,Battery,2031,0.0
+Jamali,ARED,IPP,BESS,Battery,2032,0.0
+Jamali,ARED,IPP,BESS,Battery,2033,0.0
+Jamali,ARED,IPP,BESS,Battery,2034,0.0
+Jamali,ARED,Total,PLTU,Coal,2025,2000.0
+Jamali,ARED,Total,PLTU,Coal,2026,0.0
+Jamali,ARED,Total,PLTU,Coal,2027,0.0
+Jamali,ARED,Total,PLTU,Coal,2028,0.0
+Jamali,ARED,Total,PLTU,Coal,2029,0.0
+Jamali,ARED,Total,PLTU,Coal,2030,0.0
+Jamali,ARED,Total,PLTU,Coal,2031,0.0
+Jamali,ARED,Total,PLTU,Coal,2032,0.0
+Jamali,ARED,Total,PLTU,Coal,2033,0.0
+Jamali,ARED,Total,PLTU,Coal,2034,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2025,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2026,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2027,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2028,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2029,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2030,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2031,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2032,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2033,0.0
+Jamali,ARED,Total,PLTU MT,Coal (mine-mouth),2034,0.0
+Jamali,ARED,Total,PLTP,Geothermal,2025,45.0
+Jamali,ARED,Total,PLTP,Geothermal,2026,125.0
+Jamali,ARED,Total,PLTP,Geothermal,2027,140.0
+Jamali,ARED,Total,PLTP,Geothermal,2028,80.0
+Jamali,ARED,Total,PLTP,Geothermal,2029,25.0
+Jamali,ARED,Total,PLTP,Geothermal,2030,280.0
+Jamali,ARED,Total,PLTP,Geothermal,2031,390.0
+Jamali,ARED,Total,PLTP,Geothermal,2032,378.0
+Jamali,ARED,Total,PLTP,Geothermal,2033,1040.0
+Jamali,ARED,Total,PLTP,Geothermal,2034,0.0
+Jamali,ARED,Total,PLTGU,Gas,2025,0.0
+Jamali,ARED,Total,PLTGU,Gas,2026,0.0
+Jamali,ARED,Total,PLTGU,Gas,2027,1250.0
+Jamali,ARED,Total,PLTGU,Gas,2028,450.0
+Jamali,ARED,Total,PLTGU,Gas,2029,1450.0
+Jamali,ARED,Total,PLTGU,Gas,2030,0.0
+Jamali,ARED,Total,PLTGU,Gas,2031,0.0
+Jamali,ARED,Total,PLTGU,Gas,2032,0.0
+Jamali,ARED,Total,PLTGU,Gas,2033,0.0
+Jamali,ARED,Total,PLTGU,Gas,2034,0.0
+Jamali,ARED,Total,PLTG,Gas,2025,0.0
+Jamali,ARED,Total,PLTG,Gas,2026,0.0
+Jamali,ARED,Total,PLTG,Gas,2027,0.0
+Jamali,ARED,Total,PLTG,Gas,2028,0.0
+Jamali,ARED,Total,PLTG,Gas,2029,600.0
+Jamali,ARED,Total,PLTG,Gas,2030,0.0
+Jamali,ARED,Total,PLTG,Gas,2031,0.0
+Jamali,ARED,Total,PLTG,Gas,2032,0.0
+Jamali,ARED,Total,PLTG,Gas,2033,0.0
+Jamali,ARED,Total,PLTG,Gas,2034,0.0
+Jamali,ARED,Total,PLTMG,Gas,2025,0.0
+Jamali,ARED,Total,PLTMG,Gas,2026,200.0
+Jamali,ARED,Total,PLTMG,Gas,2027,0.0
+Jamali,ARED,Total,PLTMG,Gas,2028,0.0
+Jamali,ARED,Total,PLTMG,Gas,2029,0.0
+Jamali,ARED,Total,PLTMG,Gas,2030,0.0
+Jamali,ARED,Total,PLTMG,Gas,2031,0.0
+Jamali,ARED,Total,PLTMG,Gas,2032,3.0
+Jamali,ARED,Total,PLTMG,Gas,2033,0.0
+Jamali,ARED,Total,PLTMG,Gas,2034,0.0
+Jamali,ARED,Total,PLTD,Diesel,2025,0.0
+Jamali,ARED,Total,PLTD,Diesel,2026,0.0
+Jamali,ARED,Total,PLTD,Diesel,2027,0.0
+Jamali,ARED,Total,PLTD,Diesel,2028,0.0
+Jamali,ARED,Total,PLTD,Diesel,2029,0.0
+Jamali,ARED,Total,PLTD,Diesel,2030,0.0
+Jamali,ARED,Total,PLTD,Diesel,2031,0.0
+Jamali,ARED,Total,PLTD,Diesel,2032,0.0
+Jamali,ARED,Total,PLTD,Diesel,2033,0.0
+Jamali,ARED,Total,PLTD,Diesel,2034,0.0
+Jamali,ARED,Total,PLTM,Hydro,2025,14.0
+Jamali,ARED,Total,PLTM,Hydro,2026,21.0
+Jamali,ARED,Total,PLTM,Hydro,2027,301.0
+Jamali,ARED,Total,PLTM,Hydro,2028,33.0
+Jamali,ARED,Total,PLTM,Hydro,2029,1.0
+Jamali,ARED,Total,PLTM,Hydro,2030,12.0
+Jamali,ARED,Total,PLTM,Hydro,2031,0.0
+Jamali,ARED,Total,PLTM,Hydro,2032,0.0
+Jamali,ARED,Total,PLTM,Hydro,2033,0.0
+Jamali,ARED,Total,PLTM,Hydro,2034,0.0
+Jamali,ARED,Total,PLTA,Hydro,2025,0.0
+Jamali,ARED,Total,PLTA,Hydro,2026,0.0
+Jamali,ARED,Total,PLTA,Hydro,2027,0.0
+Jamali,ARED,Total,PLTA,Hydro,2028,0.0
+Jamali,ARED,Total,PLTA,Hydro,2029,50.0
+Jamali,ARED,Total,PLTA,Hydro,2030,0.0
+Jamali,ARED,Total,PLTA,Hydro,2031,0.0
+Jamali,ARED,Total,PLTA,Hydro,2032,0.0
+Jamali,ARED,Total,PLTA,Hydro,2033,0.0
+Jamali,ARED,Total,PLTA,Hydro,2034,0.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2025,0.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2026,0.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2027,0.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2028,1040.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2029,0.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2030,0.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2031,760.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2032,943.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2033,1000.0
+Jamali,ARED,Total,PLTA PS,Pumped storage,2034,0.0
+Jamali,ARED,Total,PLTS,Solar,2025,666.0
+Jamali,ARED,Total,PLTS,Solar,2026,433.0
+Jamali,ARED,Total,PLTS,Solar,2027,541.0
+Jamali,ARED,Total,PLTS,Solar,2028,330.0
+Jamali,ARED,Total,PLTS,Solar,2029,200.0
+Jamali,ARED,Total,PLTS,Solar,2030,849.0
+Jamali,ARED,Total,PLTS,Solar,2031,1858.0
+Jamali,ARED,Total,PLTS,Solar,2032,1813.0
+Jamali,ARED,Total,PLTS,Solar,2033,2593.0
+Jamali,ARED,Total,PLTS,Solar,2034,1036.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2025,0.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2026,300.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2027,170.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2028,140.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2029,3.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2030,0.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2031,0.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2032,0.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2033,0.0
+Jamali,ARED,Total,PLTS+BESS,Solar,2034,0.0
+Jamali,ARED,Total,PLTB,Wind,2025,0.0
+Jamali,ARED,Total,PLTB,Wind,2026,162.0
+Jamali,ARED,Total,PLTB,Wind,2027,250.0
+Jamali,ARED,Total,PLTB,Wind,2028,200.0
+Jamali,ARED,Total,PLTB,Wind,2029,210.0
+Jamali,ARED,Total,PLTB,Wind,2030,1055.0
+Jamali,ARED,Total,PLTB,Wind,2031,700.0
+Jamali,ARED,Total,PLTB,Wind,2032,900.0
+Jamali,ARED,Total,PLTB,Wind,2033,1000.0
+Jamali,ARED,Total,PLTB,Wind,2034,900.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2025,0.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2026,0.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2027,0.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2028,165.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2029,150.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2030,65.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2031,0.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2032,0.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2033,19.0
+Jamali,ARED,Total,PLTSa,Bioenergy,2034,0.0
+Jamali,ARED,Total,BESS,Battery,2025,50.0
+Jamali,ARED,Total,BESS,Battery,2026,211.0
+Jamali,ARED,Total,BESS,Battery,2027,302.0
+Jamali,ARED,Total,BESS,Battery,2028,100.0
+Jamali,ARED,Total,BESS,Battery,2029,100.0
+Jamali,ARED,Total,BESS,Battery,2030,251.0
+Jamali,ARED,Total,BESS,Battery,2031,600.0
+Jamali,ARED,Total,BESS,Battery,2032,800.0
+Jamali,ARED,Total,BESS,Battery,2033,550.0
+Jamali,ARED,Total,BESS,Battery,2034,1250.0

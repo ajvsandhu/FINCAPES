@@ -1,0 +1,2758 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ESDM grid emission factors</title>
+<style>
+  body { font-family: -apple-system, sans-serif; margin: 20px; }
+  .scroll { max-height: 80vh; overflow: auto; border: 1px solid #ccc; margin-bottom: 30px; }
+  table { border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 4px 10px; border-bottom: 1px solid #eee; text-align: right; white-space: nowrap; }
+  th { position: sticky; top: 0; background: #f4f4f4; }
+  tr:hover td { background: #fafae0; }
+</style>
+</head>
+<body>
+<h1>Grid emission factors (Indonesia, Ministry of Energy and Mineral Resources, ESDM)</h1>
+<p>Source: Kepmen ESDM No. 163.K/HK.02/MEM.S/2021 (signed 30 August 2021), 2019 data. <a href="https://gatrik.esdm.go.id/assets/uploads/download_index/files/96d7c-nilai-fe-grk-sistem-ketenagalistrikan-tahun-2019.pdf">ESDM PDF</a> (opens in a browser only).</p><h2>Which factors each grid has</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grids</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>All six factors</th>
+      <td>81</td>
+    </tr>
+    <tr>
+      <th>OM, BM and ex-post CM, no ex-ante</th>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>Operating margin only</th>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>No values</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Other pattern</th>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div><h2>Ex-post factor at each weighting (tCO2/MWh)</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>weighting</th>
+      <th>Jamali</th>
+      <th>Sumatera</th>
+      <th>use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>operating margin only</td>
+      <td>0.800</td>
+      <td>0.770</td>
+      <td>Lower bound (calculated)</td>
+    </tr>
+    <tr>
+      <td>75/25</td>
+      <td>0.840</td>
+      <td>0.860</td>
+      <td>Solar and wind (published)</td>
+    </tr>
+    <tr>
+      <td>50/50</td>
+      <td>0.870</td>
+      <td>0.940</td>
+      <td>The UN's standard method for grid emission factors: geothermal, first crediting period (published)</td>
+    </tr>
+    <tr>
+      <td>25/75</td>
+      <td>0.905</td>
+      <td>1.033</td>
+      <td>Geothermal, second and third crediting periods (calculated)</td>
+    </tr>
+    <tr>
+      <td>build margin only</td>
+      <td>0.940</td>
+      <td>1.120</td>
+      <td>Upper bound (calculated)</td>
+    </tr>
+  </tbody>
+</table></div><h2>Comparison for 2019 (gCO2/kWh)</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>measure</th>
+      <th>g_per_kwh</th>
+      <th>basis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ember national average</td>
+      <td>698.7</td>
+      <td>All generation, lifecycle CO2e</td>
+    </tr>
+    <tr>
+      <td>ESDM Jamali operating margin only</td>
+      <td>800.0</td>
+      <td>Lower bound (calculated)</td>
+    </tr>
+    <tr>
+      <td>ESDM Jamali 75/25</td>
+      <td>840.0</td>
+      <td>Solar and wind (published)</td>
+    </tr>
+    <tr>
+      <td>ESDM Jamali 50/50 (The UN's standard method for grid emission factors)</td>
+      <td>870.0</td>
+      <td>The UN's standard method for grid emission factors: geothermal, first crediting period (published)</td>
+    </tr>
+    <tr>
+      <td>ESDM Jamali 25/75</td>
+      <td>905.0</td>
+      <td>Geothermal, second and third crediting periods (calculated)</td>
+    </tr>
+    <tr>
+      <td>ESDM Jamali build margin only</td>
+      <td>940.0</td>
+      <td>Upper bound (calculated)</td>
+    </tr>
+    <tr>
+      <td>Coal assumption</td>
+      <td>917.0</td>
+      <td>Coal plants only</td>
+    </tr>
+  </tbody>
+</table></div><h2>Largest grids by number of plants</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>no</th>
+      <th>grid</th>
+      <th>province</th>
+      <th>num_plants</th>
+      <th>om_tco2_per_mwh</th>
+      <th>bm_tco2_per_mwh</th>
+      <th>cm_expost_50_50</th>
+      <th>cm_expost_75_25</th>
+      <th>cm_exante_50_50</th>
+      <th>cm_exante_75_25</th>
+      <th>source_note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>125</td>
+      <td>Sumatera</td>
+      <td>Aceh; Bengkulu; Jambi; Lampung; Riau; Sumatera Barat; Sumatera Selatan; Sumatera Utara</td>
+      <td>463</td>
+      <td>0.77</td>
+      <td>1.12</td>
+      <td>0.94</td>
+      <td>0.86</td>
+      <td>0.93</td>
+      <td>0.84</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>Jamali</td>
+      <td>Banten; DKI Jakarta; Jawa Barat; Jawa Tengah; DI Yogyakarta; Jawa Timur</td>
+      <td>302</td>
+      <td>0.80</td>
+      <td>0.94</td>
+      <td>0.87</td>
+      <td>0.84</td>
+      <td>0.87</td>
+      <td>0.83</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>141</td>
+      <td>Ternate-Tidore</td>
+      <td>Maluku Utara</td>
+      <td>140</td>
+      <td>0.42</td>
+      <td>0.54</td>
+      <td>0.48</td>
+      <td>0.45</td>
+      <td>0.62</td>
+      <td>0.66</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>123</td>
+      <td>Sulselbar</td>
+      <td>Sulawesi Selatan; Sulawesi Barat</td>
+      <td>137</td>
+      <td>0.73</td>
+      <td>1.17</td>
+      <td>0.95</td>
+      <td>0.84</td>
+      <td>0.95</td>
+      <td>0.84</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Barito</td>
+      <td>Kalimantan Tengah</td>
+      <td>121</td>
+      <td>1.20</td>
+      <td>1.41</td>
+      <td>1.31</td>
+      <td>1.25</td>
+      <td>1.28</td>
+      <td>1.21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Ende</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>105</td>
+      <td>1.08</td>
+      <td>0.97</td>
+      <td>1.03</td>
+      <td>1.05</td>
+      <td>1.12</td>
+      <td>1.20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>Mahakam</td>
+      <td>Kalimantan Timur</td>
+      <td>97</td>
+      <td>1.12</td>
+      <td>1.16</td>
+      <td>1.14</td>
+      <td>1.13</td>
+      <td>1.14</td>
+      <td>1.13</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>124</td>
+      <td>Sulutgo</td>
+      <td>Sulawesi Utara; Gorontalo</td>
+      <td>73</td>
+      <td>0.67</td>
+      <td>0.90</td>
+      <td>0.78</td>
+      <td>0.73</td>
+      <td>0.78</td>
+      <td>0.72</td>
+      <td>'0m78' in source read as 0.78</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>Lombok</td>
+      <td>Nusa Tenggara Barat</td>
+      <td>54</td>
+      <td>1.27</td>
+      <td>1.96</td>
+      <td>1.61</td>
+      <td>1.44</td>
+      <td>1.39</td>
+      <td>1.11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>149</td>
+      <td>Waingapu</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>51</td>
+      <td>0.54</td>
+      <td>0.57</td>
+      <td>0.55</td>
+      <td>0.54</td>
+      <td>0.60</td>
+      <td>0.61</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>83</td>
+      <td>Maumere</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>50</td>
+      <td>0.57</td>
+      <td>0.54</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.61</td>
+      <td>0.63</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Bangka</td>
+      <td>Bangka Belitung</td>
+      <td>48</td>
+      <td>1.04</td>
+      <td>0.74</td>
+      <td>0.89</td>
+      <td>0.97</td>
+      <td>0.88</td>
+      <td>0.95</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Batam-Tanjung Pinang</td>
+      <td>Kepulauan Riau</td>
+      <td>47</td>
+      <td>0.76</td>
+      <td>0.88</td>
+      <td>0.82</td>
+      <td>0.79</td>
+      <td>0.85</td>
+      <td>0.83</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>Khatulistiwa</td>
+      <td>Kalimantan Barat</td>
+      <td>46</td>
+      <td>1.67</td>
+      <td>1.59</td>
+      <td>1.63</td>
+      <td>1.65</td>
+      <td>1.41</td>
+      <td>1.31</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>Kendari</td>
+      <td>Sulawesi Tenggara</td>
+      <td>41</td>
+      <td>0.87</td>
+      <td>1.18</td>
+      <td>1.02</td>
+      <td>0.95</td>
+      <td>1.08</td>
+      <td>1.04</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div><h2>By province</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grids</th>
+      <th>plants_on_its_grids</th>
+      <th>om_min</th>
+      <th>om_median</th>
+      <th>om_max</th>
+    </tr>
+    <tr>
+      <th>province</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Riau</th>
+      <td>12</td>
+      <td>584</td>
+      <td>0.01</td>
+      <td>0.60</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <th>Sumatera Barat</th>
+      <td>5</td>
+      <td>498</td>
+      <td>0.67</td>
+      <td>0.71</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <th>Bengkulu</th>
+      <td>5</td>
+      <td>496</td>
+      <td>0.64</td>
+      <td>0.66</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <th>Sumatera Utara</th>
+      <td>2</td>
+      <td>485</td>
+      <td>0.77</td>
+      <td>0.77</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <th>Jambi</th>
+      <td>1</td>
+      <td>463</td>
+      <td>0.77</td>
+      <td>0.77</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <th>Sumatera Selatan</th>
+      <td>1</td>
+      <td>463</td>
+      <td>0.77</td>
+      <td>0.77</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <th>Lampung</th>
+      <td>1</td>
+      <td>463</td>
+      <td>0.77</td>
+      <td>0.77</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <th>Aceh</th>
+      <td>1</td>
+      <td>463</td>
+      <td>0.77</td>
+      <td>0.77</td>
+      <td>0.77</td>
+    </tr>
+    <tr>
+      <th>Maluku</th>
+      <td>33</td>
+      <td>333</td>
+      <td>0.51</td>
+      <td>0.60</td>
+      <td>1.22</td>
+    </tr>
+    <tr>
+      <th>Nusa Tenggara Timur</th>
+      <td>9</td>
+      <td>318</td>
+      <td>0.22</td>
+      <td>0.58</td>
+      <td>1.08</td>
+    </tr>
+    <tr>
+      <th>Jawa Tengah</th>
+      <td>2</td>
+      <td>306</td>
+      <td>0.62</td>
+      <td>0.71</td>
+      <td>0.80</td>
+    </tr>
+    <tr>
+      <th>DI Yogyakarta</th>
+      <td>1</td>
+      <td>302</td>
+      <td>0.80</td>
+      <td>0.80</td>
+      <td>0.80</td>
+    </tr>
+    <tr>
+      <th>DKI Jakarta</th>
+      <td>1</td>
+      <td>302</td>
+      <td>0.80</td>
+      <td>0.80</td>
+      <td>0.80</td>
+    </tr>
+    <tr>
+      <th>Jawa Timur</th>
+      <td>1</td>
+      <td>302</td>
+      <td>0.80</td>
+      <td>0.80</td>
+      <td>0.80</td>
+    </tr>
+    <tr>
+      <th>Banten</th>
+      <td>1</td>
+      <td>302</td>
+      <td>0.80</td>
+      <td>0.80</td>
+      <td>0.80</td>
+    </tr>
+    <tr>
+      <th>Jawa Barat</th>
+      <td>1</td>
+      <td>302</td>
+      <td>0.80</td>
+      <td>0.80</td>
+      <td>0.80</td>
+    </tr>
+    <tr>
+      <th>Maluku Utara</th>
+      <td>13</td>
+      <td>224</td>
+      <td>0.42</td>
+      <td>0.63</td>
+      <td>0.70</td>
+    </tr>
+    <tr>
+      <th>Kepulauan Riau</th>
+      <td>17</td>
+      <td>203</td>
+      <td>0.43</td>
+      <td>0.55</td>
+      <td>1.19</td>
+    </tr>
+    <tr>
+      <th>Sulawesi Utara</th>
+      <td>14</td>
+      <td>180</td>
+      <td>0.53</td>
+      <td>0.63</td>
+      <td>0.86</td>
+    </tr>
+    <tr>
+      <th>Sulawesi Selatan</th>
+      <td>2</td>
+      <td>155</td>
+      <td>0.73</td>
+      <td>0.77</td>
+      <td>0.82</td>
+    </tr>
+    <tr>
+      <th>Sulawesi Tengah</th>
+      <td>16</td>
+      <td>148</td>
+      <td>0.02</td>
+      <td>0.61</td>
+      <td>1.77</td>
+    </tr>
+    <tr>
+      <th>Sulawesi Tenggara</th>
+      <td>6</td>
+      <td>141</td>
+      <td>0.37</td>
+      <td>0.57</td>
+      <td>0.97</td>
+    </tr>
+    <tr>
+      <th>Sulawesi Barat</th>
+      <td>1</td>
+      <td>137</td>
+      <td>0.73</td>
+      <td>0.73</td>
+      <td>0.73</td>
+    </tr>
+    <tr>
+      <th>Kalimantan Tengah</th>
+      <td>1</td>
+      <td>121</td>
+      <td>1.20</td>
+      <td>1.20</td>
+      <td>1.20</td>
+    </tr>
+    <tr>
+      <th>Papua</th>
+      <td>6</td>
+      <td>111</td>
+      <td>0.50</td>
+      <td>0.56</td>
+      <td>0.59</td>
+    </tr>
+    <tr>
+      <th>Nusa Tenggara Barat</th>
+      <td>3</td>
+      <td>99</td>
+      <td>0.56</td>
+      <td>0.69</td>
+      <td>1.27</td>
+    </tr>
+    <tr>
+      <th>Kalimantan Timur</th>
+      <td>1</td>
+      <td>97</td>
+      <td>1.12</td>
+      <td>1.12</td>
+      <td>1.12</td>
+    </tr>
+    <tr>
+      <th>Bangka Belitung</th>
+      <td>4</td>
+      <td>83</td>
+      <td>0.44</td>
+      <td>0.76</td>
+      <td>1.40</td>
+    </tr>
+    <tr>
+      <th>Gorontalo</th>
+      <td>1</td>
+      <td>73</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.67</td>
+    </tr>
+    <tr>
+      <th>Papua Barat</th>
+      <td>2</td>
+      <td>46</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+    </tr>
+    <tr>
+      <th>Kalimantan Barat</th>
+      <td>1</td>
+      <td>46</td>
+      <td>1.67</td>
+      <td>1.67</td>
+      <td>1.67</td>
+    </tr>
+    <tr>
+      <th>Kalimantan Utara</th>
+      <td>1</td>
+      <td>40</td>
+      <td>0.29</td>
+      <td>0.29</td>
+      <td>0.29</td>
+    </tr>
+    <tr>
+      <th>Bali</th>
+      <td>1</td>
+      <td>2</td>
+      <td>0.52</td>
+      <td>0.52</td>
+      <td>0.52</td>
+    </tr>
+  </tbody>
+</table></div><h2>All grids (154 rows x 11 columns)</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>no</th>
+      <th>grid</th>
+      <th>province</th>
+      <th>num_plants</th>
+      <th>om_tco2_per_mwh</th>
+      <th>bm_tco2_per_mwh</th>
+      <th>cm_expost_50_50</th>
+      <th>cm_expost_75_25</th>
+      <th>cm_exante_50_50</th>
+      <th>cm_exante_75_25</th>
+      <th>source_note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>3 Nusa</td>
+      <td>Bali</td>
+      <td>2</td>
+      <td>0.52</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Adonara</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>12</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.88</td>
+      <td>1.03</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Alai (Kepri)</td>
+      <td>Kepulauan Riau</td>
+      <td>5</td>
+      <td>0.53</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Alor</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>33</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Ambon</td>
+      <td>Maluku</td>
+      <td>27</td>
+      <td>0.65</td>
+      <td>0.66</td>
+      <td>0.66</td>
+      <td>0.65</td>
+      <td>0.66</td>
+      <td>0.66</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Ampana</td>
+      <td>Sulawesi Tengah</td>
+      <td>4</td>
+      <td>0.61</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Balantak</td>
+      <td>Sulawesi Tengah</td>
+      <td>5</td>
+      <td>0.67</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Bangka</td>
+      <td>Bangka Belitung</td>
+      <td>48</td>
+      <td>1.04</td>
+      <td>0.74</td>
+      <td>0.89</td>
+      <td>0.97</td>
+      <td>0.88</td>
+      <td>0.95</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Bantal</td>
+      <td>Bengkulu</td>
+      <td>1</td>
+      <td>0.64</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Barito</td>
+      <td>Kalimantan Tengah</td>
+      <td>121</td>
+      <td>1.20</td>
+      <td>1.41</td>
+      <td>1.31</td>
+      <td>1.25</td>
+      <td>1.28</td>
+      <td>1.21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Batam-Tanjung Pinang</td>
+      <td>Kepulauan Riau</td>
+      <td>47</td>
+      <td>0.76</td>
+      <td>0.88</td>
+      <td>0.82</td>
+      <td>0.79</td>
+      <td>0.85</td>
+      <td>0.83</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Bau-Bau</td>
+      <td>Sulawesi Tenggara</td>
+      <td>29</td>
+      <td>0.97</td>
+      <td>0.51</td>
+      <td>0.74</td>
+      <td>0.86</td>
+      <td>0.67</td>
+      <td>0.76</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Belitung</td>
+      <td>Bangka Belitung</td>
+      <td>20</td>
+      <td>1.40</td>
+      <td>1.42</td>
+      <td>1.41</td>
+      <td>1.40</td>
+      <td>1.46</td>
+      <td>1.48</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Bengkalis (Riau)</td>
+      <td>Riau</td>
+      <td>31</td>
+      <td>0.01</td>
+      <td>0.00</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Bere-Bere (Morotai)</td>
+      <td>Maluku Utara</td>
+      <td>4</td>
+      <td>0.69</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Biak</td>
+      <td>Papua</td>
+      <td>10</td>
+      <td>0.57</td>
+      <td>0.56</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.61</td>
+      <td>0.63</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Biaro</td>
+      <td>Sulawesi Utara</td>
+      <td>4</td>
+      <td>0.60</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Bicoli (Halmahera Timur)</td>
+      <td>Maluku Utara</td>
+      <td>7</td>
+      <td>0.66</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Bima</td>
+      <td>Nusa Tenggara Barat</td>
+      <td>22</td>
+      <td>0.56</td>
+      <td>0.53</td>
+      <td>0.55</td>
+      <td>0.55</td>
+      <td>0.57</td>
+      <td>0.59</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Bualemo</td>
+      <td>Sulawesi Tengah</td>
+      <td>10</td>
+      <td>0.70</td>
+      <td>0.71</td>
+      <td>0.71</td>
+      <td>0.70</td>
+      <td>0.71</td>
+      <td>0.71</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Buano (Seram Barat)</td>
+      <td>Maluku</td>
+      <td>7</td>
+      <td>0.71</td>
+      <td>0.71</td>
+      <td>0.71</td>
+      <td>0.71</td>
+      <td>0.67</td>
+      <td>0.65</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Bukide</td>
+      <td>Sulawesi Tengah</td>
+      <td>2</td>
+      <td>1.77</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Bula (Seram Timur)</td>
+      <td>Maluku</td>
+      <td>8</td>
+      <td>0.55</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Buli (Halmahera Timur)</td>
+      <td>Maluku Utara</td>
+      <td>12</td>
+      <td>0.65</td>
+      <td>0.65</td>
+      <td>0.65</td>
+      <td>0.65</td>
+      <td>0.71</td>
+      <td>0.74</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Bulungkobit</td>
+      <td>Sulawesi Tengah</td>
+      <td>4</td>
+      <td>0.91</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Bunta</td>
+      <td>Sulawesi Tengah</td>
+      <td>4</td>
+      <td>0.60</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Concong Luar (Riau)</td>
+      <td>Riau</td>
+      <td>6</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.69</td>
+      <td>0.71</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Dabo Singkep (Kepri)</td>
+      <td>Kepulauan Riau</td>
+      <td>8</td>
+      <td>0.48</td>
+      <td>0.48</td>
+      <td>0.48</td>
+      <td>0.48</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Daruba (Morotai)</td>
+      <td>Maluku Utara</td>
+      <td>12</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.63</td>
+      <td>0.63</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Dobo</td>
+      <td>Maluku</td>
+      <td>15</td>
+      <td>0.54</td>
+      <td>0.54</td>
+      <td>0.54</td>
+      <td>0.54</td>
+      <td>0.60</td>
+      <td>0.62</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Durai (Kepri)</td>
+      <td>Kepulauan Riau</td>
+      <td>7</td>
+      <td>0.55</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Ende</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>105</td>
+      <td>1.08</td>
+      <td>0.97</td>
+      <td>1.03</td>
+      <td>1.05</td>
+      <td>1.12</td>
+      <td>1.20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Geser (Seram Timur)</td>
+      <td>Maluku</td>
+      <td>6</td>
+      <td>0.62</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>Haruku (Maluku Tengah)</td>
+      <td>Maluku</td>
+      <td>6</td>
+      <td>0.66</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Ibu (Halmahera Barat)</td>
+      <td>Maluku Utara</td>
+      <td>9</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.64</td>
+      <td>0.67</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>Ipuh</td>
+      <td>Bengkulu</td>
+      <td>12</td>
+      <td>0.64</td>
+      <td>0.64</td>
+      <td>0.64</td>
+      <td>0.64</td>
+      <td>0.69</td>
+      <td>0.71</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>Jailolo (Halmahera Barat)</td>
+      <td>Maluku Utara</td>
+      <td>6</td>
+      <td>0.57</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>Jamali</td>
+      <td>Banten; DKI Jakarta; Jawa Barat; Jawa Tengah; DI Yogyakarta; Jawa Timur</td>
+      <td>302</td>
+      <td>0.80</td>
+      <td>0.94</td>
+      <td>0.87</td>
+      <td>0.84</td>
+      <td>0.87</td>
+      <td>0.83</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Jayapura</td>
+      <td>Papua</td>
+      <td>25</td>
+      <td>0.50</td>
+      <td>0.52</td>
+      <td>0.51</td>
+      <td>0.51</td>
+      <td>0.56</td>
+      <td>0.58</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Kairatu (Seram bagian Barat)</td>
+      <td>Maluku</td>
+      <td>2</td>
+      <td>0.60</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Karakelang (Talaud)</td>
+      <td>Sulawesi Utara</td>
+      <td>23</td>
+      <td>0.54</td>
+      <td>0.53</td>
+      <td>0.53</td>
+      <td>0.54</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Karatung</td>
+      <td>Sulawesi Utara</td>
+      <td>5</td>
+      <td>0.64</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>Karimun Jawa</td>
+      <td>Jawa Tengah</td>
+      <td>4</td>
+      <td>0.62</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>Kedi (Halmahera Barat)</td>
+      <td>Maluku Utara</td>
+      <td>6</td>
+      <td>0.69</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>Kelong</td>
+      <td>Kepulauan Riau</td>
+      <td>8</td>
+      <td>0.50</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>Kendari</td>
+      <td>Sulawesi Tenggara</td>
+      <td>41</td>
+      <td>0.87</td>
+      <td>1.18</td>
+      <td>1.02</td>
+      <td>0.95</td>
+      <td>1.08</td>
+      <td>1.04</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>Kesui (Seram Timur)</td>
+      <td>Maluku</td>
+      <td>6</td>
+      <td>0.76</td>
+      <td>0.76</td>
+      <td>0.76</td>
+      <td>0.76</td>
+      <td>0.86</td>
+      <td>0.90</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>Khatulistiwa</td>
+      <td>Kalimantan Barat</td>
+      <td>46</td>
+      <td>1.67</td>
+      <td>1.59</td>
+      <td>1.63</td>
+      <td>1.65</td>
+      <td>1.41</td>
+      <td>1.31</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>Kian Darat (Seram Timur)</td>
+      <td>Maluku</td>
+      <td>12</td>
+      <td>0.61</td>
+      <td>0.61</td>
+      <td>0.61</td>
+      <td>0.61</td>
+      <td>0.65</td>
+      <td>0.68</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>Kisar</td>
+      <td>Maluku</td>
+      <td>11</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.70</td>
+      <td>0.77</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>Kobisonta (Seram Utara)</td>
+      <td>Maluku</td>
+      <td>8</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.66</td>
+      <td>0.70</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>Kolaka</td>
+      <td>Sulawesi Tenggara</td>
+      <td>26</td>
+      <td>0.37</td>
+      <td>0.55</td>
+      <td>0.46</td>
+      <td>0.42</td>
+      <td>0.50</td>
+      <td>0.48</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>Kota Bani</td>
+      <td>Bengkulu</td>
+      <td>16</td>
+      <td>0.70</td>
+      <td>0.70</td>
+      <td>0.70</td>
+      <td>0.70</td>
+      <td>0.75</td>
+      <td>0.77</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>Kota Lama (Riau)</td>
+      <td>Riau</td>
+      <td>11</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.50</td>
+      <td>0.45</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>Kotaraya</td>
+      <td>Sulawesi Tengah</td>
+      <td>27</td>
+      <td>0.47</td>
+      <td>0.51</td>
+      <td>0.49</td>
+      <td>0.48</td>
+      <td>0.47</td>
+      <td>0.46</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>Ladan</td>
+      <td>Kepulauan Riau</td>
+      <td>10</td>
+      <td>0.54</td>
+      <td>0.54</td>
+      <td>0.54</td>
+      <td>0.54</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>Laimu (Seram Selatan)</td>
+      <td>Maluku</td>
+      <td>11</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>Lambuya</td>
+      <td>Sulawesi Tenggara</td>
+      <td>16</td>
+      <td>0.57</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>Larat</td>
+      <td>Maluku</td>
+      <td>8</td>
+      <td>0.54</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>Lelang</td>
+      <td></td>
+      <td>&lt;NA&gt;</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>no plant count or values in source table</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>Lemang (Riau)</td>
+      <td>Riau</td>
+      <td>11</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.61</td>
+      <td>0.63</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>Lembata</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>12</td>
+      <td>0.22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>Letung</td>
+      <td>Kepulauan Riau</td>
+      <td>7</td>
+      <td>0.63</td>
+      <td>0.63</td>
+      <td>0.63</td>
+      <td>0.63</td>
+      <td>0.66</td>
+      <td>0.68</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>Lipulalongo</td>
+      <td>Sulawesi Tengah</td>
+      <td>4</td>
+      <td>0.71</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>Liran</td>
+      <td>Maluku</td>
+      <td>3</td>
+      <td>1.22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>Lirung</td>
+      <td>Sulawesi Utara</td>
+      <td>12</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>Lolobata (Halmahera Timur)</td>
+      <td>Maluku Utara</td>
+      <td>6</td>
+      <td>0.70</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>Lombok</td>
+      <td>Nusa Tenggara Barat</td>
+      <td>54</td>
+      <td>1.27</td>
+      <td>1.96</td>
+      <td>1.61</td>
+      <td>1.44</td>
+      <td>1.39</td>
+      <td>1.11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>Luhu (Seram bagian Barat)</td>
+      <td>Maluku</td>
+      <td>5</td>
+      <td>0.61</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>Lumbi-lumbia</td>
+      <td>Sulawesi Tengah</td>
+      <td>5</td>
+      <td>0.78</td>
+      <td>0.78</td>
+      <td>0.78</td>
+      <td>0.78</td>
+      <td>0.79</td>
+      <td>0.79</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>Luwuk</td>
+      <td>Sulawesi Tengah</td>
+      <td>9</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.64</td>
+      <td>0.65</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>Maba (Halmahera Timur)</td>
+      <td>Maluku Utara</td>
+      <td>5</td>
+      <td>0.61</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>Mahakam</td>
+      <td>Kalimantan Timur</td>
+      <td>97</td>
+      <td>1.12</td>
+      <td>1.16</td>
+      <td>1.14</td>
+      <td>1.13</td>
+      <td>1.14</td>
+      <td>1.13</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>Makalehi</td>
+      <td>Sulawesi Utara</td>
+      <td>5</td>
+      <td>0.72</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>Mako (Buru)</td>
+      <td>Maluku</td>
+      <td>11</td>
+      <td>0.58</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>76</td>
+      <td>Malifut (Halmahera Utara)</td>
+      <td>Maluku Utara</td>
+      <td>4</td>
+      <td>0.63</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>77</td>
+      <td>Mangaran</td>
+      <td>Sulawesi Utara</td>
+      <td>10</td>
+      <td>0.63</td>
+      <td>0.62</td>
+      <td>0.62</td>
+      <td>0.62</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>78</td>
+      <td>Manggarai</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>12</td>
+      <td>0.28</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>79</td>
+      <td>Manokwari</td>
+      <td>Papua Barat</td>
+      <td>35</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.61</td>
+      <td>0.63</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>80</td>
+      <td>Marampit</td>
+      <td>Sulawesi Utara</td>
+      <td>4</td>
+      <td>0.79</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>81</td>
+      <td>Marore</td>
+      <td>Sulawesi Utara</td>
+      <td>3</td>
+      <td>0.63</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>82</td>
+      <td>Masohi (Maluku Tengah)</td>
+      <td>Maluku</td>
+      <td>4</td>
+      <td>0.57</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>83</td>
+      <td>Maumere</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>50</td>
+      <td>0.57</td>
+      <td>0.54</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.61</td>
+      <td>0.63</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>84</td>
+      <td>Merauke</td>
+      <td>Papua</td>
+      <td>16</td>
+      <td>0.55</td>
+      <td>0.55</td>
+      <td>0.55</td>
+      <td>0.55</td>
+      <td>0.61</td>
+      <td>0.64</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td>Miangas</td>
+      <td>Sulawesi Utara</td>
+      <td>4</td>
+      <td>0.66</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>86</td>
+      <td>Midai</td>
+      <td>Kepulauan Riau</td>
+      <td>6</td>
+      <td>0.55</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>87</td>
+      <td>Moa</td>
+      <td>Maluku</td>
+      <td>15</td>
+      <td>0.51</td>
+      <td>0.51</td>
+      <td>0.51</td>
+      <td>0.51</td>
+      <td>0.62</td>
+      <td>0.68</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>88</td>
+      <td>Moro (Kepri)</td>
+      <td>Kepulauan Riau</td>
+      <td>6</td>
+      <td>0.50</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>89</td>
+      <td>Mukomuko</td>
+      <td>Bengkulu</td>
+      <td>4</td>
+      <td>0.66</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>Nabire</td>
+      <td>Papua</td>
+      <td>19</td>
+      <td>0.53</td>
+      <td>0.52</td>
+      <td>0.52</td>
+      <td>0.52</td>
+      <td>0.58</td>
+      <td>0.62</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>Namlea</td>
+      <td>Maluku</td>
+      <td>17</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>92</td>
+      <td>Namrole (Buru Selatan)</td>
+      <td>Maluku</td>
+      <td>7</td>
+      <td>0.77</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>93</td>
+      <td>Nanedakele</td>
+      <td>Sulawesi Utara</td>
+      <td>3</td>
+      <td>0.86</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td>Nias</td>
+      <td>Sumatera Utara</td>
+      <td>22</td>
+      <td>0.77</td>
+      <td>0.72</td>
+      <td>0.75</td>
+      <td>0.76</td>
+      <td>0.75</td>
+      <td>0.77</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td>Ondor (Seram Utara)</td>
+      <td>Maluku</td>
+      <td>8</td>
+      <td>0.60</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>96</td>
+      <td>Pagai Selatan</td>
+      <td>Sumatera Barat</td>
+      <td>11</td>
+      <td>0.67</td>
+      <td>0.66</td>
+      <td>0.66</td>
+      <td>0.67</td>
+      <td>0.73</td>
+      <td>0.76</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>97</td>
+      <td>Palapas-Palu</td>
+      <td>Sulawesi Tengah</td>
+      <td>10</td>
+      <td>0.54</td>
+      <td>0.54</td>
+      <td>0.54</td>
+      <td>0.54</td>
+      <td>0.55</td>
+      <td>0.55</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>98</td>
+      <td>Paposta</td>
+      <td>Sulawesi Tengah</td>
+      <td>24</td>
+      <td>0.02</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>99</td>
+      <td>Pasanea (Seram Utara Barat)</td>
+      <td>Maluku</td>
+      <td>7</td>
+      <td>0.63</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>Penuba (Kepri)</td>
+      <td>Kepulauan Riau</td>
+      <td>4</td>
+      <td>0.58</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>Piru (Seram Barat)</td>
+      <td>Maluku</td>
+      <td>3</td>
+      <td>0.61</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>Pulau Buru</td>
+      <td>Maluku</td>
+      <td>16</td>
+      <td>0.57</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.58</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>Pulau Elat</td>
+      <td>Maluku</td>
+      <td>7</td>
+      <td>0.68</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>104</td>
+      <td>Pulau Halang (Riau)</td>
+      <td>Riau</td>
+      <td>13</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.57</td>
+      <td>0.55</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>105</td>
+      <td>Pulau Tello</td>
+      <td>Sulawesi Selatan</td>
+      <td>18</td>
+      <td>0.82</td>
+      <td>0.99</td>
+      <td>0.91</td>
+      <td>0.86</td>
+      <td>0.88</td>
+      <td>0.82</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>Raha</td>
+      <td>Sulawesi Tenggara</td>
+      <td>15</td>
+      <td>0.57</td>
+      <td>0.56</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.58</td>
+      <td>0.59</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>Ranai</td>
+      <td>Kepulauan Riau</td>
+      <td>11</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>108</td>
+      <td>Rote</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>7</td>
+      <td>0.59</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>109</td>
+      <td>S Nasik</td>
+      <td>Bangka Belitung</td>
+      <td>11</td>
+      <td>0.44</td>
+      <td>0.42</td>
+      <td>0.43</td>
+      <td>0.44</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>Salakan</td>
+      <td>Sulawesi Tengah</td>
+      <td>4</td>
+      <td>0.58</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>Saumlaki</td>
+      <td>Maluku</td>
+      <td>25</td>
+      <td>0.52</td>
+      <td>0.50</td>
+      <td>0.51</td>
+      <td>0.51</td>
+      <td>0.60</td>
+      <td>0.64</td>
+      <td>'0m51' in source read as 0.51</td>
+    </tr>
+    <tr>
+      <td>112</td>
+      <td>Sedanau</td>
+      <td>Kepulauan Riau</td>
+      <td>8</td>
+      <td>0.58</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>113</td>
+      <td>Selat Panjang (Riau)</td>
+      <td>Riau</td>
+      <td>18</td>
+      <td>0.51</td>
+      <td>0.51</td>
+      <td>0.51</td>
+      <td>0.51</td>
+      <td>0.56</td>
+      <td>0.59</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>114</td>
+      <td>Seliu</td>
+      <td>Bangka Belitung</td>
+      <td>4</td>
+      <td>0.49</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>115</td>
+      <td>Serasan</td>
+      <td>Kepulauan Riau</td>
+      <td>7</td>
+      <td>0.64</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>116</td>
+      <td>Serui</td>
+      <td>Papua</td>
+      <td>14</td>
+      <td>0.59</td>
+      <td>0.58</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.63</td>
+      <td>0.66</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>117</td>
+      <td>Serwaru</td>
+      <td>Maluku</td>
+      <td>7</td>
+      <td>0.54</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>118</td>
+      <td>Siau</td>
+      <td>Sulawesi Utara</td>
+      <td>10</td>
+      <td>0.53</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>119</td>
+      <td>Siberut</td>
+      <td>Sumatera Barat</td>
+      <td>12</td>
+      <td>0.71</td>
+      <td>0.68</td>
+      <td>0.70</td>
+      <td>0.70</td>
+      <td>0.77</td>
+      <td>0.82</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>120</td>
+      <td>Siberut Utara</td>
+      <td>Sumatera Barat</td>
+      <td>5</td>
+      <td>0.71</td>
+      <td>0.71</td>
+      <td>0.71</td>
+      <td>0.71</td>
+      <td>0.78</td>
+      <td>0.82</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td>Sipora</td>
+      <td>Sumatera Barat</td>
+      <td>7</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.74</td>
+      <td>0.77</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>122</td>
+      <td>Sorong</td>
+      <td>Papua Barat</td>
+      <td>11</td>
+      <td>0.56</td>
+      <td>0.55</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.60</td>
+      <td>0.62</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>123</td>
+      <td>Sulselbar</td>
+      <td>Sulawesi Selatan; Sulawesi Barat</td>
+      <td>137</td>
+      <td>0.73</td>
+      <td>1.17</td>
+      <td>0.95</td>
+      <td>0.84</td>
+      <td>0.95</td>
+      <td>0.84</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>124</td>
+      <td>Sulutgo</td>
+      <td>Sulawesi Utara; Gorontalo</td>
+      <td>73</td>
+      <td>0.67</td>
+      <td>0.90</td>
+      <td>0.78</td>
+      <td>0.73</td>
+      <td>0.78</td>
+      <td>0.72</td>
+      <td>'0m78' in source read as 0.78</td>
+    </tr>
+    <tr>
+      <td>125</td>
+      <td>Sumatera</td>
+      <td>Aceh; Bengkulu; Jambi; Lampung; Riau; Sumatera Barat; Sumatera Selatan; Sumatera Utara</td>
+      <td>463</td>
+      <td>0.77</td>
+      <td>1.12</td>
+      <td>0.94</td>
+      <td>0.86</td>
+      <td>0.93</td>
+      <td>0.84</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>126</td>
+      <td>Sumbawa</td>
+      <td>Nusa Tenggara Barat</td>
+      <td>23</td>
+      <td>0.69</td>
+      <td>0.71</td>
+      <td>0.70</td>
+      <td>0.70</td>
+      <td>0.70</td>
+      <td>0.70</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>127</td>
+      <td>Sungai Guntung (Riau)</td>
+      <td>Riau</td>
+      <td>6</td>
+      <td>0.58</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>128</td>
+      <td>Tagulandang</td>
+      <td>Sulawesi Utara</td>
+      <td>8</td>
+      <td>0.55</td>
+      <td>0.55</td>
+      <td>0.55</td>
+      <td>0.55</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>129</td>
+      <td>Tahuna (Sangihe)</td>
+      <td>Sulawesi Utara</td>
+      <td>16</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>130</td>
+      <td>Tambelan (Kepri)</td>
+      <td>Kepulauan Riau</td>
+      <td>5</td>
+      <td>0.65</td>
+      <td>0.65</td>
+      <td>0.65</td>
+      <td>0.65</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>131</td>
+      <td>Taniwel (Seram barat)</td>
+      <td>Maluku</td>
+      <td>11</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.61</td>
+      <td>0.62</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>132</td>
+      <td>Tanjung Balai Karimun</td>
+      <td>Kepulauan Riau</td>
+      <td>29</td>
+      <td>1.19</td>
+      <td>0.49</td>
+      <td>0.84</td>
+      <td>1.01</td>
+      <td>0.87</td>
+      <td>1.07</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>133</td>
+      <td>Tanjung Batu</td>
+      <td>Kepulauan Riau</td>
+      <td>20</td>
+      <td>0.51</td>
+      <td>0.50</td>
+      <td>0.50</td>
+      <td>0.51</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>134</td>
+      <td>Tanjung Samak (Riau)</td>
+      <td>Riau</td>
+      <td>10</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.56</td>
+      <td>0.60</td>
+      <td>0.62</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>135</td>
+      <td>Tarakan</td>
+      <td>Kalimantan Utara</td>
+      <td>40</td>
+      <td>0.29</td>
+      <td>0.67</td>
+      <td>0.48</td>
+      <td>0.38</td>
+      <td>0.59</td>
+      <td>0.56</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>136</td>
+      <td>Tarempa</td>
+      <td>Kepulauan Riau</td>
+      <td>15</td>
+      <td>0.43</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>137</td>
+      <td>Tehoru (Seram Selatan)</td>
+      <td>Maluku</td>
+      <td>10</td>
+      <td>0.65</td>
+      <td>0.64</td>
+      <td>0.64</td>
+      <td>0.65</td>
+      <td>0.70</td>
+      <td>0.73</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>138</td>
+      <td>Teluk Dalam (Riau)</td>
+      <td>Riau</td>
+      <td>1</td>
+      <td>0.69</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>139</td>
+      <td>Teluk Ketapang (Riau)</td>
+      <td>Riau</td>
+      <td>6</td>
+      <td>0.77</td>
+      <td>0.75</td>
+      <td>0.76</td>
+      <td>0.77</td>
+      <td>0.75</td>
+      <td>0.75</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>140</td>
+      <td>Tembilahan (Riau)</td>
+      <td>Riau</td>
+      <td>8</td>
+      <td>0.66</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>141</td>
+      <td>Ternate-Tidore</td>
+      <td>Maluku Utara</td>
+      <td>140</td>
+      <td>0.42</td>
+      <td>0.54</td>
+      <td>0.48</td>
+      <td>0.45</td>
+      <td>0.62</td>
+      <td>0.66</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>142</td>
+      <td>Timika</td>
+      <td>Papua</td>
+      <td>27</td>
+      <td>0.57</td>
+      <td>0.56</td>
+      <td>0.57</td>
+      <td>0.57</td>
+      <td>0.61</td>
+      <td>0.63</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>143</td>
+      <td>Timor</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>36</td>
+      <td>0.79</td>
+      <td>0.60</td>
+      <td>0.69</td>
+      <td>0.74</td>
+      <td>0.70</td>
+      <td>0.75</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>144</td>
+      <td>Tobelo</td>
+      <td>Maluku Utara</td>
+      <td>12</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td>0.59</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>145</td>
+      <td>Toili</td>
+      <td>Sulawesi Tengah</td>
+      <td>9</td>
+      <td>0.61</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.60</td>
+      <td>0.67</td>
+      <td>0.70</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>146</td>
+      <td>Toli-Toli</td>
+      <td>Sulawesi Tengah</td>
+      <td>20</td>
+      <td>0.48</td>
+      <td>0.51</td>
+      <td>0.50</td>
+      <td>0.49</td>
+      <td>0.51</td>
+      <td>0.52</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>147</td>
+      <td>Tual</td>
+      <td>Maluku</td>
+      <td>30</td>
+      <td>0.58</td>
+      <td>0.57</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.58</td>
+      <td>0.59</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>148</td>
+      <td>Wahai (Seram Utara)</td>
+      <td>Maluku</td>
+      <td>9</td>
+      <td>0.63</td>
+      <td>0.63</td>
+      <td>0.63</td>
+      <td>0.63</td>
+      <td>0.69</td>
+      <td>0.72</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>149</td>
+      <td>Waingapu</td>
+      <td>Nusa Tenggara Timur</td>
+      <td>51</td>
+      <td>0.54</td>
+      <td>0.57</td>
+      <td>0.55</td>
+      <td>0.54</td>
+      <td>0.60</td>
+      <td>0.61</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>150</td>
+      <td>Wakai</td>
+      <td>Sulawesi Tengah</td>
+      <td>7</td>
+      <td>0.71</td>
+      <td>0.72</td>
+      <td>0.72</td>
+      <td>0.71</td>
+      <td>0.72</td>
+      <td>0.72</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>151</td>
+      <td>Wangi-Wangi</td>
+      <td>Sulawesi Tenggara</td>
+      <td>14</td>
+      <td>0.52</td>
+      <td>0.50</td>
+      <td>0.51</td>
+      <td>0.51</td>
+      <td>0.55</td>
+      <td>0.58</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>152</td>
+      <td>Weda (Halmahera Tengah)</td>
+      <td>Maluku Utara</td>
+      <td>1</td>
+      <td>0.63</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>153</td>
+      <td>Werinama (Seram Timur)</td>
+      <td>Maluku</td>
+      <td>8</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.67</td>
+      <td>0.72</td>
+      <td>0.75</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>154</td>
+      <td>Wetar</td>
+      <td>Maluku</td>
+      <td>3</td>
+      <td>1.12</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div><h2>Data dictionary</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>field</th>
+      <th>type</th>
+      <th>unit</th>
+      <th>meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>no</td>
+      <td>number</td>
+      <td></td>
+      <td>Row number in the decree's table</td>
+    </tr>
+    <tr>
+      <td>grid</td>
+      <td>text</td>
+      <td></td>
+      <td>Name of the power system (an interconnected grid or an isolated island system)</td>
+    </tr>
+    <tr>
+      <td>province</td>
+      <td>text</td>
+      <td></td>
+      <td>Province(s) the grid serves, separated by ';'</td>
+    </tr>
+    <tr>
+      <td>num_plants</td>
+      <td>number</td>
+      <td></td>
+      <td>Number of power plants on the grid</td>
+    </tr>
+    <tr>
+      <td>om_tco2_per_mwh</td>
+      <td>number</td>
+      <td>tCO2/MWh</td>
+      <td>Operating margin: emissions per MWh of the plants that would run less if clean power were added</td>
+    </tr>
+    <tr>
+      <td>bm_tco2_per_mwh</td>
+      <td>number</td>
+      <td>tCO2/MWh</td>
+      <td>Build margin: emissions per MWh of the most recently built plants</td>
+    </tr>
+    <tr>
+      <td>cm_expost_50_50</td>
+      <td>number</td>
+      <td>tCO2/MWh</td>
+      <td>Combined margin from actual 2019 data, 0.5 x OM + 0.5 x BM; general default</td>
+    </tr>
+    <tr>
+      <td>cm_expost_75_25</td>
+      <td>number</td>
+      <td>tCO2/MWh</td>
+      <td>Combined margin from actual 2019 data, 0.75 x OM + 0.25 x BM; used for solar and wind</td>
+    </tr>
+    <tr>
+      <td>cm_exante_50_50</td>
+      <td>number</td>
+      <td>tCO2/MWh</td>
+      <td>Combined margin projected for 2022-2030, 50/50 weighting</td>
+    </tr>
+    <tr>
+      <td>cm_exante_75_25</td>
+      <td>number</td>
+      <td>tCO2/MWh</td>
+      <td>Combined margin projected for 2022-2030, 75/25 weighting</td>
+    </tr>
+    <tr>
+      <td>source_note</td>
+      <td>text</td>
+      <td></td>
+      <td>Corrections made when transcribing the table, if any</td>
+    </tr>
+  </tbody>
+</table></div><h2>Filtering and transcription notes</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>topic</th>
+      <th>note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Transcription</td>
+      <td>Values come from the decree's table as reprinted in the Ministry of Forestry carbon footprint manual (March 2025); the ESDM PDF does not download from a script. Spot-check against the PDF.</td>
+    </tr>
+    <tr>
+      <td>Transcription</td>
+      <td>Two values printed with 'm' instead of a decimal point (Saumlaki, Sulutgo) were read as decimals; see source_note.</td>
+    </tr>
+    <tr>
+      <td>Missing values</td>
+      <td>N/A in the decree means ESDM did not calculate that factor, usually because the grid is too small or has no recent plants.</td>
+    </tr>
+    <tr>
+      <td>Headline factor</td>
+      <td>Jamali cm_expost_50_50: Jamali (Java-Madura-Bali) supplies about 70% of Indonesia's electricity, and geothermal runs around the clock, so it takes the 50/50 weighting; 75/25 is for solar and wind.</td>
+    </tr>
+    <tr>
+      <td>Comparison with Ember</td>
+      <td>Ember's intensity is a national average over all generation, in lifecycle CO2-equivalent. ESDM factors are per grid, margin-based, and in tCO2; they are not expected to match.</td>
+    </tr>
+  </tbody>
+</table></div>
+</body>
+</html>

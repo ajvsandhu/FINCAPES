@@ -1,0 +1,72 @@
+id,nama_pltp,status,provinsi_nama,kota_nama,latitude,longitude,kapasitas_terpasang,rencana_pengembangan,grid_by_province,grid_checked,confidence,reason
+70,Koto Sani Tanjung Bingkung,PSPE,SUMATERA BARAT,KAB. SOLOK; KOTA SOLOK,-0.7735,0.5919,0.0,40,Sumatera,Sumatera,medium,Province (Sumatera Barat) used because the GENESIS longitude (0.59) is wrong
+1,Jaboi,Eksplorasi,ACEH,KOTA SABANG,5.80514655354394,95.33985881421428,0.0,10,Sumatera,Sabang (isolated),high,On Weh island (Kota Sabang); RUPTL 2025-2034 Aceh annex lists PLTP Jaboi under the isolated 20 kV Sistem Sabang. The 2019 decree has no Sabang row
+28,Seulawah,Eksplorasi,ACEH,KAB. ACEH BESAR,5.4648,95.632,0.0,55,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+9,Sibayak,Produksi,SUMATERA UTARA,KAB. LANGKAT; KAB. KARO; KAB. DELI SERDANG; KAB. SIMALUNGUN,3.227679436776743,98.51351903698956,13.3,20,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+68,Samosir,PSPE,SUMATERA UTARA,KAB. SAMOSIR,2.574,98.685,0.0,40,Sumatera,Sumatera,high,RUPTL 2025-2034 North Sumatra annex: existing 150 kV substation at Pangururan on Samosir island
+3,Sarulla,Produksi,SUMATERA UTARA,KAB. TAPANULI TENGAH; KAB. TAPANULI UTARA; KAB. TAPANULI SELATAN; KAB. PADANG LAWAS UTARA; KOTA PADANG SIDEMPUAN,1.823265997037608,99.08954157390438,418.135,160,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+2,Sorik Marapi,Produksi,SUMATERA UTARA,KAB. MANDAILING NATAL,0.7500636905970429,99.57548476163848,279.1,98,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+69,Bonjol,PSPE,SUMATERA BARAT,KAB. PASAMAN,0.0116,100.2097,0.0,40,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+29,Gunung Talang Bukit Kili,Eksplorasi,SUMATERA BARAT,KAB. SOLOK,-0.8791,100.6471,0.0,20,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+6,Muaralaboh,Produksi,SUMATERA BARAT,KAB. SOLOK SELATAN,-1.6269455470656535,101.12997576507944,89.25,140,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+30,Sungai Penuh,Eksploitasi,JAMBI,KAB.  KERINCI; KOTA SUNGAI PENUH,-2.1243,101.412,0.0,55,Sumatera,Sumatera,high,RUPTL 2025-2034 Jambi annex: existing 150/20 kV substation at Sungai Penuh (Kerinci)
+73,Graho Nyabu,PSPE,JAMBI,KAB.  KERINCI; KAB.  MERANGIN,-2.5138,101.725,0.0,50,Sumatera,Sumatera,high,Kerinci/Merangin; RUPTL 2025-2034 Jambi annex: existing 150/20 kV substations at Sungai Penuh and Bangko
+10,Hululais,Eksploitasi,BENGKULU,KAB. REJANG LEBONG; KAB. BENGKULU UTARA; KAB. LEBONG,-3.239427300551299,102.27853326171112,0.0,275,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+32,Kepahiang,Eksplorasi,BENGKULU,KAB. REJANG LEBONG; KAB. KEPAHIANG,-3.5426,102.6212,0.0,110,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+11,Rantau Dedap,Eksploitasi,SUMATERA SELATAN,KAB. MUARA ENIM; KAB. LAHAT; KOTA PAGAR ALAM,-4.20748200137583,103.38536390675046,98.4,134,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+12,Lumut Balai,Produksi,SUMATERA SELATAN,KAB. OGAN KOMERING ULU; KAB. MUARA ENIM; KAB. LAHAT; KAB. OGAN KOMERING ULU SELATAN,-4.196674498520341,103.64814357791477,114.92,270,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+33,Danau Ranau,Eksplorasi,SUMATERA SELATAN,KAB. OGAN KOMERING ULU SELATAN,-4.8966,103.9513,0.0,20,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+74,Sekincau,PSPE,LAMPUNG,KAB. LAMPUNG BARAT,-5.522,104.436,0.0,110,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+13,Ulubelu,Produksi,LAMPUNG,KAB. TANGGAMUS,-5.309249655967274,104.5736078071278,229.0,95,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+35,Way Ratai,Eksplorasi,LAMPUNG,KAB. LAMPUNG SELATAN; KAB. TANGGAMUS; KAB. PESAWARAN; KOTA BANDAR LAMPUNG,-5.4856,105.1463,0.0,55,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+34,Rajabasa,Eksplorasi,LAMPUNG,KAB. LAMPUNG SELATAN,-5.8084,105.6127,0.0,220,Sumatera,Sumatera,high,Mainland site in a province served by the Sumatera grid
+76,Rawa Dano,Eksplorasi,BANTEN,KAB. PANDEGLANG; KAB. SERANG,-6.137325,106.035633,0.0,110,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+77,Gunung Endut,Wilayah Terbuka,BANTEN,KAB. LEBAK,-6.631587,106.362845,0.0,35,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+75,Cisolok - Cisukarame,Eksplorasi,JAWA BARAT,KAB. SUKABUMI,-6.85565,106.52263,0.0,40,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+14,Gunung Salak,Produksi,JAWA BARAT,KAB. BOGOR; KAB. SUKABUMI; KOTA BOGOR,-6.741398411016269,106.64563424885888,398.12,118,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+61,Cipanas,PSPE,JAWA BARAT,KAB. CIANJUR,-6.758046,107.013528,0.0,50,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+16,Cibuni,Eksplorasi,JAWA BARAT,KAB. BANDUNG,-7.166635054697489,107.37848617605717,0.0,10,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+15,Patuha,Produksi,JAWA BARAT,KAB. CIANJUR; KAB. BANDUNG; KAB. GARUT; KAB. BANDUNG BARAT,-7.182598086480533,107.42189789569798,59.88,165,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+36,Tangkuban Perahu,Eksplorasi,JAWA BARAT,KAB. BANDUNG; KAB. SUBANG; KAB. PURWAKARTA,-6.7425,107.5955,0.0,40,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+17,Wayang Windu,Produksi,JAWA BARAT,KAB. CIANJUR; KAB. BANDUNG; KAB. GARUT; KAB. BANDUNG BARAT,-7.197658914235748,107.62565024351578,227.0,180,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+67,Papandayan,Wilayah Terbuka,JAWA BARAT,KAB. BANDUNG; KAB. GARUT,-7.3022,107.7285,0.0,20,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+19,Darajat,Produksi,JAWA BARAT,KAB. BANDUNG; KAB. GARUT,-7.216527291574811,107.73827593558195,293.21,0,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+18,Kamojang,Produksi,JAWA BARAT,KAB. BANDUNG; KAB. GARUT,-7.139277850980362,107.78575479984924,239.0,60,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+62,Tampomas,Wilayah Terbuka,JAWA BARAT,KAB. SUMEDANG; KAB. SUBANG,-6.7532,107.9389,0.0,30,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+38,Gunung Galunggung,Wilayah Terbuka,JAWA BARAT,KAB. GARUT; KAB. TASIKMALAYA; KOTA TASIKMALAYA,-7.3564,108.0743,0.0,110,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+20,Karaha,Produksi,JAWA BARAT,KAB. GARUT; KAB. TASIKMALAYA; KAB. CIAMIS; KAB. MAJALENGKA; KAB. SUMEDANG,-7.146607846137548,108.08483296774136,30.0,0,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+37,Gunung Ciremai,Wilayah Terbuka,JAWA BARAT,KAB. KUNINGAN; KAB. MAJALENGKA,-6.8963,108.4664,0.0,25,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+22,Baturaden,Eksplorasi,JAWA TENGAH,KAB. BANYUMAS; KAB. PURBALINGGA; KAB. PEMALANG; KAB. TEGAL; KAB. BREBES,-7.270294665343654,109.15638740674588,0.0,220,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+41,Guci,Wilayah Terbuka,JAWA TENGAH,KAB. PEMALANG; KAB. TEGAL; KAB. BREBES,-7.2061,109.2343,0.0,20,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+4,Dieng,Produksi,JAWA TENGAH,KAB. BANJARNEGARA; KAB. WONOSOBO; KAB. TEMANGGUNG; KAB. KENDAL; KAB. BATANG; KOTA PEKALONGAN,-7.226053827585823,109.89776525092633,72.8,395,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+42,Umbul Telomoyo,Eksplorasi,JAWA TENGAH,KAB. MAGELANG; KAB. BOYOLALI; KAB. SEMARANG; KAB. TEMANGGUNG; KOTA SALATIGA,-7.36,110.385,0.0,45,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+40,Ungaran,Eksplorasi,JAWA TENGAH,KAB. SEMARANG; KAB. KENDAL,-7.195507,110.402433,0.0,55,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+66,Jenawi,Wilayah Terbuka,JAWA TENGAH,KAB. SUKOHARJO; KAB. KARANGANYAR,-7.612133,111.144778,0.0,55,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+43,Telaga Ngebel,Eksplorasi,JAWA TIMUR,KAB. PONOROGO; KAB. MADIUN,-7.814143,111.643099,0.0,165,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+47,Gunung Wilis,Wilayah Terbuka,JAWA TIMUR,KAB. PONOROGO; KAB. TULUNGAGUNG; KAB. KEDIRI; KAB. NGANJUK; KAB. MADIUN,-7.822644,111.793539,0.0,40,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+45,Gunung Pandan,Wilayah Terbuka,JAWA TIMUR,KAB. NGANJUK; KAB. MADIUN; KAB. BOJONEGORO,-7.437361,111.8055,0.0,60,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+48,Songgoriti,Wilayah Terbuka,JAWA TIMUR,KAB. BLITAR; KAB. MALANG; KOTA BATU,-7.903194,112.4875,0.0,55,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+93,Arjuno Welirang,Eksplorasi,JAWA TIMUR,KAB. MALANG; KAB. PASURUAN; KAB. MOJOKERTO; KOTA BATU,-7.660897,112.516825,0.0,60,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+46,Iyang Argopuro,Wilayah Terbuka,JAWA TIMUR,KAB. JEMBER; KAB. BONDOWOSO; KAB. SITUBONDO; KAB. PROBOLINGGO,-7.977778,113.599444,0.0,55,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+23,Ijen,Produksi,JAWA TIMUR,KAB. BANYUWANGI; KAB. BONDOWOSO; KAB. SITUBONDO,-8.057007406306463,114.16588091295527,34.0,110,Jamali,Jamali,high,Mainland site in a province served by the Jamali grid
+65,Bedugul,Eksplorasi,BALI,KAB. TABANAN; KAB. BADUNG; KAB. GIANYAR; KAB. BANGLI; KAB. BULELENG,-8.3375,115.125,0.0,175,Jamali,Jamali,high,"RUPTL 2025-2034 plans Bali within Sistem Jawa-Bali, and the JCM grid note (Table 2) lists Bali under Jamali; the 2019 decree's province list omits Bali"
+56,Sembalun,Wilayah Terbuka,NUSA TENGGARA BARAT,KAB. LOMBOK TIMUR,-8.4165,116.5326,0.0,10,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+55,Waesano,Wilayah Terbuka,NUSA TENGGARA TIMUR,KAB. MANGGARAI BARAT,-8.7175,120.01,0.0,30,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+50,Bora Pulu,PSPE,SULAWESI TENGAH,KAB. SIGI; KOTA PALU,-1.116944,119.90125,0.0,40,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+71,Rongkong,PSPE,SULAWESI SELATAN,KAB. LUWU UTARA,-2.5715,120.005,0.0,40,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+27,Ulumbu,Produksi,NUSA TENGGARA TIMUR,KAB. MANGGARAI,-8.726258602546928,120.43473376733834,10.0,40,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+54,Nage,Eksplorasi,NUSA TENGGARA TIMUR,KAB. NGADA,-8.8625,121.0088,0.0,40,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+26,Mataloko,Produksi,NUSA TENGGARA TIMUR,KAB. NGADA,-8.833014371383289,121.06109291045114,2.5,20,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+25,Sokoria,Produksi,NUSA TENGGARA TIMUR,KAB. ENDE,-8.793610645599536,121.76621844907368,11.58,22,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+52,Oka Ile Ange,Eksplorasi,NUSA TENGGARA TIMUR,KAB. FLORES TIMUR,-8.3166,122.8766,0.0,10,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+94,Atadei,Eksplorasi,NUSA TENGGARA TIMUR,KAB. LEMBATA,-8.459797943138511,123.383144,0.0,10,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+53,Gunung Sirung,Eksplorasi,NUSA TENGGARA TIMUR,KAB. ALOR,-8.3971,124.165,0.0,5,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+49,Kotamobagu,Eksplorasi,SULAWESI UTARA,KAB. BOLAANG MONGONDOW; KAB. MINAHASA SELATAN; KAB. BOLAANG MONGONDOW TIMUR; KOTA KOTAMOBAGU,0.76625,124.4025,0.0,80,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+7,Lahendong,Produksi,SULAWESI UTARA,KAB. MINAHASA; KAB. MINAHASA SELATAN; KAB. MINAHASA UTARA; KOTA TOMOHON,1.270113581904004,124.85813029116616,123.71,105,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+24,Toka Tindung,Eksplorasi,SULAWESI UTARA,KAB. MINAHASA UTARA; KOTA BITUNG,1.5845309452088834,125.10085582023758,0.0,40,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+63,Wapsalit,PSPE,MALUKU,KAB. BURU,-3.48523,126.858,0.0,20,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+60,Jailolo,Wilayah Terbuka,MALUKU UTARA,KAB. HALMAHERA BARAT,1.077749,127.443589,0.0,20,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+58,Songa Wayaua,Eksplorasi,MALUKU UTARA,KAB. HALMAHERA SELATAN,-0.724865,127.700372,0.0,10,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+64,Gunung Hamiding,PSPE,MALUKU UTARA,KAB. HALMAHERA UTARA,1.68967,127.85463,0.0,50,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+57,Tulehu,Eksploitasi,MALUKU,KOTA AMBON,-3.6125,128.3094,0.0,20,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid
+81,Banda Baru Sepa,Wilayah Terbuka,MALUKU,KAB. MALUKU TENGAH,-3.2,129.0725,0.0,25,Other,Other,not checked,Outside Jamali and Sumatera; served by a smaller regional or island grid

@@ -1,0 +1,31 @@
+    grid capacity_factor_case    factor_method  factor_tco2_per_mwh  operating_capacity_mw_2034  estimated_generation_mwh  gross_avoided_emissions_tco2
+  Jamali        Central (80%)               BM                    1                        2503                  49588608                      46613292
+  Jamali        Central (80%) CM ex-ante 50/50                    1                        2503                  49588608                      43142089
+  Jamali        Central (80%) CM ex-post 50/50                    1                        2503                  49588608                      43142089
+  Jamali        Central (80%)  JCM alternative                    1                        2503                  49588608                      30695348
+  Jamali        Central (80%)               OM                    1                        2503                  49588608                      39670886
+  Jamali           High (90%)               BM                    1                        2503                  55787184                      52439953
+  Jamali           High (90%) CM ex-ante 50/50                    1                        2503                  55787184                      48534850
+  Jamali           High (90%) CM ex-post 50/50                    1                        2503                  55787184                      48534850
+  Jamali           High (90%)  JCM alternative                    1                        2503                  55787184                      34532267
+  Jamali           High (90%)               OM                    1                        2503                  55787184                      44629747
+  Jamali            Low (70%)               BM                    1                        2503                  43390032                      40786630
+  Jamali            Low (70%) CM ex-ante 50/50                    1                        2503                  43390032                      37749328
+  Jamali            Low (70%) CM ex-post 50/50                    1                        2503                  43390032                      37749328
+  Jamali            Low (70%)  JCM alternative                    1                        2503                  43390032                      26858430
+  Jamali            Low (70%)               OM                    1                        2503                  43390032                      34712026
+Sumatera        Central (80%)               BM                    1                        2007                  47465184                      53161006
+Sumatera        Central (80%) CM ex-ante 50/50                    1                        2007                  47465184                      44142621
+Sumatera        Central (80%) CM ex-post 50/50                    1                        2007                  47465184                      44617273
+Sumatera        Central (80%)  JCM alternative                    0                        2007                  47465184                      21739054
+Sumatera        Central (80%)               OM                    1                        2007                  47465184                      36548192
+Sumatera           High (90%)               BM                    1                        2007                  53398332                      59806132
+Sumatera           High (90%) CM ex-ante 50/50                    1                        2007                  53398332                      49660449
+Sumatera           High (90%) CM ex-post 50/50                    1                        2007                  53398332                      50194432
+Sumatera           High (90%)  JCM alternative                    0                        2007                  53398332                      24456436
+Sumatera           High (90%)               OM                    1                        2007                  53398332                      41116716
+Sumatera            Low (70%)               BM                    1                        2007                  41532036                      46515880
+Sumatera            Low (70%) CM ex-ante 50/50                    1                        2007                  41532036                      38624793
+Sumatera            Low (70%) CM ex-post 50/50                    1                        2007                  41532036                      39040114
+Sumatera            Low (70%)  JCM alternative                    0                        2007                  41532036                      19021672
+Sumatera            Low (70%)               OM                    1                        2007                  41532036                      31979668
