@@ -1,0 +1,121 @@
+grid,year,ruptl_scenario,capacity_factor_case,capacity_factor,operating_planned_capacity_mw,estimated_generation_mwh,ruptl_average_intensity_tco2_per_mwh,intensity_weighted_proxy_tco2,interpretation
+Jamali,2025,ARED,Low (70%),0.7,0.0,0.0,0.844,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2025,RE Base,Low (70%),0.7,0.0,0.0,0.882,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2025,ARED,Central (80%),0.8,0.0,0.0,0.844,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2025,RE Base,Central (80%),0.8,0.0,0.0,0.882,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2025,ARED,High (90%),0.9,0.0,0.0,0.844,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2025,RE Base,High (90%),0.9,0.0,0.0,0.882,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2026,ARED,Low (70%),0.7,45.0,275940.0,0.84,231789.6,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2026,RE Base,Low (70%),0.7,45.0,275940.0,0.871,240343.74,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2026,ARED,Central (80%),0.8,45.0,315360.0,0.84,264902.39999999997,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2026,RE Base,Central (80%),0.8,45.0,315360.0,0.871,274678.56,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2026,ARED,High (90%),0.9,45.0,354780.0,0.84,298015.2,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2026,RE Base,High (90%),0.9,45.0,354780.0,0.871,309013.38,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2027,ARED,Low (70%),0.7,170.0,1042439.9999999999,0.835,870437.3999999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2027,RE Base,Low (70%),0.7,170.0,1042439.9999999999,0.865,901710.5999999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2027,ARED,Central (80%),0.8,170.0,1191360.0,0.835,994785.6,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2027,RE Base,Central (80%),0.8,170.0,1191360.0,0.865,1030526.4,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2027,ARED,High (90%),0.9,170.0,1340280.0,0.835,1119133.8,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2027,RE Base,High (90%),0.9,170.0,1340280.0,0.865,1159342.2,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2028,ARED,Low (70%),0.7,310.0,1900919.9999999998,0.819,1556853.4799999997,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2028,RE Base,Low (70%),0.7,310.0,1900919.9999999998,0.839,1594871.8799999997,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2028,ARED,Central (80%),0.8,310.0,2172480.0,0.819,1779261.1199999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2028,RE Base,Central (80%),0.8,310.0,2172480.0,0.839,1822710.72,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2028,ARED,High (90%),0.9,310.0,2444040.0,0.819,2001668.7599999998,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2028,RE Base,High (90%),0.9,310.0,2444040.0,0.839,2050549.5599999998,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2029,ARED,Low (70%),0.7,390.0,2391480.0,0.804,1922749.9200000002,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2029,RE Base,Low (70%),0.7,390.0,2391480.0,0.811,1939490.28,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2029,ARED,Central (80%),0.8,390.0,2733120.0,0.804,2197428.48,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2029,RE Base,Central (80%),0.8,390.0,2733120.0,0.811,2216560.3200000003,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2029,ARED,High (90%),0.9,390.0,3074760.0,0.804,2472107.04,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2029,RE Base,High (90%),0.9,390.0,3074760.0,0.811,2493630.3600000003,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2030,ARED,Low (70%),0.7,415.0,2544780.0,0.807,2053637.4600000002,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2030,RE Base,Low (70%),0.7,415.0,2544780.0,0.811,2063816.58,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2030,ARED,Central (80%),0.8,415.0,2908320.0,0.807,2347014.24,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2030,RE Base,Central (80%),0.8,415.0,2908320.0,0.811,2358647.52,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2030,ARED,High (90%),0.9,415.0,3271860.0,0.807,2640391.02,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2030,RE Base,High (90%),0.9,415.0,3271860.0,0.811,2653478.46,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2031,ARED,Low (70%),0.7,695.0,4261740.0,0.764,3255969.36,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2031,RE Base,Low (70%),0.7,695.0,4261740.0,0.771,3285801.54,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2031,ARED,Central (80%),0.8,695.0,4870560.0,0.764,3721107.84,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2031,RE Base,Central (80%),0.8,695.0,4870560.0,0.771,3755201.7600000002,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2031,ARED,High (90%),0.9,695.0,5479380.0,0.764,4186246.3200000003,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2031,RE Base,High (90%),0.9,695.0,5479380.0,0.771,4224601.98,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2032,ARED,Low (70%),0.7,1085.0,6653220.0,0.744,4949995.68,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2032,RE Base,Low (70%),0.7,1085.0,6653220.0,0.753,5009874.66,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2032,ARED,Central (80%),0.8,1085.0,7603680.0,0.744,5657137.92,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2032,RE Base,Central (80%),0.8,1085.0,7603680.0,0.753,5725571.04,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2032,ARED,High (90%),0.9,1085.0,8554140.0,0.744,6364280.16,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2032,RE Base,High (90%),0.9,1085.0,8554140.0,0.753,6441267.42,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2033,ARED,Low (70%),0.7,1463.0,8971116.0,0.71,6369492.359999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2033,RE Base,Low (70%),0.7,1463.0,8971116.0,0.723,6486116.868,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2033,ARED,Central (80%),0.8,1463.0,10252704.0,0.71,7279419.84,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2033,RE Base,Central (80%),0.8,1463.0,10252704.0,0.723,7412704.992,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2033,ARED,High (90%),0.9,1463.0,11534292.0,0.71,8189347.319999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2033,RE Base,High (90%),0.9,1463.0,11534292.0,0.723,8339293.115999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2034,ARED,Low (70%),0.7,2503.0,15348395.999999998,0.68,10436909.28,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2034,RE Base,Low (70%),0.7,2503.0,15348395.999999998,0.695,10667135.219999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2034,ARED,Central (80%),0.8,2503.0,17541024.0,0.68,11927896.32,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2034,RE Base,Central (80%),0.8,2503.0,17541024.0,0.695,12191011.68,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2034,ARED,High (90%),0.9,2503.0,19733652.0,0.68,13418883.360000001,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Jamali,2034,RE Base,High (90%),0.9,2503.0,19733652.0,0.695,13714888.139999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2025,ARED,Low (70%),0.7,0.0,0.0,0.695,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2025,RE Base,Low (70%),0.7,0.0,0.0,0.695,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2025,ARED,Central (80%),0.8,0.0,0.0,0.695,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2025,RE Base,Central (80%),0.8,0.0,0.0,0.695,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2025,ARED,High (90%),0.9,0.0,0.0,0.695,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2025,RE Base,High (90%),0.9,0.0,0.0,0.695,0.0,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2026,ARED,Low (70%),0.7,88.0,539616.0,0.649,350210.784,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2026,RE Base,Low (70%),0.7,88.0,539616.0,0.649,350210.784,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2026,ARED,Central (80%),0.8,88.0,616704.0,0.649,400240.896,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2026,RE Base,Central (80%),0.8,88.0,616704.0,0.649,400240.896,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2026,ARED,High (90%),0.9,88.0,693792.0,0.649,450271.00800000003,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2026,RE Base,High (90%),0.9,88.0,693792.0,0.649,450271.00800000003,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2027,ARED,Low (70%),0.7,88.0,539616.0,0.635,342656.16000000003,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2027,RE Base,Low (70%),0.7,88.0,539616.0,0.635,342656.16000000003,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2027,ARED,Central (80%),0.8,88.0,616704.0,0.635,391607.04,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2027,RE Base,Central (80%),0.8,88.0,616704.0,0.635,391607.04,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2027,ARED,High (90%),0.9,88.0,693792.0,0.635,440557.92,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2027,RE Base,High (90%),0.9,88.0,693792.0,0.635,440557.92,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2028,ARED,Low (70%),0.7,193.0,1183476.0,0.622,736122.072,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2028,RE Base,Low (70%),0.7,193.0,1183476.0,0.622,736122.072,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2028,ARED,Central (80%),0.8,193.0,1352544.0,0.622,841282.368,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2028,RE Base,Central (80%),0.8,193.0,1352544.0,0.622,841282.368,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2028,ARED,High (90%),0.9,193.0,1521612.0,0.622,946442.664,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2028,RE Base,High (90%),0.9,193.0,1521612.0,0.622,946442.664,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2029,ARED,Low (70%),0.7,383.0,2348556.0,0.59,1385648.04,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2029,RE Base,Low (70%),0.7,383.0,2348556.0,0.603,1416179.268,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2029,ARED,Central (80%),0.8,383.0,2684064.0,0.59,1583597.76,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2029,RE Base,Central (80%),0.8,383.0,2684064.0,0.603,1618490.592,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2029,ARED,High (90%),0.9,383.0,3019572.0,0.59,1781547.48,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2029,RE Base,High (90%),0.9,383.0,3019572.0,0.603,1820801.916,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2030,ARED,Low (70%),0.7,383.0,2348556.0,0.583,1369208.1479999998,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2030,RE Base,Low (70%),0.7,383.0,2348556.0,0.592,1390345.152,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2030,ARED,Central (80%),0.8,383.0,2684064.0,0.583,1564809.312,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2030,RE Base,Central (80%),0.8,383.0,2684064.0,0.592,1588965.888,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2030,ARED,High (90%),0.9,383.0,3019572.0,0.583,1760410.4759999998,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2030,RE Base,High (90%),0.9,383.0,3019572.0,0.592,1787586.6239999998,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2031,ARED,Low (70%),0.7,627.0,3844763.9999999995,0.572,2199205.0079999994,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2031,RE Base,Low (70%),0.7,627.0,3844763.9999999995,0.579,2226118.3559999997,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2031,ARED,Central (80%),0.8,627.0,4394016.0,0.572,2513377.152,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2031,RE Base,Central (80%),0.8,627.0,4394016.0,0.579,2544135.264,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2031,ARED,High (90%),0.9,627.0,4943268.0,0.572,2827549.2959999996,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2031,RE Base,High (90%),0.9,627.0,4943268.0,0.579,2862152.172,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2032,ARED,Low (70%),0.7,1502.0,9210264.0,0.583,5369583.912,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2032,RE Base,Low (70%),0.7,1502.0,9210264.0,0.595,5480107.08,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2032,ARED,Central (80%),0.8,1502.0,10526016.0,0.583,6136667.328,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2032,RE Base,Central (80%),0.8,1502.0,10526016.0,0.595,6262979.52,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2032,ARED,High (90%),0.9,1502.0,11841768.0,0.583,6903750.744,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2032,RE Base,High (90%),0.9,1502.0,11841768.0,0.595,7045851.96,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2033,ARED,Low (70%),0.7,1502.0,9210264.0,0.594,5470896.816,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2033,RE Base,Low (70%),0.7,1502.0,9210264.0,0.618,5691943.152,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2033,ARED,Central (80%),0.8,1502.0,10526016.0,0.594,6252453.504,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2033,RE Base,Central (80%),0.8,1502.0,10526016.0,0.618,6505077.888,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2033,ARED,High (90%),0.9,1502.0,11841768.0,0.594,7034010.192,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2033,RE Base,High (90%),0.9,1502.0,11841768.0,0.618,7318212.624,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2034,ARED,Low (70%),0.7,2007.0,12306924.0,0.568,6990332.8319999995,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2034,RE Base,Low (70%),0.7,2007.0,12306924.0,0.59,7261085.159999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2034,ARED,Central (80%),0.8,2007.0,14065056.0,0.568,7988951.807999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2034,RE Base,Central (80%),0.8,2007.0,14065056.0,0.59,8298383.039999999,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2034,ARED,High (90%),0.9,2007.0,15823188.0,0.568,8987570.784,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
+Sumatera,2034,RE Base,High (90%),0.9,2007.0,15823188.0,0.59,9335680.92,Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate
