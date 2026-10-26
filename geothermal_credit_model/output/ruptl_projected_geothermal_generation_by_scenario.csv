@@ -1,0 +1,41 @@
+grid,ruptl_scenario,year,fuel_ruptl,fuel,projected_geothermal_generation_gwh
+Jamali,ARED,2025,Panas Bumi,Geothermal,9682.0
+Jamali,ARED,2026,Panas Bumi,Geothermal,10408.0
+Jamali,ARED,2027,Panas Bumi,Geothermal,11341.0
+Jamali,ARED,2028,Panas Bumi,Geothermal,12289.0
+Jamali,ARED,2029,Panas Bumi,Geothermal,13078.0
+Jamali,ARED,2030,Panas Bumi,Geothermal,15194.0
+Jamali,ARED,2031,Panas Bumi,Geothermal,22658.0
+Jamali,ARED,2032,Panas Bumi,Geothermal,25957.0
+Jamali,ARED,2033,Panas Bumi,Geothermal,32661.0
+Jamali,ARED,2034,Panas Bumi,Geothermal,35993.0
+Jamali,RE Base,2025,Panas Bumi,Geothermal,9682.0
+Jamali,RE Base,2026,Panas Bumi,Geothermal,10389.0
+Jamali,RE Base,2027,Panas Bumi,Geothermal,11341.0
+Jamali,RE Base,2028,Panas Bumi,Geothermal,12289.0
+Jamali,RE Base,2029,Panas Bumi,Geothermal,13078.0
+Jamali,RE Base,2030,Panas Bumi,Geothermal,15252.0
+Jamali,RE Base,2031,Panas Bumi,Geothermal,23262.0
+Jamali,RE Base,2032,Panas Bumi,Geothermal,27529.0
+Jamali,RE Base,2033,Panas Bumi,Geothermal,35043.0
+Jamali,RE Base,2034,Panas Bumi,Geothermal,37613.0
+Sumatera,ARED,2025,Panas Bumi,Geothermal,6544.0
+Sumatera,ARED,2026,Panas Bumi,Geothermal,6869.0
+Sumatera,ARED,2027,Panas Bumi,Geothermal,7076.0
+Sumatera,ARED,2028,Panas Bumi,Geothermal,8090.0
+Sumatera,ARED,2029,Panas Bumi,Geothermal,9232.0
+Sumatera,ARED,2030,Panas Bumi,Geothermal,9566.0
+Sumatera,ARED,2031,Panas Bumi,Geothermal,11373.0
+Sumatera,ARED,2032,Panas Bumi,Geothermal,12023.0
+Sumatera,ARED,2033,Panas Bumi,Geothermal,12588.0
+Sumatera,ARED,2034,Panas Bumi,Geothermal,15747.0
+Sumatera,RE Base,2025,Panas Bumi,Geothermal,6544.0
+Sumatera,RE Base,2026,Panas Bumi,Geothermal,6869.0
+Sumatera,RE Base,2027,Panas Bumi,Geothermal,7076.0
+Sumatera,RE Base,2028,Panas Bumi,Geothermal,8090.0
+Sumatera,RE Base,2029,Panas Bumi,Geothermal,9232.0
+Sumatera,RE Base,2030,Panas Bumi,Geothermal,9566.0
+Sumatera,RE Base,2031,Panas Bumi,Geothermal,11373.0
+Sumatera,RE Base,2032,Panas Bumi,Geothermal,12023.0
+Sumatera,RE Base,2033,Panas Bumi,Geothermal,12588.0
+Sumatera,RE Base,2034,Panas Bumi,Geothermal,15747.0

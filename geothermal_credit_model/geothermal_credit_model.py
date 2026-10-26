@@ -18,7 +18,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parent.parent
 MAPPING_FILE = ROOT / "geothermal_grid_mapping" / "output" / "planned_additions_by_grid_year.csv"
 ESDM_FILE = ROOT / "grid_data_sources" / "output" / "esdm_factors_2017_2019_study_grids.csv"
-RUPTL_INTENSITY_FILE = ROOT / "ruptl_eda" / "output" / "ruptl_projected_intensity.csv"
+RUPTL_GENERATION_FILE = ROOT / "ruptl_eda" / "output" / "ruptl_projected_generation.csv"
 OUTPUT_DIR = Path(__file__).resolve().parent / "output"
 
 GRIDS = ["Jamali", "Sumatera"]
@@ -108,54 +108,41 @@ def make_chart(summary):
     plt.close(fig)
 
 
-def build_ruptl_scenario_model():
-    """Apply projected RUPTL average intensity as an explicitly non-crediting proxy."""
-    capacity = planned_capacity()
-    intensity = pd.read_csv(RUPTL_INTENSITY_FILE)
-    intensity = intensity[intensity["grid"].isin(GRIDS) & intensity["year"].isin(YEARS)]
-    rows = []
-    for grid in GRIDS:
-        cohorts = capacity[capacity["grid"].eq(grid)]
-        for year in YEARS:
-            operating_mw = cohorts.loc[
-                cohorts["generation_start_year"].le(year), "capacity_added_mw"
-            ].sum()
-            for case, capacity_factor in CAPACITY_FACTORS.items():
-                generation_mwh = operating_mw * 8760 * capacity_factor
-                for _, projected in intensity[intensity["grid"].eq(grid) & intensity["year"].eq(year)].iterrows():
-                    rows.append({
-                        "grid": grid,
-                        "year": year,
-                        "ruptl_scenario": projected["scenario"],
-                        "capacity_factor_case": case,
-                        "capacity_factor": capacity_factor,
-                        "operating_planned_capacity_mw": operating_mw,
-                        "estimated_generation_mwh": generation_mwh,
-                        "ruptl_average_intensity_tco2_per_mwh": projected["average_tco2_per_mwh"],
-                        "intensity_weighted_proxy_tco2": generation_mwh * projected["average_tco2_per_mwh"],
-                        "interpretation": "Illustrative intensity-weighted proxy; not an official crediting factor or marginal avoided-emissions estimate",
-                    })
-    return pd.DataFrame(rows)
+def ruptl_geothermal_generation():
+    """Return RUPTL's scenario-specific total geothermal generation projections."""
+    generation = pd.read_csv(RUPTL_GENERATION_FILE)
+    data = generation[
+        generation["grid"].isin(GRIDS)
+        & generation["year"].isin(YEARS)
+        & generation["fuel"].eq("Geothermal")
+    ].copy()
+    return data.rename(columns={
+        "scenario": "ruptl_scenario",
+        "generation_gwh": "projected_geothermal_generation_gwh",
+    }).sort_values(["grid", "ruptl_scenario", "year"])
 
 
-def make_ruptl_scenario_chart(scenario_model):
-    central = scenario_model[scenario_model["capacity_factor_case"].eq("Central (80%)")]
+def make_ruptl_scenario_chart(generation):
     fig, axes = plt.subplots(1, 2, figsize=(13, 5.5), sharey=True)
-    colors = {"RE Base": "#287d8e", "ARED": "#e58b37"}
+    styles = {
+        "RE Base": {"color": "#287d8e", "marker": "o", "linestyle": "-"},
+        "ARED": {"color": "#e58b37", "marker": "^", "linestyle": "--"},
+    }
     for ax, grid in zip(axes, GRIDS):
-        data = central[central["grid"].eq(grid)]
+        data = generation[generation["grid"].eq(grid)]
         for scenario in ["RE Base", "ARED"]:
             pathway = data[data["ruptl_scenario"].eq(scenario)].sort_values("year")
-            ax.plot(pathway["year"], pathway["intensity_weighted_proxy_tco2"] / 1_000_000,
-                    marker="o", linewidth=2, label=scenario, color=colors[scenario])
+            ax.plot(pathway["year"], pathway["projected_geothermal_generation_gwh"],
+                    linewidth=2, label=scenario, **styles[scenario])
         ax.set_title(grid)
         ax.set_xlabel("Year")
         ax.grid(alpha=0.3)
-        ax.legend(title="RUPTL pathway")
-    axes[0].set_ylabel("Annual intensity-weighted proxy (MtCO₂; 80% capacity factor)")
-    fig.suptitle("RUPTL scenario proxy for planned geothermal generation, 2025–2034\nBased on estimated generation at an 80% capacity factor; not an official crediting estimate")
+        ax.legend(title="RUPTL scenario")
+    axes[0].set_ylim(bottom=0)
+    axes[0].set_ylabel("Projected geothermal generation (GWh)")
+    fig.suptitle("RUPTL projected geothermal generation under RE Base and ARED, 2025–2034\nTotal regional projections; not limited to new GENESIS projects")
     fig.tight_layout(rect=(0, 0, 1, 0.88))
-    fig.savefig(OUTPUT_DIR / "ruptl_scenario_intensity_proxy.png", dpi=180)
+    fig.savefig(OUTPUT_DIR / "ruptl_projected_geothermal_generation_by_scenario.png", dpi=180)
     plt.close(fig)
 
 
@@ -170,9 +157,9 @@ def main():
     summary.to_csv(OUTPUT_DIR / "planned_geothermal_credit_potential_summary.csv", index=False)
     factor_methods().to_csv(OUTPUT_DIR / "emission_factor_methods.csv", index=False)
     planned_capacity().to_csv(OUTPUT_DIR / "planned_geothermal_capacity_cohorts.csv", index=False)
-    scenario_model = build_ruptl_scenario_model()
-    scenario_model.to_csv(OUTPUT_DIR / "ruptl_scenario_intensity_proxy.csv", index=False)
-    make_ruptl_scenario_chart(scenario_model)
+    generation = ruptl_geothermal_generation()
+    generation.to_csv(OUTPUT_DIR / "ruptl_projected_geothermal_generation_by_scenario.csv", index=False)
+    make_ruptl_scenario_chart(generation)
     make_chart(summary)
     print(summary.to_string(index=False, float_format="{:.0f}".format))
 
