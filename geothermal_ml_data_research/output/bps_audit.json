@@ -1,0 +1,66 @@
+[
+  {
+    "table": "lampung_monthly_sales",
+    "url": "https://lampung.bps.go.id/id/statistics-table/2/Mzk4IzI=/listrik-terjual--bulanan-.html",
+    "parsed_cells": 52,
+    "retrieved_years": [
+      {
+        "val": 114,
+        "label": "2014"
+      }
+    ],
+    "years_advertised_in_selector": [
+      {
+        "th_id": 114,
+        "th": "2014",
+        "var_id": 398,
+        "var_name": "Listrik Terjual (bulanan)"
+      }
+    ],
+    "note": "Advertised years are not confirmed complete series. Annual-total rows, if present, are not extra months. Province, city and PLN service areas are not interchangeable."
+  },
+  {
+    "table": "bandar_lampung_monthly_usage",
+    "url": "https://bandarlampungkota.bps.go.id/id/statistics-table/2/MjMwIzI=/besar-pemakaian-listrik-menurut-bulan.html",
+    "parsed_cells": 24,
+    "retrieved_years": [
+      {
+        "val": 123,
+        "label": "2023"
+      }
+    ],
+    "years_advertised_in_selector": [
+      {
+        "th_id": 123,
+        "th": "2023",
+        "var_id": 230,
+        "var_name": "Besar Pemakaian Listrik Menurut Bulan"
+      },
+      {
+        "th_id": 122,
+        "th": "2022",
+        "var_id": 230,
+        "var_name": "Besar Pemakaian Listrik Menurut Bulan"
+      },
+      {
+        "th_id": 121,
+        "th": "2021",
+        "var_id": 230,
+        "var_name": "Besar Pemakaian Listrik Menurut Bulan"
+      },
+      {
+        "th_id": 120,
+        "th": "2020",
+        "var_id": 230,
+        "var_name": "Besar Pemakaian Listrik Menurut Bulan"
+      },
+      {
+        "th_id": 119,
+        "th": "2019",
+        "var_id": 230,
+        "var_name": "Besar Pemakaian Listrik Menurut Bulan"
+      }
+    ],
+    "note": "Advertised years are not confirmed complete series. Annual-total rows, if present, are not extra months. Province, city and PLN service areas are not interchangeable."
+  }
+]

@@ -1,0 +1,1190 @@
+[
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201501_Generation_MD.csv",
+    "local_file": "raw/nz/201501_Generation_MD.csv.gz",
+    "uncompressed_bytes": 714438,
+    "uncompressed_sha256": "126b7bb91c1bba1a37feabb639731f7f0f3c946b92442eac108ad7f30ec9cb6b",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201502_Generation_MD.csv",
+    "local_file": "raw/nz/201502_Generation_MD.csv.gz",
+    "uncompressed_bytes": 636351,
+    "uncompressed_sha256": "fbc3704c3d6fc042a443333b7dd71382f8a077c4d83c3ca5a1b933a52e3b5e26",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 1954,
+    "geothermal_rows": 308
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201503_Generation_MD.csv",
+    "local_file": "raw/nz/201503_Generation_MD.csv.gz",
+    "uncompressed_bytes": 698124,
+    "uncompressed_sha256": "7da3e5a96d9761847e28f4c3e2ccfd8c42e6d171635aab73900e5817436dc2a9",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2139,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201504_Generation_MD.csv",
+    "local_file": "raw/nz/201504_Generation_MD.csv.gz",
+    "uncompressed_bytes": 693642,
+    "uncompressed_sha256": "b35a9ef6d0e2bc6983ffa3f3f239de4373de9e3aba4b6be6eab7949d94e64c7a",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2100,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201505_Generation_MD.csv",
+    "local_file": "raw/nz/201505_Generation_MD.csv.gz",
+    "uncompressed_bytes": 705878,
+    "uncompressed_sha256": "25e819bf7106217f7803e12e247ee3b6d5e6f0344922342e2105d457772fe7b2",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201506_Generation_MD.csv",
+    "local_file": "raw/nz/201506_Generation_MD.csv.gz",
+    "uncompressed_bytes": 686640,
+    "uncompressed_sha256": "ea154129329a3cd83ae4961a917612025a49c99fc67d12f4122cc14c3d28529a",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2100,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201507_Generation_MD.csv",
+    "local_file": "raw/nz/201507_Generation_MD.csv.gz",
+    "uncompressed_bytes": 723722,
+    "uncompressed_sha256": "fe8dd17fc1ec05773426aff44f6cefe2779b7813eeb1ca11dbf40a115ea6940e",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201508_Generation_MD.csv",
+    "local_file": "raw/nz/201508_Generation_MD.csv.gz",
+    "uncompressed_bytes": 728719,
+    "uncompressed_sha256": "bac666ab251b0e9dd2f3201fab55dac1295ad8b6497adc9400bbcf5a31949495",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201509_Generation_MD.csv",
+    "local_file": "raw/nz/201509_Generation_MD.csv.gz",
+    "uncompressed_bytes": 697113,
+    "uncompressed_sha256": "ee7cefc1116aa85c9785fce58d4f3dfd1766ce3ae1d61152b5e1c973e6a714a7",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2100,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201510_Generation_MD.csv",
+    "local_file": "raw/nz/201510_Generation_MD.csv.gz",
+    "uncompressed_bytes": 711176,
+    "uncompressed_sha256": "a42c108e87a9728076730b21f77e01d0cdfac22b222b68d11efd6e45495a0182",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2139,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201511_Generation_MD.csv",
+    "local_file": "raw/nz/201511_Generation_MD.csv.gz",
+    "uncompressed_bytes": 686988,
+    "uncompressed_sha256": "b96ebd7d58f88f3e75025c497bf48b7541f4eb44746cc512c51031fef8084426",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2088,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201512_Generation_MD.csv",
+    "local_file": "raw/nz/201512_Generation_MD.csv.gz",
+    "uncompressed_bytes": 708690,
+    "uncompressed_sha256": "416aade6a480c41f8a971723f399efe741b9c09367bc37f9b975a66cc96511d3",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201601_Generation_MD.csv",
+    "local_file": "raw/nz/201601_Generation_MD.csv.gz",
+    "uncompressed_bytes": 712836,
+    "uncompressed_sha256": "b93194f7003a55f1629a4852e8074dcd13a916f7b5b39a279f2040970514566d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2158,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201602_Generation_MD.csv",
+    "local_file": "raw/nz/201602_Generation_MD.csv.gz",
+    "uncompressed_bytes": 657405,
+    "uncompressed_sha256": "f7e079ae37a516d0b7da9d15614f5e2f50783d7ac6958c4b63a9af2ae9ab8f9d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 1998,
+    "geothermal_rows": 319
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201603_Generation_MD.csv",
+    "local_file": "raw/nz/201603_Generation_MD.csv.gz",
+    "uncompressed_bytes": 686559,
+    "uncompressed_sha256": "7a31aa800a8cf78c011c9418900272ab6a1ef201bc944e7f790e85dc0cc1b0fa",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2108,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201604_Generation_MD.csv",
+    "local_file": "raw/nz/201604_Generation_MD.csv.gz",
+    "uncompressed_bytes": 661430,
+    "uncompressed_sha256": "7a4ce4b6eb580b77849caf92bdd56dcd306c195a2d11b7a2f7c0fa599fcaadcf",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2040,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201605_Generation_MD.csv",
+    "local_file": "raw/nz/201605_Generation_MD.csv.gz",
+    "uncompressed_bytes": 686066,
+    "uncompressed_sha256": "84e0e95cef1264f1b509c22ce09b0da122a32b641d05116aaadd9799b1ee6039",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2123,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201606_Generation_MD.csv",
+    "local_file": "raw/nz/201606_Generation_MD.csv.gz",
+    "uncompressed_bytes": 676210,
+    "uncompressed_sha256": "b14d3957570179ad90363492489afde2df7b84a660ae2be720e590ec17911a34",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2070,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201607_Generation_MD.csv",
+    "local_file": "raw/nz/201607_Generation_MD.csv.gz",
+    "uncompressed_bytes": 712274,
+    "uncompressed_sha256": "b75d4cfcab29e3b9506d5808a595801353016dbe4da9b746ff52d852c284ff64",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2139,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201608_Generation_MD.csv",
+    "local_file": "raw/nz/201608_Generation_MD.csv.gz",
+    "uncompressed_bytes": 891342,
+    "uncompressed_sha256": "4138929379103c665f699a6bb7394c800af2ea4a02bc01fa8d9be1dedcc60119",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2139,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201609_Generation_MD.csv",
+    "local_file": "raw/nz/201609_Generation_MD.csv.gz",
+    "uncompressed_bytes": 872502,
+    "uncompressed_sha256": "2838c66a154ae86421c779015b9a42fc2192eddd59ae336ea462a62d31b4dc56",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2070,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201610_Generation_MD.csv",
+    "local_file": "raw/nz/201610_Generation_MD.csv.gz",
+    "uncompressed_bytes": 865516,
+    "uncompressed_sha256": "1b10cb3009d985f428154eac21427ce2be1880be36463f26f3ce7d176a978866",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2139,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201611_Generation_MD.csv",
+    "local_file": "raw/nz/201611_Generation_MD.csv.gz",
+    "uncompressed_bytes": 837121,
+    "uncompressed_sha256": "8efad6431058bb2d4116183dc2cff4cd0f626d1e89443396df4a87ee0ff8847d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2070,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201612_Generation_MD.csv",
+    "local_file": "raw/nz/201612_Generation_MD.csv.gz",
+    "uncompressed_bytes": 860671,
+    "uncompressed_sha256": "b00d91187d7d8206fc7c61dfbbaa7906728a142224814aa8577a9040b5fd8046",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201701_Generation_MD.csv",
+    "local_file": "raw/nz/201701_Generation_MD.csv.gz",
+    "uncompressed_bytes": 868522,
+    "uncompressed_sha256": "d7bc44a6a6d9199f9e830f96966fd5c788780b7c536e6072d9c01d602eee139a",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201702_Generation_MD.csv",
+    "local_file": "raw/nz/201702_Generation_MD.csv.gz",
+    "uncompressed_bytes": 777200,
+    "uncompressed_sha256": "78734d2f8e20be5482a8d8f0891119ece5f048547913ea61cfbca379a8b39a1b",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 1960,
+    "geothermal_rows": 308
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201703_Generation_MD.csv",
+    "local_file": "raw/nz/201703_Generation_MD.csv.gz",
+    "uncompressed_bytes": 864053,
+    "uncompressed_sha256": "d8b9f48d6e8f7e15aa4b88d2288261bfb38fdf0168aa854620ccaad48d6a1d93",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201704_Generation_MD.csv",
+    "local_file": "raw/nz/201704_Generation_MD.csv.gz",
+    "uncompressed_bytes": 830893,
+    "uncompressed_sha256": "b373732f89433714d05b9948082d4bd79a604945fcd27a454767c36fd460838f",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2088,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201705_Generation_MD.csv",
+    "local_file": "raw/nz/201705_Generation_MD.csv.gz",
+    "uncompressed_bytes": 863603,
+    "uncompressed_sha256": "ddce8acc2cc4e9d3a5c3e6ed1e2fd73cbf16f419a680d422c4409ec8a270d2bf",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201706_Generation_MD.csv",
+    "local_file": "raw/nz/201706_Generation_MD.csv.gz",
+    "uncompressed_bytes": 858630,
+    "uncompressed_sha256": "d627f552ef1acd49ec58844d9269d2a3c068399b517a9e5b9bba292612b560a2",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2100,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201707_Generation_MD.csv",
+    "local_file": "raw/nz/201707_Generation_MD.csv.gz",
+    "uncompressed_bytes": 906336,
+    "uncompressed_sha256": "a8acc842efed5e7232fcbc22b5bf4890197b5841f2f94debe182ef49bc8fea7b",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201708_Generation_MD.csv",
+    "local_file": "raw/nz/201708_Generation_MD.csv.gz",
+    "uncompressed_bytes": 899630,
+    "uncompressed_sha256": "e8d97471f81af7c4ee84f8071d272b8648f3c1fcd7537a5cd30419029a6a65d4",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201709_Generation_MD.csv",
+    "local_file": "raw/nz/201709_Generation_MD.csv.gz",
+    "uncompressed_bytes": 860875,
+    "uncompressed_sha256": "9254b5775df16dbf405438b963808149bd4a1a03cd6ee1e52a39f5415613f5f5",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2100,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201710_Generation_MD.csv",
+    "local_file": "raw/nz/201710_Generation_MD.csv.gz",
+    "uncompressed_bytes": 874144,
+    "uncompressed_sha256": "4ac60412d99837a48d3466c1bba8852eeeab6833e7dc59fcd936d0a856e76160",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201711_Generation_MD.csv",
+    "local_file": "raw/nz/201711_Generation_MD.csv.gz",
+    "uncompressed_bytes": 855229,
+    "uncompressed_sha256": "f155ea05f052705026ab0aed6e349d179d619b2f5f91cb4762dc888a793c02e7",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2100,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201712_Generation_MD.csv",
+    "local_file": "raw/nz/201712_Generation_MD.csv.gz",
+    "uncompressed_bytes": 874636,
+    "uncompressed_sha256": "93d705e655f5b354f9d210f374db4ebfbcd77bc1d313465bc86dc5ccaa0fe766",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2168,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201801_Generation_MD.csv",
+    "local_file": "raw/nz/201801_Generation_MD.csv.gz",
+    "uncompressed_bytes": 870475,
+    "uncompressed_sha256": "fe52311411ace3692ecc3294ea58154d981f1e0859293d65a3a825b4666d06b1",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2170,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201802_Generation_MD.csv",
+    "local_file": "raw/nz/201802_Generation_MD.csv.gz",
+    "uncompressed_bytes": 803618,
+    "uncompressed_sha256": "66478bbbca146882cb073ebcf9ddb56048a64be703936a9c68686cab0d4588e1",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 1960,
+    "geothermal_rows": 308
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201803_Generation_MD.csv",
+    "local_file": "raw/nz/201803_Generation_MD.csv.gz",
+    "uncompressed_bytes": 877663,
+    "uncompressed_sha256": "b87b20f4c385e4d4a0e370d2ac232def5baa18f7f643f9a2bd73d6002282ff32",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201804_Generation_MD.csv",
+    "local_file": "raw/nz/201804_Generation_MD.csv.gz",
+    "uncompressed_bytes": 856305,
+    "uncompressed_sha256": "e61f969f8b6383b5d8ec2f12e7ee0f470b8a60c62ce72aefa1f16cb83e75f814",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2126,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201805_Generation_MD.csv",
+    "local_file": "raw/nz/201805_Generation_MD.csv.gz",
+    "uncompressed_bytes": 873214,
+    "uncompressed_sha256": "4e99a05e1dfa3967174ca2b36986b37770791c90beb921586f7ae7b0d7125a94",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201806_Generation_MD.csv",
+    "local_file": "raw/nz/201806_Generation_MD.csv.gz",
+    "uncompressed_bytes": 855373,
+    "uncompressed_sha256": "495a5bd8466a226fa703aa9f03e92f9f8df645a2ea670341c2f173297e9f3d47",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2130,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201807_Generation_MD.csv",
+    "local_file": "raw/nz/201807_Generation_MD.csv.gz",
+    "uncompressed_bytes": 894851,
+    "uncompressed_sha256": "94619b2cda39cac96d0a0ff976bd953baee711ebd93e8fe355a3119508893f30",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201808_Generation_MD.csv",
+    "local_file": "raw/nz/201808_Generation_MD.csv.gz",
+    "uncompressed_bytes": 894767,
+    "uncompressed_sha256": "05ba98725b8f03fe424938068f45cf0f219501b15cb720cb19714a5d54dd17f3",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201809_Generation_MD.csv",
+    "local_file": "raw/nz/201809_Generation_MD.csv.gz",
+    "uncompressed_bytes": 856213,
+    "uncompressed_sha256": "48a05443eecd156bdd9f6285e8717e9f36d3c41c87c0306c66ef16d9d8375965",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2130,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201810_Generation_MD.csv",
+    "local_file": "raw/nz/201810_Generation_MD.csv.gz",
+    "uncompressed_bytes": 886811,
+    "uncompressed_sha256": "628f290361f01d23bb21900b14b76e9772f0d785e1180bd564a03cb5daadcb63",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201811_Generation_MD.csv",
+    "local_file": "raw/nz/201811_Generation_MD.csv.gz",
+    "uncompressed_bytes": 853473,
+    "uncompressed_sha256": "77fd57ddf2b96f9087b4f3919c4320d3f21e48f737f37c21d4388399836c0551",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2130,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201812_Generation_MD.csv",
+    "local_file": "raw/nz/201812_Generation_MD.csv.gz",
+    "uncompressed_bytes": 881177,
+    "uncompressed_sha256": "dae4980ccd04c21e577dfe4416d53f197fea3d10bfc96379fb3ac3c6171f4c65",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201901_Generation_MD.csv",
+    "local_file": "raw/nz/201901_Generation_MD.csv.gz",
+    "uncompressed_bytes": 880388,
+    "uncompressed_sha256": "a1cb2840068f5927c7ed6c86a990b760754d706de8292fe53d697d1ddc9a12d4",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201902_Generation_MD.csv",
+    "local_file": "raw/nz/201902_Generation_MD.csv.gz",
+    "uncompressed_bytes": 790127,
+    "uncompressed_sha256": "8781987a796f3947c151c450d80566bf9e7d16d05e36b3150a07d0ee40de988d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 1988,
+    "geothermal_rows": 308
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201903_Generation_MD.csv",
+    "local_file": "raw/nz/201903_Generation_MD.csv.gz",
+    "uncompressed_bytes": 864807,
+    "uncompressed_sha256": "7c7f3df76838016481d3ef01b7d87c229e4952ad11f63faf25e25e862d3cf817",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201904_Generation_MD.csv",
+    "local_file": "raw/nz/201904_Generation_MD.csv.gz",
+    "uncompressed_bytes": 838592,
+    "uncompressed_sha256": "4624470a80ab1443099f04ea6427be5970762b3a65a898047cae2e1831b60f7b",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2130,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201905_Generation_MD.csv",
+    "local_file": "raw/nz/201905_Generation_MD.csv.gz",
+    "uncompressed_bytes": 860179,
+    "uncompressed_sha256": "65e3d5f893a1542d0894e54cf4d20098057cfaa5f6f681927b78789852f92605",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201906_Generation_MD.csv",
+    "local_file": "raw/nz/201906_Generation_MD.csv.gz",
+    "uncompressed_bytes": 830907,
+    "uncompressed_sha256": "4bb28372918b99b4b2def514704e9564fe429cd1ce053398927d9e5c32abc25d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2130,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201907_Generation_MD.csv",
+    "local_file": "raw/nz/201907_Generation_MD.csv.gz",
+    "uncompressed_bytes": 868364,
+    "uncompressed_sha256": "e0f05d3cad2a32953ca21e7510739e51d8bfb60fac91bfbd8431ab4bcf2c4996",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201908_Generation_MD.csv",
+    "local_file": "raw/nz/201908_Generation_MD.csv.gz",
+    "uncompressed_bytes": 903317,
+    "uncompressed_sha256": "53874dd3a500f4520a68291608101d1287ed66784cb6e67707f376ef5411b2e0",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201909_Generation_MD.csv",
+    "local_file": "raw/nz/201909_Generation_MD.csv.gz",
+    "uncompressed_bytes": 868612,
+    "uncompressed_sha256": "263f91ce902e935fc64a2cbb56c6baf8c66e3746eea9a5826d172bd719a1fedf",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2130,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201910_Generation_MD.csv",
+    "local_file": "raw/nz/201910_Generation_MD.csv.gz",
+    "uncompressed_bytes": 902089,
+    "uncompressed_sha256": "4f75599c25ea49c5232a936e5efc1ec5b7e40d9b00ac482ea0cd8fa04ecdbac2",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201911_Generation_MD.csv",
+    "local_file": "raw/nz/201911_Generation_MD.csv.gz",
+    "uncompressed_bytes": 853061,
+    "uncompressed_sha256": "02ab47dabe9c3bc5dab42f38c3a49abca5c3fc9334d148a8f1670ac54e2b6f6f",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2130,
+    "geothermal_rows": 330
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/201912_Generation_MD.csv",
+    "local_file": "raw/nz/201912_Generation_MD.csv.gz",
+    "uncompressed_bytes": 847053,
+    "uncompressed_sha256": "69a3c7552c251db9c240f3e04c1ce93e5254e2ebddeb75d96cce83fec0c8299a",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2168,
+    "geothermal_rows": 341
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202001_Generation_MD.csv",
+    "local_file": "raw/nz/202001_Generation_MD.csv.gz",
+    "uncompressed_bytes": 693936,
+    "uncompressed_sha256": "fb9c76dda8110ffdb5720a759ffb742787ccbdf835151518b74c36821d9be562",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2363,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202002_Generation_MD.csv",
+    "local_file": "raw/nz/202002_Generation_MD.csv.gz",
+    "uncompressed_bytes": 645544,
+    "uncompressed_sha256": "08d998d9f952890571dedaa48c49a4be2e4a38dc10bac01082fdee8efc6a5ab2",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2228,
+    "geothermal_rows": 377
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202003_Generation_MD.csv",
+    "local_file": "raw/nz/202003_Generation_MD.csv.gz",
+    "uncompressed_bytes": 686056,
+    "uncompressed_sha256": "814ab36b14ef3056ceb7b29dc78c97bfabfb6987d2456fec6973b9e4f987c3e6",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2358,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202004_Generation_MD.csv",
+    "local_file": "raw/nz/202004_Generation_MD.csv.gz",
+    "uncompressed_bytes": 655645,
+    "uncompressed_sha256": "82c44ffb0a5f732747fb11576eb999ed419338a9341f407a51a988e5df8408d9",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2286,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202005_Generation_MD.csv",
+    "local_file": "raw/nz/202005_Generation_MD.csv.gz",
+    "uncompressed_bytes": 697796,
+    "uncompressed_sha256": "be33681a493975b68c2626fef7175972bfcc6bc5a2d4ff2623acf06dfb5923ff",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2385,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202006_Generation_MD.csv",
+    "local_file": "raw/nz/202006_Generation_MD.csv.gz",
+    "uncompressed_bytes": 682450,
+    "uncompressed_sha256": "0a75aa03a0cd54f291f60e70201a83b18ab413c71808f56b3fba9d901fc0042f",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2304,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202007_Generation_MD.csv",
+    "local_file": "raw/nz/202007_Generation_MD.csv.gz",
+    "uncompressed_bytes": 730268,
+    "uncompressed_sha256": "664748134b1df2bab50fd9ed71e60bbcfe0e1be943abc9c5633bb391fd0f4f6f",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2412,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202008_Generation_MD.csv",
+    "local_file": "raw/nz/202008_Generation_MD.csv.gz",
+    "uncompressed_bytes": 723835,
+    "uncompressed_sha256": "64a9931eab2bf83a1fa6a4881626eb409754e8bcb808ee2dc0cfafe6fb854c62",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2406,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202009_Generation_MD.csv",
+    "local_file": "raw/nz/202009_Generation_MD.csv.gz",
+    "uncompressed_bytes": 677160,
+    "uncompressed_sha256": "f904226d562781c5d8f677978a084887f7dc6592abe3bdf561cd2cf7c5431f85",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2250,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202010_Generation_MD.csv",
+    "local_file": "raw/nz/202010_Generation_MD.csv.gz",
+    "uncompressed_bytes": 718017,
+    "uncompressed_sha256": "597c79224e005b94fdf0fde68f411dafff6f5a258e6c1f1eb886ce053e810f8c",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2394,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202011_Generation_MD.csv",
+    "local_file": "raw/nz/202011_Generation_MD.csv.gz",
+    "uncompressed_bytes": 687683,
+    "uncompressed_sha256": "8db07e2729af7bac29782074262c8274dab2958890a7ce9e1c132e20dff91de4",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2336,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202012_Generation_MD.csv",
+    "local_file": "raw/nz/202012_Generation_MD.csv.gz",
+    "uncompressed_bytes": 715772,
+    "uncompressed_sha256": "348d7b912627520e8d20d2ef0187779e2124f58b56d0b7d306ab7b27803b3ae0",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2408,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202101_Generation_MD.csv",
+    "local_file": "raw/nz/202101_Generation_MD.csv.gz",
+    "uncompressed_bytes": 712081,
+    "uncompressed_sha256": "c188b13262f2595ab81ecbd0b58226155a8879d3f88b228bc0ebb933a737150d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2424,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202102_Generation_MD.csv",
+    "local_file": "raw/nz/202102_Generation_MD.csv.gz",
+    "uncompressed_bytes": 648994,
+    "uncompressed_sha256": "49a6016d63185dbe3686f2306e7d70a62a5322d4397fc168fae466aa696e7e52",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2204,
+    "geothermal_rows": 364
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202103_Generation_MD.csv",
+    "local_file": "raw/nz/202103_Generation_MD.csv.gz",
+    "uncompressed_bytes": 702977,
+    "uncompressed_sha256": "4f48c22d34ca1e30a1600056383ebc3e4a395a318da4149f80ddf428f9a1f096",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2431,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202104_Generation_MD.csv",
+    "local_file": "raw/nz/202104_Generation_MD.csv.gz",
+    "uncompressed_bytes": 679976,
+    "uncompressed_sha256": "1e66726315a5a161ac659258ffd3ae0391834facc5d82f0b3d0b21f466f6f86e",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2334,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202105_Generation_MD.csv",
+    "local_file": "raw/nz/202105_Generation_MD.csv.gz",
+    "uncompressed_bytes": 707325,
+    "uncompressed_sha256": "a202605becf8d2c988f230410038935ee0e97cb72e708b41f2f335b5f32caeac",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2460,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202106_Generation_MD.csv",
+    "local_file": "raw/nz/202106_Generation_MD.csv.gz",
+    "uncompressed_bytes": 695369,
+    "uncompressed_sha256": "cf6a44a9443bea56209a66a044551980e7cc3ea7787339fa4a969180a0b8e00f",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2397,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202107_Generation_MD.csv",
+    "local_file": "raw/nz/202107_Generation_MD.csv.gz",
+    "uncompressed_bytes": 735365,
+    "uncompressed_sha256": "88d5b275a0fa2fbeaf4f136389ca486087fdd2c544eae26bc9ee5b77bacc1e97",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2477,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202108_Generation_MD.csv",
+    "local_file": "raw/nz/202108_Generation_MD.csv.gz",
+    "uncompressed_bytes": 742138,
+    "uncompressed_sha256": "f1393854619d8fcb99e52a8224e3b053cff55882dae9ce2199103244376c3378",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2473,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202109_Generation_MD.csv",
+    "local_file": "raw/nz/202109_Generation_MD.csv.gz",
+    "uncompressed_bytes": 709099,
+    "uncompressed_sha256": "a1fbd98fcfe9cf01f074741fa8f1f7cd87057cbcfd0106c8a30324d1d5e10c02",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2380,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202110_Generation_MD.csv",
+    "local_file": "raw/nz/202110_Generation_MD.csv.gz",
+    "uncompressed_bytes": 705759,
+    "uncompressed_sha256": "0363a2cc8ae688cc981282c85a0c6a89b1ca2e796c115a5c024e7042732f8904",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2410,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202111_Generation_MD.csv",
+    "local_file": "raw/nz/202111_Generation_MD.csv.gz",
+    "uncompressed_bytes": 681345,
+    "uncompressed_sha256": "b1d73d5c9250a106c1299c9956e80dab869dd5d7ce1f5b7317110cb32c477b38",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2325,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202112_Generation_MD.csv",
+    "local_file": "raw/nz/202112_Generation_MD.csv.gz",
+    "uncompressed_bytes": 704358,
+    "uncompressed_sha256": "73b8019e5231119015ce03d7fce03f12f9be4fc6cbf5146cdaa91f6856c9167a",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2398,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202201_Generation_MD.csv",
+    "local_file": "raw/nz/202201_Generation_MD.csv.gz",
+    "uncompressed_bytes": 704794,
+    "uncompressed_sha256": "836d3c15b3274c5393391ce0f3cf127225594f280138ac468a0396d9322e4918",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2429,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202202_Generation_MD.csv",
+    "local_file": "raw/nz/202202_Generation_MD.csv.gz",
+    "uncompressed_bytes": 638185,
+    "uncompressed_sha256": "d48b083f7b071ab2462f89f7c887c51a5f8b6f08c198fd1ff4fbd0a1eae74606",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2201,
+    "geothermal_rows": 364
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202203_Generation_MD.csv",
+    "local_file": "raw/nz/202203_Generation_MD.csv.gz",
+    "uncompressed_bytes": 709405,
+    "uncompressed_sha256": "426c44407a1890c8f2d163034d6af4f721500e4deb2e6e4c01f8b51b9514f077",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2432,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202204_Generation_MD.csv",
+    "local_file": "raw/nz/202204_Generation_MD.csv.gz",
+    "uncompressed_bytes": 689081,
+    "uncompressed_sha256": "512ad380bc693f7eb64b648e417329f9ffc8f63460ea5cd7aef84b3c8b1b5332",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2360,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202205_Generation_MD.csv",
+    "local_file": "raw/nz/202205_Generation_MD.csv.gz",
+    "uncompressed_bytes": 716096,
+    "uncompressed_sha256": "e56d3ea2d812d6c7d3297871f57cae60db7818059f37a95487eec2d6c4676318",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2438,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202206_Generation_MD.csv",
+    "local_file": "raw/nz/202206_Generation_MD.csv.gz",
+    "uncompressed_bytes": 697409,
+    "uncompressed_sha256": "c71a1624853a8106a5fd8fef8a50e1e49752c1de999a418a2444485d1e7e0193",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2352,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202207_Generation_MD.csv",
+    "local_file": "raw/nz/202207_Generation_MD.csv.gz",
+    "uncompressed_bytes": 724036,
+    "uncompressed_sha256": "0531f932eb12ef58eb2eba10e6e2d8b2b28e5cd1e88fb0ef7328e014c1279b25",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2441,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202208_Generation_MD.csv",
+    "local_file": "raw/nz/202208_Generation_MD.csv.gz",
+    "uncompressed_bytes": 720884,
+    "uncompressed_sha256": "648288e7b4bc066f0fac2c9ed5ba8f426f676def9af59ba6af1f3dfe93341fd9",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2441,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202209_Generation_MD.csv",
+    "local_file": "raw/nz/202209_Generation_MD.csv.gz",
+    "uncompressed_bytes": 691813,
+    "uncompressed_sha256": "902e8bce28a60d83075a61f1c155f1a21edc28213fd7630548555beea1b3deef",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2350,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202210_Generation_MD.csv",
+    "local_file": "raw/nz/202210_Generation_MD.csv.gz",
+    "uncompressed_bytes": 715676,
+    "uncompressed_sha256": "9fd8ebf0ceda5f6fe2065dbc6a701bdbb5124e96f935a1094ddb8785ddb1b8c4",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2404,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202211_Generation_MD.csv",
+    "local_file": "raw/nz/202211_Generation_MD.csv.gz",
+    "uncompressed_bytes": 673312,
+    "uncompressed_sha256": "fc49d2e5e54fd14532f90f353f2f856379a8629eb260a4381d73a5027e69cc15",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2320,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202212_Generation_MD.csv",
+    "local_file": "raw/nz/202212_Generation_MD.csv.gz",
+    "uncompressed_bytes": 690070,
+    "uncompressed_sha256": "452e04efcee4aeaf9fd0ab2bdcf543c61b08bfd239de5e81e3f11dba377c7a66",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2383,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202301_Generation_MD.csv",
+    "local_file": "raw/nz/202301_Generation_MD.csv.gz",
+    "uncompressed_bytes": 702559,
+    "uncompressed_sha256": "ec8cf5e10c64a9c6af38e32035e79f6bbad9b3db54e45e596250219006681c47",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2404,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202302_Generation_MD.csv",
+    "local_file": "raw/nz/202302_Generation_MD.csv.gz",
+    "uncompressed_bytes": 642801,
+    "uncompressed_sha256": "4107251749a58dfa585950a88382cebedaf244e1cad406527fca8fbd7e5ffeba",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2213,
+    "geothermal_rows": 364
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202303_Generation_MD.csv",
+    "local_file": "raw/nz/202303_Generation_MD.csv.gz",
+    "uncompressed_bytes": 719104,
+    "uncompressed_sha256": "dd446f8ee9c1d83e980fa3be6cdfbbf1bf71e02499ac960a0a17d9fe2e0fc982",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2471,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202304_Generation_MD.csv",
+    "local_file": "raw/nz/202304_Generation_MD.csv.gz",
+    "uncompressed_bytes": 687223,
+    "uncompressed_sha256": "2b9261100987a3654c576b98ab85b8fbc161d283086a831c3f2598b09ce0469d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2415,
+    "geothermal_rows": 393
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202305_Generation_MD.csv",
+    "local_file": "raw/nz/202305_Generation_MD.csv.gz",
+    "uncompressed_bytes": 712320,
+    "uncompressed_sha256": "8e843900cd3c0daf1c07bc65d77b00dc0d2c1dcf1a779977be87ca55cb8f5940",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2513,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202306_Generation_MD.csv",
+    "local_file": "raw/nz/202306_Generation_MD.csv.gz",
+    "uncompressed_bytes": 699565,
+    "uncompressed_sha256": "47681e024c904f72f585c8e5e288347cc2b4f4d040c7a9b2e3de1f4bf9aecce2",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2449,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202307_Generation_MD.csv",
+    "local_file": "raw/nz/202307_Generation_MD.csv.gz",
+    "uncompressed_bytes": 730366,
+    "uncompressed_sha256": "3e0320d87dc0e34b1c6c0f7c105e4f6ae8f30e1c7bc6d9cc69526fc287fb4d46",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2474,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202308_Generation_MD.csv",
+    "local_file": "raw/nz/202308_Generation_MD.csv.gz",
+    "uncompressed_bytes": 725794,
+    "uncompressed_sha256": "5801e4bcf112e1ab8771d223a33fee40b57eaf7e175f93695a386404d9895688",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2460,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202309_Generation_MD.csv",
+    "local_file": "raw/nz/202309_Generation_MD.csv.gz",
+    "uncompressed_bytes": 698394,
+    "uncompressed_sha256": "81c7f70b7b6ed4b287ca29c7e622cdb4818fd6ef71388cf3cb4c9bd6313ad1e6",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2385,
+    "geothermal_rows": 390
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202310_Generation_MD.csv",
+    "local_file": "raw/nz/202310_Generation_MD.csv.gz",
+    "uncompressed_bytes": 723923,
+    "uncompressed_sha256": "a475d545afc32baa7bcf0b9c966f3ab63bfa4e2a32c528fc362bfe59e66f5946",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2463,
+    "geothermal_rows": 403
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202311_Generation_MD.csv",
+    "local_file": "raw/nz/202311_Generation_MD.csv.gz",
+    "uncompressed_bytes": 693473,
+    "uncompressed_sha256": "39dabe199d29880c04be2180c63ef42782db1177d92eb97e3a3b903a95116f6d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2414,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202312_Generation_MD.csv",
+    "local_file": "raw/nz/202312_Generation_MD.csv.gz",
+    "uncompressed_bytes": 721104,
+    "uncompressed_sha256": "8d9e9d8aad4cd8841e7ad2dd35a0707b46bc48717422e21c0bbecefd0d0a310d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2498,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202401_Generation_MD.csv",
+    "local_file": "raw/nz/202401_Generation_MD.csv.gz",
+    "uncompressed_bytes": 724720,
+    "uncompressed_sha256": "d1944d868a92db48e302f51f79bf87ccaa7faee4c129fc04c74d0483eea2cac9",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2530,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202402_Generation_MD.csv",
+    "local_file": "raw/nz/202402_Generation_MD.csv.gz",
+    "uncompressed_bytes": 678334,
+    "uncompressed_sha256": "7540acec8a64faed2deaa7d3e8fe50a0d89a61598f649f0c768477bd685ca736",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2373,
+    "geothermal_rows": 406
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202403_Generation_MD.csv",
+    "local_file": "raw/nz/202403_Generation_MD.csv.gz",
+    "uncompressed_bytes": 729557,
+    "uncompressed_sha256": "f0faf6f3fd26ae982ec41f28e74dcbb7958679c15bb9bb7910cb8f935afd84c6",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2579,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202404_Generation_MD.csv",
+    "local_file": "raw/nz/202404_Generation_MD.csv.gz",
+    "uncompressed_bytes": 706043,
+    "uncompressed_sha256": "5f4cf85738fd09b6fc46e4dba2f3d9921dc113f56af5336b4fd8b7367a411e6d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2458,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202405_Generation_MD.csv",
+    "local_file": "raw/nz/202405_Generation_MD.csv.gz",
+    "uncompressed_bytes": 733992,
+    "uncompressed_sha256": "9ad4e5566d80c019cf22d8862b1100540b84419cd79330922b80dcfa67aa0516",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2548,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202406_Generation_MD.csv",
+    "local_file": "raw/nz/202406_Generation_MD.csv.gz",
+    "uncompressed_bytes": 728820,
+    "uncompressed_sha256": "e159fab53e1324ae2ecb5b7fb0fba4c7dd88c6c38bfa609d435f87dda9687ad9",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2469,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202407_Generation_MD.csv",
+    "local_file": "raw/nz/202407_Generation_MD.csv.gz",
+    "uncompressed_bytes": 755344,
+    "uncompressed_sha256": "ff79853708765463b30b72fc601e2a4bd4508acd79f5edeab1ca967066cba2ac",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2546,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202408_Generation_MD.csv",
+    "local_file": "raw/nz/202408_Generation_MD.csv.gz",
+    "uncompressed_bytes": 770702,
+    "uncompressed_sha256": "cafd41b24cd1fad10aebd64a96bdbb70e4e9cebd15bb24b001cc369296d01ded",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2639,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202409_Generation_MD.csv",
+    "local_file": "raw/nz/202409_Generation_MD.csv.gz",
+    "uncompressed_bytes": 723380,
+    "uncompressed_sha256": "66327d305de0abb3c27dc2d2d944b7da570948ad768e614da407b10fb969323f",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2550,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202410_Generation_MD.csv",
+    "local_file": "raw/nz/202410_Generation_MD.csv.gz",
+    "uncompressed_bytes": 744329,
+    "uncompressed_sha256": "66ce7f4f8aa3fd6ae7356440ff85d22e06efe3038368cb2959c74d63617bf472",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2665,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202411_Generation_MD.csv",
+    "local_file": "raw/nz/202411_Generation_MD.csv.gz",
+    "uncompressed_bytes": 723930,
+    "uncompressed_sha256": "057e6c168a823c7110a8d3f537fe36640b7df399e7747a78fb0c4e40dd28c862",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2595,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202412_Generation_MD.csv",
+    "local_file": "raw/nz/202412_Generation_MD.csv.gz",
+    "uncompressed_bytes": 749175,
+    "uncompressed_sha256": "f7af828bfebdc3dad4c699837ee88cbd85b93125c5b80eb1bdcce579f12c3018",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2698,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202501_Generation_MD.csv",
+    "local_file": "raw/nz/202501_Generation_MD.csv.gz",
+    "uncompressed_bytes": 752579,
+    "uncompressed_sha256": "275ad8fef86fedfdc5ab040ef75b85fe7e29366da5e9e56bdceb87c5f39f4835",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2717,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202502_Generation_MD.csv",
+    "local_file": "raw/nz/202502_Generation_MD.csv.gz",
+    "uncompressed_bytes": 688669,
+    "uncompressed_sha256": "11f95c5ae625b17968d72cb9ff19705d3e871c2f746fc6eece3172a928b2b81c",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2481,
+    "geothermal_rows": 392
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202503_Generation_MD.csv",
+    "local_file": "raw/nz/202503_Generation_MD.csv.gz",
+    "uncompressed_bytes": 775832,
+    "uncompressed_sha256": "6aaf2e1e5ae43c3a92e83148a8a114f33fc4ee46faf182e5163683b1b6f3d677",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2738,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202504_Generation_MD.csv",
+    "local_file": "raw/nz/202504_Generation_MD.csv.gz",
+    "uncompressed_bytes": 748711,
+    "uncompressed_sha256": "1cf662555326815425772084c6cecf923fe80fb80fb2fc449a734628d9f839b2",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2671,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202505_Generation_MD.csv",
+    "local_file": "raw/nz/202505_Generation_MD.csv.gz",
+    "uncompressed_bytes": 770947,
+    "uncompressed_sha256": "34a83a5b026d45cf3222b95f071f0a30ba7a27ba53a6ca2da4627332a776633d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2763,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202506_Generation_MD.csv",
+    "local_file": "raw/nz/202506_Generation_MD.csv.gz",
+    "uncompressed_bytes": 755752,
+    "uncompressed_sha256": "ccb1045ecb096cb904197e597765def1c94a5195dbe3dfb52ce58a537c0bc25d",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2676,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202507_Generation_MD.csv",
+    "local_file": "raw/nz/202507_Generation_MD.csv.gz",
+    "uncompressed_bytes": 790990,
+    "uncompressed_sha256": "c3205a701a3b9a8c2e6d080d1be2a937255f1ad2bf29d66e1e976f763945866e",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2799,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202508_Generation_MD.csv",
+    "local_file": "raw/nz/202508_Generation_MD.csv.gz",
+    "uncompressed_bytes": 798052,
+    "uncompressed_sha256": "2991961103a96e1bbd16f7407594d1cd0ad9ac0ec88e5a13954b39614f52d4fe",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2807,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202509_Generation_MD.csv",
+    "local_file": "raw/nz/202509_Generation_MD.csv.gz",
+    "uncompressed_bytes": 765354,
+    "uncompressed_sha256": "4b6ed55ba11cfe0ba829bcd589757187be5cdec97e0b2e4429b1bbcc6fe61ca5",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2734,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202510_Generation_MD.csv",
+    "local_file": "raw/nz/202510_Generation_MD.csv.gz",
+    "uncompressed_bytes": 766906,
+    "uncompressed_sha256": "81fdc21f3e9e8606f732f8414d81505d158931af56e7f175b3f5619a2a523a44",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2793,
+    "geothermal_rows": 434
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202511_Generation_MD.csv",
+    "local_file": "raw/nz/202511_Generation_MD.csv.gz",
+    "uncompressed_bytes": 754754,
+    "uncompressed_sha256": "64a0f528e8815577774c7ee21913e69a64f4962b6f769aae07b3cbc2afe52692",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2733,
+    "geothermal_rows": 420
+  },
+  {
+    "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202512_Generation_MD.csv",
+    "local_file": "raw/nz/202512_Generation_MD.csv.gz",
+    "uncompressed_bytes": 760507,
+    "uncompressed_sha256": "8b027250f1b349cf90822979b07317d2a346018f218772c82bf1e3f7a69500bb",
+    "retrieved_on": "2026-10-29",
+    "all_rows": 2813,
+    "geothermal_rows": 434
+  }
+]

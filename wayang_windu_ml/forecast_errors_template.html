@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{margin:0;font-family:var(--font-sans);color:var(--foreground)}
+.forecast-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 32px}
+.forecast-panel h3{margin:0 0 12px;font-size:16px;font-weight:500}
+.forecast-row{margin-bottom:11px}
+.forecast-label{display:flex;justify-content:space-between;gap:8px;margin-bottom:4px;font-size:13px}
+.forecast-label span:last-child{font-variant-numeric:tabular-nums}
+.forecast-bar{height:11px;background:var(--chart-1)}
+.forecast-bar.mean{background:var(--chart-2)}
+.forecast-bar.ridge{background:var(--chart-3)}
+.forecast-axis{display:flex;justify-content:space-between;border-top:1px solid var(--border);padding-top:4px;font-size:12px;color:var(--muted-foreground)}
+.forecast-context{margin-bottom:18px;font-size:13px;color:var(--muted-foreground)}
+@media(max-width:540px){.forecast-grid{grid-template-columns:1fr;gap:20px}}
+</style>
+</head>
+<body>
+<div id="wayang-forecast-errors">
+<div class="forecast-context">January 2020–June 2021 · 18 forecasts per unit · Lower error is better</div>
+<div class="forecast-grid">
+<section class="forecast-panel" role="img" aria-label="Unit 1 MAE in MW for all three methods">
+<h3>Unit 1 · MAE (MW)</h3>
+<div class="forecast-row"><div class="forecast-label"><span>Previous month</span><span>{{unit_1_previous_month_mae_mw}}</span></div><div class="forecast-bar" style="width:{{unit_1_previous_month_mae_mw_width}}%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Three-month mean</span><span>{{unit_1_trailing_three_month_mean_mae_mw}}</span></div><div class="forecast-bar mean" style="width:{{unit_1_trailing_three_month_mean_mae_mw_width}}%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Ridge regression</span><span>{{unit_1_ridge_mae_mw}}</span></div><div class="forecast-bar ridge" style="width:{{unit_1_ridge_mae_mw_width}}%"></div></div>
+<div class="forecast-axis"><span>0</span><span>{{SCALE_MID}}</span><span>{{SCALE_MAX}} MW</span></div>
+</section>
+<section class="forecast-panel" role="img" aria-label="Unit 1 RMSE in MW for all three methods">
+<h3>Unit 1 · RMSE (MW)</h3>
+<div class="forecast-row"><div class="forecast-label"><span>Previous month</span><span>{{unit_1_previous_month_rmse_mw}}</span></div><div class="forecast-bar" style="width:{{unit_1_previous_month_rmse_mw_width}}%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Three-month mean</span><span>{{unit_1_trailing_three_month_mean_rmse_mw}}</span></div><div class="forecast-bar mean" style="width:{{unit_1_trailing_three_month_mean_rmse_mw_width}}%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Ridge regression</span><span>{{unit_1_ridge_rmse_mw}}</span></div><div class="forecast-bar ridge" style="width:{{unit_1_ridge_rmse_mw_width}}%"></div></div>
+<div class="forecast-axis"><span>0</span><span>{{SCALE_MID}}</span><span>{{SCALE_MAX}} MW</span></div>
+</section>
+<section class="forecast-panel" role="img" aria-label="Unit 2 MAE in MW for all three methods">
+<h3>Unit 2 · MAE (MW)</h3>
+<div class="forecast-row"><div class="forecast-label"><span>Previous month</span><span>{{unit_2_previous_month_mae_mw}}</span></div><div class="forecast-bar" style="width:{{unit_2_previous_month_mae_mw_width}}%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Three-month mean</span><span>{{unit_2_trailing_three_month_mean_mae_mw}}</span></div><div class="forecast-bar mean" style="width:{{unit_2_trailing_three_month_mean_mae_mw_width}}%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Ridge regression</span><span>{{unit_2_ridge_mae_mw}}</span></div><div class="forecast-bar ridge" style="width:{{unit_2_ridge_mae_mw_width}}%"></div></div>
+<div class="forecast-axis"><span>0</span><span>{{SCALE_MID}}</span><span>{{SCALE_MAX}} MW</span></div>
+</section>
+<section class="forecast-panel" role="img" aria-label="Unit 2 RMSE in MW for all three methods">
+<h3>Unit 2 · RMSE (MW)</h3>
+<div class="forecast-row"><div class="forecast-label"><span>Previous month</span><span>{{unit_2_previous_month_rmse_mw}}</span></div><div class="forecast-bar" style="width:{{unit_2_previous_month_rmse_mw_width}}%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Three-month mean</span><span>{{unit_2_trailing_three_month_mean_rmse_mw}}</span></div><div class="forecast-bar mean" style="width:{{unit_2_trailing_three_month_mean_rmse_mw_width}}%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Ridge regression</span><span>{{unit_2_ridge_rmse_mw}}</span></div><div class="forecast-bar ridge" style="width:{{unit_2_ridge_rmse_mw_width}}%"></div></div>
+<div class="forecast-axis"><span>0</span><span>{{SCALE_MID}}</span><span>{{SCALE_MAX}} MW</span></div>
+</section>
+</div>
+</div>
+</body>
+</html>

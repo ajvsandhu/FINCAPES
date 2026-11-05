@@ -1,0 +1,18 @@
+field,unit_or_format,meaning
+month,YYYY-MM,"Calendar month; 42 dates, not 84 independent dates"
+unit,text,Unit 1 or Unit 2 at one geothermal field
+reported_generation_mwh,MWh/month,Published Main Meter series; not automatically identical to energy used for credit calculations
+monthly_average_mw,MW,"Monthly MWh divided by calendar hours; monthly average, not instantaneous or rated capacity"
+mean_mwh_per_day,MWh/day,Monthly MWh divided by calendar days; NOT reconstructed daily observations
+days_in_month,days,Calendar days including February 2020 leap day
+hours_in_month,hours,24 times calendar days; no daylight saving in this Indonesian series
+previous_month_average_mw,MW,Previous chronological monthly average; first value missing by construction
+change_from_previous_month_mw,MW,"Current minus previous monthly average; descriptive change, not forecast error"
+below_90pct_sample_unit_median,boolean,Descriptive low-output screen using full-sample unit median; not an outage diagnosis or deployable forecast input
+published_meter_adjustment_note,boolean,Published 0.2% meter-error note applies August/September 2018; values retained without adjusting again
+source_pdf_printed_page,page,One-based printed page in 99-page revised-v04 report
+source_url,URL,Official UNFCCC source document
+source_version,text,Consistently revised v04; do not splice earlier report versions
+date,YYYY-MM-DD,"First day of month, a period label rather than a daily measurement"
+year,year,Calendar year; 2021 is partial
+calendar_month,1-12,Month number; only 3-4 repetitions per month

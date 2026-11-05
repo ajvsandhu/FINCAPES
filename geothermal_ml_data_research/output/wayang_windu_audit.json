@@ -1,0 +1,14 @@
+{
+  "source_url": "https://cdm.unfccc.int/UserManagement/FileStorage/FSK5I6HGV4BJ39YARNEOXZ18Q7MWUP",
+  "registry_project": 3193,
+  "source": "Revised v04 monitoring report, Annex 5, printed pages 90-94 of 99",
+  "method": "Manual transcription of factual numerical tables retrieved using web PDF extraction; no local PDF binary obtained",
+  "months": 42,
+  "units": 2,
+  "unit_month_values": 84,
+  "first_month": "2018-01",
+  "last_month": "2021-06",
+  "source_tables": "Tables labelled Main Meter; reproduce published values including stated meter-error adjustments, not claimed to be raw SCADA",
+  "excluded": "December 2017 omitted because monitoring begins December 2; earlier report has a December placeholder zero, not a full month of physical zero output",
+  "qa": "Temporal continuity and numeric fields checked. Full reconciliation to daily readings and independent second-person transcription check are not complete. Revised report differs from earlier 93-page report; do not mix versions."
+}

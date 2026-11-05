@@ -1,0 +1,23 @@
+{
+  "experiment": "Exploratory follow-up: nested chronological Ridge alpha tuning",
+  "protocol_date": "2026-11-05",
+  "alpha_candidates": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "selection_metric": "mean absolute error in MW across inner forecast dates",
+  "tie_break": "larger alpha for exactly equal inner MAE",
+  "minimum_inner_history_months": 12,
+  "inner_validation": "Expanding one-month-ahead predictions from month 13 through the last observed month before each outer forecast",
+  "outer_evaluation": "January 2020-June 2021; expanding one-month ahead; separate units",
+  "features": "Previous three monthly average power values; scaler refitted inside every inner fold",
+  "comparisons": "Previous month, trailing three-month mean, and original fixed-alpha=10 Ridge",
+  "interpretation": "Protocol fixed before calculating tuned scores, but original scores and full-period EDA already seen. Not an untouched confirmatory test. No new alpha grid or objective chosen after viewing results.",
+  "protocol_sha256": "490e0f02efa08a39c97922d50c46d6b616b47f21e4b6f76e69ebe12518006a32",
+  "source_sha256": "50a471aed7890c91248db33c42f94ece29fb98bea741df7756921584bfe73e89",
+  "original_prediction_comparison": "matched saved original run"
+}

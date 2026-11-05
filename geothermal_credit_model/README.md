@@ -22,15 +22,15 @@ The model holds generation constant and changes only the emission factor. It com
 
 For a future pathway, an official ex-ante factor can only support years within its published coverage. A separate, clearly labelled approach is needed for 2031-2034. RUPTL emissions divided by generation can describe projected average system intensity under RE Base and ARED, but this is not an official OM, BM or CM and should not be presented as one.
 
-## RUPTL scenario comparison
+## Main result
 
-The separate `ruptl_projected_geothermal_generation_by_scenario.csv` and `ruptl_projected_geothermal_generation_by_scenario.png` compare RUPTL's projected geothermal generation directly, in GWh, under RE Base and ARED for Jamali and Sumatera from 2025 to 2034. This comparison does not multiply generation by emissions intensity because its purpose is to compare the electricity projections themselves.
+With the central 80% capacity-factor assumption, the model estimates cumulative gross avoided emissions of **30.7-46.6 MtCO2 for Jamali** and **21.7-53.2 MtCO2 for Sumatera** across the 2025-2034 analysis years. In both grids, BM gives the highest estimate and the JCM alternative gives the lowest. The spread is especially large in Sumatera: the BM estimate is more than twice the JCM estimate. These figures are in `output/planned_geothermal_credit_potential_summary.csv`; the corresponding comparison is shown in `output/factor_method_sensitivity.png`.
 
-These RUPTL figures represent **total projected regional geothermal generation**, not generation from only the new GENESIS projects. Jamali's projected geothermal generation includes electricity imported from Sumatera over the Sumatera-Java interconnection. Sumatera's geothermal-generation projection is identical under RE Base and ARED throughout the period; Jamali's projections are close through 2029 and then diverge, with RE Base higher in 2034. The chart describes PLN's scenario projections; it does not estimate how much electricity only the new planned projects will generate or how many credits they could earn. This direct generation comparison is separate from the fixed-factor ESDM/JCM sensitivity analysis.
+The high and low estimates result from applying different published factors to the same planned-capacity schedule and assumed generation. They show that the factor choice materially changes this model's gross estimate; they do not establish which method a particular project is eligible or required to use.
 
 ## Limitations
 
-Results are gross avoided-emissions potential. They do not subtract project operational emissions, determine whether a project is additional, establish carbon-market eligibility, or account for monitoring, verification, registry rules, curtailment, transmission losses, or actual commissioning dates. They must not be reported as verified or issued credits. The fixed-factor sensitivity chart must not be described as a changing-grid forecast through 2034. RUPTL's projected average intensity is contextual evidence, not an official crediting factor or a marginal displacement estimate.
+Results are **gross avoided-emissions potential**, not issued carbon credits. They do not subtract project operational emissions, determine whether a project is additional, establish carbon-market eligibility, or account for monitoring, verification, registry rules, curtailment, transmission losses, or actual commissioning dates. The model uses an assumed capacity factor and a one-year commissioning lag; actual output and timing may differ. It applies historical published factors unchanged across the analysis years to isolate factor-method sensitivity. It therefore does not forecast how grid factors change through 2034.
 
 ## Sources
 
@@ -38,4 +38,4 @@ Results are gross avoided-emissions potential. They do not subtract project oper
 * ESDM 2019 grid factors extracted from Kepmen ESDM 163.K/HK.02/MEM.S/2021.
 * ESDM, *Indonesian Technology Catalogue 2024*, geothermal section.
 * Pertamina Geothermal Energy published operating metrics.
-* PLN, *RUPTL 2025–2034*, projected generation and emissions under RE Base and ARED, processed in `ruptl_eda/output/ruptl_projected_generation.csv` and `ruptl_eda/output/ruptl_projected_intensity.csv`.
+* PLN, *RUPTL 2025–2034*, planned capacity additions, processed in `ruptl_eda/output/ruptl_capacity_additions.csv`.

@@ -1,0 +1,56 @@
+{
+  "year": 2024,
+  "worksheet": "Page 1 Generation and Fuel Data",
+  "header_row_one_based": 6,
+  "all_rows": 17964,
+  "geothermal_rows": 72,
+  "plants": 63,
+  "monthly_net_generation_columns": [
+    "Netgen January",
+    "Netgen February",
+    "Netgen March",
+    "Netgen April",
+    "Netgen May",
+    "Netgen June",
+    "Netgen July",
+    "Netgen August",
+    "Netgen September",
+    "Netgen October",
+    "Netgen November",
+    "Netgen December"
+  ],
+  "respondent_frequency_rows": {
+    "AM": 57,
+    "M": 15
+  },
+  "prime_mover_rows": {
+    "BT": 41,
+    "ST": 31
+  },
+  "nonmissing_monthly_net_generation_cells": 864,
+  "states": [
+    "CA",
+    "HI",
+    "ID",
+    "NM",
+    "NV",
+    "OR",
+    "UT"
+  ],
+  "workbook_sheets": [
+    "Page 1 Generation and Fuel Data",
+    "Page 1 Puerto Rico",
+    "Page 1 Energy Storage",
+    "Page 2 Stocks Data",
+    "Page 2 Oil Stocks Data",
+    "Page 2 Coal Stocks Data",
+    "Page 2 Petcoke Stocks Data",
+    "Page 3 Boiler Fuel Data",
+    "Page 4 Generator Data",
+    "Page 5 Fuel Receipts and Costs",
+    "Page 6 Plant Frame",
+    "Page 6 Plant Frame Puerto Rico",
+    "Page 7 File Layout"
+  ],
+  "warning": "Rows are plant/prime-mover/fuel combinations, not necessarily individual generators. Join historical EIA-860 capacity and technology; verify M/AM reporting and estimated versus measured monthly values before modeling."
+}

@@ -1,0 +1,158 @@
+{
+  "status": "OK",
+  "data-availability": "available",
+  "last_update": "2024-02-29 11:35:42",
+  "subject": [
+    {
+      "val": 558,
+      "label": "Energi"
+    }
+  ],
+  "var": [
+    {
+      "val": 230,
+      "label": "Besar Pemakaian Listrik Menurut Bulan",
+      "unit": "Kwh",
+      "subj": "Energi",
+      "def": "Sumber :  PT. PLN (Persero) Area Tanjung Karang",
+      "decimal": 0,
+      "note": ""
+    }
+  ],
+  "turvar": [
+    {
+      "val": "0",
+      "label": "Tidak ada"
+    }
+  ],
+  "labelvervar": "Listrik",
+  "vervar": [
+    {
+      "val": 1,
+      "label": "Pasca Bayar"
+    },
+    {
+      "val": 2,
+      "label": "Pra Bayar"
+    }
+  ],
+  "tahun": [
+    {
+      "val": 123,
+      "label": "2023"
+    }
+  ],
+  "turtahun": [
+    {
+      "val": 1,
+      "label": "Januari"
+    },
+    {
+      "val": 2,
+      "label": "Februari"
+    },
+    {
+      "val": 3,
+      "label": "Maret"
+    },
+    {
+      "val": 4,
+      "label": "April"
+    },
+    {
+      "val": 5,
+      "label": "Mei"
+    },
+    {
+      "val": 6,
+      "label": "Juni"
+    },
+    {
+      "val": 7,
+      "label": "Juli"
+    },
+    {
+      "val": 8,
+      "label": "Agustus"
+    },
+    {
+      "val": 9,
+      "label": "September"
+    },
+    {
+      "val": 10,
+      "label": "Oktober"
+    },
+    {
+      "val": 11,
+      "label": "November"
+    },
+    {
+      "val": 12,
+      "label": "Desember"
+    },
+    {
+      "val": 13,
+      "label": "Tahunan"
+    }
+  ],
+  "datacontent": {
+    "123001231": 73491009,
+    "123001232": 67171888,
+    "123001233": 73606686,
+    "123001234": 71669034,
+    "123001235": 80148740,
+    "123001236": 75199503,
+    "123001237": 75426897,
+    "123001238": 76659048,
+    "123001239": 76774688,
+    "223001231": 25714790,
+    "223001232": 23898030,
+    "223001233": 27170245,
+    "223001234": 27479530,
+    "223001235": 29654896,
+    "223001236": 27711192,
+    "223001237": 27918280,
+    "223001238": 28861493,
+    "223001239": 28752135,
+    "1230012310": 83254580,
+    "1230012311": 80540304,
+    "1230012312": 79558753,
+    "2230012310": 31927037,
+    "2230012311": 31011936,
+    "2230012312": 31259425
+  },
+  "related": [
+    {
+      "id": "MjI4IzI=",
+      "title": "Jumlah Pelanggan Listrik Menurut Bulan",
+      "tablesource": "2",
+      "last_update": "2024-02-29 11:33:37",
+      "url": "https://bandarlampungkota.bps.go.id/id/statistics-table/2/MjI4IzI=/jumlah-pelanggan-listrik-menurut-bulan.html"
+    },
+    {
+      "id": "MzYwIzE=",
+      "title": "Pemakaian Kwh Pelanggan Pasca Bayar dan Pra Bayar menurut Bulan Di Kota Bandar Lampung, 2020     ",
+      "tablesource": "1",
+      "last_update": "2021-05-25 00:00:00",
+      "url": "https://bandarlampungkota.bps.go.id/id/statistics-table/1/MzYwIzE=/pemakaian-kwh-pelanggan-pasca-bayar-dan-pra-bayar-menurut-bulan-di-kota-bandar-lampung-2020.html"
+    },
+    {
+      "id": "Mjg5IzE=",
+      "title": "Pemakaian kWh Pelanggan Pasca Bayar dan Pra Bayar menurut Bulan Di Kota Bandar Lampung Tahun 2018",
+      "tablesource": "1",
+      "last_update": "2019-12-26 00:00:00",
+      "url": "https://bandarlampungkota.bps.go.id/id/statistics-table/1/Mjg5IzE=/pemakaian-kwh-pelanggan-pasca-bayar-dan-pra-bayar-menurut-bulan-di-kota-bandar-lampung-tahun-2018.html"
+    },
+    {
+      "id": "MTY0IzE=",
+      "title": "Pemakaian kWh Pelanggan Pasca Bayar dan Pra Bayar menurut Bulan Di Kota Bandar Lampung Tahun 2015",
+      "tablesource": "1",
+      "last_update": "2022-08-10 00:00:00",
+      "url": "https://bandarlampungkota.bps.go.id/id/statistics-table/1/MTY0IzE=/pemakaian-kwh-pelanggan-pasca-bayar-dan-pra-bayar-menurut-bulan-di-kota-bandar-lampung-tahun-2015.html"
+    }
+  ],
+  "metadata": {
+    "indikator": []
+  }
+}

@@ -1,0 +1,9 @@
+# How emission-factor choice affects estimated geothermal benefits
+
+This study estimates how much grid emissions planned geothermal projects in Jamali and Sumatera could potentially avoid. It estimates electricity from the planned capacity, assumes the projects operate at an 80% capacity factor, and multiplies that electricity by a grid emission factor. The model applies a one-year lag after each planned commissioning year before counting generation.
+
+The emission factor represents emissions per unit of electricity. The operating margin (OM) represents existing power plants that may generate less when new geothermal electricity is added. The build margin (BM) represents the emissions associated with newer plants in the grid. The combined margin (CM) combines OM and BM. The JCM alternative is a separate factor from the Indonesia-Japan Joint Crediting Mechanism methodology.
+
+Using the same planned capacity and 80% capacity-factor assumption, the estimated cumulative gross avoided emissions across the 2025–2034 analysis years range from **30.7 to 46.6 million tonnes of CO₂ (MtCO₂) in Jamali** and **21.7 to 53.2 MtCO₂ in Sumatera**. In both regions, BM gives the highest estimate and the JCM alternative gives the lowest. The difference is especially large in Sumatera: its BM estimate is more than twice its JCM estimate. This shows that the selected emission-factor method has a substantial effect on the model’s estimate.
+
+These figures are **gross avoided-emissions estimates, not carbon credits that projects are guaranteed to receive**. The model uses published historical factors held constant across the analysis years. It therefore compares factor methods under a common set of assumptions; it does not forecast how the grid’s emission factor will change through 2034. Actual results could also differ if project commissioning dates, electricity generation, or capacity factors differ from the assumptions.

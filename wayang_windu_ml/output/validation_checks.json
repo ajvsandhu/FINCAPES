@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "predictions": 108,
+  "fit_origins": 36,
+  "same_18_months_for_all_methods_and_units": true,
+  "strict_past_only_training_dates": true,
+  "training_only_scaler_rows_checked": true,
+  "current_and_future_target_perturbation_checked_at_all_18_origins": true,
+  "maximum_forecast_change_under_current_future_perturbation_mw": 0.0,
+  "other_unit_perturbation_invariance": true,
+  "constant_series_predictions_checked": true,
+  "first_month_baseline_arithmetic_checked": true,
+  "metrics_independently_recomputed": true,
+  "all_72_baseline_forecasts_independently_recomputed": true,
+  "all_36_ridge_forecasts_match_independent_numpy_solution": true,
+  "maximum_manual_ridge_forecast_difference_mw": 1.4210854715202004e-14,
+  "mwh_conversion_checked": true,
+  "source_hash": "50a471aed7890c91248db33c42f94ece29fb98bea741df7756921584bfe73e89"
+}

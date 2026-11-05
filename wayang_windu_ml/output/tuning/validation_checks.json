@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "all_methods_same_18_dates": true,
+  "inner_training_and_validation_strictly_before_outer_date": true,
+  "inner_and_outer_training_only_scaler_counts": true,
+  "inner_scores_and_alpha_choices_recomputed": true,
+  "all_18_origins_current_future_perturbation_preserves_predictions_choices_and_inner_scores": true,
+  "maximum_perturbation_difference_mw": 0.0,
+  "manual_numpy_check_all_36_tuned_forecasts_maximum_difference_mw": 1.4210854715202004e-14,
+  "constant_series_all_alphas_checked": true,
+  "metrics_recomputed": true,
+  "source_sha256": "50a471aed7890c91248db33c42f94ece29fb98bea741df7756921584bfe73e89"
+}

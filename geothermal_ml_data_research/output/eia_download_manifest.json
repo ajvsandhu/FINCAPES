@@ -1,0 +1,7 @@
+{
+  "url": "https://www.eia.gov/electricity/data/eia923/archive/xls/f923_2024.zip",
+  "local_file": "raw/eia/f923_2024.zip",
+  "uncompressed_bytes": 22755334,
+  "uncompressed_sha256": "272055f2d748f6486fc3076abd5a40ec736dbff45458bdb4c895761278c50f2b",
+  "retrieved_on": "2026-10-29"
+}

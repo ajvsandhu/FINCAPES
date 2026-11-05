@@ -1,0 +1,5 @@
+unit,baseline,paired_forecast_months,ridge_minus_baseline_mae_mw,ridge_mae_reduction_pct,ridge_minus_baseline_rmse_mw,ridge_lower_absolute_error_months,ridge_higher_absolute_error_months,paired_mae_difference_bootstrap_2_5pct_mw,paired_mae_difference_bootstrap_97_5pct_mw,bootstrap
+Unit 1,previous_month,18,0.1977083187,-9.4622706606,-0.8175311573,7,11,-0.8947524921,1.1894269022,"Exploratory paired circular moving blocks: 3 months, 2000 resamples, seed 42; negative difference favors Ridge"
+Unit 1,trailing_three_month_mean,18,0.4530086704,-24.6987224140,-0.0582265871,8,10,-0.0744735087,0.9991310396,"Exploratory paired circular moving blocks: 3 months, 2000 resamples, seed 42; negative difference favors Ridge"
+Unit 2,previous_month,18,0.0131036867,-2.8562470570,-0.1151458513,7,11,-0.1125559624,0.1324871271,"Exploratory paired circular moving blocks: 3 months, 2000 resamples, seed 42; negative difference favors Ridge"
+Unit 2,trailing_three_month_mean,18,-0.0595869530,11.2118614829,-0.0587570535,8,10,-0.1648754563,0.0293348232,"Exploratory paired circular moving blocks: 3 months, 2000 resamples, seed 42; negative difference favors Ridge"

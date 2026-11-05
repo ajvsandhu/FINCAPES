@@ -1,0 +1,37 @@
+{
+  "analysis_date": "2026-10-30",
+  "target": "Reported Main Meter monthly electricity, not daily observations",
+  "source_version": "04, completed 2022-04-28",
+  "source_url": "https://cdm.unfccc.int/UserManagement/FileStorage/FSK5I6HGV4BJ39YARNEOXZ18Q7MWUP",
+  "registry_url": "https://cdm.unfccc.int/Projects/DB/TUEV-SUED1260194062.48/CP/3MD0A9GB28W7MMR77ZOJJ4GVK8D0V4/iProcess/RWTUV1633521981.91/view",
+  "source_sha256": "50a471aed7890c91248db33c42f94ece29fb98bea741df7756921584bfe73e89",
+  "source_printed_pages": [
+    90,
+    91,
+    92,
+    93,
+    94
+  ],
+  "first_month": "2018-01",
+  "last_month": "2021-06",
+  "distinct_months": 42,
+  "unit_month_observations": 84,
+  "distinct_fields": 1,
+  "duplicate_months": 0,
+  "missing_months_within_expected_coverage": 0,
+  "missing_generation_values": 0,
+  "negative_generation_values": 0,
+  "zero_generation_months": 0,
+  "published_meter_adjustment_months": [
+    "2018-08",
+    "2018-09"
+  ],
+  "source_comparison": "All 84 values compared with online revised-v04 PDF text; all five table page images inspected on 2026-10-30; zero numeric mismatches. Same analyst second pass, not independent-person QA or daily reconciliation.",
+  "daily_download_status": "Direct PDF and supporting XLSX downloads returned HTML challenge pages; no complete daily dataset was extracted.",
+  "daily_example_rows_excluded": 5,
+  "excluded_months": {
+    "2017-12": "Monitoring begins December 2; not a full calendar month",
+    "2021-07_through_2021-12": "Outside source coverage; never filled with zero"
+  },
+  "evaluation_status": "Descriptive EDA across all 42 months. No model evaluated. This period is not an untouched final holdout."
+}

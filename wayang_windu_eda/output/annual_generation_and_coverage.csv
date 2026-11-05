@@ -1,0 +1,9 @@
+unit,year,months_present,reported_generation_mwh,hours_covered,complete_calendar_year,coverage_label,time_weighted_average_mw
+Unit 1,2018,12,934934.79000000,8760,True,January-December,106.72771575
+Unit 1,2019,12,906431.47000000,8760,True,January-December,103.47391210
+Unit 1,2020,12,932446.37000000,8784,True,January-December,106.15281990
+Unit 1,2021,6,462824.16000000,4344,False,January-June only; not annualized,106.54331492
+Unit 2,2018,12,959686.59000000,8760,True,January-December,109.55326370
+Unit 2,2019,12,952203.05000000,8760,True,January-December,108.69897831
+Unit 2,2020,12,952931.77000000,8784,True,January-December,108.48494649
+Unit 2,2021,6,472194.04000000,4344,False,January-June only; not annualized,108.70028545

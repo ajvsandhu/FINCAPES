@@ -1,0 +1,69 @@
+{
+  "first_date": "2015-01-01",
+  "last_date": "2025-12-31",
+  "files": 132,
+  "geothermal_meter_day_rows": 49438,
+  "generators": 15,
+  "generator_months": 1622,
+  "distinct_casefold_generator_codes": 14,
+  "casefold_aliases": {
+    "kawerau": [
+      "kawerau"
+    ],
+    "kawerau_new": [
+      "kawerau_new"
+    ],
+    "mokai": [
+      "mokai"
+    ],
+    "nap": [
+      "nap"
+    ],
+    "ngatamariki": [
+      "Ngatamariki"
+    ],
+    "ngawha": [
+      "ngawha"
+    ],
+    "norskeskog": [
+      "norskeskog"
+    ],
+    "ohaaki": [
+      "ohaaki"
+    ],
+    "poihipi": [
+      "poihipi"
+    ],
+    "rotokawa": [
+      "rotokawa"
+    ],
+    "tauhara": [
+      "Tauhara"
+    ],
+    "te_mihi": [
+      "Te_Mihi",
+      "te_mihi"
+    ],
+    "tehuka": [
+      "tehuka"
+    ],
+    "wairakei": [
+      "wairakei"
+    ]
+  },
+  "nonmissing_halfhour_cells": 2373024,
+  "duplicate_full_meter_date_keys": 0,
+  "intervals_present_histogram": {
+    "46": 135,
+    "48": 49168,
+    "50": 135
+  },
+  "negative_interval_cells": 0,
+  "zero_daily_rows": 1638,
+  "generator_days_with_multiple_meter_rows": 64,
+  "generators_with_multiple_meter_rows": [
+    "norskeskog"
+  ],
+  "generator_months_with_missing_dates": 0,
+  "warning": "Meter-day rows and halfhour cells are not independent plants or samples. Check EA definitions, DST, meter mapping and capacity histories before modeling."
+}

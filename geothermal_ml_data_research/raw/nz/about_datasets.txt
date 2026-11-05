@@ -1,0 +1,2058 @@
+ 
+ 
+Market Analytics 
+ 
+ 
+ 
+About datasets 
+Information paper 
+19 May 2016
+
+About datasets 
+ 
+ii 
+19 May 2016 9.36 a.m. 
+Contents 
+1 
+Introduction 
+5 
+Direct access and anonymous FTP 
+5 
+2 
+Contents of retail folder 
+5 
+Archive 
+5 
+Distributed_generation_reporting_(pre_2013_part_6_changes) 
+5 
+Disconnections 
+6 
+Market structure 
+6 
+3 
+Contents of wholesale folder 
+9 
+Archive 
+9 
+201310_Centralised_dataset 
+9 
+Bids_and_offers 
+9 
+Bids 
+9 
+Offers 
+10 
+Final_pricing 
+11 
+Final_prices 
+11 
+Binding_constraints 
+11 
+Generation_load_and_prices 
+12 
+GDX 
+12 
+Location_factors 
+13 
+Raw_case_files 
+14 
+Reserve_prices 
+14 
+Generation 
+15 
+Generation_fleet 
+15 
+Generation_MD 
+17 
+Market_Administrator_reports 
+18 
+Annual_consumption_list 
+18 
+Metered_data 
+19 
+Embedded_generation 
+19 
+Grid_export 
+20 
+Grid_export_to_Tiwai 
+20 
+Grid_import 
+21 
+HVDC_Flows 
+21 
+Reactive_power 
+22 
+Unit_level_generation_IR 
+23 
+Reconciliation 
+23 
+Network_supply_points_table 
+23 
+Network_region_shapefiles 
+24 
+Transmission 
+25 
+Power_system_analysis 
+25 
+4 
+Contents of ancillary services folder 
+27 
+A very brief description of ancillary services 
+27 
+Frequency_keeping 
+27 
+Constrained_costs 
+27 
+Dispatched_offers 
+28 
+Final_offers 
+29 
+5 
+Contents of forward markets folder 
+30 
+6 
+Contents of environment folder 
+30 
+Hydrological_modelling_dataset 
+30 
+Archive 
+31 
+7 
+Contents of supplementary information folder 
+31 
+2015 
+31 
+20150224_Transpower_TPM_operational_review_proposal 
+31 
+20150421_Transpower_proposed_variation_to_TPM 
+31 
+20150609_Sharing_SIR_across_the_HVDC 
+31 
+20150616_TPM_options_working_paper 
+31 
+
+About datasets 
+ 
+iii 
+19 May 2016 9.36 a.m. 
+2014 
+31 
+20140121_TPM_Beneficiaries_pay_working_paper 
+31 
+20140127_ERI_Historical_analysis_of_electricity_costs 
+31 
+20140720_NZIER_synthetic_retail_price 
+31 
+Archive 
+31 
+20091101_Demand_forcasting 
+31 
+20091101_Long-term_generation_development 
+31 
+20101109_Wind_integration_analysis 
+32 
+8 
+Glossary of abbreviations and terms 
+33 
+ 
+Tables 
+Table 1: 
+Market share trends by root NSP 
+6 
+Table 2: 
+Market share trends by network reporting region 
+7 
+Table 3: 
+Bids 
+9 
+Table 4: 
+Offers 
+10 
+Table 5: 
+Final_pricing 
+11 
+Table 6: 
+Binding_constraints 
+11 
+Table 7: 
+Generation_load_and_prices 
+12 
+Table 8: 
+Location_factors 
+13 
+Table 9: 
+Reserve prices 
+14 
+Table 10: Generation plant 
+15 
+Table 11: Proposed_generating_plant 
+17 
+Table 12: Generation_MD 
+17 
+Table 13: Annual consumption 
+18 
+Table 14: Embedded_generation 
+19 
+Table 15: Grid_export 
+20 
+Table 16: Grid_export_to_Tiwai 
+20 
+Table 17: Grid_import 
+21 
+Table 18: HVDC_Flows 
+22 
+Table 19: Reactive_power 
+22 
+Table 20: Unit_level_generation_IR 
+23 
+Table 21: Network_supply_points_table 
+23 
+Table 22: FK constrained costs 
+28 
+Table 23: FK dispatched offers 
+29 
+Table 24: FK final offers 
+30 
+ 
+ 
+ 
+ 
+
+
+About datasets 
+ 
+5 of 33 
+19 May 2016 9.36 a.m. 
+1 
+Introduction 
+1.1 
+This document is a rough and ready draft. Comprehensive documentation about the data 
+available on EMI is being prepared and will be available soon. 
+1.2 
+The EMI website has an area called Datasets. It is simply a browser-based mechanism to access 
+a collection of folders on the Authority’s FTP server. This paper describes the contents of those 
+folders. 
+1.3 
+To enable easy identification of the available material and its location, levels of the folder 
+structure beneath the folders are itemised in the table of contents above and are described 
+below. 
+1.4 
+Users of the EMI website are able to customise a report that enables data to be extracted from 
+our data warehouse. The data can then be downloaded as a CSV file. In addition, we have 
+placed commonly used data on the FTP server from where it can be easily downloaded.  
+1.5 
+A consistent naming convention has been adopted throughout the Datasets collection. In 
+particular, the ISO 8601 date format of yyyy-mm-dd, or the relevant part thereof, is used. More 
+specifically, the hyphens are omitted when dates are used in folder and file names, but are 
+present when dates are used inside the files. Users should be aware that computer applications 
+such as Microsoft Excel may change the appearance of the dates, depending on how the 
+applications have been configured. 
+1.6 
+All CSV files will be formatted as lists rather than tables. Users have informed us they prefer this 
+approach, even if it means the files are larger than would otherwise be the case. File sizes will be 
+larger due to the repetition of field values in the indexing columns. Existing CSV files that are 
+structured as tables will be changed to lists as time permits. 
+1.7 
+Unless explicitly stated otherwise, all prices are in units of $/MWh. 
+Direct access and anonymous FTP 
+1.8 
+Besides accessing the datasets on our FTP server using a web browser, it is also possible to 
+access the FTP server directly using anonymous FTP. This means that scripts can be prepared 
+to automatically download selected files at specified intervals. The address for the FTP server is 
+ftp://ftp.emi.ea.govt.nz. No username or password is required when using anonymous FTP, and 
+in most cases, users won’t be prompted for one either. But if a prompt is made, simply enter the 
+word anonymous or ftp as the username, and enter your email address or the word guest for the 
+password. 
+2 
+Contents of retail folder 
+Archive 
+Distributed_generation_reporting_(pre_2013_part_6_changes) 
+2.1 
+Distributed generation (also known as embedded generation) is generation electrically connected 
+to a local network (e.g. Vector Limited's network) or an embedded network (e.g. a shopping mall). 
+It is not directly connected to the national grid (i.e. Transpower's network). 
+
+About datasets 
+ 
+6 of 33 
+19 May 2016 9.36 a.m. 
+2.2 
+Distributors were required to report statistics about connections on an annual basis under the 
+previous Part 6 of the Code. Part 6 was revised in 2013 and the connection statistics are now 
+notified directly by distributors in the registry. Distributed generation trends are reported on EMI at 
+www.emi.ea.govt.nz/r/lsnxp. 
+Disconnections 
+2.3 
+The Authority has no obligation under the Code to collect data from retailers relating to vulnerable 
+and medically dependent consumers. It does so, however, on a quarterly basis on behalf of the 
+Ministry of Business, Innovation, and Employment (MBIE). 
+2.4 
+The Authority publishes the total number of disconnections for each retailer (as a percentage of 
+the number of domestic consumers supplied by that retailer). 
+Market structure 
+2.5 
+Two datasets describing aspects of the retail market structure are available at this time: 
+(a) 
+Market share trends by root NSP 
+(b) 
+Market share trends by network reporting region 
+ 
+Dataset: 
+ 
+Market share trends by root NSP 
+Source: 
+ 
+Registry 
+Available from: 
+December 2003 
+Frequency: 
+Monthly 
+Format: 
+ 
+CSV 
+ 
+Table 1: 
+Market share trends by root NSP 
+Description of fields 
+Field name 
+Format 
+Description 
+Month ended 
+yyyy-mm-dd 
+Date 
+Region 
+13 character alphanumeric code 
+Region code 
+Participant code 
+4 character alphabetic code 
+Abbreviated company name 
+Entity name 
+Text 
+Company name 
+ICP count 
+Integer 
+Number of ICPs 
+ICP share (%) 
+Numeric 
+Percentage of ICPs 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+ 
+
+About datasets 
+ 
+7 of 33 
+19 May 2016 9.36 a.m. 
+Dataset: 
+ 
+Market share trends by network reporting region 
+Source: 
+ 
+Registry 
+Available from: 
+December 2013 
+Frequency: 
+Monthly 
+Format: 
+ 
+CSV 
+ 
+Table 2: 
+Market share trends by network reporting region 
+Description of fields 
+Field name 
+Format 
+Description 
+Month ended 
+yyyy-mm-dd 
+Date 
+Region 
+13 character alphanumeric code 
+Region code 
+Participant code 
+4 character alphabetic code 
+Abbreviated company name 
+Entity name 
+Text 
+Company name 
+ICP count 
+Integer 
+Number of ICPs 
+ICP share (%) 
+Numeric 
+Percentage of ICPs 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+
+
+About datasets 
+ 
+9 of 33 
+19 May 2016 9.36 a.m. 
+3 
+Contents of wholesale folder 
+Archive 
+3.1 
+Discontinued datasets pertaining to the wholesale electricity market are located in this archive 
+folder. 
+201310_Centralised_dataset 
+3.2 
+This folder contains the final and complete centralised dataset, as published by the Authority in 
+October 2013. 
+3.3 
+The centralised dataset was historically published every six months and was distributed on a 
+DVD. Each edition of the centralised dataset was a complete historical record, i.e. it was not the 
+case that each release appended records to the previous release. The final edition published in 
+October 2013 is not available on a DVD. There is a text file in the centralised dataset folder called 
+ReadMe.txt that explains the various datasets to be found in this folder. 
+Bids_and_offers 
+3.4 
+A complete record of all (demand) bids and (energy and reserve) offers made by participants into 
+the wholesale electricity market is published in daily CSV files. 
+3.5 
+Bids and offers are specific to a trading day, trading period and pricing node, but may be 
+submitted by participants at any time. The bids and offers CSV files are published daily and 
+contain all bids or offers pertaining to that day, regardless of when the bid or offer was submitted 
+by the participant. 
+3.6 
+CSV files for bids and offers prior to November 2013 have been published on a monthly basis. 
+Bids 
+3.7 
+Daily CSV files containing demand bids. 
+Dataset: 
+ 
+Bids 
+Source: 
+ 
+Reconciliation manager 
+Format: 
+ 
+CSV 
+ 
+Table 3: 
+Bids 
+Field name 
+Format 
+Description 
+BID_TYPE_DESCRIPTION 
+Text 
+ 
+CURRENT_FLAG 
+2 character alphabetic code 
+Y or N 
+CONFIRMING_BID_TYPE 
+ 
+ 
+BAND 
+ 
+ 
+MW 
+1 character alphabetic code 
+ 
+PNODE_NAME 
+7 character alphanumeric 
+ 
+PRICE 
+ 
+ 
+
+About datasets 
+ 
+10 of 33 
+19 May 2016 9.36 a.m. 
+Field name 
+Format 
+Description 
+SRC_COMIT_ID 
+ 
+ 
+TRADER 
+ 
+ 
+SUBMISSION_DATE 
+dd/mm/yyyy 
+ 
+TRADER_NAME 
+4 character alphabetic code 
+Abbreviated trader 
+name 
+TRADING_DATE 
+YYYYMMDD 
+ 
+TRADING_PERIOD 
+numeric, up to 48 (except on the 
+day daylight saving starts or ends, 
+when it goes only to 46) 
+Represents a half 
+hour period, with 1 
+starting at midnight 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Offers 
+3.8 
+Daily CSV files containing offers for energy and reserves. 
+Dataset: 
+Offers 
+Source: 
+Reconciliation manager 
+Format: 
+CSV 
+ 
+Table 4: 
+Offers 
+Field Name 
+Format 
+Description 
+ORDER_TYPE 
+4 character alphabetic code 
+ 
+PNODE_NAME 
+7 character alphanumeric 
+ 
+PNODE_TYPE 
+ 
+1 character alphabetic code 
+ 
+RESERVE_TYPE 
+ 
+ 
+SRC_COMIT_ID 
+ 
+ 
+SUBMISSION_DATE 
+DD/MM/YYYY 
+Also includes the time 
+TRADING_DATE 
+yyyymmdd 
+ 
+TRADING_PERIOD 
+numeric, up to 48 (except on 
+the day daylight saving starts 
+or ends, when it goes only to 
+46) 
+Represents a half hour 
+period, with 1 starting at 
+midnight 
+TRADER 
+4 character alphabetic code 
+Abbreviated trader name 
+MAX_RAMP_UP 
+ 
+ 
+MAX_RAMP_DOWN 
+ 
+ 
+
+About datasets 
+ 
+11 of 33 
+19 May 2016 9.36 a.m. 
+Field Name 
+Format 
+Description 
+PLSR_PERCENT 
+ 
+ 
+MAX_OUTPUT 
+ 
+ 
+BAND 
+ 
+ 
+PRICE 
+ 
+ 
+MW 
+ 
+ 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Final_pricing 
+3.9 
+Final prices are published by the pricing manager – generally the day after the trading day. All 
+final pricing cases solved by the pricing manager are sent to the Authority and loaded in to the 
+data warehouse. Several sets of data derived from final pricing cases are published by the 
+Authority. 
+3.10 
+Any pricing case file found in the Final_pricing folder will be a final pricing case – as opposed to 
+one of the many pre-dispatch cases. But the solved prices may not yet be final, as published by 
+pricing manager. The status of final prices can only be interim, provisional or final. 
+Final_prices 
+Dataset: Final_pricing 
+Format: CSV 
+ 
+Table 5: 
+Final_pricing 
+Field name 
+Format 
+Description 
+Trading_date 
+Yyyy-mm-dd 
+ 
+Trading_period 
+numeric, up to 48 (except on 
+the day daylight saving starts 
+or ends, when it goes only to 
+46) 
+Represents a half hour 
+period, with 1 starting at 
+midnight 
+Node 
+7 character alphanumeric 
+ 
+Price 
+numeric 
+ 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Binding_constraints 
+Table 6: 
+Binding_constraints 
+Field name 
+Format 
+Description 
+Trading_date 
+Yyyy-mm-dd 
+ 
+
+About datasets 
+ 
+12 of 33 
+19 May 2016 9.36 a.m. 
+Field name 
+Format 
+Description 
+Trading_period 
+numeric, up to 48 (except on 
+the day daylight saving starts 
+or ends, when it goes only to 
+46) 
+Represents a half hour 
+period, with 1 starting at 
+midnight 
+Name 
+ 
+ 
+Type 
+ 
+ 
+Component 
+alphanumeric 
+ 
+Value (MW) 
+numeric 
+ 
+Shadow_price ($/Mwh) 
+numeric 
+ 
+Factor 
+numeric 
+ 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Generation_load_and_prices 
+Format: CSV 
+ 
+Table 7: 
+Generation_load_and_prices 
+Field name 
+Format 
+Description 
+Date 
+Yyyy-mm-dd 
+ 
+Trading_period 
+ 
+ 
+POC 
+7 character alphanumeric 
+Point of connection code 
+Generation 
+numeric 
+ 
+Load 
+numeric 
+ 
+Price 
+numeric 
+ 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+GDX 
+3.11 
+The complete set of inputs required by the vSPD model to solve for final prices at all nodes, for all 
+trading periods of a single day are contained in a single GDX file. The Authority publishes a GDX 
+file in this GDX folder each time a final pricing case is received from the pricing manager. 
+3.12 
+Individual GDX files for the most recent 30 days are available. The archive folder (within the GDX 
+folder) contains annual zip files with GDX files dating back to 2004. 
+3.13 
+GDX files for trading days prior to 21 July 2009 may not result in a perfect replication of final 
+prices. This is because the information systems used by the system operator changed on that 
+
+About datasets 
+ 
+13 of 33 
+19 May 2016 9.36 a.m. 
+day and we have used a number of disparate data sources to retrospectively construct the GDX 
+files for all dates before 21 July 2009. 
+3.14 
+The naming convention for the daily vSPD GDX files is FP_yyyymmddx_X.gdx, where: 
+(a) 
+FP denotes the file is a final pricing case 
+(b) 
+yyyy denotes the year 
+(c) 
+mm denotes the month 
+(d) 
+dd denotes the day 
+(e) 
+x (literally, only ever a lower case letter x) is an indicator that at least one price from vSPD 
+differs by at least half of one cent from the same price produced by SPD 
+(f) 
+_X is a status indicator where _I denotes interim, IP denotes provisional, and _F denotes 
+final. 
+3.15 
+For example, FP_20130228_F.gdx contains the input data that enables vSPD to replicate final 
+prices that the pricing manager has published as final, at all nodes for all trading periods on 
+28 February 2012. 
+Location_factors 
+3.16 
+Location factors and average prices are to be published annually by the Authority according to 
+clause 13.221 of the Code. In addition to location factors and average prices, the following 
+information must also be published: 
+(a) 
+the list of all nodes at which the pricing manager publishes final prices 
+(b) 
+a corresponding grid zone area for each node 
+(c) 
+a list of nominated zone nodes. 
+3.17 
+If you have any questions about location factors and average prices, please send an email to 
+Market Operations at marketoperations@ea.govt.nz. 
+Dataset: 
+Location_factors 
+Source: 
+ 
+Available from: 
+ 
+Frequency: 
+ 
+Format: 
+XLS 
+ 
+Table 8: 
+Location_factors 
+Field name  
+Format 
+ 
+Description 
+GXPCode 
+7 character alphanumeric 
+ 
+GXPName 
+Text 
+Location name 
+2002 
+Numeric 
+ 
+2003 
+Numeric 
+ 
+2004 
+Numeric 
+ 
+
+About datasets 
+ 
+14 of 33 
+19 May 2016 9.36 a.m. 
+Field name  
+Format 
+ 
+Description 
+2005 
+Numeric 
+ 
+2006 
+Numeric 
+ 
+2007 
+Numeric 
+ 
+2008 
+Numeric 
+ 
+2009 
+Numeric 
+ 
+2010 
+Numeric 
+ 
+2011 
+Numeric 
+ 
+2012 
+Numeric 
+ 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Raw_case_files 
+3.18 
+The SPD case files are zipped collections of text files containing the input to and outputs from 
+each and every published final pricing case. 
+Reserve_prices 
+Dataset: 
+ 
+Reserve prices 
+Source: 
+ 
+Pricing manager 
+Available from: 
+1 November 1996 with a gap from April 1997 until March 2004 
+Frequency: 
+Half-hourly data supplied on a monthly basis 
+Format: 
+ 
+CSV 
+ 
+Table 9: 
+Reserve prices 
+Description of fields 
+Field name  
+Format 
+ 
+Description 
+Trading_date 
+yyyy-mm-dd 
+Date 
+Trading_period 
+Integer 
+Trading period 
+Island 
+Text 
+NI or SI 
+FIR ($/MWh) 
+Numeric 
+Price of fast instantaneous reserves, 
+$/MWh 
+SIR ($/MWh) 
+Numeric 
+Price of sustained instantaneous 
+reserves, $/MWh 
+ 
+ 
+Source: 
+Electricity Authority 
+
+About datasets 
+ 
+15 of 33 
+19 May 2016 9.36 a.m. 
+ 
+Generation 
+3.19 
+This folder contains generation output data and information about the generation fleet. 
+3.20 
+Two files are available on a temporary basis until the reports section of EMI website is updated to 
+provide this information on an ongoing basis. The files are: 
+(a) 
+2013_Generation_by_station_by_technology_by_fuel_by_region_by_day_(GWh).csv 
+(b) 
+201310_to_201401_Generation_by_technology_fuel_and_region_(GWh).xls. 
+3.21 
+As the names suggest, the CSV file contains daily output (GWh) characterised by plant, 
+technology, fuel and region for all of 2013. The XLS file contains monthly output (GWh) 
+characterised by plant, technology, fuel and region for the period October 2013 through January 
+2014. 
+Generation_fleet 
+3.22 
+Information about the existing and proposed generation fleet is compiled by the Authority from 
+publicly available data and is generally updated as the need arises or when new information 
+becomes available to us. We make this information available because we are frequently asked for 
+it and there is evidently a keen interest by a range of stakeholders in such information. Users 
+should be aware that it may contain errors and it may be out of date. Please email 
+emi@ea.govt.nz if you wish to provide additional data enabling us to augment the generation fleet 
+information. 
+Existing 
+3.23 
+A file containing information such as plant name, owner, operator, connection type, technology, 
+fuel type, capacity etc is made available. This file is prepared on best endeavours basis and is 
+updated only occasionally. It cannot possibly be accurate as the Authority does not receive such 
+information in any reliable form. 
+ 
+Table 10: Generation plant 
+Field name 
+Format 
+Description 
+Station_Name 
+ 
+ 
+GroupName 
+ 
+ 
+Owner_Name 
+ 
+ 
+Operators_Name 
+ 
+ 
+Connection_Type 
+ 
+ 
+Generation_Type 
+Text 
+Diesel, Gas, Geo, Hydro, 
+Marine, Wind, Cogeneration, 
+Backup generation 
+Operating_Capacity 
+numeric 
+ 
+
+About datasets 
+ 
+16 of 33 
+19 May 2016 9.36 a.m. 
+Field name 
+Format 
+Description 
+Fuel _Type 
+Text 
+Hydro, Gas, Geo, Wind, 
+Biogas, Wood_waste. 
+Geothermal. Unknown 
+Primary_Efficiency 
+Numeric 
+ 
+Secondary_Fuel 
+Text 
+E.g Fuel_Oil, Gas, Distillate 
+Secondary_Efficiency 
+Text 
+ 
+Date_Commissioned 
+Text 
+ 
+Installed_Capacity 
+numeric 
+ 
+Max_Unit_Size 
+numeric plus MW 
+E.g 17 MW 
+Typical_Annual_GWh 
+numreric 
+ 
+Generating_Units 
+ 
+ 
+Thermal_Operating_Stockpile 
+ 
+ 
+Hydro_Max_m3_Storage 
+numeric 
+ 
+Hydro_Max_Gwh_Storage 
+numeric 
+ 
+Node_Name 
+ 
+ 
+Region_Name 
+text 
+Province 
+Island_Name 
+text 
+SI - South Island, NI - North 
+Island 
+Comments 
+text 
+ 
+Decommission_Date 
+ 
+ 
+Data_Source 
+text 
+Name of organisation or 
+website 
+GroupOrder 
+ 
+ 
+CDSName 
+ 
+ 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Proposed 
+3.24 
+The proposed generating plant update provides an overview of the status of in-development and 
+proposed generation projects. The updates will be made available at quarterly intervals until such 
+time as they become a report available from the EMI website. 
+ 
+
+About datasets 
+ 
+17 of 33 
+19 May 2016 9.36 a.m. 
+Table 11: Proposed_generating_plant 
+Field name 
+Format 
+Description 
+Generation type 
+Text 
+Diesel, Gas, Geo, Hydro, 
+Marine, Wind 
+Region 
+Text 
+Province 
+Location / Name of project 
+Text 
+ 
+Owned by 
+Text 
+ 
+Capacity (Mw) 
+numeric 
+ 
+Earliest commission date 
+Yyyy-yyyy 
+ 
+Status 
+text 
+E.g: Consented, Under 
+construction 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Generation_MD 
+3.25 
+The generation_MD dataset depicts generation output by half hour, as computed using metered 
+data as a proxy for generation. The units in all of the monthly generation_MD CSV files are 
+kilowatt hours. 
+3.26 
+The generation_MD files are structured so that the fuel, technology, and regional mappings can 
+be used to aggregate the data in a variety of ways that suit individual users. 
+3.27 
+If the data was aggregated according to the ‘Gen_Code’ field, the resulting generation data 
+should replicate the so-called ‘Generation by plant’ series that used to be published in the 
+centralised dataset. The CDS was discontinued after 30 September 2013. If you think we’ve 
+made a mistake and the old CDS generation by plant series cannot be replicated, please let us 
+know by emailing emi@ea.govt.nz. 
+3.28 
+The CSV files prior to 2009 have been constructed using the old CDS generation by plant data 
+rather than the raw metered data supplied by EMS. For completeness, we have inserted the POC 
+codes and network codes into these files. But we should hasten to add that while the data is 
+correct by site, generator, fuel and technology, some of the POC and network codes may be 
+incorrectly assigned. One day we will untangle the method used to generate the old CDS 
+generation by plant data, and rebuild the pre-2009 CSV files.  
+ 
+Table 12: Generation_MD 
+Field name 
+Format 
+Description 
+Site_Code 
+3 character alphabetic 
+ 
+POC_Code 
+7 character alphanumeric 
+Point of connection code 
+Nwk_Code 
+ 
+ 
+
+About datasets 
+ 
+18 of 33 
+19 May 2016 9.36 a.m. 
+Field name 
+Format 
+Description 
+Gen_Code 
+ 
+ 
+Fuel_Code 
+ 
+Hydro, Gas, Geo, Wind, 
+Wood, 
+Tech_Code 
+ 
+Hydro, Thrml, Cogen, Geo, 
+Wind 
+Trading_date 
+yyyy-mm-dd 
+ 
+TP1 
+ 
+the first half hour trading 
+period of the day (starting at 
+12.00am) 
+TP2 – TP47 
+ 
+ 
+TP48 
+ 
+the last half hour trading 
+period of the day (starting at 
+11.30pm) 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Market_Administrator_reports 
+Annual_consumption_list 
+3.29 
+The annual consumption list must be published at least once every six months according to 
+clause 13.188(3) of the Code. The list ranks in descending order the annual consumption of all 
+grid exit points and grid injection points with annual consumption greater than 300GWh for the 
+12-month period ended 3 months prior to the date on which the list is due to be published. 
+3.30 
+The annual consumption lists located in this folder satisfy the Code obligation as specified in 
+clause 13.188(3). If you have any questions about the annual consumption list, please send an 
+email to Market Operations at marketoperations@ea.govt.nz. 
+Dataset: Annual consumption 
+Source: NZX 
+Frequency: Annual 
+Format: PDF 
+ 
+Table 13: Annual consumption 
+Field name 
+Format 
+Description 
+POC 
+7 character alphanumeric 
+Point of connection code 
+Nwk Code 
+4 character alphabetic code 
+Abbreviated name of 
+company 
+Flow 
+ 
+ 
+
+About datasets 
+ 
+19 of 33 
+19 May 2016 9.36 a.m. 
+Field name 
+Format 
+Description 
+Consumption (Gwh) 
+ 
+ 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Metered_data 
+3.31 
+A week or so into each month, the Authority receives from EMS (Transpower) a file of metered 
+grid data pertaining to the preceding month. This data measures injection (grid imports) and 
+offtake (grid exports) on a half hourly basis at a point of connection (POC) on the grid. EMS 
+advises us that this so-called ‘GDS’ data file is more-or-less the same data that is sent to the 
+reconciliation manager. Technically speaking, the data is neither generation data nor demand, or 
+consumption, data. The Authority has very little visibility of generator’s meters. 
+3.32 
+The metered data is loaded into the Authority’s data warehouse, which in turn is programmed to 
+produce the monthly CSV files located in the following folders: Grid_export, 
+Grid_export_to_Tiwai, Grid_import, HVDC_flows, and Reactive_power. 
+3.33 
+In addition two further sets of data are added to the collection we refer to as metered data: 
+(a) 
+Unit level generation for the generating units exceeding 60MW capacity. 
+(b) 
+Embedded generation. 
+These two data sets are further described below. 
+3.34 
+The units in all CSV files found in the metered data collection are kilowatt hours, kWhs, except 
+the reactive power files whose units are kilovolt ampere reactive hours, kVArhs. 
+Embedded_generation 
+3.35 
+Embedded generation exceeding 10MW capacity and cleared through the wholesale market is 
+reported in this file. 
+ 
+Table 14: Embedded_generation 
+Field name 
+Format 
+Description 
+POC 
+7 character alphanumeric 
+Point of connection code 
+NWK_Code 
+4 character alphabetic code 
+Network Code. 
+Participant_Code 
+4 character alphabetic code 
+Abbreviated entity name 
+Loss_Code 
+ 
+ 
+Flow_Direction 
+1 character alphabetic code 
+I or X 
+Trading_Date 
+DD/MM/YYYY 
+ 
+TP1 – TP48 
+ 
+Half-hour trading periods of 
+the day (starting at 12.00am) 
+ 
+ 
+Source: 
+Electricity Authority 
+
+About datasets 
+ 
+20 of 33 
+19 May 2016 9.36 a.m. 
+ 
+Grid_export 
+3.36 
+In the metered data files received from EMS, if the unit_measure field is kWh and the flow 
+direction field is ‘X’, then the record is a measure of grid offtake, or grid export. There may be 
+many traders taking energy off the grid at a single POC so without further knowledge or 
+information, it is not possible to know where the energy is destined to be consumed.  
+ 
+Table 15: Grid_export 
+Field name 
+Format 
+Description 
+POC 
+7 character alphanumeric 
+Point of connection code 
+NWK_Code 
+4 character alphabetic code 
+Network Code. 
+GENERATION_TYPE 
+2 character alphabetic code 
+ 
+TRADER 
+4 character alphabetic code 
+ 
+UNIT_MEASURE 
+ 
+ 
+FLOW_DIRECTION 
+1 character alphabetic code 
+I or X 
+STATUS 
+ 
+ 
+TRADING_DATE 
+DD/MM/YYYY 
+ 
+TP1 – TP48 
+ 
+Half-hour trading periods of 
+the day (starting at 12.00am) 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Grid_export_to_Tiwai 
+3.37 
+The grid export to Tiwai data is, as the name suggests, the grid exports that go to Tiwai. The 
+Tiwai data can also be found in the grid export files (see the TWI2201 POC) – it is extracted and 
+presented separately because analysts are often interested in what is going on at Tiwai. 
+3.38 
+The only user at the Tiwai POC is Tiwai so in this instance, grid exports to Tiwai are a reasonable 
+representation of demand for electricity by the Tiwai aluminium smelter. 
+Table 16: Grid_export_to_Tiwai 
+Field name 
+Format 
+Description 
+POC 
+7 character alphanumeric 
+Point of connection code. Will 
+be Tiwai (TWI2201) 
+NWK_Code 
+4 character alphabetic code 
+Network Code. 
+GENERATION_TYPE 
+2 character alphabetic code 
+ 
+TRADER 
+4 character alphabetic code 
+ 
+
+About datasets 
+ 
+21 of 33 
+19 May 2016 9.36 a.m. 
+Field name 
+Format 
+Description 
+UNIT_MEASURE 
+ 
+ 
+FLOW_DIRECTION 
+1 character alphabetic code 
+I or X 
+STATUS 
+ 
+ 
+TRADING_DATE 
+DD/MM/YYYY 
+ 
+TP1 – TP48 
+ 
+Half-hour trading periods of 
+the day (starting at 12.00am) 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Grid_import 
+3.39 
+In the metered data files received from EMS, if the unit_measure field is kWh and the flow 
+direction field is ‘I’, then the record is a measure of injection into the grid offtake at a POC. If it is 
+known that the only activity at a POC is generation, i.e. there is no load at the POC, then the grid 
+import values can be taken as a reasonable proxy for the output of the generator or generators at 
+the POC. 
+Table 17: Grid_import 
+Field name 
+Format 
+Description 
+ 
+ 
+ 
+POC 
+7 character alphanumeric 
+Point of connection code 
+NWK_Code 
+4 character alphabetic code 
+Network Code. 
+GENERATION_TYPE 
+2 character alphabetic code 
+ 
+TRADER 
+4 character alphabetic code 
+ 
+UNIT_MEASURE 
+ 
+ 
+FLOW_DIRECTION 
+1 character alphabetic code 
+I or X 
+STATUS 
+ 
+ 
+TRADING_DATE 
+DD/MM/YYYY 
+ 
+TP1 – TP48 
+ 
+Half-hour trading periods of 
+the day (starting at 12.00am) 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+HVDC_Flows 
+3.40 
+In the metered data files received from EMS, if the generation type filed is ‘DC’, then the record 
+represents energy flows over the HVDC link. The flow direction field can be used to infer whether 
+the flow is southward or northward. 
+
+About datasets 
+ 
+22 of 33 
+19 May 2016 9.36 a.m. 
+ 
+Table 18: HVDC_Flows 
+Field name 
+Format 
+Description 
+ 
+ 
+ 
+POC 
+7 character alphanumeric 
+Point of connection code 
+NWK_Code 
+4 character alphabetic code 
+Network Code. 
+GENERATION_TYPE 
+ 
+if this is DC, the record 
+represents energy flows over 
+the HVDC link 
+TRADER 
+4 character alphabetic code 
+ 
+UNIT_MEASURE 
+ 
+ 
+FLOW_DIRECTION 
+1 character alphabetic code 
+I or X. Infers whether the flow 
+is southward or northward 
+STATUS 
+ 
+ 
+TRADING_DATE 
+DD/MM/YYYY 
+ 
+TP1 – TP48 
+ 
+Half-hour trading periods of 
+the day (starting at 12.00am) 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Reactive_power 
+3.41 
+The reactive power files contain half-hourly reactive power data. 
+Table 19: Reactive_power 
+Field name 
+Format 
+Description 
+POC 
+7 character alphanumeric 
+Point of connection code 
+NWC_Code 
+ 
+ 
+GENERATION_TYPE 
+ 
+ 
+TRADER 
+ 
+ 
+UNIT_MEASURE 
+ 
+ 
+FLOW_DIRECTION 
+ 
+ 
+STATUS 
+ 
+ 
+TRADING_DATE 
+DD/MM/YYYY 
+ 
+
+About datasets 
+ 
+23 of 33 
+19 May 2016 9.36 a.m. 
+Field name 
+Format 
+Description 
+TP1 – TP48 
+ 
+Half-hour trading periods of 
+the day (starting at 12.00am) 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Unit_level_generation_IR 
+3.42 
+Certain generation units exceeding 60MW capacity are charged the costs of procuring 
+instantaneous reserves (IR) on a pro-rated basis. Each month, EMS provides the Authority with a 
+file of half hourly output from these units. 
+Table 20: Unit_level_generation_IR 
+Field name 
+Format 
+Description 
+POC 
+7 character alphanumeric 
+Point of connection code 
+Unit_Code 
+2 character alphanumeric 
+code 
+G1 / G2 / G3 / G4 
+Participant_Code 
+4 character alphabetic code 
+Abbreviated entity name 
+Gen_Measure 
+ 
+kWh 
+Flow_Direction 
+1 character alphabetic code 
+I or X 
+Gen_Type 
+ 
+ 
+Trading_date 
+dd/mm/yyyy 
+ 
+TP1 – TP48 
+ 
+Half-hour trading periods of 
+the day (starting at 12.00am) 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Reconciliation 
+Network_supply_points_table 
+ 
+Table 21: Network_supply_points_table 
+Field name 
+Format 
+Description 
+CURRENT 
+Numeric, 1 digit 
+ 
+NSP 
+13 character 
+alphanumeric code 
+Network supply 
+point identifier 
+NSP_REPLACED_BY 
+ 
+ 
+
+About datasets 
+ 
+24 of 33 
+19 May 2016 9.36 a.m. 
+Field name 
+Format 
+Description 
+POC_CODE 
+7 character 
+alphanumeric 
+Point of connection 
+code 
+NETWORK_PARTICIPANT 
+4 character alphabetic 
+code 
+Abbreviated entity 
+name 
+EMBEDDED_UNDER_POC_CODE 
+ 
+ 
+EMBEDDED_UNDER_NWK_PARTICIPAN
+T 
+4 character alphabetic 
+code 
+Abbreviated entity 
+name 
+RTYP_CODE 
+ 
+ 
+X_FLOW 
+ 
+ 
+I_FLOW 
+ 
+ 
+DESCRIPTION 
+ 
+ 
+ISLAND 
+2 character alphabetic 
+code 
+SI / NI 
+NETWORK_REPORTING_REGION 
+Text 
+Region and company. 
+Note: A NRR is defined 
+by a group of Network 
+supply points (NSPs) 
+START_DATE 
+yyyy-mm-dd 
+ 
+START_TP 
+ 
+ 
+END_DATE 
+yyyy-mm-dd 
+ 
+END_TP 
+ 
+ 
+SB_ICP 
+ 
+ 
+BALANCING_CODE 
+ 
+ 
+MEP 
+4 character alphabetic 
+code 
+Abbreviated entity 
+name 
+RESPONSIBLE_PARTICIPANT 
+4 character alphabetic 
+code 
+Abbreviated entity 
+name 
+CERTIFICATION_EXPIRY 
+dd/mm/yyyy 
+Certification expiry 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Network_region_shapefiles 
+3.43 
+Shapefiles for network derived regions (network reporting regions and zones) are available in 
+GeoJSON, Mapinfo TAB and ESRI shapefile formats for WGS84 and NZTM geodetic systems. 
+Shapefiles for regional councils, islands and New Zealand are made available by Statistics New 
+
+About datasets 
+ 
+25 of 33 
+19 May 2016 9.36 a.m. 
+Zealand at http://www.stats.govt.nz/browse_for_stats/Maps_and_geography/Geographic-
+areas/digital-boundary-files.aspx.Error! No document variable supplied. 
+Transmission 
+Power_system_analysis 
+DIgSILENT_case_files 
+3.44 
+Power flow cases from the System Operator. Each case includes a Peak Load and a Light Load 
+study case. The DIgSILENT cases include the system dynamic model and the power flow model. 
+PSSE_raw_files 
+Line_diagrams 
+3.45 
+The line diagrams have been proved by Transpower. They include diagrams of the power 
+systems in the North and South Island, as well as loadflow diagrams. 
+
+
+About datasets 
+ 
+27 of 33 
+19 May 2016 9.36 a.m. 
+4 
+Contents of ancillary services folder 
+A very brief description of ancillary services  
+4.1 
+The system operator is responsible for ensuring that certain ancillary services essential to 
+maintaining the system-wide quality of electricity supply are provided. 
+4.2 
+These services are: 
+(a) 
+black start   
+(b) 
+over-frequency reserve 
+(c) 
+voltage support 
+(d) 
+instantaneous reserves 
+(e) 
+frequency keeping 
+4.3 
+Black start, over-frequency reserve, and voltage support are procured annually under contract 
+from participants. Instantaneous reserves and frequency keeping are procured through the half-
+hourly wholesale market. 
+4.4 
+Instantaneous reserves are provided in two forms: 
+(a) 
+Fast instantaneous reserve (FIR) must be available within six seconds of an unexpected 
+generator or transmission outage and must be able to operate for one minute. 
+(b) 
+Sustained instantaneous reserve (SIR) must be available within sixty seconds of an 
+unexpected generator or transmission outage and must be able to operate for fifteen 
+minutes. 
+Frequency_keeping 
+4.5 
+Frequency keeping (FK) refers to the process of balancing the fluctuations between electricity 
+generation and electrical load. It manages the variability in the grid's frequency output. Frequency 
+keeping power stations are used to increase or decrease generation within a set band to ensure 
+supply equals demand on a second-by-second basis.  
+4.6 
+Frequency keeping requirements are determined half-hourly by the system operator but outside 
+of the SPD market clearing software. The price paid for frequency keeping services is based on 
+offers made by participants ahead of real-time. 
+4.7 
+The frequency keeping datasets are classified into three categories: 
+(a) 
+Constrained_costs 
+(b) 
+Dispatched_offers 
+(c) 
+Final_offers 
+Constrained_costs 
+4.8 
+Monthly CSV files report constrained on/off costs paid to participants. 
+Dataset: 
+ 
+FK constrained costs 
+Source: 
+ 
+Transpower (system operator) 
+Available from: 
+December 2013 
+Frequency: 
+Monthly 
+
+About datasets 
+ 
+28 of 33 
+19 May 2016 9.36 a.m. 
+Format: 
+ 
+CSV 
+ 
+Table 22: FK constrained costs 
+Description of fields 
+Field name 
+Format 
+Description 
+Trading_date 
+yyyy-mm-dd 
+Date 
+Trading_Period 
+Integer 
+Trading period 
+CON_IND 
+ON/OF 
+Constrained on/off indicator 
+ORG_Code 
+4 character alphabetic code 
+Organisation code 
+GIP_GXP_FULL 
+3 character alphabetic code 
+ 
+STATION 
+ 
+ 
+BLOCK_ID 
+3 character alphabetic code 
+ 
+Quantity 
+Numeric 
+MW 
+Price 
+Numeric 
+$/MWh 
+Amount 
+Numeric 
+Dollars 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Dispatched_offers 
+4.9 
+The dispatched offers datasets is made available in two formats: 
+(a) 
+Daily XML files 
+(b) 
+Monthly CSV files 
+4.10 
+As the name suggests, this dataset contains data relating only to those offers that were 
+dispatched. 
+4.11 
+A rolling window of 40 days’ worth of XML files are made available. The XML files are published 
+daily but after they’ve been on the FTP server for 40 days they are deleted. At the beginning of 
+each month, the data from the daily XML files for the preceding month is packaged up into a 
+single monthly CSV file that contains the daily data for dispatched frequency keeping offers. The 
+CSV files are collated in folders labelled by year. 
+4.12 
+The table that follows refers to the daily XML files. While the field names are not described for the 
+monthly CSV files, they are practically identical to the daily XML files. 
+4.13 
+Finally, a warning: the process by which Transpower extracts and supplies the dispatched offers 
+data to the Authority is currently unreliable and occasionally errors may be detected in the daily 
+XML files. Participants can be assured that this error does not occur in the completely separate 
+process that calculates frequency keeping payments. Nor do the monthly CSV files contain 
+errors. 
+ 
+
+About datasets 
+ 
+29 of 33 
+19 May 2016 9.36 a.m. 
+Dataset: 
+ 
+FK dispatched offers 
+Source: 
+ 
+Transpower (system operator) 
+Available from: 
+June 2013 
+Frequency: 
+Daily 
+Format: 
+ 
+XML 
+ 
+Table 23: FK dispatched offers 
+Description of fields 
+Field name 
+Format 
+Description 
+OFFER_SUBMISSION_DATE 
+dd/mm/yyyy hh:mm:ss 
+Date and  time offer 
+submitted 
+TRADING_PERIOD_START_DATE 
+dd/mm/yyyy 
+Trading date to which offer 
+applies 
+OFFER_PRICE 
+Numeric 
+$/Block 
+FREQUENCY_BAND_MW 
+Numeric 
+MW/Block 
+ISLAND_NAME 
+2 char alphabetic code 
+Island 
+PNODE_NAME 
+Alphanumeric code 
+Station offer (e.g. HLY2201 
+HLY5) or Block offer (WTO) 
+TRADER_NAME 
+4 char alphabetic code 
+Abbreviated trader name 
+TRADING-PERIOD 
+Integer 
+The trading period to which 
+the offer applies 
+ 
+ 
+Source: 
+Electricity Authority 
+ 
+Final_offers 
+4.14 
+The final offers datasets is made available in two formats: 
+(a) 
+Daily XML files 
+(b) 
+Monthly CSV files 
+4.15 
+As the name suggests, this dataset contains data relating to all offers made to supply frequency 
+keeping services that were in place at the time of dispatch, including those offers not dispatched. 
+Offers that were withdrawn or modified pre-dispatch are not in this dataset. 
+4.16 
+A rolling window of 40 days’ worth of XML files are made available. The XML files are published 
+daily but after they’ve been on the FTP server for 40 days they are deleted. At the beginning of 
+each month, the data from the daily XML files for the preceding month is packaged up into a 
+single monthly CSV file that contains the daily data for dispatched frequency keeping offers. The 
+CSV files are collated in folders labelled by year. 
+4.17 
+The table that follows refers to the daily XML files. While the field names are not described for the 
+monthly CSV files, they are practically identical to the daily XML files. 
+ 
+
+About datasets 
+ 
+30 of 33 
+19 May 2016 9.36 a.m. 
+Dataset: 
+ 
+FK final offers 
+Source: 
+ 
+Transpower (system operator) 
+Available from: 
+June 2013 
+Frequency: 
+Daily 
+Format: 
+ 
+XML 
+ 
+Table 24: FK final offers 
+Description of fields 
+Field name 
+Format 
+Description 
+SUBMISSION_DATE 
+dd/mm/yyyy hh:mm:ss 
+Date time offer submitted 
+PNODE_NAME 
+ 
+FK offer block ID, e.g. ‘WTO’ or 
+‘TKU2201 TKU0’ 
+TRADER_NAME 
+4 character alphabetic 
+code 
+Abbreviated trader name 
+MW 
+numeric 
+MW/Block 
+PRICE 
+numeric 
+$/Block 
+MIN_MW 
+numeric 
+Marginal mininum generation 
+required 
+MAX_MW 
+numeric 
+Marginal maximum generation 
+limit 
+SRC_OFFER_BLOCK_ID 
+digit 
+Offer block id (1 to 5) 
+TRADING-PERIOD 
+numeric 
+The period to which the offer 
+applies 
+ 
+ 
+Source: 
+Electricity Authority 
+5 
+Contents of forward markets folder 
+5.1 
+The Forward markets folder contains nothing at this point in time. 
+6 
+Contents of environment folder 
+Hydrological_modelling_dataset 
+6.1 
+The hydrological modelling dataset (HMD) consists of three main components: 
+(a) 
+Infrastructure and hydrological constraint attributes – this dataset records standing 
+information about the capability of the main hydro schemes. 
+(b) 
+Flows – this time series dataset records data for inflows for reservoirs and flows at various 
+existing or potential hydro generating sites. 
+(c) 
+Storage and spill – this time series dataset records storage for the main hydro schemes. 
+
+About datasets 
+ 
+31 of 33 
+19 May 2016 9.36 a.m. 
+6.2 
+Opus International assists the Authority to prepare and publish the HMD on an annual basis. 
+Archive 
+6.3 
+The HMD is a development of the old, so-called Spectra model dataset. The last Spectra update 
+was published in 2010 and is available from the archive folder. 
+7 
+Contents of supplementary information folder 
+2015 
+20150224_Transpower_TPM_operational_review_proposal 
+20150421_Transpower_proposed_variation_to_TPM 
+20150609_Sharing_SIR_across_the_HVDC 
+20150616_TPM_options_working_paper 
+2014 
+20140121_TPM_Beneficiaries_pay_working_paper 
+7.1 
+This folder contains input data and modelling results prepared in support of the beneficiaries pay 
+working paper that was consulted on in March 2014 as part of the transmission pricing review. 
+7.2 
+See also: http://www.ea.govt.nz/development/work-programme/transmission-
+distribution/transmission-pricing-review/consultations/#c7492. 
+20140127_ERI_Historical_analysis_of_electricity_costs 
+7.3 
+The contents of this directory includes the models, input data and modelling output that was 
+generated by the Authority in support of the report Historical analysis of electricity costs, 
+published in January 2014. 
+7.4 
+See also http://www.ea.govt.nz/monitoring/enquiries-reviews-and-investigations/2013/historical-
+analysis-of-electricity-costs/. 
+20140720_NZIER_synthetic_retail_price 
+7.5 
+This folder contains documentation of a ‘synthetic retail price’ constructed by NZIER. A 
+spreadsheet demonstrating its construction is also available. 
+Archive 
+20091101_Demand_forcasting 
+7.6 
+Various documents, data files and models detailing the Electricity Commission’s electricity 
+demand forecasting work. The documentation is collected together in the folder entitled 
+Demand_forecast_review_documents. 
+20091101_Long-term_generation_development 
+7.7 
+Various documents detailing the Electricity Commission’s work in preparing long-term generation 
+scenarios in support of the grid planning and investment process. 
+
+About datasets 
+ 
+32 of 33 
+19 May 2016 9.36 a.m. 
+7.8 
+Documents exploring topics such the potential impact of emerging technologies, e.g. marine and 
+solar energy, electric vehicle uptake and the future availability of gas in New Zealand are 
+available. 
+20101109_Wind_integration_analysis 
+7.9 
+A collection of documents and data tables prepared by the Electricity Commission circa 2010. 
+ 
+ 
+
+About datasets 
+ 
+33 of 33 
+19 May 2016 9.36 a.m. 
+8 
+Glossary of abbreviations and terms 
+Act 
+Electricity Industry Act 2010 
+ASX 
+Australian Stock Exchange, specifically https://asxenergy.com.au/  
+Authority 
+Electricity Authority 
+Code 
+Electricity Industry Participation Code 2010 
+CSV 
+Comma-separated values. A CSV file is a text file containing fields 
+separated by commas. 
+Cumec 
+Cubic metre per second – a water flow rate measure 
+EMI 
+Electricity market information 
+FIR 
+Fast instantaneous reserve  
+FK 
+Frequency keeping 
+FTP 
+File transfer protocol 
+ICP 
+Installation control point 
+ISO 
+International Organization for Standardization 
+MBIE 
+Ministry of Business, Innovation, and Employment 
+MWh 
+Megawatt hour 
+Regulations 
+Electricity Industry (Enforcement) Regulations 2010 
+SIR 
+Sustained instantaneous reserve  
+SPD 
+Scheduling, pricing and dispatch 
+XML 
+Extensible markup language 
+ 
+ 
+ 

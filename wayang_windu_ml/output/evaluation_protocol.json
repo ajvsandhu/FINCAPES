@@ -1,0 +1,48 @@
+{
+  "experiment": "Wayang Windu monthly output, domestic-only exploratory pilot",
+  "run_date": "2026-11-03",
+  "initial_training_months": [
+    "2018-01",
+    "2019-12"
+  ],
+  "first_forecast_month": "2020-01",
+  "last_forecast_month": "2021-06",
+  "forecast_months_per_unit": 18,
+  "units": [
+    "Unit 1",
+    "Unit 2"
+  ],
+  "target": "Monthly average power in MW = published Main Meter MWh / calendar hours",
+  "evaluation": "Expanding-window one-month-ahead, observed prior targets added after each forecast",
+  "methods": {
+    "previous_month": "Previous month",
+    "trailing_three_month_mean": "Three-month mean",
+    "ridge": "Ridge regression"
+  },
+  "ridge_features": [
+    "lag_1_average_mw",
+    "lag_2_average_mw",
+    "lag_3_average_mw"
+  ],
+  "ridge_alpha": 10.0,
+  "ridge_solver": "svd",
+  "ridge_fit_intercept": true,
+  "preprocessing": "StandardScaler fitted only on each unit's current supervised training feature rows",
+  "initial_ridge_examples_per_unit": 21,
+  "last_origin_ridge_examples_per_unit": 38,
+  "hyperparameter_tuning": "None; alpha=10 fixed before examining forecast errors, matching earlier project Ridge default",
+  "negative_forecast_clipping": "None",
+  "foreign_data_used": false,
+  "test_selection": "First evaluation month and methods fixed before this run; full period already inspected in EDA",
+  "real_time_limit": "Retrospective revised data, not publication-vintage or reporting-delay reconstruction",
+  "bootstrap": "Paired circular date blocks shared across units; length 3 months, 2000 resamples, seed 42. Exploratory intervals, not proof of significance.",
+  "source_file": "wayang_windu_eda/data/wayang_windu_monthly_main_meter_2018_2021.csv",
+  "source_sha256": "50a471aed7890c91248db33c42f94ece29fb98bea741df7756921584bfe73e89",
+  "source_url": "https://cdm.unfccc.int/UserManagement/FileStorage/FSK5I6HGV4BJ39YARNEOXZ18Q7MWUP",
+  "software": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1",
+    "matplotlib": "3.9.4"
+  }
+}

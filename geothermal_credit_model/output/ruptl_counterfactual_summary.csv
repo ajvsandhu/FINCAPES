@@ -1,0 +1,13 @@
+grid,scenario,replacement_case,planned_unadjusted_gwh,planned_bounded_gwh,years_bound,gross_avoided_mtco2
+Jamali,ARED,Coal replacement,49588.608,49588.608,0,54.268224895656225
+Jamali,ARED,Gas replacement,49588.608,49588.608,0,24.68096317115137
+Jamali,ARED,Proportional coal-gas replacement,49588.608,49588.608,0,46.99388614412974
+Jamali,RE Base,Coal replacement,49588.608,49588.608,0,54.29805328640296
+Jamali,RE Base,Gas replacement,49588.608,49588.608,0,23.381056122256965
+Jamali,RE Base,Proportional coal-gas replacement,49588.608,49588.608,0,45.562978390778675
+Sumatera,ARED,Coal replacement,47465.184,32697.688000000002,5,35.242129965149395
+Sumatera,ARED,Gas replacement,47465.184,32697.688000000002,5,19.720144800093024
+Sumatera,ARED,Proportional coal-gas replacement,47465.184,32697.688000000002,5,32.02588456582455
+Sumatera,RE Base,Coal replacement,47465.184,32697.688000000002,5,35.29598678833093
+Sumatera,RE Base,Gas replacement,47465.184,32697.688000000002,5,19.720144800093024
+Sumatera,RE Base,Proportional coal-gas replacement,47465.184,32697.688000000002,5,32.136246980796706

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{margin:0;font-family:var(--font-sans);color:var(--foreground)}
+.forecast-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 32px}
+.forecast-panel h3{margin:0 0 12px;font-size:16px;font-weight:500}
+.forecast-row{margin-bottom:11px}
+.forecast-label{display:flex;justify-content:space-between;gap:8px;margin-bottom:4px;font-size:13px}
+.forecast-label span:last-child{font-variant-numeric:tabular-nums}
+.forecast-bar{height:11px;background:var(--chart-1)}
+.forecast-bar.mean{background:var(--chart-2)}
+.forecast-bar.ridge{background:var(--chart-3)}
+.forecast-axis{display:flex;justify-content:space-between;border-top:1px solid var(--border);padding-top:4px;font-size:12px;color:var(--muted-foreground)}
+.forecast-context{margin-bottom:18px;font-size:13px;color:var(--muted-foreground)}
+@media(max-width:540px){.forecast-grid{grid-template-columns:1fr;gap:20px}}
+</style>
+</head>
+<body>
+<div id="wayang-forecast-errors">
+<div class="forecast-context">January 2020–June 2021 · 18 forecasts per unit · Lower error is better</div>
+<div class="forecast-grid">
+<section class="forecast-panel" role="img" aria-label="Unit 1 MAE in MW for all three methods">
+<h3>Unit 1 · MAE (MW)</h3>
+<div class="forecast-row"><div class="forecast-label"><span>Previous month</span><span>2.089</span></div><div class="forecast-bar" style="width:52.2360%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Three-month mean</span><span>1.834</span></div><div class="forecast-bar mean" style="width:45.8535%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Ridge regression</span><span>2.287</span></div><div class="forecast-bar ridge" style="width:57.1787%"></div></div>
+<div class="forecast-axis"><span>0</span><span>2</span><span>4 MW</span></div>
+</section>
+<section class="forecast-panel" role="img" aria-label="Unit 1 RMSE in MW for all three methods">
+<h3>Unit 1 · RMSE (MW)</h3>
+<div class="forecast-row"><div class="forecast-label"><span>Previous month</span><span>3.442</span></div><div class="forecast-bar" style="width:86.0532%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Three-month mean</span><span>2.683</span></div><div class="forecast-bar mean" style="width:67.0706%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Ridge regression</span><span>2.625</span></div><div class="forecast-bar ridge" style="width:65.6149%"></div></div>
+<div class="forecast-axis"><span>0</span><span>2</span><span>4 MW</span></div>
+</section>
+<section class="forecast-panel" role="img" aria-label="Unit 2 MAE in MW for all three methods">
+<h3>Unit 2 · MAE (MW)</h3>
+<div class="forecast-row"><div class="forecast-label"><span>Previous month</span><span>0.459</span></div><div class="forecast-bar" style="width:11.4693%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Three-month mean</span><span>0.531</span></div><div class="forecast-bar mean" style="width:13.2866%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Ridge regression</span><span>0.472</span></div><div class="forecast-bar ridge" style="width:11.7969%"></div></div>
+<div class="forecast-axis"><span>0</span><span>2</span><span>4 MW</span></div>
+</section>
+<section class="forecast-panel" role="img" aria-label="Unit 2 RMSE in MW for all three methods">
+<h3>Unit 2 · RMSE (MW)</h3>
+<div class="forecast-row"><div class="forecast-label"><span>Previous month</span><span>0.759</span></div><div class="forecast-bar" style="width:18.9748%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Three-month mean</span><span>0.703</span></div><div class="forecast-bar mean" style="width:17.5651%"></div></div>
+<div class="forecast-row"><div class="forecast-label"><span>Ridge regression</span><span>0.644</span></div><div class="forecast-bar ridge" style="width:16.0961%"></div></div>
+<div class="forecast-axis"><span>0</span><span>2</span><span>4 MW</span></div>
+</section>
+</div>
+</div>
+</body>
+</html>
