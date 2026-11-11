@@ -1,0 +1,16 @@
+{
+  "source_url": "https://www.kepco.co.jp/english/corporate/info/international/generate/tanjung-jati-b.html",
+  "publisher": "The Kansai Electric Power Co., Inc.",
+  "title": "Tanjung Jati B 5&6 Thermal Power Project",
+  "retrieved_date": "2026-11-11",
+  "format": "selected factual transcription from full web-tool text; not raw HTML",
+  "evidence_location": "Capacity, equity portion and Project Overview",
+  "reported_capacity_mw": 2140,
+  "reported_capacity_each_unit_mw": 1070,
+  "equity_share_percent": 25,
+  "equity_equivalent_mw": 535,
+  "commercial_operation_month": "2022-09",
+  "other_facts": "Two new ultra-supercritical coal units adjacent to existing units 1–4; supplies PLN under BOT arrangement.",
+  "capacity_basis": "Page says Capacity; gross/net/nameplate/DMN basis not explicitly established. Equity-equivalent MW is not physical fleet capacity.",
+  "access_note": "Full page accessible through web tool; direct curl returned 403. Do not call this a downloaded HTML snapshot."
+}

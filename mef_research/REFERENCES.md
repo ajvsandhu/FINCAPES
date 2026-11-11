@@ -1,5 +1,35 @@
 # Working references for the MEF research
 
+## Official PLN Indonesia Power roster audit — 11 November 2026
+
+**I3.** PT PLN Indonesia Power. (n.d.). *Laporan Statistik 2024 / 2024 Statistic Report*. Reporting year 2024; publication date not established. Retrieved 11 November 2026.
+
+- Official index: https://www.plnindonesiapower.co.id/laporan-statistik
+- Linked official viewer: https://ipstore.plnindonesiapower.co.id:1996/statisticreport2024/
+- Enabled public download (viewer configuration): https://ipstore.plnindonesiapower.co.id:1996/statisticreport2024/files/downloads/Laporan_Statistik_IP_2024.pdf
+- Archived file: `raw/pln_ip_statistics_2024.pdf` (76 pages); SHA-256 `107509ae33b173741b861c109eab28130a4215c38d8dc211c646c83076db13b2`.
+- Evidence: Table 9 owned installed capacity pp.30–31; Tables 11–12 O&M capacity pp.32–33; Table 13 plant/machine installed capacities pp.34–39; capacity definition p.74. Printed/PDF page numbers coincide. Full table extracted with source conflicts retained; not a complete Jamali dispatch roster or official unit-ID registry.
+- RUPTL crosswalk: same PLN (2025a) L6 snapshot and URL below; selected connection/boundary pages 812, 824, 841–843, 874–875, 882, 905, 938–939; Table 5.86 benchmark p.351. Different reference dates and installed/DMN definitions are not silently equated.
+
+## Resource-inventory follow-up — 11 November 2026
+
+**I2.** PT PLN Nusantara Power. (n.d.). *Statistik Perusahaan 2020–2024 / Corporate Statistics 2020–2024*. Publication date not established; 2024 is the reporting year. Retrieved 11 November 2026.
+
+- Official index: https://www.plnnusantarapower.co.id/investor/corporate-statistic
+- Acquired PDF: https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf
+- Local snapshot: `raw/pln_np_statistics_2024.pdf`, 68 pages; SHA-256 and inspected pages in `jamali_inventory_manifest.json`.
+- Focused evidence: operational area pp.14–17; installed capacity Table 1 pp.26–27; DMN Table 2 pp.28–30; production Table 3 pp.31–32; annual availability Table 6 pp.36–39 (selected pages only); heat rates Table 8 pp.42–43; definitions p.66. Printed/PDF page numbers coincide. Conflicting capacity values retained; not a verified complete national or Jamali unit roster.
+
+**L6 follow-up.** PLN (2025a), RUPTL 2025–2034, same archived PDF and official URL below. Selected Annex B existing resources/connections and provincial planning lists, PDF pp.812–945; exact pages in the new manifest. Planning scenarios are not operating observations. The earlier source and hash remain unchanged.
+
+**Existing sample provenance.** Wayang Windu factual transcriptions, earlier public UNFCCC inspection, not newly acquired primary binaries:
+
+- Revised v04 monthly main-meter report, Annex 5, printed pp.90–94: https://cdm.unfccc.int/UserManagement/FileStorage/FSK5I6HGV4BJ39YARNEOXZ18Q7MWUP
+- Daily examples, source pages in CSV: https://cdm.unfccc.int/UserManagement/FileStorage/ZIPR0YEJTQNBMXU7SOL1V5WKGFAHC4 and https://cdm.unfccc.int/UserManagement/FileStorage/UB8CZX0TPHOS5YE6QI7R2MJKNFADLW
+- Full version/access limits: `../geothermal_ml_data_research/sources.csv` and `output/wayang_windu_audit.json` in that research directory. Five daily dates are examples, not continuous coverage. Timezone and compatible full-grid boundary remain unverified.
+
+**Discovery only, not numerical evidence:** indexed third-party UIP2B statistics-book copy https://id.scribd.com/document/939866929/BUKU-STATISTIK-UIP2B-JAMALI — no primary binary, interval schema or access terms verified; not promoted to an acquired official dataset.
+
 ## Targeted Jamali input audit
 
 Reviewed **10 November 2026**. Source IDs J1–J3 refer to [JAMALI_INPUT_AUDIT.md](JAMALI_INPUT_AUDIT.md); hashes, access attempts and page coverage are in [planning_input_audit_manifest.json](planning_input_audit_manifest.json).
@@ -14,6 +44,21 @@ Additional provenance/access routes checked (not new modelling datasets):
 - Official PLN RUPTL listing: https://www.pln.co.id/hubungan-investor-id/informasi-perusahaan-id/ruptl-id-1 . Search-screened; no replacement source snapshot used.
 - Old statistics route, retry failed: https://web.pln.co.id/statics/uploads/2025/09/Statistik-PLN-2024-Ind-Eng.pdf . Do not claim byte identity with J2.
 - APPLE-GATRIK manual lead, retry failed: https://gatrik.esdm.go.id/assets/uploads/download_index/files/87d63-2.-pedoman-pengisian-apple-gatrik.pdf . No manual acquired or substantive findings drawn from it.
+
+## Operating-data sample check
+
+- **O1 — Ikhsan (2026):** Ikhsan, R. R. N. (2026). *Jamali Power System Dataset* (Version v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20098065 . CC BY 4.0. Archived: `raw/zenodo_20098065_jamali_power_system_v1.0.0.zip`. Contains no data records; cited only for the compatibility decision in [OPERATING_SAMPLE_CHECK.md](OPERATING_SAMPLE_CHECK.md).
+
+## Dated IPP/other-PLN identity audit
+
+Reviewed **11 November 2026**. Source IDs I4–I9 refer to [IPP_ALIAS_AUDIT.md](IPP_ALIAS_AUDIT.md); hashes and evidence depth are in [ipp_alias_manifest.json](ipp_alias_manifest.json).
+
+- **I4 — ESDM (2024):** Kementerian Energi dan Sumber Daya Mineral. *Keputusan Menteri ESDM No. 310.K/BN.05/MEM.S/2024* (fifth amendment to national vital-object designation), 28 November 2024. https://jdih.esdm.go.id/common/dokumen-external/2024kmesdm310k.pdf . Archived: `raw/esdm_310_2024_obvitnas.pdf`. Selected rows 127, 131–137 (PDF pp.51–53) manually transcribed; not an operating census.
+- **I5 — Sumber Segara Primadaya (n.d.):** PT Sumber Segara Primadaya. *Profile*. Retrieved 11 November 2026. https://www.ssprimadaya.co.id/en/about/profile . Archived: `raw/s2p_profile_20261111.html`. Unit labels, nominal capacities and retrospective COD months.
+- **I6 — ESDM (2020):** Kementerian ESDM. *Pakai teknologi USC, PLTU Jawa 8 berpotensi hemat Rp 1 triliun* (Siaran Pers 073.Pers/04/SJI/2020), 17 February 2020. https://www.esdm.go.id/id/media-center/arsip-berita/pakai-teknologi-usc-pltu-jawa-8-berpotensi-hemat-rp-1-triliun . Archived: `raw/esdm_jawa8_20200217.html`.
+- **I7 — Kansai Electric (n.d.):** Kansai Electric Power Co. *Tanjung Jati B Coal-Fired Power Station Units 5 and 6*. Retrieved 11 November 2026. https://www.kepco.co.jp/english/corporate/info/international/generate/tanjung-jati-b.html . Selected factual transcription only: `raw/kepco_tjb56_web_extract.json` (direct download returned 403).
+- **I8 — ESDM (2017):** Kementerian ESDM. *Fact sheet ground breaking proyek PLTU Jawa 4 Jepara, Jawa Tengah oleh Menteri ESDM*, 31 August 2017. https://www.esdm.go.id/id/media-center/arsip-berita/fact-sheet-ground-breaking-proyek-pltu-jawa-4-jepara-jawa-tengah-oleh-menteri-esdm . Archived: `raw/esdm_jawa4_20170831.html`. Planned COD dates not treated as realised.
+- **I9 — Bhimasena Power Indonesia (2023):** PT Bhimasena Power Indonesia. *Supporting the reliability of Java–Bali electricity supply, PLN management visit Batang Power Plant*, 22 July 2023. https://www.bhimasenapower.co.id/content/3136/supporting-the-reliability-of-java-%E2%80%93-bali-electricity-supply%2C-pln-management-visit-batang-power-plant . Archived: `raw/bpi_batang_20230715.html`.
 
 Last updated: **10 November 2026**. Full reference details remain here for the eventual bibliography; revised report prose now uses author–year citations. This is not a claim that every main article was read in full. Preserve the evidence-depth notes when deciding which claims each source can support. Original snapshots remain in [source_manifest.json](source_manifest.json); additions are in [deeper_review_manifest.json](deeper_review_manifest.json). See the [source register](SOURCE_REGISTER.md) and [claim ledger](CLAIM_EVIDENCE.md) for exact support.
 

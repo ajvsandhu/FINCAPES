@@ -24,7 +24,17 @@ For the next work session, use [the bounded inventory task and handoff](mef_rese
 
 8. [Completed targeted Jamali input audit](mef_research/JAMALI_INPUT_AUDIT.md): reproduced regional/system table differences, new official annual statistics snapshot, input gaps and a report-ready chart.
 
-**Current status:** methods reviews and a targeted boundary/demand audit are complete. Regional/system differences are quantified, but their full coverage bridge remains unresolved. PLN Statistics 2024 was acquired through a working official route and adds annual fuel/price context, not interval operating records. Neither numerical Jamali pilot is cleared. **Next milestone:** build and reconcile a resource-level fleet inventory and electrical-boundary crosswalk, while identifying compatible time profiles and operating observations. Select software only after those checks, not by trying more ML algorithms or tuning CM weights.
+9. [Resource inventory and boundary crosswalk](mef_research/JAMALI_RESOURCE_INVENTORY.md): partial existing-resource register, provincial planning rows, isolated systems, scenario reconciliation, annual operating characteristics and real time-profile samples.
+
+10. [Official PLN Indonesia Power roster audit](mef_research/IP_ROSTER_AUDIT.md): plant/machine installed capacities, owned/O&M reconciliation, 13 alias/parent crosswalks, boundary partitions and unresolved source conflicts.
+
+11. [Dated IPP/other-PLN identity audit](mef_research/IPP_ALIAS_AUDIT.md): Tanjung Jati B/Jawa 4, Cilacap/Jawa 8 and Batang aliases resolved into 12 unit labels anchored to the 28 November 2024 ESDM register, with installed, dependable, nominal and project MW kept separate.
+
+12. [Operating-data sample check](mef_research/OPERATING_SAMPLE_CHECK.md): the one openly licensed "Jamali operational" dataset found holds no data records; no compatible interval package is verified.
+
+13. [Final method-dependent readiness assessment](mef_research/FINAL_READINESS.md): route-by-route readiness, implementation recommendations and a drafted (unsent) PLN UIP2B data request.
+
+**Current status:** the resource register, the official IP roster audit and a dated IPP identity audit are implemented; a complete dated Jamali unit census and electrical-boundary bridge remain unfinished. Official NP statistics add selected annual heat rates and availability; IP statistics add plant/machine installed-capacity evidence; the IPP audit resolves key aliases but finds matched installed/DMN capacity only for the original Tanjung Jati B group. Neither numerical pilot is cleared. The operating-data sample gate closed as incompatible. The final readiness assessment is complete: no numerical MEF is yet supported. **Next decision:** whether to send the drafted UIP2B data request; on receipt, run the historical-regression pilot.
 
 Source snapshots can be checked offline with `python3 -B mef_research/audit_review_sources.py` from the repository root. This checks evidence integrity, not model accuracy.
 

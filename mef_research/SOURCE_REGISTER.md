@@ -1,5 +1,21 @@
 # Source register and search boundaries
 
+## O1 — operating-data sample check, 11 November 2026
+
+See [OPERATING_SAMPLE_CHECK.md](OPERATING_SAMPLE_CHECK.md) and [operating_sample_manifest.json](operating_sample_manifest.json). O1, Zenodo record 20098065 (*Jamali Power System Dataset* v1.0.0, CC BY 4.0), was downloaded via the Zenodo API and its MD5 matched. Archive contents: README, LICENSE and `.gitignore` only; zero data files. Linked GitHub repository returned 404. Screened but not adopted: Power-Lab 2030/2035 scenario profiles, a restricted ITPLN thesis and an IEEE paper using unpublished UIP2B half-hourly load, and the commercial Electricity Maps API. No login, account or contact.
+
+## I4–I9 — dated IPP/other-PLN identity audit, 11 November 2026
+
+See [IPP_ALIAS_AUDIT.md](IPP_ALIAS_AUDIT.md) and [ipp_alias_manifest.json](ipp_alias_manifest.json) for URLs, SHA-256 hashes and evidence depth. I4, Kepmen ESDM 310.K/BN.05/MEM.S/2024 (28 November 2024), was acquired as a full 72-page scanned PDF; rows 127 and 131–137 were manually transcribed from rendered pages 1, 4 and 51–53 and visually checked (not OCR). I5 (Sumber Segara Primadaya profile) and I7 (Kansai Electric project page) are undated live operator pages retrieved 11 November 2026; I7 returned curl 403, so only a selected factual web-tool transcription is archived. I6 (ESDM release, 17 February 2020), I8 (ESDM fact sheet, 31 August 2017) and I9 (Bhimasena Power release, 22 July 2023) are archived HTML. The Bhumi Jati Power page returned 403 and is not used. J2 was reused for TJB annual rows. The register is vital-object designation evidence, not an operating census or legal-eligibility opinion. No login or institutional contact occurred.
+
+## I3 — official PLN Indonesia Power roster, 11 November 2026
+
+Official statistics index → linked public 2024 viewer → viewer's enabled PDF download: full 76-page *Laporan Statistik 2024* acquired. [ip_roster_manifest.json](ip_roster_manifest.json) records exact routes, hashes and inspected/rendered pages. Tables 9/11 separate owned and O&M installed capacities; Table 13 supplies national plant/machine cells. Publication date unestablished; 2024 is reporting year. [The audit](IP_ROSTER_AUDIT.md) preserves plant-total, count and cell conflicts, 13 alias/parent mappings, excluded systems and unresolved boundaries. Official unit IDs/DMN/commissioning/retirement are not invented. No restricted access or institutional contact; a 2025 report listing was observed but not used to redefine the historical benchmark.
+
+## Resource-inventory follow-up — 11 November 2026
+
+See [JAMALI_RESOURCE_INVENTORY.md](JAMALI_RESOURCE_INVENTORY.md) and [jamali_inventory_manifest.json](jamali_inventory_manifest.json). L6 was re-inspected at provincial resource/connection and planning tables; no replacement RUPTL file was downloaded. New source **I2**, official PLN Nusantara Power *Statistik Perusahaan 2020–2024*, was downloaded in full (68 pages), with selected capacity, operating, heat-rate and definitions tables inspected. Publication date is unestablished; 2024 is the reporting year. Source conflicts remain explicit. Selected pages were visually checked. Existing Wayang Windu samples and RUPTL annual sales are hash-checked derivatives retaining earlier transcription/version limits. A targeted official-source/operator search yielded no compatible interval package; third-party indexed operator-book copies were not used numerically. No contact or restricted access occurred.
+
 ## Targeted planning-input audit — 10 November 2026
 
 See [JAMALI_INPUT_AUDIT.md](JAMALI_INPUT_AUDIT.md) for findings and [planning_input_audit_manifest.json](planning_input_audit_manifest.json) for exact URLs, hashes, inspected pages and access outcomes. [REFERENCES.md](REFERENCES.md#targeted-jamali-input-audit) stores the bibliography and all additional provenance/access routes screened in this step.

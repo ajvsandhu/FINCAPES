@@ -1,0 +1,74 @@
+{
+  "review_date": "2026-11-11",
+  "scope": "One bounded Jamali operating-data sample/schema compatibility check; not an exhaustive availability search",
+  "inspected_candidate": {
+    "source_id": "O1",
+    "title": "Jamali Power System Dataset v1.0.0",
+    "creator": "Rifki Rahman Nur Ikhsan (GitHub user Kiky-41)",
+    "publisher": "Zenodo",
+    "publication_date": "2026-05-09",
+    "doi_version": "10.5281/zenodo.20098065",
+    "doi_concept": "10.5281/zenodo.20098064",
+    "licence": "CC-BY-4.0",
+    "record_api": "https://zenodo.org/api/records/20098065",
+    "file_url": "https://zenodo.org/api/records/20098065/files/Kiky-41/jamali-power-system-dataset-v1.0.0.zip/content",
+    "zenodo_md5": "fe253b265d600bfb4837a49081a8951c",
+    "local_files": [
+      {
+        "path": "mef_research/raw/zenodo_20098065_jamali_power_system_v1.0.0.zip",
+        "bytes": 4115,
+        "md5": "fe253b265d600bfb4837a49081a8951c",
+        "sha256": "abcafb27d98dfda7f156439b29aae00f5d23b772310adc67c7db0bb1dfbbfd8a"
+      },
+      {
+        "path": "mef_research/raw/zenodo_20098065_record.json",
+        "sha256": "b351110f086e25cd15a6ee908504e7a86bc833862b843bcc72142ac14377bed4"
+      }
+    ],
+    "archive_contents": [
+      ".gitignore (4628 bytes, Python template)",
+      "LICENSE (1201 bytes, CC BY 4.0 notice)",
+      "README.md (1429 bytes, descriptive text only)"
+    ],
+    "supplement_link": {
+      "url": "https://github.com/Kiky-41/jamali-power-system-dataset/tree/v1.0.0",
+      "result": "GitHub API 404 for repository tree and commits on 2026-11-11; no later data release located"
+    },
+    "schema_check": {
+      "data_files": 0,
+      "timestamps": null,
+      "frequency": null,
+      "timezone": null,
+      "demand_field": null,
+      "generation_field": null,
+      "emissions_or_fuel_field": null,
+      "exchange_or_boundary_metadata": null,
+      "gross_net_definition": null,
+      "coverage_period": null,
+      "missingness": "not assessable; no records"
+    },
+    "decision": "incompatible: archived release contains no data records; README describes benchmark dispatch content, not observed time-stamped operations"
+  },
+  "screened_not_inspected": [
+    {
+      "lead": "Power-Lab/data-indonesia-2025",
+      "url": "https://github.com/Power-Lab/data-indonesia-2025",
+      "reason_not_selected": "README describes hourly demand/generator files for 2030 and 2035 modelling scenarios; projected profiles, not historical observations"
+    },
+    {
+      "lead": "PLN UIP2B half-hourly Jamali load used in theses/papers",
+      "url": "https://repository.itpln.ac.id/id/eprint/6778/",
+      "reason_not_selected": "Thesis PDF restricted to registered users; underlying PLN data not published with it. Separate IEEE ICHVEPS 2025 paper (doi:10.1109/ichveps66913.2025.11351208) reports 30-minute Jamali load for seven months, no public data file located"
+    },
+    {
+      "lead": "Electricity Maps API",
+      "url": "https://app.electricitymaps.com/docs/reference/carbon-intensity/latest",
+      "reason_not_selected": "Search found country-level zone ID only, no Jamali zone; model-estimated values behind an account/commercial API; not opened"
+    }
+  ],
+  "limits": [
+    "One candidate inspected; absence of data here is not evidence of total public-data absence",
+    "No login, account creation, paid access or institutional contact",
+    "No commit, push, branch or delegation"
+  ]
+}

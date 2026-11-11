@@ -1,0 +1,652 @@
+{
+  "resources": [
+    {
+      "name": "Muara Karang",
+      "province": "DKI",
+      "technology": "PLTGU/PLTU",
+      "connection": "150 kV",
+      "page": 812
+    },
+    {
+      "name": "Tanjung Priok",
+      "province": "DKI",
+      "technology": "PLTGU/PLTG",
+      "connection": "150 kV",
+      "page": 812
+    },
+    {
+      "name": "Senayan",
+      "province": "DKI",
+      "technology": "PLTD",
+      "connection": "150 kV",
+      "page": 812
+    },
+    {
+      "name": "Jawa-2",
+      "province": "DKI",
+      "technology": "PLTGU",
+      "connection": "500 kV",
+      "page": 812,
+      "installed_mw": 880,
+      "capacity_definition": "narrative capacity; installed/net convention not specified"
+    },
+    {
+      "name": "Cilegon",
+      "province": "Banten",
+      "technology": "PLTGU",
+      "connection": "150 kV",
+      "page": 824
+    },
+    {
+      "name": "Labuan",
+      "province": "Banten",
+      "technology": "PLTU",
+      "connection": "150 kV",
+      "page": 824
+    },
+    {
+      "name": "Lontar",
+      "province": "Banten",
+      "technology": "PLTU",
+      "connection": "150 kV",
+      "page": 824
+    },
+    {
+      "name": "Suralaya 1-8",
+      "province": "Banten",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 824,
+      "installed_mw": 4025,
+      "capacity_definition": "narrative capacity; installed/net convention not specified",
+      "level": "unit_group"
+    },
+    {
+      "name": "LBE",
+      "province": "Banten",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 824,
+      "installed_mw": 625,
+      "capacity_definition": "narrative capacity; installed/net convention not specified",
+      "level": "unit_group"
+    },
+    {
+      "name": "Jawa-7 Unit 1-2",
+      "province": "Banten",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 824,
+      "installed_mw": 1982,
+      "capacity_definition": "narrative capacity; installed/net convention not specified",
+      "level": "unit_group"
+    },
+    {
+      "name": "Muara Tawar",
+      "province": "Jawa Barat",
+      "technology": "PLTG/PLTGU",
+      "connection": "500 kV",
+      "page": 841
+    },
+    {
+      "name": "Jawa-1",
+      "province": "Jawa Barat",
+      "technology": "PLTGU",
+      "connection": "500 kV",
+      "page": 841
+    },
+    {
+      "name": "Saguling",
+      "province": "Jawa Barat",
+      "technology": "PLTA",
+      "connection": "500 kV",
+      "page": 841
+    },
+    {
+      "name": "Cirata",
+      "province": "Jawa Barat",
+      "technology": "PLTA",
+      "connection": "500 kV",
+      "page": 841
+    },
+    {
+      "name": "Indramayu",
+      "province": "Jawa Barat",
+      "technology": "PLTU",
+      "connection": "150 kV",
+      "page": 841
+    },
+    {
+      "name": "Cikarang Listrindo",
+      "province": "Jawa Barat",
+      "technology": "PLTGU",
+      "connection": "150 kV",
+      "page": 841
+    },
+    {
+      "name": "Cirebon",
+      "province": "Jawa Barat",
+      "technology": "PLTU",
+      "connection": "150 kV",
+      "page": 841
+    },
+    {
+      "name": "Pelabuhan Ratu",
+      "province": "Jawa Barat",
+      "technology": "PLTU",
+      "connection": "150 kV",
+      "page": 841
+    },
+    {
+      "name": "Salak",
+      "province": "Jawa Barat",
+      "technology": "PLTP",
+      "connection": "Cibinong 1,2 – Depok 2 subsystem",
+      "page": 842
+    },
+    {
+      "name": "Tanjung Jati B",
+      "province": "Jawa Tengah",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Adipala",
+      "province": "Jawa Tengah",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Cilacap Exp",
+      "province": "Jawa Tengah",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Jawa 8",
+      "province": "Jawa Tengah",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Jawa Tengah (PPP)",
+      "province": "Jawa Tengah",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Jawa 4",
+      "province": "Jawa Tengah",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Tambak Lorok",
+      "province": "Jawa Tengah",
+      "technology": "PLTGU/PLTU",
+      "connection": "150 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Cilacap",
+      "province": "Jawa Tengah",
+      "technology": "PLTU",
+      "connection": "150 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Dieng",
+      "province": "Jawa Tengah",
+      "technology": "PLTP",
+      "connection": "150 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Mrica",
+      "province": "Jawa Tengah",
+      "technology": "PLTA",
+      "connection": "150 kV",
+      "page": 874,
+      "unresolved": "unit IDs and capacities; possible parent/expansion aliases (Tanjung Jati B/Jawa 4; Cilacap/Exp/Jawa 8); do not sum overlapping names"
+    },
+    {
+      "name": "Paiton",
+      "province": "Jawa Timur",
+      "technology": "PLTU",
+      "connection": "500 kV",
+      "page": 905
+    },
+    {
+      "name": "Gresik",
+      "province": "Jawa Timur",
+      "technology": "PLTGU/PLTU",
+      "connection": "500 kV and 150 kV; complex spans voltage levels",
+      "page": 905
+    },
+    {
+      "name": "Grati",
+      "province": "Jawa Timur",
+      "technology": "PLTG/PLTGU",
+      "connection": "500 kV and 150 kV; complex spans voltage levels",
+      "page": 905
+    },
+    {
+      "name": "Pacitan",
+      "province": "Jawa Timur",
+      "technology": "PLTU",
+      "connection": "150 kV",
+      "page": 905
+    },
+    {
+      "name": "Tanjung Awar-awar",
+      "province": "Jawa Timur",
+      "technology": "PLTU",
+      "connection": "150 kV",
+      "page": 905
+    },
+    {
+      "name": "Karangkates",
+      "province": "Jawa Timur",
+      "technology": "PLTA",
+      "connection": "150 kV narrative group; terminal unresolved",
+      "page": 905
+    },
+    {
+      "name": "Wlingi",
+      "province": "Jawa Timur",
+      "technology": "PLTA",
+      "connection": "150 kV narrative group; terminal unresolved",
+      "page": 905
+    },
+    {
+      "name": "Sengguruh",
+      "province": "Jawa Timur",
+      "technology": "PLTA",
+      "connection": "150 kV narrative group; terminal unresolved",
+      "page": 905
+    },
+    {
+      "name": "Tulung Agung",
+      "province": "Jawa Timur",
+      "technology": "PLTA",
+      "connection": "150 kV narrative group; terminal unresolved",
+      "page": 905
+    },
+    {
+      "name": "Celukan Bawang",
+      "province": "Bali",
+      "technology": "PLTU",
+      "connection": "150 kV narrative context",
+      "page": 938,
+      "installed_mw": 380,
+      "capacity_definition": "narrative supply capacity; compare Table B7.3 IPP PLTU 3 units 380 MW"
+    },
+    {
+      "name": "UP Rembang",
+      "province": "Jawa Tengah",
+      "technology": "PLTU",
+      "connection": "Jawa Bali Table B4.3; named terminal not checked",
+      "page": 26,
+      "source_id": "I2",
+      "reporter": "PT PLN Nusantara Power",
+      "installed_mw": 630,
+      "dependable_mw": 560,
+      "capacity_definition": "Table 1 installed / Table 2 DMN p28",
+      "fuel": "coal",
+      "unresolved": "unit IDs; dated terminal evidence; commissioning; retirement"
+    },
+    {
+      "name": "UP Brantas",
+      "province": "Jawa Timur",
+      "technology": "PLTA",
+      "connection": "reporting portfolio; connected resources require breakdown",
+      "page": 27,
+      "source_id": "I2",
+      "reporter": "PT PLN Nusantara Power",
+      "level": "reporting_portfolio",
+      "boundary": "unresolved_portfolio",
+      "installed_mw": 282,
+      "dependable_mw": 275,
+      "capacity_definition": "Table 1 installed / Table 2 DMN p29; p16 says 281.7",
+      "rule": "exclude from plant sum until constituent plants mapped"
+    },
+    {
+      "name": "PLTMG Bawean",
+      "province": "Jawa Timur",
+      "technology": "PLTMG",
+      "connection": "Bawean isolated system (RUPTL p918)",
+      "page": 27,
+      "source_id": "I2",
+      "reporter": "PT PLN Nusantara Power",
+      "boundary": "isolated_existing_excluded",
+      "installed_mw": 3,
+      "dependable_mw": 3,
+      "capacity_definition": "Table 1 / Table 2 p29; rounded",
+      "unresolved": "unit IDs; dated commissioning/retirement; fuel quality"
+    },
+    {
+      "name": "PLTS Cirata research",
+      "province": "Jawa Barat",
+      "technology": "PLTS",
+      "connection": "research installation; grid export not established",
+      "page": 16,
+      "source_id": "I2",
+      "reporter": "PT PLN Nusantara Power",
+      "boundary": "connection_unresolved",
+      "installed_mw": 1,
+      "capacity_definition": "p16 research solar; distinct from UP Cirata hydro and floating IPP solar",
+      "rule": "exclude until connection and export boundary verified"
+    }
+  ],
+  "east_java_isolated_systems": [
+    "Bawean",
+    "Mandangin",
+    "Gili Iyang",
+    "Kangean",
+    "Sepeken",
+    "Sapudi",
+    "Gili Genting",
+    "Gili Ketapang",
+    "Raas",
+    "Sepanjang",
+    "Pagerungan Kecil",
+    "Tonduk",
+    "Paleyat",
+    "Goa-goa",
+    "Masakambing",
+    "Sakala",
+    "Saobi",
+    "Sabuntan",
+    "Gili Noko",
+    "Saular",
+    "Sapungkur Besar",
+    "Sadulang Besar",
+    "Saibus",
+    "Giliraja",
+    "Kemirian Mandangin"
+  ],
+  "capacity_observations": [
+    {
+      "name": "UP Paiton",
+      "province": "Jawa Timur",
+      "source_id": "I2",
+      "installed_mw": 1460,
+      "dependable_mw": 1355,
+      "installed_page": 26,
+      "dependable_page": 28,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "UP Indramayu",
+      "province": "Jawa Barat",
+      "source_id": "I2",
+      "installed_mw": 990,
+      "dependable_mw": 870,
+      "installed_page": 26,
+      "dependable_page": 28,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "UP Rembang",
+      "province": "Jawa Tengah",
+      "source_id": "I2",
+      "installed_mw": 630,
+      "dependable_mw": 560,
+      "installed_page": 26,
+      "dependable_page": 28,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "UP Pacitan",
+      "province": "Jawa Timur",
+      "source_id": "I2",
+      "installed_mw": 630,
+      "dependable_mw": 560,
+      "installed_page": 26,
+      "dependable_page": 28,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "UP Tanjung Awar-Awar",
+      "province": "Jawa Timur",
+      "source_id": "I2",
+      "installed_mw": 700,
+      "dependable_mw": 646,
+      "installed_page": 26,
+      "dependable_page": 28,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "UP Brantas",
+      "province": "Jawa Timur",
+      "source_id": "I2",
+      "installed_mw": 282,
+      "dependable_mw": 275,
+      "installed_page": 27,
+      "dependable_page": 29,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "UP Cirata",
+      "province": "Jawa Barat",
+      "source_id": "I2",
+      "installed_mw": 1008,
+      "dependable_mw": 984,
+      "installed_page": 27,
+      "dependable_page": 29,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "UP Muara Karang",
+      "province": "DKI",
+      "source_id": "I2",
+      "installed_mw": 2177,
+      "dependable_mw": 1903,
+      "installed_page": 27,
+      "dependable_page": 29,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "UP Muara Tawar",
+      "province": "Jawa Barat",
+      "source_id": "I2",
+      "installed_mw": 2471,
+      "dependable_mw": 2327,
+      "installed_page": 27,
+      "dependable_page": 29,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "UP Gresik",
+      "province": "Jawa Timur",
+      "source_id": "I2",
+      "installed_mw": 2219,
+      "dependable_mw": 1934,
+      "installed_page": 27,
+      "dependable_page": 29,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    },
+    {
+      "name": "PLTMG Bawean",
+      "province": "Jawa Timur",
+      "source_id": "I2",
+      "installed_mw": 3,
+      "dependable_mw": 3,
+      "installed_page": 27,
+      "dependable_page": 29,
+      "source_url": "https://www.plnnusantarapower.co.id/storage/investor_corporate_statistic/files/G3V6naONEPK3LxhDfZnzuNF2sQxQkqXqXlbTMo93.pdf",
+      "source_year": 2024,
+      "match_rule": "observation only; link by name cautiously, do not add to RUPTL names",
+      "unresolved": "UP is reporting portfolio, not necessarily individual generating unit"
+    }
+  ],
+  "boundary_crosswalk": [
+    {
+      "item": "Java–Bali submarine cable",
+      "classification": "internal Jamali transfer",
+      "source_page": 938,
+      "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
+      "reported_mw": 380,
+      "rule": "not generator capacity; not external import at whole-Jamali boundary",
+      "unresolved": "interval flows and losses; 380 MW narrative supply not measured flow sample"
+    },
+    {
+      "item": "Sumatera hydro/geothermal import",
+      "classification": "external imported energy; projected",
+      "source_page": "484–485",
+      "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
+      "reported_mw": "",
+      "rule": "technology entries embed imports; separate import row dash does not establish zero; exclude from local generator fleet",
+      "unresolved": "source plant IDs; attribution; interface flows and dates"
+    },
+    {
+      "item": "PLN NP / PLN IP / UIK Jamali",
+      "classification": "reporting organisations",
+      "source_page": "PLN Statistics PDF16; RUPTL PDF48",
+      "source_url": "https://www.pln.co.id/webapi/media/file/webkorp/asset/Statistik2024.pdf",
+      "reported_mw": "",
+      "rule": "do not add parent PLN totals to child company/region rows; electrical membership checked per resource",
+      "unresolved": "complete company-to-resource crosswalk"
+    },
+    {
+      "item": "DIY supply from Pedan and Kesugihan",
+      "classification": "internal interprovincial supply",
+      "source_page": 898,
+      "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
+      "reported_mw": "",
+      "rule": "do not create DIY pseudo-generator or external import",
+      "unresolved": "embedded generation coverage"
+    },
+    {
+      "item": "Tiga Nusa PLTS",
+      "classification": "separate system label; connection unresolved",
+      "source_page": 939,
+      "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
+      "reported_mw": 3.5,
+      "rule": "Table B7.3 labels Tiga Nusa rather than Jawa Bali; hold outside confirmed connected total",
+      "unresolved": "dated main-grid connection evidence"
+    },
+    {
+      "item": "Central Java PLTD",
+      "classification": "isolated excluded",
+      "source_page": 875,
+      "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
+      "reported_mw": 7.3,
+      "rule": "5.7 MW PLN + 1.6 MW IPP source subtotals; not named plant rows",
+      "unresolved": "individual resources and rounding"
+    },
+    {
+      "item": "East Java PLTM and PLTMG",
+      "classification": "source-labelled isolated; unresolved constituents",
+      "source_page": 906,
+      "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
+      "reported_mw": 72.8,
+      "rule": "69.6 MW PLTM + 3.2 MW PLTMG; preserve surprising PLTM label; do not silently relabel connected",
+      "unresolved": "verify source PLTM isolated classification; cannot assign these MW to 25 systems without bridge"
+    },
+    {
+      "item": "Bali 280 MW lease; Madura relocation",
+      "classification": "planned lease or relocation",
+      "source_page": "360;917",
+      "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
+      "reported_mw": "",
+      "rule": "not automatically net new Jamali nameplate; identify origin and displacement",
+      "unresolved": "asset-level movement and commissioning"
+    }
+  ],
+  "reconciliations": [
+    {
+      "definition": "RUPTL Table 5.86 2025 existing fleet installed",
+      "quantity": "MW",
+      "extracted_sum": "",
+      "source_total": 49616,
+      "residual": "",
+      "interpretation": "benchmark only; incomplete named-resource coverage, no asserted reconciliation"
+    },
+    {
+      "definition": "RUPTL Table 5.86 2025 existing fleet DMN",
+      "quantity": "MW",
+      "extracted_sum": 46867,
+      "source_total": 46867,
+      "residual": 0,
+      "interpretation": "own + IPP + excess reproduces DMN; no plant-level coverage claim"
+    },
+    {
+      "definition": "Banten p824 narrative supply groups",
+      "quantity": "MW capacity; definition unresolved",
+      "extracted_sum": 9231,
+      "source_total": 9253,
+      "residual": -22,
+      "interpretation": "compare p825 Table B2.3 installed; preserve difference; do not force same definition"
+    },
+    {
+      "definition": "Bali p939 Table B7.3 installed components",
+      "quantity": "MW installed",
+      "extracted_sum": 1212.9,
+      "source_total": 1213,
+      "residual": -0.09999999999990905,
+      "interpretation": "rounded source total; includes Tiga Nusa 3.5 MW separate-system label"
+    },
+    {
+      "definition": "NP 2024 Table 1 p26–27 category totals",
+      "quantity": "MW installed",
+      "extracted_sum": 18333,
+      "source_total": 18332,
+      "residual": 1,
+      "interpretation": "source p27 total 18332 vs p8 headline 18333; retain discrepancy"
+    },
+    {
+      "definition": "NP Gresik p16 vs Table1 p27",
+      "quantity": "MW installed",
+      "extracted_sum": 2222,
+      "source_total": 2219,
+      "residual": 3,
+      "interpretation": "two same-publication values; no unverified correction"
+    }
+  ]
+}

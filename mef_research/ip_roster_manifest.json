@@ -1,0 +1,86 @@
+{
+  "review_date": "2026-11-11",
+  "source_id": "I3",
+  "publisher": "PT PLN Indonesia Power",
+  "title": "Laporan Statistik 2024 / 2024 Statistic Report",
+  "publication_date": "not established; calendar 2024 reporting year",
+  "source_url": "https://ipstore.plnindonesiapower.co.id:1996/statisticreport2024/files/downloads/Laporan_Statistik_IP_2024.pdf",
+  "discovery_url": "https://www.plnindonesiapower.co.id/laporan-statistik",
+  "viewer_url": "https://ipstore.plnindonesiapower.co.id:1996/statisticreport2024/",
+  "discovery": "Official index links viewer; public viewer configuration exposes enabled PDF download. No login or circumvention.",
+  "inputs": [
+    {
+      "path": "mef_research/raw/pln_ip_statistics_2024.pdf",
+      "sha256": "107509ae33b173741b861c109eab28130a4215c38d8dc211c646c83076db13b2"
+    },
+    {
+      "path": "mef_research/raw/pln_ip_statistics_index_20261111.html",
+      "sha256": "bb14bcdfb38f6de8f8bb2e0087fc521d872200abfe1f9cfb2d40759cd432b5fa"
+    },
+    {
+      "path": "mef_research/raw/pln_ip_statistics_2024_viewer.html",
+      "sha256": "2a853dd849ea5db84d67c22baab54374e500d312577c74aa2f9e5c10e80bc940"
+    },
+    {
+      "path": "mef_research/raw/pln_ip_statistics_2024_viewer_config.js",
+      "sha256": "07ba7d5a6c4e4de0be693f72983b63482583b7fecdf96a550d917e978eb29851"
+    },
+    {
+      "path": "grid_data_sources/raw/ruptl_2025_2034.pdf",
+      "sha256": "1308ee580c7c1642fe7817e000c87cb2dc87053e1fcef90606dcc1da396fd002"
+    }
+  ],
+  "inspected_ip_pdf_pages": [
+    4,
+    6,
+    8,
+    9,
+    14,
+    15,
+    19,
+    24,
+    25,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    74
+  ],
+  "visually_checked_pdf_pages": [
+    30,
+    32,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "relevant_ruptl_pages": [
+    351,
+    812,
+    824,
+    841,
+    842,
+    843,
+    874,
+    875,
+    882,
+    905,
+    938,
+    939
+  ],
+  "limits": [
+    "Table13 contains owned and O&M machines; not all are connected to Jamali",
+    "Machine numbers are source-local columns, not official unit identifiers",
+    "Conflicting source values retained; no emissions estimate",
+    "Full redistribution licence not established; public read access only",
+    "No institutional contact; 2025 report available but not used to redefine 2024 benchmark"
+  ]
+}

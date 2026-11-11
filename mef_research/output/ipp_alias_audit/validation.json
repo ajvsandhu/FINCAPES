@@ -1,0 +1,18 @@
+{
+  "membership_anchor": "2024-11-28",
+  "canonical_unit_labels": 12,
+  "physical_sites": 3,
+  "official_register_target_rows": 3,
+  "selected_register_control_rows": 5,
+  "alias_crosswalk_rows": 6,
+  "registry_identifiers_acquired": 0,
+  "mixed_basis_total_blocked": true,
+  "target_same_source_annual_installed_mw": 2811.4,
+  "target_same_source_annual_daya_mampu_mw": 2643.8,
+  "annual_capacity_reference": "2024 year-end; not assigned to November28 without further evidence",
+  "unit_labels_outside_verified_annual_reporting_group": 8,
+  "unit_level_installed_DMN_pairs_acquired": 0,
+  "numerical_mef_cleared": false,
+  "full_grid_coverage_percent": null,
+  "general_warning": "dated partial identity union, not complete 2024 Jamali fleet; no within-year retirement/availability inference"
+}

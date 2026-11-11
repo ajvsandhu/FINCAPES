@@ -1,0 +1,105 @@
+{
+  "review_date": "2026-11-11",
+  "scope": "Bounded dated IPP/other-PLN identity union; three target registry rows and five controls; not full vital-object list or grid census",
+  "membership_anchor": "2024-11-28",
+  "capacity_anchor": "2024year-end only for explicitly labelled PLN annual observations; other dates retained separately",
+  "inputs": [
+    {
+      "source_id": "I4",
+      "path": "mef_research/raw/esdm_310_2024_obvitnas.pdf",
+      "sha256": "b8c8ebe8d12c3b2fd8746dc9eb81de63e6020c461777c02761884907c08d8056",
+      "url": "https://jdih.esdm.go.id/common/dokumen-external/2024kmesdm310k.pdf",
+      "date": "2024-11-28",
+      "evidence_depth": "full scanned PDF; selected rows manually transcribed and visually checked; not OCR"
+    },
+    {
+      "source_id": "I5",
+      "path": "mef_research/raw/s2p_profile_20261111.html",
+      "sha256": "a0ccefab1a605bf600523c18fb4c87e4adeee909ed37f3222f23110ea1d9f93e",
+      "url": "https://www.ssprimadaya.co.id/en/about/profile",
+      "date": "undated; retrieved2026-11-11",
+      "evidence_depth": "operator profile; unit labels, nominal capacity and retrospective COD months; not a frozen2024 roster"
+    },
+    {
+      "source_id": "I6",
+      "path": "mef_research/raw/esdm_jawa8_20200217.html",
+      "sha256": "2ecc44bd587f8a0d7b5b296c15d9ec20f02d5181b17cb559c1be5d2cba6188bf",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/pakai-teknologi-usc-pltu-jawa-8-berpotensi-hemat-rp-1-triliun",
+      "date": "2020-02-17",
+      "evidence_depth": "official press release073.Pers/04/SJI/2020; explicit capacity/own-use/export bridge; not operating interval data"
+    },
+    {
+      "source_id": "I7",
+      "path": "mef_research/raw/kepco_tjb56_web_extract.json",
+      "sha256": "22b2e574226a31a79bc8e880c268b348d1b4bfd25ec7f78ca2d840fb4a8ef76a",
+      "url": "https://www.kepco.co.jp/english/corporate/info/international/generate/tanjung-jati-b.html",
+      "date": "undated; retrieved2026-11-11",
+      "evidence_depth": "selected factual web-tool transcription; direct curl403; no rawHTML snapshot"
+    },
+    {
+      "source_id": "I8",
+      "path": "mef_research/raw/esdm_jawa4_20170831.html",
+      "sha256": "693ee92967e2a976f97627e87b13a70af295cc120358e5ffb4680f3c9f1d57db",
+      "url": "https://www.esdm.go.id/id/media-center/arsip-berita/fact-sheet-ground-breaking-proyek-pltu-jawa-4-jepara-jawa-tengah-oleh-menteri-esdm",
+      "date": "2017-08-31",
+      "evidence_depth": "historical fact sheet; alias/nominal group capacity; plannedCOD not treated as realised"
+    },
+    {
+      "source_id": "I9",
+      "path": "mef_research/raw/bpi_batang_20230715.html",
+      "sha256": "6aca1ad23c983c016a1d7af6fc0d96aa8785c731ddbdbadd06b9d0937992d576",
+      "url": "https://www.bhimasenapower.co.id/content/3136/supporting-the-reliability-of-java-%E2%80%93-bali-electricity-supply%2C-pln-management-visit-batang-power-plant",
+      "date": "2023-07-22 publication;2023-07-15 visit",
+      "evidence_depth": "operator source; unitCOD dates and500kV connection; unrelated Jawa1 statement not relied on"
+    },
+    {
+      "source_id": "J2",
+      "path": "mef_research/raw/pln_statistics_2024_official.pdf",
+      "sha256": "3e3ae7aee96b2f29211a9abd9b2c04853a0790ecf54d3c6c42f0c121c7344c4d",
+      "url": "https://www.pln.co.id/webapi/media/file/webkorp/asset/Statistik2024.pdf",
+      "date": "June2025publication; calendar2024",
+      "evidence_depth": "existing archived primary snapshot; selected UIK TJB rows pp19/58/60/62"
+    }
+  ],
+  "register_title": "Kepmen ESDM310.K/BN.05/MEM.S/2024, fifth amendment to national vital-object designation",
+  "register_pages_inspected": [
+    1,
+    4,
+    51,
+    52,
+    53
+  ],
+  "register_pages_visually_checked": [
+    1,
+    4,
+    51,
+    52,
+    53
+  ],
+  "register_rows_transcribed": [
+    127,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137
+  ],
+  "access_failures": [
+    {
+      "url": "https://www.bhumi-jati.co.id/about-us/bhumi-jati-power.html",
+      "result": "403; no primary snapshot obtained; not used as evidence"
+    },
+    {
+      "url": "https://www.kepco.co.jp/english/corporate/info/international/generate/tanjung-jati-b.html",
+      "result": "curl403; full web-tool text accessible; selected factual extract archived"
+    }
+  ],
+  "limits": [
+    "Vital-object designation is equipment/entity evidence, not a complete operating roster, interval availability or legal eligibility opinion",
+    "No new statistical or engineering model fit; no synthetic operating series",
+    "Descriptive unit labels are not official registry IDs",
+    "No institutional contact, login, commit, push, branch or delegation"
+  ]
+}

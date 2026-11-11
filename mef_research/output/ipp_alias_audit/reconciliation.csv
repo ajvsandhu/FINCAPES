@@ -1,0 +1,7 @@
+check,left,right,residual,basis
+Cilacap operator four-unit nominal total,2260,2260,0,"like-for-like source nominal total, not a DMN sum"
+Jawa8 total minus stated own use,945,945,0,explicit 2020 release bridge; no annual DMN claim
+Cilacap geographical group includes separate Adipala,2920,2920,0,2020 release geographic total; not S2P portfolio alone
+TJB register minus2024 installed,2840,2811.4,28.6,UNRESOLVED source-definition difference; not inferred own-use
+Jawa4 sponsor minus register capacity,2140,2000,140,UNRESOLVED capacity definition; no verified conversion
+TJB installed minus DayaMampu,2811.4,2643.8,167.6,distinct labelled quantities; not assigned to losses or own-use

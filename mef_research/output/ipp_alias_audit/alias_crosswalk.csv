@@ -1,0 +1,7 @@
+existing_evidence_id,alias,canonical_unit_keys,evidence,match_rule,reference_date,official_registry_id_status
+EX-020,Tanjung Jati B,TJB-U1;TJB-U2;TJB-U3;TJB-U4,I4 rows127/132/136; I5; I6; I8; I9; RUPTL PDF874,RUPTL lists Jawa4 separately; original PLN reporting group mapped to units1–4,2024-11-28 membership anchor,not acquired
+EX-025,Jawa4,TJB-U5;TJB-U6,I4 rows127/132/136; I5; I6; I8; I9; RUPTL PDF874,same units as TJB expansion5–6; no additional Jawa4 pseudo-plant,2024-11-28 membership anchor,not acquired
+EX-027,Cilacap,S2P-U1;S2P-U2,I4 rows127/132/136; I5; I6; I8; I9; RUPTL PDF874,original pair distinct from expansionI and expansionII; whole-site name sometimes broader,2024-11-28 membership anchor,not acquired
+EX-022,Cilacap Exp,S2P-U3,I4 rows127/132/136; I5; I6; I8; I9; RUPTL PDF874,RUPTL separate Jawa8 plus ESDM expansionI660MW bridge; generic expansion wording alone remains broad,2024-11-28 membership anchor,not acquired
+EX-023,Jawa8,S2P-U3A,I4 rows127/132/136; I5; I6; I8; I9; RUPTL PDF874,ESDM ExpansionII alias plus operator unit3A name/capacity/COD; exact generic registry ID missing,2024-11-28 membership anchor,not acquired
+EX-024,Jawa Tengah (PPP),BATANG-U1;BATANG-U2,I4 rows127/132/136; I5; I6; I8; I9; RUPTL PDF874,BPI/Batang separate site and company from BJP/Jawa4,2024-11-28 membership anchor,not acquired

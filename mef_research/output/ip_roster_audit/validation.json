@@ -1,0 +1,21 @@
+{
+  "plants": 142,
+  "machine_cells": 476,
+  "boundary_capacity_mw": {
+    "connected_in_scope": 16704.07,
+    "boundary_unresolved": 362.53,
+    "isolated_excluded": 33.28,
+    "outside_jamali_excluded": 4802.05
+  },
+  "owned_national_control_mw": 20843.5,
+  "source_conflict_rows": 2,
+  "all_roster_plant_total_mw": 21901.93,
+  "alias_crosswalk_rows": 13,
+  "reported_machine_count": 475,
+  "connected_plant_total_with_machine_conflict_mw": 260.33,
+  "ruptl_2025_installed_benchmark_mw": 49616,
+  "ruptl_2025_dmn_benchmark_mw": 46867,
+  "benchmark_comparison": "not a coverage percentage: reporting year, ownership, scope and dependable/installed bases differ",
+  "compatible_interval_operating_package": false,
+  "numerical_mef_cleared": false
+}

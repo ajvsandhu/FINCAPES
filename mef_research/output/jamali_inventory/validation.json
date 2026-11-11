@@ -1,0 +1,13 @@
+{
+  "existing_named_rows": 43,
+  "planning_rows": 294,
+  "isolated_systems": 25,
+  "monthly_sample_rows": 42,
+  "daily_sample_rows": 5,
+  "complete_unit_inventory": false,
+  "source_hashes_verified": true,
+  "duplicate_resource_ids": 0,
+  "planned_sequences_contiguous": true,
+  "full_grid_reconciliation": "unresolved; partial existing named-resource coverage",
+  "numerical_mef_pilot_cleared": false
+}
