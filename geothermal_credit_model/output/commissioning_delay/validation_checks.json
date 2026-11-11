@@ -1,0 +1,374 @@
+[
+  {
+    "check": "Unique original grid/year cohorts",
+    "passed": true
+  },
+  {
+    "check": "Nonnegative finite original capacity",
+    "passed": true
+  },
+  {
+    "check": "Complete unique cohort membership in every delay",
+    "passed": true
+  },
+  {
+    "check": "Original capacity totals retained, excluding Sabang",
+    "passed": true
+  },
+  {
+    "check": "Additional delay preserves one-year generation lag",
+    "passed": true
+  },
+  {
+    "check": "Complete unique annual and summary keys",
+    "passed": true
+  },
+  {
+    "check": "Zero delay exactly reproduces original in-memory central model",
+    "passed": true
+  },
+  {
+    "check": "Zero delay matches saved original by_year within 1e-7 absolute units",
+    "passed": true
+  },
+  {
+    "check": "Zero delay matches saved original summary within 1e-7 absolute units",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2025",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2026",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2027",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2028",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2029",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2030",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2031",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2032",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2033",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/0/2034",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2025",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2026",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2027",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2028",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2029",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2030",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2031",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2032",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2033",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/1/2034",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2025",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2026",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2027",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2028",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2029",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2030",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2031",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2032",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2033",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Jamali/2/2034",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2025",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2026",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2027",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2028",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2029",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2030",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2031",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2032",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2033",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/0/2034",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2025",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2026",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2027",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2028",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2029",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2030",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2031",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2032",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2033",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/1/2034",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2025",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2026",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2027",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2028",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2029",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2030",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2031",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2032",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2033",
+    "passed": true
+  },
+  {
+    "check": "Cohort timing Sumatera/2/2034",
+    "passed": true
+  },
+  {
+    "check": "Independent cohort-year cumulative reconciliation",
+    "passed": true
+  },
+  {
+    "check": "Delayed capacity outside window retained and contributes zero",
+    "passed": true
+  },
+  {
+    "check": "Nonnegative annual and cumulative generation",
+    "passed": true
+  },
+  {
+    "check": "Cumulative generation grows with analysis year",
+    "passed": true
+  },
+  {
+    "check": "Uniform delay never increases estimated_generation_mwh",
+    "passed": true
+  },
+  {
+    "check": "Uniform delay never increases cumulative_generation_mwh",
+    "passed": true
+  },
+  {
+    "check": "Generation identical across factor methods",
+    "passed": true
+  },
+  {
+    "check": "Fixed published factors unchanged",
+    "passed": true
+  },
+  {
+    "check": "Annual emissions arithmetic",
+    "passed": true
+  },
+  {
+    "check": "Annual-to-cumulative estimated_generation_mwh",
+    "passed": true
+  },
+  {
+    "check": "Annual-to-cumulative gross_avoided_emissions_tco2",
+    "passed": true
+  },
+  {
+    "check": "annual absolute reduction estimated_generation_mwh",
+    "passed": true
+  },
+  {
+    "check": "annual percentage reduction estimated_generation_mwh",
+    "passed": true
+  },
+  {
+    "check": "annual absolute reduction gross_avoided_emissions_tco2",
+    "passed": true
+  },
+  {
+    "check": "annual percentage reduction gross_avoided_emissions_tco2",
+    "passed": true
+  },
+  {
+    "check": "annual absolute reduction cumulative_generation_mwh",
+    "passed": true
+  },
+  {
+    "check": "annual percentage reduction cumulative_generation_mwh",
+    "passed": true
+  },
+  {
+    "check": "annual absolute reduction cumulative_gross_avoided_emissions_tco2",
+    "passed": true
+  },
+  {
+    "check": "annual percentage reduction cumulative_gross_avoided_emissions_tco2",
+    "passed": true
+  },
+  {
+    "check": "summary absolute reduction estimated_generation_mwh",
+    "passed": true
+  },
+  {
+    "check": "summary percentage reduction estimated_generation_mwh",
+    "passed": true
+  },
+  {
+    "check": "summary absolute reduction gross_avoided_emissions_tco2",
+    "passed": true
+  },
+  {
+    "check": "summary percentage reduction gross_avoided_emissions_tco2",
+    "passed": true
+  },
+  {
+    "check": "Equal generation/emissions percentage reductions",
+    "passed": true
+  }
+]

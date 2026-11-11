@@ -1,0 +1,105 @@
+{
+  "review_date": "2026-11-10",
+  "scope": "Deeper methodological review; initial 6 November source manifest and snapshots preserved",
+  "snapshots": [
+    {
+      "source_id": "M1a",
+      "source_url": "https://www.cmu.edu/ceic/assets/docs/publications/phd-dissertations/2012/kyle-siler-evans-phd-thesis-2012.pdf",
+      "local_path": "raw/siler_evans_thesis_2012.pdf",
+      "size_bytes": 12471018,
+      "sha256": "c7de4875ba3b154b9641764e5eac67cef87cd4861961694c33f255cbf5f87a22",
+      "retrieved_date": "2026-11-10",
+      "format": "pdf",
+      "pdf_pages": 150,
+      "inspected_pdf_pages": [
+        15,
+        18,
+        19,
+        20,
+        21,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "source_id": "M2a",
+      "source_url": "https://ndownloader.figshare.com/files/17412503",
+      "local_path": "raw/deetjen_supporting_information.pdf",
+      "size_bytes": 6987845,
+      "sha256": "f79d898b5d724bb2f2fe0c34d88a854fa2f7632a6fcc6808f906d3d1189c5799",
+      "retrieved_date": "2026-11-10",
+      "format": "pdf",
+      "pdf_pages": 9,
+      "inspected_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "source_id": "M2a_metadata",
+      "source_url": "https://api.figshare.com/v2/articles/9722123",
+      "local_path": "raw/deetjen_si_metadata.json",
+      "size_bytes": 6298,
+      "sha256": "e26074f1768dff3384f5928a595a9b9fea6133c3952f459cc5a9e2b5a9f16957",
+      "retrieved_date": "2026-11-10",
+      "format": "json"
+    }
+  ],
+  "evidence_upgrades": {
+    "M1": "Corresponding author dissertation chapter, not the journal version",
+    "M2": "Full official supporting information and existing pinned code; main article not obtained",
+    "M3": "Focused recheck of historical experiment versus network simulation",
+    "M4": "Existing pinned notebook loss/split/evaluation examined; full main article not obtained",
+    "M5": "Focused recheck of statistical construction and explicit limits"
+  },
+  "unresolved_access": [
+    {
+      "source": "M2 main article",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.est.9b02500",
+      "result": "Web fetch returned 403; no full main article retrieved"
+    },
+    {
+      "source": "M4 main article",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959652623040532",
+      "result": "Web fetch returned 403; main text/accepted manuscript not retrieved"
+    },
+    {
+      "source": "M4 PDF candidate",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0959652623040532/pdfft?isDTMRedir=true&download=true",
+      "result": "No verified PDF obtained; not represented as reviewed full text"
+    }
+  ],
+  "discovery_metadata_queries": [
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.jclepro.2023.139895",
+      "result": "200; no directly retrievable PDF URL supplied; metadata not technical evidence"
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1021/acs.est.9b02500",
+      "result": "200; no direct PDF location; metadata not technical evidence"
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles?resource_doi=10.1021/acs.est.9b02500",
+      "result": "200; identified official supporting-information record 9722123"
+    }
+  ],
+  "web_large_file_limit": {
+    "url": "https://www.cmu.edu/ceic/assets/docs/publications/phd-dissertations/2012/kyle-siler-evans-phd-thesis-2012.pdf",
+    "result": "Web fetch could not display file due to size; ordinary direct download succeeded and PDF was inspected locally"
+  },
+  "claim_ledger": "CLAIM_EVIDENCE.md",
+  "primary_revision": "CRITICAL_LITERATURE_REVIEW.md",
+  "notebook_execution": false,
+  "models_fitted": false,
+  "old_results_changed": false
+}

@@ -1,0 +1,62 @@
+{
+  "review_date": "2026-11-10",
+  "scope": "Targeted Jamali boundary, demand and modelling-input audit; not a model fit",
+  "snapshots": [
+    {
+      "source_id": "J2",
+      "source_url": "https://www.pln.co.id/webapi/media/file/webkorp/asset/Statistik2024.pdf",
+      "discovery_url": "https://www.pln.co.id/laporan-statistik-id",
+      "local_path": "raw/pln_statistics_2024_official.pdf",
+      "size_bytes": 8506759,
+      "sha256": "3e3ae7aee96b2f29211a9abd9b2c04853a0790ecf54d3c6c42f0c121c7344c4d",
+      "retrieved_date": "2026-11-10",
+      "format": "pdf",
+      "pdf_pages": 106,
+      "inspected_pdf_pages": [1, 4, 5, 8, 9, 10, 11, 14, 15, 16, 19, 20, 21, 66, 67, 68, 69],
+      "visually_checked_pdf_pages": [8, 67],
+      "evidence_depth": "Full PDF acquired; selected definitions, reporting-unit notes and annual tables inspected, not every table numerically validated",
+      "acquisition_notes": "Official index download link resolved through web search; curl succeeded where Python requests encountered TLS failure. Do not conflate this with the inaccessible older upload URL."
+    }
+  ],
+  "repository_inputs": [
+    {
+      "source_id": "J3a",
+      "repository_path": "ruptl_eda/output/ruptl_projected_sales.csv",
+      "size_bytes": 2963,
+      "sha256": "caffa0e96f587eca1d5e880c0c601d19181fcd5ae1a03546b52cd0fb37746a71",
+      "format": "csv",
+      "role": "Previously extracted regional sales; cross-check, not an independent source"
+    },
+    {
+      "source_id": "J3b",
+      "repository_path": "ruptl_eda/output/ruptl_projected_generation.csv",
+      "size_bytes": 18304,
+      "sha256": "6df3a682cd400f20e14fa4486c01548fb8ac83c283da0e83423bd56b58b99091",
+      "format": "csv",
+      "role": "Previously extracted generation components; preserve rounding residuals and original outputs"
+    }
+  ],
+  "existing_primary_input": {
+    "source_id": "J1",
+    "hash_reference": "long_run_review_manifest.json:repository_inputs:L6",
+    "repository_path": "grid_data_sources/raw/ruptl_2025_2034.pdf",
+    "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
+    "inspected_pdf_pages": [48, 324, 350, 351, 355, 360, 361, 362, 363, 484, 485, 918],
+    "visually_checked_pdf_pages": [324, 360, 484],
+    "role": "Primary planning evidence; previously acquired snapshot, not newly downloaded"
+  },
+  "bounded_external_access_log": [
+    {"url": "https://web.pln.co.id/statics/uploads/2025/09/Statistik-PLN-2024-Ind-Eng.pdf", "result": "Old URL retry: Python DNS failure and web fetch 502; indexed text alone not used as numerical data"},
+    {"url": "https://gatrik.esdm.go.id/assets/uploads/download_index/files/87d63-2.-pedoman-pengisian-apple-gatrik.pdf", "result": "Python DNS failure; no manual acquired"},
+    {"url": "https://www.pln.co.id/laporan-statistik-id", "result": "Official index viewed with web tool; 2024 download followed to J2. Python TLS failure; index HTML not archived"},
+    {"url": "https://www.pln.co.id/webapi/media/file/webkorp/asset/Statistik2024.pdf", "result": "Official PDF inspected via web tool and downloaded using curl; full snapshot archived as J2"},
+    {"url": "https://esdm.go.id/id/media-center/arsip-berita/kementerian-esdm-resmi-merilis-dokumen-ruptl-pln-2025-2034", "result": "Official release announcement viewed; provenance context only, not an operating dataset"},
+    {"url": "https://www.pln.co.id/hubungan-investor-id/informasi-perusahaan-id/ruptl-id-1", "result": "Official RUPTL listing screened through search; no replacement snapshot used"}
+  ],
+  "limitations": [
+    "A bounded source and compatibility audit, not an exhaustive public-data search",
+    "No new interval load-generation-emissions pair acquired",
+    "No licence or permission to access restricted operational data inferred",
+    "No institutional contacts, logins or data requests made"
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "review_date": "2026-11-10",
+  "status": "Published projections; boundary bridge unresolved; not an MEF dataset",
+  "annual_comparisons": [
+    {
+      "year": 2025,
+      "regional_sales_gwh": 226327.0,
+      "system_sales_gwh": 226107.0,
+      "regional_minus_system_sales_gwh": 220.0,
+      "regional_production_gwh": 251401.0,
+      "system_production_gwh": 251145.0,
+      "regional_minus_system_production_gwh": 256.0,
+      "system_production_minus_sales_gwh": 25038.0,
+      "regional_sales_difference_pct_of_regional": 0.09720448731260521
+    },
+    {
+      "year": 2026,
+      "regional_sales_gwh": 237247.0,
+      "system_sales_gwh": 237019.0,
+      "regional_minus_system_sales_gwh": 228.0,
+      "regional_production_gwh": 263164.0,
+      "system_production_gwh": 262898.0,
+      "regional_minus_system_production_gwh": 266.0,
+      "system_production_minus_sales_gwh": 25879.0,
+      "regional_sales_difference_pct_of_regional": 0.09610237431874798
+    },
+    {
+      "year": 2027,
+      "regional_sales_gwh": 248211.0,
+      "system_sales_gwh": 247974.0,
+      "regional_minus_system_sales_gwh": 237.0,
+      "regional_production_gwh": 275082.0,
+      "system_production_gwh": 274805.0,
+      "regional_minus_system_production_gwh": 277.0,
+      "system_production_minus_sales_gwh": 26831.0,
+      "regional_sales_difference_pct_of_regional": 0.09548327833979961
+    },
+    {
+      "year": 2028,
+      "regional_sales_gwh": 259148.0,
+      "system_sales_gwh": 258902.0,
+      "regional_minus_system_sales_gwh": 246.0,
+      "regional_production_gwh": 289547.0,
+      "system_production_gwh": 289258.0,
+      "regional_minus_system_production_gwh": 289.0,
+      "system_production_minus_sales_gwh": 30356.0,
+      "regional_sales_difference_pct_of_regional": 0.09492645129424113
+    },
+    {
+      "year": 2029,
+      "regional_sales_gwh": 270156.0,
+      "system_sales_gwh": 269901.0,
+      "regional_minus_system_sales_gwh": 255.0,
+      "regional_production_gwh": 301428.0,
+      "system_production_gwh": 301129.0,
+      "regional_minus_system_production_gwh": 299.0,
+      "system_production_minus_sales_gwh": 31228.0,
+      "regional_sales_difference_pct_of_regional": 0.09438990805312486
+    },
+    {
+      "year": 2030,
+      "regional_sales_gwh": 280987.0,
+      "system_sales_gwh": 280723.0,
+      "regional_minus_system_sales_gwh": 264.0,
+      "regional_production_gwh": 313646.0,
+      "system_production_gwh": 313334.0,
+      "regional_minus_system_production_gwh": 312.0,
+      "system_production_minus_sales_gwh": 32611.0,
+      "regional_sales_difference_pct_of_regional": 0.09395452458654671
+    },
+    {
+      "year": 2031,
+      "regional_sales_gwh": 291727.0,
+      "system_sales_gwh": 291452.0,
+      "regional_minus_system_sales_gwh": 275.0,
+      "regional_production_gwh": 325770.0,
+      "system_production_gwh": 325447.0,
+      "regional_minus_system_production_gwh": 323.0,
+      "system_production_minus_sales_gwh": 33995.0,
+      "regional_sales_difference_pct_of_regional": 0.09426621464588468
+    },
+    {
+      "year": 2032,
+      "regional_sales_gwh": 302235.0,
+      "system_sales_gwh": 301950.0,
+      "regional_minus_system_sales_gwh": 285.0,
+      "regional_production_gwh": 341349.0,
+      "system_production_gwh": 341013.0,
+      "regional_minus_system_production_gwh": 336.0,
+      "system_production_minus_sales_gwh": 39063.0,
+      "regional_sales_difference_pct_of_regional": 0.09429748374609162
+    },
+    {
+      "year": 2033,
+      "regional_sales_gwh": 313322.0,
+      "system_sales_gwh": 313025.0,
+      "regional_minus_system_sales_gwh": 297.0,
+      "regional_production_gwh": 356655.0,
+      "system_production_gwh": 356307.0,
+      "regional_minus_system_production_gwh": 348.0,
+      "system_production_minus_sales_gwh": 43282.0,
+      "regional_sales_difference_pct_of_regional": 0.09479066264098915
+    },
+    {
+      "year": 2034,
+      "regional_sales_gwh": 324445.0,
+      "system_sales_gwh": 324137.0,
+      "regional_minus_system_sales_gwh": 308.0,
+      "regional_production_gwh": 369420.0,
+      "system_production_gwh": 369059.0,
+      "regional_minus_system_production_gwh": 361.0,
+      "system_production_minus_sales_gwh": 44922.0,
+      "regional_sales_difference_pct_of_regional": 0.09493134429564333
+    }
+  ],
+  "regional_records": [
+    {
+      "year": 2025,
+      "sales_gwh": 226327.0,
+      "reported_noncoincident_peak_mw": 34377.0,
+      "sector_sum_minus_total_gwh": 0.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    },
+    {
+      "year": 2026,
+      "sales_gwh": 237247.0,
+      "reported_noncoincident_peak_mw": 35978.0,
+      "sector_sum_minus_total_gwh": 0.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    },
+    {
+      "year": 2027,
+      "sales_gwh": 248211.0,
+      "reported_noncoincident_peak_mw": 37601.0,
+      "sector_sum_minus_total_gwh": -1.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    },
+    {
+      "year": 2028,
+      "sales_gwh": 259148.0,
+      "reported_noncoincident_peak_mw": 39213.0,
+      "sector_sum_minus_total_gwh": 0.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    },
+    {
+      "year": 2029,
+      "sales_gwh": 270156.0,
+      "reported_noncoincident_peak_mw": 40829.0,
+      "sector_sum_minus_total_gwh": 0.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    },
+    {
+      "year": 2030,
+      "sales_gwh": 280987.0,
+      "reported_noncoincident_peak_mw": 42491.0,
+      "sector_sum_minus_total_gwh": 0.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    },
+    {
+      "year": 2031,
+      "sales_gwh": 291727.0,
+      "reported_noncoincident_peak_mw": 44138.0,
+      "sector_sum_minus_total_gwh": -1.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    },
+    {
+      "year": 2032,
+      "sales_gwh": 302235.0,
+      "reported_noncoincident_peak_mw": 45754.0,
+      "sector_sum_minus_total_gwh": 0.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    },
+    {
+      "year": 2033,
+      "sales_gwh": 313322.0,
+      "reported_noncoincident_peak_mw": 47483.0,
+      "sector_sum_minus_total_gwh": 0.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    },
+    {
+      "year": 2034,
+      "sales_gwh": 324445.0,
+      "reported_noncoincident_peak_mw": 49216.0,
+      "sector_sum_minus_total_gwh": 1.0,
+      "source": "RUPTL Table 5.69, PDF p.324 (V-88)"
+    }
+  ],
+  "system_records": [
+    {
+      "scenario": "RE Base",
+      "year": 2025,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 226107.0,
+      "production_gwh": 251145.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 35106.0,
+      "net_peak_mw": 34342.0,
+      "existing_installed_mw": 49616.0,
+      "existing_net_dependable_mw": 46867.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2026,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 237019.0,
+      "production_gwh": 262898.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 36742.0,
+      "net_peak_mw": 35942.0,
+      "existing_installed_mw": 49616.0,
+      "existing_net_dependable_mw": 46867.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2027,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 247974.0,
+      "production_gwh": 274805.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 38399.0,
+      "net_peak_mw": 37563.0,
+      "existing_installed_mw": 49616.0,
+      "existing_net_dependable_mw": 46867.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2028,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 258902.0,
+      "production_gwh": 289258.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 40045.0,
+      "net_peak_mw": 39174.0,
+      "existing_installed_mw": 49504.0,
+      "existing_net_dependable_mw": 46767.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2029,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 269901.0,
+      "production_gwh": 301129.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 41696.0,
+      "net_peak_mw": 40789.0,
+      "existing_installed_mw": 49392.0,
+      "existing_net_dependable_mw": 46667.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2030,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 280723.0,
+      "production_gwh": 313334.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 43392.0,
+      "net_peak_mw": 42448.0,
+      "existing_installed_mw": 49090.0,
+      "existing_net_dependable_mw": 46402.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2031,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 291452.0,
+      "production_gwh": 325447.0,
+      "load_factor_pct": 81.9,
+      "gross_peak_mw": 45076.0,
+      "net_peak_mw": 44095.0,
+      "existing_installed_mw": 47740.0,
+      "existing_net_dependable_mw": 45325.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-927"
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2032,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 301950.0,
+      "production_gwh": 341013.0,
+      "load_factor_pct": 81.9,
+      "gross_peak_mw": 46725.0,
+      "net_peak_mw": 45708.0,
+      "existing_installed_mw": 47740.0,
+      "existing_net_dependable_mw": 45325.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2033,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 313025.0,
+      "production_gwh": 356307.0,
+      "load_factor_pct": 81.9,
+      "gross_peak_mw": 48491.0,
+      "net_peak_mw": 47436.0,
+      "existing_installed_mw": 47740.0,
+      "existing_net_dependable_mw": 45325.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2034,
+      "source": "RUPTL Table 5.86, PDF p.351",
+      "sales_gwh": 324137.0,
+      "production_gwh": 369059.0,
+      "load_factor_pct": 81.9,
+      "gross_peak_mw": 50261.0,
+      "net_peak_mw": 49167.0,
+      "existing_installed_mw": 47740.0,
+      "existing_net_dependable_mw": 45325.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2025,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 226107.0,
+      "production_gwh": 251145.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 35106.0,
+      "net_peak_mw": 34342.0,
+      "existing_installed_mw": 49616.0,
+      "existing_net_dependable_mw": 46867.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2026,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 237019.0,
+      "production_gwh": 262898.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 36742.0,
+      "net_peak_mw": 35942.0,
+      "existing_installed_mw": 49616.0,
+      "existing_net_dependable_mw": 46867.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2027,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 247974.0,
+      "production_gwh": 274805.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 38399.0,
+      "net_peak_mw": 37563.0,
+      "existing_installed_mw": 49616.0,
+      "existing_net_dependable_mw": 46867.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2028,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 258902.0,
+      "production_gwh": 289258.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 40045.0,
+      "net_peak_mw": 39174.0,
+      "existing_installed_mw": 49504.0,
+      "existing_net_dependable_mw": 46767.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2029,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 269901.0,
+      "production_gwh": 301129.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 41696.0,
+      "net_peak_mw": 40789.0,
+      "existing_installed_mw": 49392.0,
+      "existing_net_dependable_mw": 46667.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2030,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 280723.0,
+      "production_gwh": 313334.0,
+      "load_factor_pct": 81.8,
+      "gross_peak_mw": 43392.0,
+      "net_peak_mw": 42448.0,
+      "existing_installed_mw": 49090.0,
+      "existing_net_dependable_mw": 46402.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2031,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 291452.0,
+      "production_gwh": 325447.0,
+      "load_factor_pct": 81.9,
+      "gross_peak_mw": 45075.0,
+      "net_peak_mw": 44095.0,
+      "existing_installed_mw": 47740.0,
+      "existing_net_dependable_mw": 45325.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-927"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2032,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 301950.0,
+      "production_gwh": 341013.0,
+      "load_factor_pct": 81.9,
+      "gross_peak_mw": 46725.0,
+      "net_peak_mw": 45708.0,
+      "existing_installed_mw": 47740.0,
+      "existing_net_dependable_mw": 45325.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2033,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 313025.0,
+      "production_gwh": 356307.0,
+      "load_factor_pct": 81.9,
+      "gross_peak_mw": 48491.0,
+      "net_peak_mw": 47436.0,
+      "existing_installed_mw": 47740.0,
+      "existing_net_dependable_mw": 45325.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    },
+    {
+      "scenario": "ARED",
+      "year": 2034,
+      "source": "RUPTL Table 5.87, PDF p.355",
+      "sales_gwh": 324137.0,
+      "production_gwh": 369059.0,
+      "load_factor_pct": 81.9,
+      "gross_peak_mw": 50261.0,
+      "net_peak_mw": 49167.0,
+      "existing_installed_mw": 47740.0,
+      "existing_net_dependable_mw": 45325.0,
+      "retired_raw": "-",
+      "mothballed_raw": "-"
+    }
+  ],
+  "published_scenario_field_differences": [
+    {
+      "year": 2031,
+      "field": "gross_peak_mw",
+      "ared_minus_re_base": -1.0
+    }
+  ],
+  "legacy_component_rounding_residuals": [
+    {
+      "scenario": "RE Base",
+      "year": 2025,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2026,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2027,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2028,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2029,
+      "component_sum_minus_published_total_gwh": 1.0
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2030,
+      "component_sum_minus_published_total_gwh": 1.0
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2031,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2032,
+      "component_sum_minus_published_total_gwh": -1.0
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2033,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "RE Base",
+      "year": 2034,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2025,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2026,
+      "component_sum_minus_published_total_gwh": 1.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2027,
+      "component_sum_minus_published_total_gwh": 1.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2028,
+      "component_sum_minus_published_total_gwh": 1.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2029,
+      "component_sum_minus_published_total_gwh": 1.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2030,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2031,
+      "component_sum_minus_published_total_gwh": 1.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2032,
+      "component_sum_minus_published_total_gwh": -2.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2033,
+      "component_sum_minus_published_total_gwh": 0.0
+    },
+    {
+      "scenario": "ARED",
+      "year": 2034,
+      "component_sum_minus_published_total_gwh": -1.0
+    }
+  ]
+}

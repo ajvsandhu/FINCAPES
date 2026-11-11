@@ -1,0 +1,182 @@
+{
+  "review_date": "2026-11-06",
+  "scope": "Bounded first-stage methods and Jamali data-access screen, not systematic review or model validation",
+  "snapshots": [
+    {
+      "source_id": "M5",
+      "source_url": "https://www.epa.gov/system/files/documents/2024-04/avert-user-manual-v4.3.pdf",
+      "resolved_url": "https://www.epa.gov/system/files/documents/2024-04/avert-user-manual-v4.3.pdf",
+      "local_path": "raw/avert_v43.pdf",
+      "size_bytes": 6366037,
+      "sha256": "e697db9b95d55b973bdd94d61c966a6ed1723a1209a57e67cf88714b7088db6b",
+      "format": "pdf",
+      "pdf_pages": 149
+    },
+    {
+      "source_id": "M3",
+      "source_url": "https://www-isl.stanford.edu/~abbas/papers/Dynamic_Locational_Marginal_Emmissions_via_Implicit_Differentiation_journal.pdf",
+      "resolved_url": "https://www-isl.stanford.edu/~abbas/papers/Dynamic_Locational_Marginal_Emmissions_via_Implicit_Differentiation_journal.pdf",
+      "local_path": "raw/dynamic_lme.pdf",
+      "size_bytes": 2231353,
+      "sha256": "daf781e1c414c89751da27a7c409fd91ea332d9ea6a9c1d40f7c19298013dfd2",
+      "format": "pdf",
+      "pdf_pages": 10
+    },
+    {
+      "source_id": "D2",
+      "source_url": "https://www.esdm.go.id/id/berita-unit/direktorat-jenderal-ketenagalistrikan/sosialiasi-pengoperasian-aplikasi-apple-gatrik",
+      "resolved_url": "https://www.esdm.go.id/id/berita-unit/direktorat-jenderal-ketenagalistrikan/sosialiasi-pengoperasian-aplikasi-apple-gatrik",
+      "local_path": "raw/apple_esdm_announcement.html",
+      "size_bytes": 36179,
+      "sha256": "0a5df6e8f88e04f97c0d7ce0a4684006d014adb31f565d403a814245a229c121",
+      "format": "html"
+    },
+    {
+      "source_id": "D2",
+      "source_url": "https://perdagangankarbon-esdm.id/site/bantuan",
+      "resolved_url": "https://perdagangankarbon-esdm.id/site/bantuan",
+      "local_path": "raw/apple_help.html",
+      "size_bytes": 12240,
+      "sha256": "ab1703d2b13e85e2335581bba3e945c538629cf2ec2f151a77d09bfe905a127f",
+      "format": "html"
+    },
+    {
+      "source_id": "M1",
+      "source_url": "https://www.cmu.edu/cedm/tools-for-cedm/marginal-emissions-factors-repository-mefr.html",
+      "resolved_url": "https://www.cmu.edu/cedm/tools-for-cedm/marginal-emissions-factors-repository-mefr.html",
+      "local_path": "raw/siler_author_repository.html",
+      "size_bytes": 15998,
+      "sha256": "36d7da8037cd612c48c97f7d8d5a561ce1d08a63112c98d3a7b4bf3e213bdcf7",
+      "format": "html"
+    },
+    {
+      "source_id": "M2",
+      "source_url": "https://raw.githubusercontent.com/tdeetjen/simple_dispatch/84f14faf36fbaa5721aaaf8ac83c2257c6901658/README.md",
+      "repo": "tdeetjen/simple_dispatch",
+      "commit": "84f14faf36fbaa5721aaaf8ac83c2257c6901658",
+      "local_path": "raw/simple_dispatch_README.md",
+      "size_bytes": 1272,
+      "sha256": "6249db77d5c9c3d115980cadbb5ac2412299adbfe06d33a5f672dae99c6affb4",
+      "format": "upstream source; inspected, not executed"
+    },
+    {
+      "source_id": "M2",
+      "source_url": "https://raw.githubusercontent.com/tdeetjen/simple_dispatch/84f14faf36fbaa5721aaaf8ac83c2257c6901658/simple_dispatch.py",
+      "repo": "tdeetjen/simple_dispatch",
+      "commit": "84f14faf36fbaa5721aaaf8ac83c2257c6901658",
+      "local_path": "raw/simple_dispatch_simple_dispatch.py",
+      "size_bytes": 137857,
+      "sha256": "dde62e5112228db842d6f6a16297aed06effb23da2432c2781299443cdb3ff29",
+      "format": "upstream source; inspected, not executed"
+    },
+    {
+      "source_id": "M4",
+      "source_url": "https://raw.githubusercontent.com/S3researchUSC/MEF-Regression/81a20e83ca179ca62107805d780c5f20fce0def1/README.md",
+      "repo": "S3researchUSC/MEF-Regression",
+      "commit": "81a20e83ca179ca62107805d780c5f20fce0def1",
+      "local_path": "raw/MEF-Regression_README.md",
+      "size_bytes": 1940,
+      "sha256": "4c1696326a539fcd131995a0867c4e19b74dc13e8e71941d935966f852fe8d3c",
+      "format": "upstream source; inspected, not executed"
+    },
+    {
+      "source_id": "M4",
+      "source_url": "https://raw.githubusercontent.com/S3researchUSC/MEF-Regression/81a20e83ca179ca62107805d780c5f20fce0def1/MLP_MEFs.ipynb",
+      "repo": "S3researchUSC/MEF-Regression",
+      "commit": "81a20e83ca179ca62107805d780c5f20fce0def1",
+      "local_path": "raw/MEF-Regression_MLP_MEFs.ipynb",
+      "size_bytes": 317121,
+      "sha256": "552aeb17658a2c2e178ea3984f57f43c5f7a440e248f9d5178997154baf8c3df",
+      "format": "upstream notebook; inspected as JSON, not executed"
+    }
+  ],
+  "access_failures": [
+    {
+      "name": "pln_statistics_2024.pdf",
+      "url": "https://web.pln.co.id/statics/uploads/2025/09/Statistik-PLN-2024-Ind-Eng.pdf",
+      "saved": false,
+      "error": "HTTPSConnectionPool(host='web.pln.co.id', port=443): Max retries exceeded with url: /statics/uploads/2025/09/Statistik-PLN-2024-Ind-Eng.pdf (Caused by NameResolutionError(\"HTTPSConnection(host='web.pln.co.id', port=443): Failed to resolve 'web.pln.co.id' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "name": "apple_gatrik_manual.pdf",
+      "url": "https://gatrik.esdm.go.id/assets/uploads/download_index/files/87d63-2.-pedoman-pengisian-apple-gatrik.pdf",
+      "saved": false,
+      "error": "HTTPSConnectionPool(host='gatrik.esdm.go.id', port=443): Max retries exceeded with url: /assets/uploads/download_index/files/87d63-2.-pedoman-pengisian-apple-gatrik.pdf (Caused by NameResolutionError(\"HTTPSConnection(host='gatrik.esdm.go.id', port=443): Failed to resolve 'gatrik.esdm.go.id' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "name": "pln_information_portal.html",
+      "url": "https://web.pln.co.id/ppid",
+      "saved": false,
+      "error": "HTTPSConnectionPool(host='web.pln.co.id', port=443): Max retries exceeded with url: /ppid (Caused by NameResolutionError(\"HTTPSConnection(host='web.pln.co.id', port=443): Failed to resolve 'web.pln.co.id' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "name": "p3b_portal.html",
+      "url": "https://p3bjawabali.pln.co.id/",
+      "saved": false,
+      "error": "HTTPSConnectionPool(host='p3bjawabali.pln.co.id', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='p3bjawabali.pln.co.id', port=443): Failed to resolve 'p3bjawabali.pln.co.id' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  ],
+  "additional_failures": [
+    {
+      "source_id": "M2",
+      "url": "https://raw.githubusercontent.com/tdeetjen/simple_dispatch/84f14faf36fbaa5721aaaf8ac83c2257c6901658/mefs_from_dispatch.py",
+      "http_status": 404,
+      "note": "Older README filename; not used as evidence"
+    },
+    {
+      "source_id": "D1",
+      "channel": "web fetch",
+      "result": "502 Bad Gateway for official PLN Statistics 2024 URL"
+    },
+    {
+      "source_id": "D2",
+      "channel": "web fetch",
+      "result": "Official manual URL returned loading HTML, not PDF"
+    },
+    {
+      "source_id": "M4",
+      "channel": "web fetch",
+      "result": "Publisher direct open returned 403; indexed publisher summary and author code reviewed"
+    }
+  ],
+  "online_only_sources": [
+    {
+      "source_id": "M1",
+      "url": "https://pubs.acs.org/doi/10.1021/es300145v",
+      "evidence_depth": "Publisher abstract, not full article"
+    },
+    {
+      "source_id": "M2",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.est.9b02500",
+      "evidence_depth": "Publisher abstract, not full article"
+    },
+    {
+      "source_id": "M4",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0959652623040532",
+      "evidence_depth": "Indexed publisher summary, not full article"
+    },
+    {
+      "source_id": "screened_not_core",
+      "url": "https://arxiv.org/html/2310.01524v1",
+      "evidence_depth": "Proposed-direction preprint; not used as completed empirical validation"
+    }
+  ],
+  "notebook_audit": {
+    "local_path": "raw/MEF-Regression_MLP_MEFs.ipynb",
+    "zero_based_cells": {
+      "preprocessing": 11,
+      "coefficient_loss": 17
+    },
+    "features": [
+      "Load",
+      "VRE",
+      "Hour",
+      "Day_of_Year",
+      "Hours_since_2018"
+    ],
+    "split": "Shuffled 60/20/20 assignments in inspected cell; not a conclusion about every paper experiment",
+    "execution": "None; inspected source only"
+  },
+  "decision": "No compatible Jamali interval load–emissions pair or dispatch dataset verified; fitting gate not cleared",
+  "reproduce_integrity_check": "python3 -B mef_research/audit_review_sources.py"
+}

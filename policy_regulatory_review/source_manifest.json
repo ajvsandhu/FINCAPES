@@ -1,0 +1,109 @@
+{
+  "review_date": "2026-11-06",
+  "scope": "Targeted review, not exhaustive legal opinion; original model and source extract unchanged",
+  "archived_sources": [
+    {
+      "title": "Kepmen ESDM 163.K/HK.02/MEM.S/2021",
+      "source_url": "https://jdih.esdm.go.id/common/dokumen-external/Kepmen%20ESDM%20No.%20163.K_HK.02-MEM.S-2021.pdf",
+      "local_path": "raw/kepmen_esdm_163_2021_full.pdf",
+      "sha256": "8ecb92e0ec73c1892507bcee3103ab0e483ff9b0c8a6330f07c684ca3a0ad97f",
+      "size_bytes": 5862338,
+      "pdf_pages": 13,
+      "reviewed_pages": [
+        4,
+        13
+      ],
+      "review_method": "scanned; operative provision and annex footnote visually checked",
+      "acquisition": "Downloaded from official source with requests; byte-preserving local copy",
+      "status_scope": "Provision evidence; not certification of universal current applicability"
+    },
+    {
+      "title": "Permen ESDM 22/2019",
+      "source_url": "https://jdih.esdm.go.id/common/dokumen-external/Permen%20ESDM%20Nomor%2022%20Tahun%202019.pdf",
+      "local_path": "raw/permen_esdm_22_2019.pdf",
+      "sha256": "2cba4e6aa24156df3ae934068ab10853d14bdb8de8e85f5ab43f750d7e2351d6",
+      "size_bytes": 5412809,
+      "pdf_pages": 19,
+      "reviewed_pages": [
+        7,
+        8,
+        9
+      ],
+      "review_method": "scanned; Pasal 8 visually checked",
+      "acquisition": "Downloaded from official source with requests; byte-preserving local copy",
+      "status_scope": "Provision evidence; not certification of universal current applicability"
+    },
+    {
+      "title": "Permen ESDM 16/2022",
+      "source_url": "https://jdih.esdm.go.id/common/dokumen-external/Permen%20ESDM%20No.%2016%20Tahun%202022.pdf",
+      "local_path": "raw/permen_esdm_16_2022.pdf",
+      "sha256": "695fc0048e46311cccd8b83b81febb65ec8368f6464e6b361b0a9165d5cae236",
+      "size_bytes": 3845136,
+      "pdf_pages": 22,
+      "reviewed_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "review_method": "scanned; relevant reporting/offset provisions inspected, online text also consulted",
+      "acquisition": "Downloaded from official source with requests; byte-preserving local copy",
+      "status_scope": "Provision evidence; not certification of universal current applicability"
+    },
+    {
+      "title": "Perpres 110/2025",
+      "source_url": "https://peraturan.go.id/files/perpres-no-110-tahun-2025.pdf",
+      "local_path": "raw/perpres_110_2025.pdf",
+      "sha256": "97bd3ec1fa8df2196f7d910b5905228ad2df41835ecb9166ab758084c5465ff4",
+      "size_bytes": 4527862,
+      "pdf_pages": 68,
+      "reviewed_pages": [
+        54,
+        55,
+        57,
+        58,
+        67,
+        68
+      ],
+      "review_method": "native text; reporting and transition provisions also visually checked",
+      "acquisition": "Downloaded from official source with requests; byte-preserving local copy",
+      "status_scope": "Provision evidence; not certification of universal current applicability"
+    }
+  ],
+  "online_only_sources": [
+    {
+      "title": "Permen LH/BPLH 10/2026",
+      "source_url": "https://peraturan.bpk.go.id/Details/353184/permen-lhbplh-no-10-tahun-2026",
+      "full_text_url": "https://peraturan.bpk.go.id/Download/417062/Permen%20KLHBPH%20Nomor%2010%20Tahun%202026.pdf",
+      "reviewed_provisions": "Official status/dates and Pasal 46 transition, printed p.23",
+      "local_path": null,
+      "acquisition": "Reviewed online; direct local PDF download returned HTTP 403"
+    },
+    {
+      "title": "UNFCCC A6.4-AMT-007 v02.0",
+      "source_url": "https://unfccc.int/sites/default/files/resource/A6.4-AMT-007-v02.0.pdf",
+      "metadata_url": "https://unfccc.int/process-and-meetings/the-paris-agreement/article-6/article-64-pacm/mechanism-process/methodologies/a64-amt-007-emissions-from-electricity-generation-and-consumption",
+      "reviewed_provisions": "Section 5.7.1.4, paras 101–103, printed pp.32–33; official validity/version page",
+      "local_path": null,
+      "acquisition": "Reviewed online; direct download returned HTML challenge, not retained as a PDF"
+    },
+    {
+      "title": "Official SRUK explanatory portal",
+      "source_url": "https://srukindonesia.kemenlh.go.id/about",
+      "local_path": null,
+      "acquisition": "Reviewed online; explanatory portal, not itself a legal instrument"
+    }
+  ],
+  "unresolved": [
+    "Authoritative approved geothermal methodology MSEP-011 text, version and applicability not retrieved",
+    "Full chain of subsequent sector rules and 2026 NDC provisions not exhaustively audited; Permen LH/BPLH 7/2026 discovery lead unverified"
+  ],
+  "original_extract": {
+    "path": "../grid_data_sources/raw/esdm_grid_emission_factors_2019_decree.pdf",
+    "pdf_pages": 7,
+    "note": "Existing table extract preserved; do not confuse with the full 13-page decree"
+  }
+}

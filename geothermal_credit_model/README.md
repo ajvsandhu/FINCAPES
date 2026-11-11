@@ -32,6 +32,12 @@ The high and low estimates result from applying different published factors to t
 
 Results are **gross avoided-emissions potential**, not issued carbon credits. They do not subtract project operational emissions, determine whether a project is additional, establish carbon-market eligibility, or account for monitoring, verification, registry rules, curtailment, transmission losses, or actual commissioning dates. The model uses an assumed capacity factor and a one-year commissioning lag; actual output and timing may differ. It applies historical published factors unchanged across the analysis years to isolate factor-method sensitivity. It therefore does not forecast how grid factors change through 2034.
 
+## Additional commissioning-delay sensitivity
+
+Run `python3 -B geothermal_credit_model/commissioning_delay_sensitivity.py` from the repository root. This separate script reuses the original cohort and factor functions without changing the base model or its outputs. It compares 0, 1 and 2 additional commissioning-delay years, always retaining the existing one-year start lag, 80% capacity factor, 8,760 hours/year, the original grid membership and the 2025–2034 window. It does not combine this timing comparison with the RUPTL replacement-generation scenarios.
+
+Outputs are confined to `output/commissioning_delay/`: retained cohorts, unique annual generation, annual and cumulative factor-specific emissions and reductions, two report-ready PNGs, validation checks, and hashed input snapshots. One additional year reduces cumulative generation and gross emissions by 35.4% in Jamali and 29.6% in Sumatera; two years reduce them by 56.0% and 51.8%. These are scenario assumptions, not predicted delays or lifetime project losses. See [commissioning_delay_notes.md](commissioning_delay_notes.md) for complete results, definitions and reproduction details.
+
 ## Sources
 
 * GENESIS planned unit data and grid mapping in this repository.

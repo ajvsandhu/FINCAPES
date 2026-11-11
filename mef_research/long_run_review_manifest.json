@@ -1,0 +1,101 @@
+{
+  "review_date": "2026-11-10",
+  "scope": "Focused long-run methods extension and bounded Jamali planning-input assessment; no numerical pilot",
+  "snapshots": [
+    {
+      "source_id": "L1",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8873608/",
+      "local_path": "raw/gagnon_cole_2022.html",
+      "size_bytes": 220766,
+      "sha256": "7f9576dcbc88199f722410aed911a37eb46cb460229d46a970f36a3d5781575b",
+      "retrieved_date": "2026-11-10",
+      "format": "html",
+      "expected_text": ["Planning for the evolution of the electric grid", "Limitations of the study", "Model and scenario description", "10.1016/j.isci.2022.103915"]
+    },
+    {
+      "source_id": "L2",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9894150/",
+      "local_path": "raw/gagnon_structural_response_2022.html",
+      "size_bytes": 107621,
+      "sha256": "2d3fdaa01ee358adf2475ced28658b2d72ac9ced08f9925bf7184a31926909ad",
+      "retrieved_date": "2026-11-10",
+      "format": "html",
+      "expected_text": ["Short-run marginal emission rates omit important impacts", "10.1073/pnas.2211624119"]
+    },
+    {
+      "source_id": "L3",
+      "source_url": "https://docs.nlr.gov/docs/fy25osti/93005.pdf",
+      "local_path": "raw/cambium_2024_documentation.pdf",
+      "size_bytes": 2061597,
+      "sha256": "f52654c802a8f9907703d221a9ee52284996e7ad0048e9f9591774dd52d229bf",
+      "retrieved_date": "2026-11-10",
+      "format": "pdf",
+      "pdf_pages": 77,
+      "inspected_pdf_pages": [1, 2, 8, 9, 10, 23, 36, 37, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "visually_checked_pdf_pages": [36]
+    },
+    {
+      "source_id": "L4a",
+      "source_url": "https://genxproject.github.io/GenX.jl/stable/",
+      "local_path": "raw/genx_introduction.html",
+      "size_bytes": 51666,
+      "sha256": "6fcea12cbc0302fd8981d9fae1d9429247da851dacab4b7a1f254c238e4c53a6",
+      "retrieved_date": "2026-11-10",
+      "format": "html",
+      "expected_text": ["GenX"]
+    },
+    {
+      "source_id": "L4b",
+      "source_url": "https://genxproject.github.io/GenX.jl/stable/User_Guide/model_input/",
+      "local_path": "raw/genx_model_inputs.html",
+      "size_bytes": 155509,
+      "sha256": "3062db8abd750c6afc68cfc807f5cd1051064909df62ad17803ce26c9db64f13",
+      "retrieved_date": "2026-11-10",
+      "format": "html",
+      "expected_text": ["Demand_data.csv", "Generators_variability.csv", "Heat_Rate_MMBTU_per_MWh", "Min_Retired_Cap_MW"]
+    },
+    {
+      "source_id": "L4c",
+      "source_url": "https://genxproject.github.io/GenX.jl/stable/limitations_genx/",
+      "local_path": "raw/genx_limitations.html",
+      "size_bytes": 19730,
+      "sha256": "c7bd7e19e05c874593059876b2fabf3eb6cd5a871df6d43565d5c234fdf18360",
+      "retrieved_date": "2026-11-10",
+      "format": "html",
+      "expected_text": ["Limitations of the GenX Model", "perfect"]
+    }
+  ],
+  "repository_inputs": [
+    {
+      "source_id": "L6",
+      "repository_path": "grid_data_sources/raw/ruptl_2025_2034.pdf",
+      "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
+      "acquisition_status": "Existing repository snapshot; not newly downloaded in this extension",
+      "reviewed_date": "2026-11-10",
+      "size_bytes": 51789874,
+      "sha256": "1308ee580c7c1642fe7817e000c87cb2dc87053e1fcef90606dcc1da396fd002",
+      "format": "pdf",
+      "pdf_pages": 1253,
+      "inspected_pdf_pages": [55, 324, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 483, 484, 485, 513],
+      "visually_checked_pdf_pages": [351]
+    }
+  ],
+  "indexed_definition_only": [
+    {
+      "source_id": "L5",
+      "source_url": "https://cdm.unfccc.int/Reference/catalogue/document?doc_id=000004278",
+      "title": "TOOL07: Tool to calculate the emission factor for an electricity system, version 07.0",
+      "version_date": "2018-08-31",
+      "reviewed_sections": "Sections 1–2, paragraphs 1–3: CM, OM and BM definitions",
+      "access_date": "2026-11-10",
+      "evidence_depth": "Official catalogue indexed text; direct HTTP returned challenge HTML; full PDF not acquired"
+    }
+  ],
+  "unresolved_access": [
+    {"url": "https://cdm.unfccc.int/Reference/catalogue/document?doc_id=000004278", "result": "HTTP 200 challenge HTML, not full tool text"},
+    {"url": "https://cdm.unfccc.int/methodologies/PAmethodologies/tools/am-tool-07-v7.0.pdf", "result": "Non-PDF HTML returned; not archived as PDF"},
+    {"url": "https://cdm.unfccc.int/EB/100/eb100_repan04.pdf", "result": "HTTP 200 HTML, not PDF"},
+    {"url": "https://cdm.unfccc.int/methodologies/PAmethodologies/tools/am-tool-07-v7.pdf", "result": "HTTP 200 HTML, not PDF"},
+    {"url": "https://cdm.unfccc.int/methodologies/PAmethodologies/tools/am-tool-07-v07.0.pdf", "result": "HTTP 200 HTML, not PDF"}
+  ]
+}

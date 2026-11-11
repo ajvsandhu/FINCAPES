@@ -1,0 +1,160 @@
+{
+  "files": [
+    {
+      "id": 17412503,
+      "name": "es9b02500_si_001.pdf",
+      "size": 6987845,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/17412503",
+      "supplied_md5": "6acf293a6e2692b16f1c56d9acdbda9b",
+      "computed_md5": "6acf293a6e2692b16f1c56d9acdbda9b",
+      "mimetype": "application/pdf"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 7301129,
+      "full_name": "Thomas A. Deetjen",
+      "first_name": "Thomas A.",
+      "last_name": "Deetjen",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 1704265,
+      "full_name": "Ine\u0302s L. Azevedo",
+      "first_name": "Ine\u0302s L.",
+      "last_name": "Azevedo",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://acs.figshare.com/articles/journal_contribution/Reduced-Order_Dispatch_Model_for_Simulating_Marginal_Emissions_Factors_for_the_United_States_Power_Sector/9722123",
+  "download_disabled": false,
+  "description": "This study develops\na reduced-order power plant dispatch model\nand uses it to simulate marginal emissions factors (MEFs) for the\n2014\u20132017 United States (U.S.) electric grid at the North American\nElectric Reliability Corporation (NERC) regional level. MEFs help\nquantify the health, environmental, and climate change impacts caused\nby changes in marginal net electricity consumption, which could result,\nfor example, from new technologies or policies. This study develops\nthe model, validates it against historical data, and compares its\nsimulated MEFs against historically derived regression-based MEFs.\nOur method accurately reproduces CO<sub>2</sub>, SO<sub>2</sub>, and\nNO<sub><i>x</i></sub> emissions for multiple U.S. NERC regions\nand years and enables us to analyze future scenarios that are absent\nfrom the historical data. Though historically derived regression-based\nMEFs are generally more accurate, our simulated MEFs provide a more\nnuanced picture of how clusters of low- or high-emitting power plants\nof similar production cost create large swings in MEFs throughout\nthe day. Policymakers could use these dynamic MEFs to target demand-reduction\nstrategies at high-emissions portions of the power plant merit order.",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 6987845,
+  "created_date": "2019-08-22T18:34:52Z",
+  "modified_date": "2023-06-20T06:55:01Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 10,
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+  },
+  "tags": [
+    "power plant merit order",
+    "North American Electric Reliability Corporation",
+    "Reduced-Order Dispatch Model",
+    "regression-based MEFs",
+    "target demand-reduction strategies",
+    "reduced-order power plant dispatch model",
+    "CO",
+    "NERC",
+    "United States Power Sector",
+    "climate change impacts",
+    "U.S",
+    "high-emitting power plants"
+  ],
+  "keywords": [
+    "power plant merit order",
+    "North American Electric Reliability Corporation",
+    "Reduced-Order Dispatch Model",
+    "regression-based MEFs",
+    "target demand-reduction strategies",
+    "reduced-order power plant dispatch model",
+    "CO",
+    "NERC",
+    "United States Power Sector",
+    "climate change impacts",
+    "U.S",
+    "high-emitting power plants"
+  ],
+  "categories": [
+    {
+      "id": 272,
+      "title": "Environmental Sciences not elsewhere classified",
+      "parent_id": 33,
+      "path": "",
+      "source_id": "",
+      "taxonomy_id": 10
+    },
+    {
+      "id": 45,
+      "title": "Sociology",
+      "parent_id": 26,
+      "path": "",
+      "source_id": "",
+      "taxonomy_id": 10
+    },
+    {
+      "id": 734,
+      "title": "Biological Sciences not elsewhere classified",
+      "parent_id": 48,
+      "path": "",
+      "source_id": "",
+      "taxonomy_id": 10
+    },
+    {
+      "id": 106,
+      "title": "Science Policy",
+      "parent_id": 40,
+      "path": "",
+      "source_id": "",
+      "taxonomy_id": 10
+    }
+  ],
+  "references": [
+    "https://doi.org/10.1021/acs.est.9b02500"
+  ],
+  "has_linked_file": false,
+  "citation": "Deetjen, Thomas A.; Azevedo, Ine\u0302s L. (2019). Reduced-Order Dispatch\nModel for Simulating Marginal\nEmissions Factors for the United States Power Sector. ACS Publications. Journal contribution. https://doi.org/10.1021/acs.est.9b02500.s001",
+  "related_materials": [
+    {
+      "id": 97502589,
+      "identifier": "10.1021/acs.est.9b02500",
+      "title": "Reduced-Order Dispatch\nModel for Simulating Marginal\nEmissions Factors for the United States Power Sector",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": true,
+      "link": "https://doi.org/10.1021/acs.est.9b02500"
+    }
+  ],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 9722123,
+  "title": "Reduced-Order Dispatch\nModel for Simulating Marginal\nEmissions Factors for the United States Power Sector",
+  "doi": "10.1021/acs.est.9b02500.s001",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/9722123",
+  "published_date": "2019-08-22T18:34:52Z",
+  "thumb": "https://s3-eu-west-1.amazonaws.com/ppreviews-acs-4898564/17412503/thumb.png",
+  "defined_type": 6,
+  "defined_type_name": "journal contribution",
+  "group_id": 2493,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/9722123",
+  "url_public_api": "https://api.figshare.com/v2/articles/9722123",
+  "url_private_html": "https://figshare.com/account/articles/9722123",
+  "url_public_html": "https://acs.figshare.com/articles/journal_contribution/Reduced-Order_Dispatch_Model_for_Simulating_Marginal_Emissions_Factors_for_the_United_States_Power_Sector/9722123",
+  "timeline": {
+    "posted": "2019-08-22T18:34:52",
+    "firstOnline": "2019-08-22"
+  },
+  "resource_title": "Reduced-Order Dispatch\nModel for Simulating Marginal\nEmissions Factors for the United States Power Sector",
+  "resource_doi": "10.1021/acs.est.9b02500"
+}

@@ -1,0 +1,57 @@
+{
+  "analysis_window": [
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034
+  ],
+  "additional_delay_years": [
+    0,
+    1,
+    2
+  ],
+  "existing_commissioning_lag_years": 1,
+  "capacity_factor": 0.8,
+  "hours_per_year": 8760,
+  "generation_start_rule": "original commissioning year + additional delay + existing one-year lag",
+  "percentage_denominator": "Current schedule of the same grid/factor; zero denominators left blank",
+  "versions": {
+    "python": "3.9.6",
+    "pandas": "2.3.3",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  },
+  "inputs": [
+    {
+      "source": "geothermal_grid_mapping/output/planned_additions_by_grid_year.csv",
+      "snapshot": "input_snapshots/planned_additions_by_grid_year.csv",
+      "sha256": "0f7927718248d6005c0edee18ad64c55e7fa00deeb16a557b278a3645be28be4"
+    },
+    {
+      "source": "grid_data_sources/output/esdm_factors_2017_2019_study_grids.csv",
+      "snapshot": "input_snapshots/esdm_factors_2017_2019_study_grids.csv",
+      "sha256": "ffc1943e67dcde5422d2729bfacf0f055fa137e38160232621a5b373921c29fd"
+    },
+    {
+      "source": "geothermal_credit_model/geothermal_credit_model.py",
+      "snapshot": "input_snapshots/geothermal_credit_model.py",
+      "sha256": "8c4a70566c554755f898e731745b262f528ed53ac6055fe5533c82804ebfabd5"
+    },
+    {
+      "source": "geothermal_credit_model/output/planned_geothermal_credit_potential_by_year.csv",
+      "snapshot": "input_snapshots/planned_geothermal_credit_potential_by_year.csv",
+      "sha256": "0b95c5ab18089f03507e74a58d129f3efd885917018f7c6375726d222ce9e979"
+    },
+    {
+      "source": "geothermal_credit_model/output/planned_geothermal_credit_potential_summary.csv",
+      "snapshot": "input_snapshots/planned_geothermal_credit_potential_summary.csv",
+      "sha256": "6effaa47015ba08a405c74e9bc80cc492e8f9af98fdbcb6cf600e63e0757ac63"
+    }
+  ]
+}

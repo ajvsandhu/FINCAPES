@@ -1,0 +1,55 @@
+commissioning_year,grid,capacity_added_mw,generation_start_year,additional_delay_years,schedule_case,delayed_commissioning_year,full_generation_years_in_window,starts_after_window,estimated_generation_mwh
+2025,Jamali,45.0,2026,0,Current schedule,2025,9,False,2838240.0
+2026,Jamali,125.0,2027,0,Current schedule,2026,8,False,7008000.0
+2027,Jamali,140.0,2028,0,Current schedule,2027,7,False,6867840.0
+2028,Jamali,80.0,2029,0,Current schedule,2028,6,False,3363840.0
+2029,Jamali,25.0,2030,0,Current schedule,2029,5,False,876000.0
+2030,Jamali,280.0,2031,0,Current schedule,2030,4,False,7848960.0
+2031,Jamali,390.0,2032,0,Current schedule,2031,3,False,8199360.0
+2032,Jamali,378.0,2033,0,Current schedule,2032,2,False,5298048.0
+2033,Jamali,1040.0,2034,0,Current schedule,2033,1,False,7288320.0
+2025,Sumatera,88.0,2026,0,Current schedule,2025,9,False,5550336.0
+2026,Sumatera,0.0,2027,0,Current schedule,2026,8,False,0.0
+2027,Sumatera,105.0,2028,0,Current schedule,2027,7,False,5150880.0
+2028,Sumatera,190.0,2029,0,Current schedule,2028,6,False,7989120.0
+2029,Sumatera,0.0,2030,0,Current schedule,2029,5,False,0.0
+2030,Sumatera,244.0,2031,0,Current schedule,2030,4,False,6839808.0
+2031,Sumatera,875.0,2032,0,Current schedule,2031,3,False,18396000.0
+2032,Sumatera,0.0,2033,0,Current schedule,2032,2,False,0.0
+2033,Sumatera,505.0,2034,0,Current schedule,2033,1,False,3539040.0
+2025,Jamali,45.0,2027,1,Additional 1-year delay,2026,8,False,2522880.0
+2026,Jamali,125.0,2028,1,Additional 1-year delay,2027,7,False,6132000.0
+2027,Jamali,140.0,2029,1,Additional 1-year delay,2028,6,False,5886720.0
+2028,Jamali,80.0,2030,1,Additional 1-year delay,2029,5,False,2803200.0
+2029,Jamali,25.0,2031,1,Additional 1-year delay,2030,4,False,700800.0
+2030,Jamali,280.0,2032,1,Additional 1-year delay,2031,3,False,5886720.0
+2031,Jamali,390.0,2033,1,Additional 1-year delay,2032,2,False,5466240.0
+2032,Jamali,378.0,2034,1,Additional 1-year delay,2033,1,False,2649024.0
+2033,Jamali,1040.0,2035,1,Additional 1-year delay,2034,0,True,0.0
+2025,Sumatera,88.0,2027,1,Additional 1-year delay,2026,8,False,4933632.0
+2026,Sumatera,0.0,2028,1,Additional 1-year delay,2027,7,False,0.0
+2027,Sumatera,105.0,2029,1,Additional 1-year delay,2028,6,False,4415040.0
+2028,Sumatera,190.0,2030,1,Additional 1-year delay,2029,5,False,6657600.0
+2029,Sumatera,0.0,2031,1,Additional 1-year delay,2030,4,False,0.0
+2030,Sumatera,244.0,2032,1,Additional 1-year delay,2031,3,False,5129856.0
+2031,Sumatera,875.0,2033,1,Additional 1-year delay,2032,2,False,12264000.0
+2032,Sumatera,0.0,2034,1,Additional 1-year delay,2033,1,False,0.0
+2033,Sumatera,505.0,2035,1,Additional 1-year delay,2034,0,True,0.0
+2025,Jamali,45.0,2028,2,Additional 2-year delay,2027,7,False,2207520.0
+2026,Jamali,125.0,2029,2,Additional 2-year delay,2028,6,False,5256000.0
+2027,Jamali,140.0,2030,2,Additional 2-year delay,2029,5,False,4905600.0
+2028,Jamali,80.0,2031,2,Additional 2-year delay,2030,4,False,2242560.0
+2029,Jamali,25.0,2032,2,Additional 2-year delay,2031,3,False,525600.0
+2030,Jamali,280.0,2033,2,Additional 2-year delay,2032,2,False,3924480.0
+2031,Jamali,390.0,2034,2,Additional 2-year delay,2033,1,False,2733120.0
+2032,Jamali,378.0,2035,2,Additional 2-year delay,2034,0,True,0.0
+2033,Jamali,1040.0,2036,2,Additional 2-year delay,2035,0,True,0.0
+2025,Sumatera,88.0,2028,2,Additional 2-year delay,2027,7,False,4316928.0
+2026,Sumatera,0.0,2029,2,Additional 2-year delay,2028,6,False,0.0
+2027,Sumatera,105.0,2030,2,Additional 2-year delay,2029,5,False,3679200.0
+2028,Sumatera,190.0,2031,2,Additional 2-year delay,2030,4,False,5326080.0
+2029,Sumatera,0.0,2032,2,Additional 2-year delay,2031,3,False,0.0
+2030,Sumatera,244.0,2033,2,Additional 2-year delay,2032,2,False,3419904.0
+2031,Sumatera,875.0,2034,2,Additional 2-year delay,2033,1,False,6132000.0
+2032,Sumatera,0.0,2035,2,Additional 2-year delay,2034,0,True,0.0
+2033,Sumatera,505.0,2036,2,Additional 2-year delay,2035,0,True,0.0

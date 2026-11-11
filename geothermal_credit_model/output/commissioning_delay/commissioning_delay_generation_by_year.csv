@@ -1,0 +1,61 @@
+grid,additional_delay_years,schedule_case,analysis_year,capacity_factor,hours_per_year,operating_planned_capacity_mw,estimated_generation_mwh,cumulative_generation_mwh
+Jamali,0,Current schedule,2025,0.8,8760,0.0,0.0,0.0
+Jamali,0,Current schedule,2026,0.8,8760,45.0,315360.0,315360.0
+Jamali,0,Current schedule,2027,0.8,8760,170.0,1191360.0,1506720.0
+Jamali,0,Current schedule,2028,0.8,8760,310.0,2172480.0,3679200.0
+Jamali,0,Current schedule,2029,0.8,8760,390.0,2733120.0,6412320.0
+Jamali,0,Current schedule,2030,0.8,8760,415.0,2908320.0,9320640.0
+Jamali,0,Current schedule,2031,0.8,8760,695.0,4870560.0,14191200.0
+Jamali,0,Current schedule,2032,0.8,8760,1085.0,7603680.0,21794880.0
+Jamali,0,Current schedule,2033,0.8,8760,1463.0,10252704.0,32047584.0
+Jamali,0,Current schedule,2034,0.8,8760,2503.0,17541024.0,49588608.0
+Jamali,1,Additional 1-year delay,2025,0.8,8760,0.0,0.0,0.0
+Jamali,1,Additional 1-year delay,2026,0.8,8760,0.0,0.0,0.0
+Jamali,1,Additional 1-year delay,2027,0.8,8760,45.0,315360.0,315360.0
+Jamali,1,Additional 1-year delay,2028,0.8,8760,170.0,1191360.0,1506720.0
+Jamali,1,Additional 1-year delay,2029,0.8,8760,310.0,2172480.0,3679200.0
+Jamali,1,Additional 1-year delay,2030,0.8,8760,390.0,2733120.0,6412320.0
+Jamali,1,Additional 1-year delay,2031,0.8,8760,415.0,2908320.0,9320640.0
+Jamali,1,Additional 1-year delay,2032,0.8,8760,695.0,4870560.0,14191200.0
+Jamali,1,Additional 1-year delay,2033,0.8,8760,1085.0,7603680.0,21794880.0
+Jamali,1,Additional 1-year delay,2034,0.8,8760,1463.0,10252704.0,32047584.0
+Jamali,2,Additional 2-year delay,2025,0.8,8760,0.0,0.0,0.0
+Jamali,2,Additional 2-year delay,2026,0.8,8760,0.0,0.0,0.0
+Jamali,2,Additional 2-year delay,2027,0.8,8760,0.0,0.0,0.0
+Jamali,2,Additional 2-year delay,2028,0.8,8760,45.0,315360.0,315360.0
+Jamali,2,Additional 2-year delay,2029,0.8,8760,170.0,1191360.0,1506720.0
+Jamali,2,Additional 2-year delay,2030,0.8,8760,310.0,2172480.0,3679200.0
+Jamali,2,Additional 2-year delay,2031,0.8,8760,390.0,2733120.0,6412320.0
+Jamali,2,Additional 2-year delay,2032,0.8,8760,415.0,2908320.0,9320640.0
+Jamali,2,Additional 2-year delay,2033,0.8,8760,695.0,4870560.0,14191200.0
+Jamali,2,Additional 2-year delay,2034,0.8,8760,1085.0,7603680.0,21794880.0
+Sumatera,0,Current schedule,2025,0.8,8760,0.0,0.0,0.0
+Sumatera,0,Current schedule,2026,0.8,8760,88.0,616704.0,616704.0
+Sumatera,0,Current schedule,2027,0.8,8760,88.0,616704.0,1233408.0
+Sumatera,0,Current schedule,2028,0.8,8760,193.0,1352544.0,2585952.0
+Sumatera,0,Current schedule,2029,0.8,8760,383.0,2684064.0,5270016.0
+Sumatera,0,Current schedule,2030,0.8,8760,383.0,2684064.0,7954080.0
+Sumatera,0,Current schedule,2031,0.8,8760,627.0,4394016.0,12348096.0
+Sumatera,0,Current schedule,2032,0.8,8760,1502.0,10526016.0,22874112.0
+Sumatera,0,Current schedule,2033,0.8,8760,1502.0,10526016.0,33400128.0
+Sumatera,0,Current schedule,2034,0.8,8760,2007.0,14065056.0,47465184.0
+Sumatera,1,Additional 1-year delay,2025,0.8,8760,0.0,0.0,0.0
+Sumatera,1,Additional 1-year delay,2026,0.8,8760,0.0,0.0,0.0
+Sumatera,1,Additional 1-year delay,2027,0.8,8760,88.0,616704.0,616704.0
+Sumatera,1,Additional 1-year delay,2028,0.8,8760,88.0,616704.0,1233408.0
+Sumatera,1,Additional 1-year delay,2029,0.8,8760,193.0,1352544.0,2585952.0
+Sumatera,1,Additional 1-year delay,2030,0.8,8760,383.0,2684064.0,5270016.0
+Sumatera,1,Additional 1-year delay,2031,0.8,8760,383.0,2684064.0,7954080.0
+Sumatera,1,Additional 1-year delay,2032,0.8,8760,627.0,4394016.0,12348096.0
+Sumatera,1,Additional 1-year delay,2033,0.8,8760,1502.0,10526016.0,22874112.0
+Sumatera,1,Additional 1-year delay,2034,0.8,8760,1502.0,10526016.0,33400128.0
+Sumatera,2,Additional 2-year delay,2025,0.8,8760,0.0,0.0,0.0
+Sumatera,2,Additional 2-year delay,2026,0.8,8760,0.0,0.0,0.0
+Sumatera,2,Additional 2-year delay,2027,0.8,8760,0.0,0.0,0.0
+Sumatera,2,Additional 2-year delay,2028,0.8,8760,88.0,616704.0,616704.0
+Sumatera,2,Additional 2-year delay,2029,0.8,8760,88.0,616704.0,1233408.0
+Sumatera,2,Additional 2-year delay,2030,0.8,8760,193.0,1352544.0,2585952.0
+Sumatera,2,Additional 2-year delay,2031,0.8,8760,383.0,2684064.0,5270016.0
+Sumatera,2,Additional 2-year delay,2032,0.8,8760,383.0,2684064.0,7954080.0
+Sumatera,2,Additional 2-year delay,2033,0.8,8760,627.0,4394016.0,12348096.0
+Sumatera,2,Additional 2-year delay,2034,0.8,8760,1502.0,10526016.0,22874112.0

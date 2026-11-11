@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "years_checked": 10,
+  "system_scenario_years_checked": 20,
+  "legacy_sales_agreement": "exact",
+  "legacy_generation_max_absolute_component_residual_gwh": 2.0,
+  "source_field_differences_preserved": [
+    {
+      "year": 2031,
+      "field": "gross_peak_mw",
+      "ared_minus_re_base": -1.0
+    }
+  ],
+  "pdf_extractor_version": "1.26.5",
+  "matplotlib_version": "3.9.4",
+  "limits": "Integrity and reconciliation checks, not model validation or emissions accuracy"
+}
