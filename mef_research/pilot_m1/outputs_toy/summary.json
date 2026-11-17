@@ -1,0 +1,25 @@
+{
+  "disclaimer": "ILLUSTRATIVE SYNTHETIC EXAMPLE \u2014 NOT A JAMALI MEF",
+  "input": "/Users/ajay/Github REPOS/FINCAPES/mef_research/pilot_m1/toy_data/toy_interval_operations.csv",
+  "emissions_construction": "provided_co2_tonnes",
+  "n_intervals_after_diff": 17567,
+  "train_fraction": 0.75,
+  "train_fit": {
+    "alpha": 0.023065137953072624,
+    "beta_tco2_per_mwh": 0.4681019734434945,
+    "se_beta": 0.0014337388745025333,
+    "r2": 0.8900132562055917,
+    "n": 13175,
+    "resid_sd": 21.904901737100264
+  },
+  "test_refit": {
+    "alpha": -0.04146348064515186,
+    "beta_tco2_per_mwh": 0.5695868144526546,
+    "se_beta": 0.0037806261911373998,
+    "r2": 0.8379371135279223,
+    "n": 4392,
+    "resid_sd": 33.391027239164444
+  },
+  "test_r2_using_train_beta": 0.8113354248413968,
+  "jamali_mef_claim_allowed": false
+}

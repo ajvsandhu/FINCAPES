@@ -1,0 +1,8 @@
+name,fuel,nphr_kcal_per_net_kwh,illustrative_var_cost_usd_per_mwh,illustrative_tco2_per_mwh,cartoon_capacity_mw,stack_mw_end,stack_mw_start
+Geothermal (must-run cartoon),geo,0.0,0.0,0.0,700.0,700.0,0.0
+UP Tanjung Awar-Awar,coal,2790.36,27.68214285714286,1.0,500.0,1200.0,700.0
+UP Paiton,coal,2808.25,27.859623015873012,1.0,500.0,1700.0,1200.0
+UP Pacitan,coal,2857.42,28.347420634920635,1.0,500.0,2200.0,1700.0
+UP Rembang,coal,2914.85,28.9171626984127,1.0,500.0,2700.0,2200.0
+UP Indramayu,coal,2951.33,29.279067460317457,1.0,500.0,3200.0,2700.0
+UP Muara Karang,gas,1969.34,62.51873015873016,0.42,800.0,4000.0,3200.0

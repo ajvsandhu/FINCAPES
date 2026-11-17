@@ -1,0 +1,26 @@
+{
+  "disclaimer": "ILLUSTRATIVE JAMALI MERIT-ORDER CARTOON \u2014 NOT A MEF",
+  "assumptions": {
+    "coal_usd_per_mmbtu": 2.5,
+    "gas_usd_per_mmbtu": 8.0,
+    "kcal_per_mmbtu": 252.0,
+    "coal_tco2_per_mwh_proxy": 1.0,
+    "gas_tco2_per_mwh_proxy": 0.42
+  },
+  "night": {
+    "demand_mw": 2200.0,
+    "marginal_plant": "UP Pacitan",
+    "marginal_fuel": "coal",
+    "illustrative_mef_tco2_per_mwh": 1.0,
+    "illustrative_var_cost_usd_per_mwh": 28.347420634920635
+  },
+  "peak": {
+    "demand_mw": 4200.0,
+    "marginal_plant": "UP Muara Karang",
+    "marginal_fuel": "gas",
+    "illustrative_mef_tco2_per_mwh": 0.42,
+    "illustrative_var_cost_usd_per_mwh": 62.51873015873016,
+    "note": "demand above cartoon stack; last unit treated as marginal"
+  },
+  "source_heat_rates": "/Users/ajay/Github REPOS/FINCAPES/mef_research/output/jamali_inventory/annual_operating_characteristics.csv"
+}

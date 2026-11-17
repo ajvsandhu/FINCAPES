@@ -1,0 +1,74 @@
+{
+  "disclaimer": "PUBLIC EIA-930 DEMO \u2014 NOT A JAMALI MEF",
+  "period": "2024-01 to 2024-06",
+  "bas": [
+    "CISO",
+    "ERCO",
+    "MISO",
+    "PJM"
+  ],
+  "co2": "constructed from fuel generation x constant intensities",
+  "train_fraction": 0.75,
+  "summary": [
+    {
+      "ba": "CISO",
+      "n_hours": 4367,
+      "n_train": 3274,
+      "aef_tco2_per_mwh": 0.13909372408167353,
+      "demand_mef_tco2_per_mwh": 0.1801816033768262,
+      "demand_mef_se": 0.0046589356545896675,
+      "demand_mef_r2": 0.3137166839670893,
+      "demand_mef_test_r2": 0.38522686089744673,
+      "fossil_mef_tco2_per_mwh": 0.4124901373858278,
+      "fossil_mef_se": 0.0012016331282866278,
+      "fossil_mef_r2": 0.9729831166654427,
+      "aef_minus_demand_mef_pct": -22.803592889126843,
+      "coal_share_of_fossil": 0.0
+    },
+    {
+      "ba": "ERCO",
+      "n_hours": 4367,
+      "n_train": 3274,
+      "aef_tco2_per_mwh": 0.28259981080819135,
+      "demand_mef_tco2_per_mwh": 0.47458972215621986,
+      "demand_mef_se": 0.013224620583461466,
+      "demand_mef_r2": 0.2824348383687515,
+      "demand_mef_test_r2": 0.24336041515118023,
+      "fossil_mef_tco2_per_mwh": 0.5387087249774292,
+      "fossil_mef_se": 0.0017423095202632106,
+      "fossil_mef_r2": 0.9669066713616761,
+      "aef_minus_demand_mef_pct": -40.45387044535101,
+      "coal_share_of_fossil": 0.21437760855691335
+    },
+    {
+      "ba": "MISO",
+      "n_hours": 4368,
+      "n_train": 3275,
+      "aef_tco2_per_mwh": 0.40175647877571113,
+      "demand_mef_tco2_per_mwh": 0.619773349102955,
+      "demand_mef_se": 0.0070741958591359925,
+      "demand_mef_r2": 0.701057332060472,
+      "demand_mef_test_r2": 0.7431142666205817,
+      "fossil_mef_tco2_per_mwh": 0.669470237035263,
+      "fossil_mef_se": 0.002234073837738925,
+      "fossil_mef_r2": 0.9648333648319425,
+      "aef_minus_demand_mef_pct": -35.1768708097559,
+      "coal_share_of_fossil": 0.3960058528013428
+    },
+    {
+      "ba": "PJM",
+      "n_hours": 4367,
+      "n_train": 3274,
+      "aef_tco2_per_mwh": 0.33650113515633734,
+      "demand_mef_tco2_per_mwh": 0.33541510647806255,
+      "demand_mef_se": 0.008170637290555019,
+      "demand_mef_r2": 0.33995096530332314,
+      "demand_mef_test_r2": 0.5826473617542332,
+      "fossil_mef_tco2_per_mwh": 0.5389329369592781,
+      "fossil_mef_se": 0.0021296384552968676,
+      "fossil_mef_r2": 0.951391217766502,
+      "aef_minus_demand_mef_pct": 0.32378645365092307,
+      "coal_share_of_fossil": 0.2530049349366283
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "disclaimer": "PUBLIC EIA-930 ERCO DEMO \u2014 NOT A JAMALI MEF",
+  "input": "mef_research/pilot_m1/public_demo/erco_2024H1_interval_operations.csv",
+  "emissions_construction": "provided_co2_tonnes",
+  "n_intervals_after_diff": 4366,
+  "train_fraction": 0.75,
+  "train_fit": {
+    "alpha": -0.6485691938077867,
+    "beta_tco2_per_mwh": 0.47458972215621986,
+    "se_beta": 0.013224620583461466,
+    "r2": 0.2824348383687515,
+    "n": 3274,
+    "resid_sd": 1055.2438052191867
+  },
+  "test_refit": {
+    "alpha": 1.2976626618982414,
+    "beta_tco2_per_mwh": 0.30546479974306523,
+    "se_beta": 0.012582740606231133,
+    "r2": 0.3509386003454166,
+    "n": 1092,
+    "resid_sd": 960.9034021387628
+  },
+  "test_r2_using_train_beta": 0.24336041515118023,
+  "jamali_mef_claim_allowed": "only_after_review_of_real_uip2b_inputs"
+}

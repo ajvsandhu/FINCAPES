@@ -1,0 +1,64 @@
+[
+  {
+    "ba": "MISO",
+    "hourly": {
+      "beta": 0.5991604953635323,
+      "r2": 0.7180232366712307,
+      "n": 4367,
+      "se": 0.005683141354013031
+    },
+    "daily": {
+      "beta": 0.46844737495451433,
+      "r2": 0.5794918028950609,
+      "n": 182,
+      "se": 0.029743230829130045
+    },
+    "monthly": {
+      "beta": 0.4321291536890653,
+      "r2": 0.9293585474925786,
+      "n": 6,
+      "se": 0.05956919522578098
+    },
+    "annual_like": {
+      "beta": NaN,
+      "r2": NaN,
+      "n": 1,
+      "se": NaN,
+      "note": "single aggregate period; regression of changes impossible"
+    },
+    "n_hourly": 4368,
+    "n_daily": 183,
+    "n_monthly": 7
+  },
+  {
+    "ba": "CISO",
+    "hourly": {
+      "beta": 0.1857057430587045,
+      "r2": 0.3356133589173338,
+      "n": 4366,
+      "se": 0.003955248639637179
+    },
+    "daily": {
+      "beta": 0.1584467714579282,
+      "r2": 0.461517741344023,
+      "n": 182,
+      "se": 0.012756708777023814
+    },
+    "monthly": {
+      "beta": 0.11020848973659346,
+      "r2": 0.8098125211854019,
+      "n": 6,
+      "se": 0.026704458270784426
+    },
+    "annual_like": {
+      "beta": NaN,
+      "r2": NaN,
+      "n": 1,
+      "se": NaN,
+      "note": "single aggregate period; regression of changes impossible"
+    },
+    "n_hourly": 4367,
+    "n_daily": 183,
+    "n_monthly": 7
+  }
+]

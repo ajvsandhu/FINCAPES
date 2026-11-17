@@ -1,0 +1,289 @@
+<html>
+<head>
+<style>
+body { font-family: sans-serif; font-size: 10pt; line-height: 1.35; }
+h1 { font-size: 17pt; margin-bottom: 2pt; }
+h2 { font-size: 13pt; margin-top: 14pt; }
+h3 { font-size: 11pt; margin-top: 10pt; }
+p { margin-top: 0; margin-bottom: 6pt; text-align: justify; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 8pt; }
+th, td { border: 1px solid #888; padding: 3pt; font-size: 8.5pt; vertical-align: top; text-align: left; }
+th { background-color: #e6e6e6; }
+.meta { color: #555; font-size: 9pt; }
+.box { border: 1px solid #999; background-color: #f4f4f4; padding: 6pt; margin-bottom: 8pt; }
+li { margin-bottom: 3pt; }
+.ref { font-size: 8.5pt; margin-bottom: 3pt; text-align: left; }
+figure { margin: 8pt 0 10pt 0; text-align: center; }
+figure img { max-width: 100%; height: auto; }
+figcaption { font-size: 8pt; color: #333; text-align: left; margin-top: 3pt; line-height: 1.3; }
+.warn { border: 1px solid #a35d4a; background-color: #f8ece8; padding: 6pt; margin: 8pt 0; }
+</style>
+</head>
+<body>
+
+<h1>Estimating Marginal Emission Factors for the Jawa–Madura–Bali (Jamali) Grid: Methods, Data Requirements and Readiness</h1>
+<p class="meta">ROUGH DRAFT — 16 November 2026. Working report; not peer reviewed. Supporting files, source snapshots and reproducibility scripts are in the project repository (mef_research/).</p>
+
+<div class="box">
+<p><b>Central idea.</b> Before Indonesia can consider using marginal emission factors (MEFs), what data, variables and modelling methods would be needed to estimate them credibly for an Indonesian electricity grid?</p>
+<p><b>Research question.</b> What data and modelling approaches would be needed to estimate the short- and long-run marginal emissions effects of geothermal development in Jamali, and how could these inform assessment of the combined-margin (CM) approach?</p>
+<p><b>Scope.</b> A defensible pathway towards estimating MEFs for Jamali: suitable methods, necessary variables, available evidence, remaining gaps and recommendations for enabling future implementation.</p>
+</div>
+
+<h2>Summary of findings</h2>
+<ul>
+<li>MEFs are conceptually suited to assessing the emissions consequences of a change such as new geothermal supply, but this does not by itself make an estimated MEF more accurate than the CM or justify replacing it.</li>
+<li>No universal predictor set exists: data needs depend on the response being estimated and the method. Every reviewed short-run method requires time-aligned operating records (demand, generation by unit or fuel, and emissions or fuel data).</li>
+<li>Official Indonesian publications provide useful annual balances, fuel use, fuel prices, planning tables and partial fleet characteristics. A source-backed partial generator register for Jamali has been built, with explicit alias and boundary crosswalks.</li>
+<li>No openly accessible, time-aligned Jamali demand–generation–emissions dataset has been verified. Half-hourly system load is held by PLN's Java–Bali dispatch centre (UIP2B) and has been used in studies, but is unpublished.</li>
+<li><b>No numerical Jamali MEF is supported yet.</b> The recommended first pilot is a historical-regression short-run MEF, conditional on obtaining one year of half-hourly UIP2B data. Long-run modelling is a separate, larger programme.</li>
+<li>A ready M1 pilot scaffold now exists in the repository. It has been dry-run on synthetic data and on public U.S. EIA-930 data for CISO, ERCO, MISO and PJM. Those outputs are method demonstrations only and are not Jamali MEFs.</li>
+<li>Published U.S. regional MEFs differ substantially (about 486–834 kgCO₂/MWh in Siler-Evans, 2012), and average factors can misestimate avoided CO₂ by up to about 35% in some regions. The public demos reproduce the same qualitative lessons: AEF can diverge from MEF, demand-based and fossil-generation MEFs differ, and coal-heavier systems show higher responses. This supports building local Jamali estimation capacity; it does not transfer foreign MEF values to Indonesia or require replacing CM.</li>
+<li>Additional illustrations: a data-gap simulation shows annual aggregates cannot support short-run MEF regression; a toy with/without geothermal example shows time-varying displacement; and a stylised Jamali merit-order cartoon (NP heat rates + assumed prices) contrasts night coal vs peak gas margins. None of these is a numerical Jamali MEF.</li>
+</ul>
+
+<h2>1. Data requirements</h2>
+<p>The table below is a proposed minimum specification for a credible Indonesian study, rather than a claim that all these data are publicly available. Not every method needs every row: a statistical regression needs far less than a network-resolved dispatch model (see Section 3).</p>
+<table>
+<tr><th>Data category</th><th>Required variables</th><th>Why they matter</th></tr>
+<tr><td>Demand and dispatch</td><td>Hourly or finer demand; unit-level net generation; dispatch instructions; unit commitment status; imports and exports; load shedding</td><td>Identifies which generators actually respond to changes in load</td></tr>
+<tr><td>Fuel and emissions</td><td>Unit-level fuel consumption; fuel type, calorific value and carbon content; measured emissions where reliable; heat-rate curves; start-up fuel</td><td>Estimates incremental emissions, including changes in efficiency at partial load</td></tr>
+<tr><td>Generator constraints</td><td>Available capacity, minimum stable output, ramp rates, minimum up/down times, start-up times, planned maintenance and forced outages</td><td>Determines which units can increase or decrease output</td></tr>
+<tr><td>Operating costs and contracts</td><td>Delivered fuel prices, variable operating costs, applicable emissions costs, power-purchase obligations, fuel take-or-pay provisions and dispatch priorities</td><td>Reconstructs actual dispatch incentives and restrictions</td></tr>
+<tr><td>Network</td><td>Electrical connectivity, transmission limits, congestion, outages, interconnector flows and marginal losses</td><td>Establishes whether an additional MWh can be served by a distant plant or requires a local response</td></tr>
+<tr><td>Renewables, hydro and storage</td><td>Weather-linked renewable availability and curtailment; reservoir inflows, levels and water constraints; storage charge/discharge, efficiency and state of charge</td><td>Captures responses that move generation and emissions between hours</td></tr>
+<tr><td>Demand drivers</td><td>Temperature, calendar effects, holidays, industrial schedules and distributed generation</td><td>Helps separate demand-driven changes from other influences in statistical estimation</td></tr>
+<tr><td>Future system development</td><td>Demand scenarios, committed and candidate projects, retirements, investment costs, fuel availability, transmission expansion and policy constraints</td><td>Required for prospective and long-run estimates</td></tr>
+</table>
+
+<h2>2. Initial review of MEF estimation methods</h2>
+<h3>2.1 Purpose of the review</h3>
+<p>The first stage of this research examined how MEFs are estimated and what information would be needed to apply suitable methods to the Jamali electricity system. The objective was to identify a defensible starting approach and assess data requirements before selecting or training a model.</p>
+<p>A marginal emission factor describes how much emissions change when a small amount of electricity is added to or removed from the system's demand. It matters because it connects a change in electricity use or supply to the resulting change in emissions.</p>
+<p>The initial review focused on short-run MEFs: how much electricity-system emissions change when electricity use or supply changes slightly, using the power plants already available. Long-run marginal effects also account for changes in which power plants are built, retained or retired. Because geothermal projects supply electricity over many years, the research considers both short-run operating responses and long-run changes in the electricity system.</p>
+<p>An average emission factor describes emissions per unit of electricity across the whole generation mix. However, it may not represent the emissions caused or avoided by a change, because generators do not necessarily adjust their output in proportion to that mix. MEFs aim to capture the system's response, making them conceptually more suitable for assessing the consequences of a change when the method matches the intervention and time horizon. This does not automatically make an estimated MEF more accurate or justify replacing the CM. The CM already combines an operating margin and a build margin to represent effects on existing and prospective generation. The research therefore examines what additional information marginal approaches could provide and what evidence would be needed to support their use.</p>
+
+<h3>2.2 Methods examined</h3>
+<p>The review examined four research examples and one government modelling manual, covering historical regression, reduced-order dispatch modelling, dynamic network-aware modelling and machine-learning-assisted approaches. This was a focused comparison rather than an exhaustive literature review. The evidence inspected differed between sources (a dissertation chapter based on a published study, official supporting information, a full research paper, a government manual and author-provided code); findings from supporting documents or code are not presented as a complete review of the corresponding journal article.</p>
+
+<p><b>Historical regression.</b> Siler-Evans, Azevedo and Morgan (2012) show how historical records can help estimate marginal emissions. Chapter 2 of Siler-Evans's dissertation compares hour-to-hour changes in fossil-fuel generation with changes in emissions, including differences by month and time of day (Siler-Evans, 2012, pp.8–11). However, fossil generation can change because of demand, renewable output or electricity imports. The study does not account for interregional exchanges and discusses limitations involving hydro and renewable curtailment (Siler-Evans, 2012, pp.26–30). For Jamali, this offers a possible starting method. It would need matching hourly records and evidence explaining why generation changes. It could help estimate how existing plants respond, but not how geothermal development affects future plant construction or retirement.</p>
+
+<p><b>Reduced-order dispatch modelling.</b> Deetjen and Azevedo (2019) model generator dispatch instead. Their author code constructs a merit order—the sequence in which generators are selected to supply electricity—using operating characteristics, and defines its response series from recorded fossil generation. Their supporting information documents operating-cost assumptions and an approximation to coal-plant minimum downtime, representing the possibility that a generator remains at minimum output rather than shutting down and restarting. Identifying a plant as "coal" or "gas" is therefore not sufficient to describe how it responds (Deetjen &amp; Azevedo, 2019, SI pp.S1–S3). The supporting information examines total emissions, MEFs and prices separately; its findings do not support a universal claim that greater model complexity produces greater accuracy for every outcome, and its discussion of regional trade does not independently validate how exchanges change after an intervention (SI pp.S4–S8). For Jamali, a dispatch approach would require evidence on generator availability, operating costs, efficiency, emissions and constraints; annual generation totals alone do not establish these.</p>
+
+<p><b>Dynamic and network-aware modelling.</b> Fuentes Valenzuela et al. (2024) calculate marginal emissions by examining how an optimisation-based dispatch model responds to a small change in demand. Their framework can represent transmission constraints and dependencies across time, including storage and ramping. The paper distinguishes two kinds of evidence: a historical Western U.S. exercise that omits transmission constraints (data unavailable) and compares model-implied with observed hourly emissions changes, and a separate network simulation of location-dependent responses (§IV-A–B, pp.1142–1143). Neither is equivalent to directly observing a geothermal project's avoided emissions. Comparable location-specific modelling for Jamali would require local transmission and operating information.</p>
+
+<p><b>Machine-learning-assisted modelling.</b> Mayes, Klein and Sanders (2024) investigate a neural-network/linear-composite approach for CAISO. Because the full article methods were not retrieved, the detailed assessment concerns the archived author notebook. Its features include load, variable renewable generation and time information; the model learns coefficients that multiply changes in load and renewable output to reconstruct observed emissions changes, so it does not train against observed "ideal MEF" labels (S3researchUSC, n.d., cells 11 and 17). The notebook uses shuffled training, validation and test assignments while fitting preprocessing on training rows; these checks do not establish that learned coefficients are causal MEFs or demonstrate forecasting on a strictly later period (cells 11 and 21). For a Jamali forecasting pilot, chronological evaluation and checks on predictor availability would be necessary. Reliable emissions observations would still be required: machine learning cannot replace missing operational evidence.</p>
+
+<p><b>Historical-hourly tools.</b> The U.S. EPA's AVERT manual groups historical hours by regional fossil-generation level and uses unit operation, generation, heat input and emissions. Documented limitations include no explicit ramping or cycling response, constant interregional exchanges as demand changes, and outputs representing expected rather than precise trajectories (U.S. EPA, 2024, App. D pp.70–71; App. L pp.135–136). AVERT is a useful reference for documenting assumptions, but its U.S. datasets cannot be treated as Jamali evidence.</p>
+
+<h3>2.3 Implications for the Jamali study</h3>
+<p>The review did not identify one universal set of predictor variables. Historical regression requires compatible generation or demand observations and emissions records. Dispatch modelling additionally requires generator operating characteristics; network-aware modelling requires transmission information. Machine learning may represent more flexible relationships but still requires a defensible emissions target and an appropriate evaluation design. Three decisions must precede model selection:</p>
+<ol>
+<li><b>Define the change being studied:</b> total electricity demand, fossil generation or an additional electricity injection.</li>
+<li><b>Define the emissions boundary:</b> which generators and exchanges are included, and how emissions are measured or calculated.</li>
+<li><b>Define what validation can establish:</b> fitting emissions levels, predicting emissions changes and estimating the causal effect of an intervention are different tasks.</li>
+</ol>
+<p>GDP, annual national fuel imports and additional model complexity cannot substitute for missing grid-level operational evidence. A transparent statistical baseline remains a conditional starting candidate, not a demonstrated winner.</p>
+
+<h3>2.4 Long-run marginal emissions</h3>
+<p>Geothermal development can affect both the operation of existing plants and decisions about which plants are built or retired. Long-run marginal-emissions analysis considers both effects and is different from averaging short-run factors over several years (Gagnon &amp; Cole, 2022). One approach compares two modelled futures—with and without additional geothermal—holding other assumptions consistent while allowing permitted changes in generation, construction and retirement. Results depend on the demand, costs, policies and constraints represented; they do not reveal a guaranteed future. This could add information for assessing the CM, but the CM already considers existing and prospective generation through its operating and build margins. The research therefore asks what long-run modelling adds, rather than assuming the CM should be replaced (UNFCCC, 2018).</p>
+
+<h3>2.5 Cross-region published findings</h3>
+<p>Published short-run MEFs already differ sharply across electricity systems. Siler-Evans's dissertation reports regional CO₂ MEFs for eight U.S. NERC regions using historical regression on 2006–2011 data. Coal-heavy Midwest (MRO) MEFs are about 834 kg/MWh, while Western (WECC) MEFs are about 486 kg/MWh: displacing 1 MWh in the Midwest was estimated to avoid roughly 70% more CO₂ than in the West (Siler-Evans, 2012, Table 2.1; pp.13–15). The same study finds that average emission factors (AEFs) are not a reliable substitute: in Southwest Power Pool, the 2007 AEF was 35% higher than the MEF for CO₂, and AEF–MEF gaps for SO₂ and NOₓ were sometimes far larger (Siler-Evans, 2012, Table 2.2; pp.15–16, 21).</p>
+
+<figure>
+<img src="assets/literature_region_mefs.png" alt="Published US regional MEFs"/>
+<figcaption><b>Figure 9.</b> Published U.S. regional short-run CO₂ MEFs from Siler-Evans (2012, Table 2.1). These are literature values, not Jamali estimates.</figcaption>
+</figure>
+
+<table>
+<tr><th>Region</th><th>Published CO₂ MEF (kg/MWh)</th><th>Dominant marginal fuel</th><th>AEF vs MEF (2007 CO₂)</th></tr>
+<tr><td>MRO (Midwest)</td><td>834</td><td>Coal (~79%)</td><td>AEF ≈ MEF</td></tr>
+<tr><td>RFC (Mid-Atlantic)</td><td>731</td><td>Coal (~70%)</td><td>AEF ~11% below MEF</td></tr>
+<tr><td>SPP (Southwest)</td><td>596</td><td>Gas (~65%)</td><td>AEF 35% above MEF</td></tr>
+<tr><td>TRE (Texas)</td><td>527</td><td>Gas (~84%)</td><td>AEF 12% above MEF</td></tr>
+<tr><td>NPCC (Northeast)</td><td>489</td><td>Gas (~81%)</td><td>AEF 25% below MEF</td></tr>
+<tr><td>WECC (West)</td><td>486</td><td>Gas (~86%)</td><td>AEF ≈ MEF for CO₂</td></tr>
+</table>
+<p class="meta">Source: Siler-Evans (2012), Tables 2.1–2.2. Selected regions shown; full eight-region table is in the dissertation.</p>
+
+<p><b>What this implies for Indonesia — and what it does not.</b> The common pattern across these systems is that short-run MEFs (i) vary by region and often by time of day or season, and (ii) can differ materially from average intensity. That is why the capacity to estimate a <i>local</i> MEF matters for Jamali: foreign MEF numbers cannot be borrowed, and an annual average or CM factor is a different quantity. It does <b>not</b> prove that Indonesia must replace CM, and it does not transfer any U.S. MEF value to Jamali. The similarity that matters is methodological: where interval operating data exist, MEF estimation is feasible and can test whether simplified accounting factors are close to observed responses.</p>
+
+<h2>3. Jamali data audit</h2>
+<h3>3.1 Planning and statistical inputs</h3>
+<p>Official publications provide useful annual electricity balances, fuel consumption and fuel prices. Their coverage is not always identical: some tables include isolated systems or electricity imported from outside Jamali, so differences must be reconciled before combining data (PLN, 2025a, 2025b). The RUPTL planning information is useful, but the audited inputs do not support a defensible numerical long-run estimate: fleet characteristics, operating profiles, economic assumptions and grid boundaries still need reconciliation.</p>
+
+<h3>3.2 Generator inventory and electrical boundary</h3>
+<p>A first source-backed register was compiled from the provincial annexes of PLN's RUPTL 2025–2034 and official PLN Nusantara Power statistics. It records 43 named existing-resource entries, 294 planning rows and 25 isolated East Java systems. The existing entries include plants, generating complexes and a reporting portfolio; they are not yet a complete list of operating units.</p>
+<p>Planning rows include named projects, capacity quotas, storage, replacements, relocations and efficiency improvements, so they cannot all be counted as new capacity. After separating footnoted replacements, relocations and efficiency additions, the extracted rows reproduce the provincial scenario totals with differences below 1 MW. This establishes arithmetic consistency, not that every project is connected or operating (PLN, 2025a, Annex B).</p>
+<p>Electricity transferred between Java and Bali stays inside the whole-Jamali boundary, whereas imports from Sumatera cross it. Isolated systems are treated separately unless a connection is established. Plant names, reporting organisations and provincial locations alone do not determine electrical membership.</p>
+
+<figure>
+<img src="assets/01_register_counts.png" alt="Register coverage counts"/>
+<figcaption><b>Figure 1.</b> Partial Jamali register coverage from audited evidence: 43 existing named entries, 294 planning rows and 25 isolated East Java systems. This is not a complete unit census.</figcaption>
+</figure>
+
+<figure>
+<img src="assets/02_planned_technology_counts.png" alt="Planned technology counts"/>
+<figcaption><b>Figure 2.</b> Top technologies among RUPTL planning rows. Counts include quotas, storage, replacements and efficiency rows, so they should not be summed as new installed capacity.</figcaption>
+</figure>
+
+<h3>3.3 Official PLN Indonesia Power roster</h3>
+<p>PLN Indonesia Power's official 2024 statistics provided 142 plant/group records and 476 nonblank machine-capacity cells. These are not equivalent to verified operating units: the published row-level machine counts sum to 475, with an unresolved inconsistency at Grati. The report distinguishes owned capacity from resources operated under operation-and-maintenance (O&amp;M) contracts (PLN Indonesia Power, n.d., Tables 9–13).</p>
+<p>Several overlaps are now reconciled. Suralaya units 1–7 and the separately reported Suralaya 8 reproduce the RUPTL combined grouping. Priok's total includes Senayan; Lontar's includes both owned and O&amp;M capacity. Adding these parent totals to their constituents would double-count capacity. The Kamojang, Semarang and Bali portfolios show why a reporting organisation cannot define the interconnected Jamali boundary.</p>
+
+<h3>3.4 Independent power producers and other PLN resources</h3>
+<p>A follow-up audit reconciled overlapping generator names using ESDM's national vital-object register dated 28 November 2024, operator information and official historical releases. Jawa 4 is Tanjung Jati B units 5–6, distinct from original units 1–4. At Cilacap, the original units 1–2, Expansion I and Expansion II are separate groups; Jawa 8 is Expansion II, the operator's Unit 3A. Batang/Jawa Tengah PPP belongs to Bhimasena Power Indonesia and is distinct from Bhumi Jati Power's Jawa 4. Six earlier register entries map to 12 descriptive unit labels across three sites (ESDM, 2017, 2020, 2024; Sumber Segara Primadaya, n.d.; Bhimasena Power Indonesia, 2023).</p>
+<p>Different published MW figures are not equivalent. PLN Statistics 2024 reports 2,811.40 MW installed and 2,643.80 MW Daya Mampu (dependable) for the original Tanjung Jati B group, while other sources give nominal or project capacities for the same groups. ESDM reports Jawa 8 as 1,000 MW, including 55 MW for plant use and 945 MW supplied to PLN. An investor's equity-equivalent MW is a financial attribution, not physical capacity. These observations are kept separate rather than averaged or combined (PLN, 2025b; ESDM, 2020; Kansai Electric, n.d.).</p>
+
+<h3>3.5 Operating evidence</h3>
+<p>PLN Nusantara Power statistics provide selected annual installed and net dependable capacities, availability indicators and net plant heat rates. Annual heat rates describe average conversion performance, not how fuel use changes as output changes, and some capacity values differ within the same publication (PLN Nusantara Power, n.d., Tables 1–2, 6 and 8). Documented time-profile samples include annual Jamali electricity sales, 42 months of output from two Wayang Windu units, and five daily examples with generation, steam and reported project steam emissions. Sales are not hourly demand, the daily examples are not continuous, and one geothermal plant does not reveal the grid's response.</p>
+<p>A targeted search for openly downloadable Jamali operating data identified one candidate claiming operational and generation data for the interconnected system: the <i>Jamali Power System Dataset</i> v1.0.0 on Zenodo, 9 May 2026, CC BY 4.0 (Ikhsan, 2026). The archived release was downloaded and checksum-verified; it contains only a README, a licence notice and a software .gitignore, with no data records, and its linked GitHub repository was unavailable on 11 November 2026. It is incompatible with an MEF estimation sample. Other leads were future-scenario demand profiles, or half-hourly UIP2B load used in studies but not published. No openly accessible, time-aligned Jamali demand, generation and emissions or fuel package has been verified.</p>
+
+<figure>
+<img src="assets/05_jamali_annual_sales.png" alt="Jamali annual electricity sales"/>
+<figcaption><b>Figure 3.</b> Jamali annual electricity sales by customer group. Useful demand context, but annual sales are not half-hourly system load and cannot support an MEF pilot alone.</figcaption>
+</figure>
+
+<figure>
+<img src="assets/03_annual_heat_rates.png" alt="Annual heat rates"/>
+<figcaption><b>Figure 4.</b> Selected PLN Nusantara Power 2024 annual heat rates. These are averages for emissions construction later, not incremental heat-rate curves.</figcaption>
+</figure>
+
+<figure>
+<img src="assets/06_wayang_windu_monthly.png" alt="Wayang Windu monthly output"/>
+<figcaption><b>Figure 5.</b> Monthly output sample for two Wayang Windu units. A single geothermal plant does not reveal the grid's marginal response.</figcaption>
+</figure>
+
+<h2>4. Readiness by method</h2>
+<table>
+<tr><th>Route</th><th>What existing evidence supports</th><th>Missing for a numerical pilot</th><th>Status</th></tr>
+<tr><td>Historical regression (Siler-Evans type)</td><td>Method and estimand defined; boundary issues documented</td><td>Interval demand and fossil generation or emissions for the same timestamps; timezone and gross/net definitions</td><td>Blocked by one data request; lowest-input route</td></tr>
+<tr><td>AVERT-style historical-hourly</td><td>Implementation reference reviewed</td><td>Unit-level hourly generation and heat input</td><td>Blocked; needs more than regression</td></tr>
+<tr><td>Reduced-order dispatch</td><td>Partial unit register; annual heat rates and availability; fuel prices; identity crosswalks</td><td>Complete dated fleet with dependable capacity; heat-rate curves; contract constraints; interval data for calibration</td><td>Partially supplied</td></tr>
+<tr><td>Network-resolved</td><td>Plant locations only</td><td>Topology, line limits, interval operation</td><td>Not ready</td></tr>
+<tr><td>Machine-learning forecasting</td><td>Method and evaluation risks reviewed</td><td>A defensible emissions-response target (depends on the above)</td><td>Not ready</td></tr>
+<tr><td>Long-run capacity expansion</td><td>RUPTL 2025–2034 balances, additions, retirements, scenarios</td><td>Model-ready fleet and cost package, time profiles, transfer limits, post-2034 policy</td><td>Not ready; separate programme</td></tr>
+<tr><td>CM accounting benchmark (ESDM)</td><td>Published factors and regulatory context</td><td>—</td><td>Available, but not an observed MEF</td></tr>
+</table>
+
+<figure>
+<img src="assets/08_method_readiness.png" alt="Method readiness snapshot"/>
+<figcaption><b>Figure 6.</b> Qualitative readiness snapshot. All short-run numerical MEF routes remain blocked without time-aligned UIP2B data; the CM benchmark is available but is not an observed MEF.</figcaption>
+</figure>
+
+<h3>4.1 Pilot implementation scaffold</h3>
+<p>To avoid delay once interval data arrive, a historical-regression pilot scaffold has been implemented in <code>mef_research/pilot_m1/</code>. It defines the expected input schema, constructs interval changes in demand and CO₂, fits a chronological training/test regression, and estimates an hour-of-day MEF profile. Real UIP2B files can be mapped to the schema and run through the same script.</p>
+<p>The scaffold is dry-run on a <b>synthetic toy grid</b> that is deliberately not Jamali. The toy world places coal on the margin at night and gas on the margin at the evening peak, so the code can be checked against a known pattern. Rebuild with <code>generate_toy_data.py</code> and <code>run_pilot.py</code>.</p>
+
+<div class="warn">
+<p><b>Important.</b> Toy pilot outputs are illustrative software checks only. They are <b>not</b> Jamali MEFs, not Indonesian evidence, and must not be copied into findings as estimated factors for the Jamali grid. No numerical Jamali MEF is supported until verified UIP2B interval data are obtained and reviewed.</p>
+</div>
+
+<figure>
+<img src="assets/scatter_delta_demand_vs_delta_co2.png" alt="Toy M1 scatter plot"/>
+<figcaption><b>Figure 7.</b> Illustrative synthetic example — not a Jamali MEF. Training scatter of Δ demand versus Δ CO₂ for the toy grid, with the fitted short-run slope.</figcaption>
+</figure>
+
+<figure>
+<img src="assets/hour_of_day_mef.png" alt="Toy hour-of-day MEF profile"/>
+<figcaption><b>Figure 8.</b> Illustrative synthetic example — not a Jamali MEF. Hour-of-day MEF profile recovered from the toy grid (higher at night when coal is marginal; lower when gas is marginal).</figcaption>
+</figure>
+
+<p>The same scaffold was also dry-run on public U.S. EIA Form EIA-930 hourly data for January–June 2024. Four balancing authorities are compared: <b>CISO</b> (CAISO area), <b>ERCO</b> (ERCOT), and two coal-heavier systems, <b>MISO</b> and <b>PJM</b>. Demand and fuel-specific generation are reported; CO₂ is constructed here from generation × constant fuel intensities, so the results are a method demonstration rather than an official EIA emissions product. Chronological training uses the first 75% of hours.</p>
+
+<div class="warn">
+<p><b>Public demo only.</b> These values are not Jamali MEFs, not Indonesian evidence, and not official U.S. policy factors. They show that the M1 pipeline runs on real public interval data and that method and system choices change the answer.</p>
+</div>
+
+<p><b>1. AEF versus demand-based MEF.</b> Average emission factors (total constructed CO₂ ÷ total demand) are compared with the regression MEF (ΔCO₂ on Δdemand). In this demo, AEF is about 23–40% below the demand MEF for CISO, ERCO and MISO, while PJM’s AEF and demand MEF are nearly equal. This mirrors the published finding that averages need not match marginal responses (Siler-Evans, 2012, Table 2.2).</p>
+
+<figure>
+<img src="assets/aef_vs_demand_mef.png" alt="AEF vs demand MEF across BAs"/>
+<figcaption><b>Figure 10.</b> Public EIA-930 demo — not a Jamali MEF. Average intensity (AEF) versus demand-based MEF for four balancing authorities.</figcaption>
+</figure>
+
+<p><b>2. Demand MEF versus fossil-generation MEF.</b> Replacing Δdemand with Δ fossil generation (coal + gas + oil), as in Siler-Evans-style regressions, raises the estimated β and substantially improves fit (fossil-generation R² ≈ 0.95–0.97 versus demand R² ≈ 0.28–0.70). The estimand therefore matters: a total-demand MEF and a fossil-generation response are related but not identical quantities.</p>
+
+<figure>
+<img src="assets/demand_vs_fossil_mef.png" alt="Demand MEF vs fossil-generation MEF"/>
+<figcaption><b>Figure 11.</b> Public EIA-930 demo — not a Jamali MEF. Demand-based versus fossil-generation-based MEFs under the same constructed CO₂ series.</figcaption>
+</figure>
+
+<p><b>3. Multi-region comparison.</b> Under the same method and fuel factors, demand MEFs rank roughly with coal exposure in this sample: MISO ≈ 0.62 tCO₂/MWh (highest coal share of fossil output), ERCO ≈ 0.47, PJM ≈ 0.34, CISO ≈ 0.18 (no coal generation in the constructed series). Hour-of-day profiles also differ by BA.</p>
+
+<table>
+<tr><th>BA</th><th>AEF</th><th>Demand MEF</th><th>Fossil MEF</th><th>AEF vs demand MEF</th><th>Coal share of fossil</th><th>Demand R²</th><th>Fossil R²</th></tr>
+<tr><td>CISO</td><td>0.14</td><td>0.18</td><td>0.41</td><td>AEF 23% below</td><td>0%</td><td>0.31</td><td>0.97</td></tr>
+<tr><td>ERCO</td><td>0.28</td><td>0.47</td><td>0.54</td><td>AEF 40% below</td><td>21%</td><td>0.28</td><td>0.97</td></tr>
+<tr><td>MISO</td><td>0.40</td><td>0.62</td><td>0.67</td><td>AEF 35% below</td><td>40%</td><td>0.70</td><td>0.96</td></tr>
+<tr><td>PJM</td><td>0.34</td><td>0.34</td><td>0.54</td><td>≈ equal</td><td>25%</td><td>0.34</td><td>0.95</td></tr>
+</table>
+<p class="meta">Units: tCO₂/MWh. Constructed CO₂; EIA-930 Jan–Jun 2024; training fraction 75%.</p>
+
+<figure>
+<img src="assets/multi_ba_hour_demand_mef.png" alt="Hour-of-day demand MEFs across BAs"/>
+<figcaption><b>Figure 12.</b> Public EIA-930 demo — not a Jamali MEF. Hour-of-day demand MEF profiles for CISO, ERCO, MISO and PJM.</figcaption>
+</figure>
+
+<p>Together with the published Siler-Evans panel, the practical conclusion for Indonesia is unchanged but stronger: MEF results are system-specific; the choice of estimand (demand versus fossil generation; average versus marginal) changes the number; interval operating data make estimation possible; and Jamali still lacks a verified public package of that type. The scaffold is ready for mapped UIP2B inputs when authorised data arrive.</p>
+
+<h3>4.2 Further modelling illustrations</h3>
+<p><b>Data-gap simulation.</b> The same public EIA series were deliberately coarsened from hourly to daily and monthly aggregates. Demand-MEF estimates change under aggregation, and a single annual total cannot support a change-on-change regression at all. This is a direct demonstration of why Jamali annual sales or annual heat rates cannot substitute for UIP2B interval data.</p>
+<figure>
+<img src="assets/data_gap_mef_by_frequency.png" alt="Data-gap MEF by frequency"/>
+<figcaption><b>Figure 13.</b> Public data-gap simulation — not a Jamali MEF. Demand MEF under hourly, daily and monthly aggregation for MISO and CISO.</figcaption>
+</figure>
+
+<p><b>Toy with/without geothermal.</b> In the synthetic toy grid, adding 500 MW of must-run geothermal displaces a mix of coal (more at night) and gas (more at peak). The implied avoided intensity in that toy world is about 0.64 tCO₂ per extra geothermal MWh. This is a teaching counterfactual only, not a Jamali project assessment.</p>
+<figure>
+<img src="assets/toy_geothermal_displacement.png" alt="Toy geothermal displacement"/>
+<figcaption><b>Figure 14.</b> Illustrative synthetic example — not a Jamali geothermal impact. Mean displaced generation and avoided CO₂ by hour after adding 500 MW geothermal in the toy grid.</figcaption>
+</figure>
+
+<p><b>Stylised Jamali merit-order cartoon.</b> Using audited NP annual heat rates and assumed fuel prices (not verified PLN contracts), a simplified stack places geothermal as must-run, coal next and gas last. In this cartoon, night demand leaves coal on the margin (~1.0 tCO₂/MWh proxy) while peak demand pushes onto gas (~0.42). This is an illustration of dispatch logic using Indonesian plant evidence, not a calibrated or numerical Jamali MEF.</p>
+<figure>
+<img src="assets/jamali_merit_order_night_peak.png" alt="Stylised Jamali merit order"/>
+<figcaption><b>Figure 15.</b> Stylised Jamali night/peak merit-order illustration — not a MEF. Built from NP heat rates plus assumed fuel prices.</figcaption>
+</figure>
+
+<h2>5. How this informs assessment of the combined margin</h2>
+<p>An MEF and the CM answer related but different questions. A short-run MEF describes how existing plants respond to a small change; the CM's operating margin approximates this with a simplified rule, and its build margin approximates effects on future capacity. A credible Jamali MEF study could therefore test whether the operating margin is a reasonable approximation of observed short-run responses, and a long-run with/without-geothermal comparison could test the build-margin assumption. A with/without comparison estimates a finite project effect for stated assumptions; it is not automatically equal to a local marginal factor. Until such evidence exists, the CM remains the available accounting benchmark, and no claim that MEFs should replace it is supported.</p>
+
+<h2>6. Recommendations</h2>
+<ol>
+<li><b>Request data from PLN UIP2B</b> (with ESDM as appropriate): at least one year of half-hourly Jamali system load with timezone and gross/net definitions; generation for the same intervals by unit or by plant and fuel; interchange and boundary flows (Java–Bali cable, Sumatera transfers); fuel use or heat rates and any APPLE-GATRIK emissions data; and documentation of missing intervals and revisions. A draft request has been prepared but not sent.</li>
+<li><b>On receipt, run a historical-regression pilot</b> on a chronological split, constructing emissions from generation by unit/fuel and the archived heat rates and fuel factors, with stated uncertainty and an explicit estimand. The ready scaffold in <code>mef_research/pilot_m1/</code> can be pointed at mapped UIP2B inputs; replace the toy data path and keep toy outputs out of Jamali results.</li>
+<li><b>Use the partial register for emissions construction</b>, mapping received series through the alias crosswalks and keeping unmatched capacity visible.</li>
+<li><b>Treat geothermal displacement as a finite project/no-project comparison</b> for a stated period, distinct from a local marginal derivative.</li>
+<li><b>Defer dispatch, network and long-run modelling</b> until the pilot shows whether completing the fleet package is worthwhile.</li>
+<li><b>If data are unavailable</b>, report this readiness assessment plus the clearly labelled CM benchmark rather than fitting models to annual or synthetic data.</li>
+</ol>
+
+<h2>7. Limitations</h2>
+<p>Literature and data searches were bounded, not exhaustive; their results are not evidence of total public-data absence. Some sources were assessed through supporting information or code rather than full articles. Manual transcriptions of scanned documents were visually checked but not independently verified. No institutional contact occurred and no Jamali MEF was estimated. Audit figures summarise existing evidence only. The M1 pilot scaffold was dry-run on synthetic data and on public U.S. EIA-930 series with constructed CO₂; those outputs are method demonstrations, not Jamali results and not official U.S. MEF products. Cross-region literature values are cited from published tables and are not re-estimated here.</p>
+
+<h2>References</h2>
+<p class="ref">Bhimasena Power Indonesia. (2023, July 22). <i>Supporting the reliability of Java–Bali electricity supply, PLN management visit Batang Power Plant</i>. https://www.bhimasenapower.co.id/content/3136/</p>
+<p class="ref">Deetjen, T. A., &amp; Azevedo, I. L. (2019). Reduced-order dispatch model for simulating marginal emissions factors for the United States power sector. <i>Environmental Science &amp; Technology, 53</i>(17), 10506–10513. https://doi.org/10.1021/acs.est.9b02500 (and Supporting Information).</p>
+<p class="ref">ESDM. (2017, August 31). <i>Fact sheet ground breaking proyek PLTU Jawa 4 Jepara, Jawa Tengah</i>. Kementerian Energi dan Sumber Daya Mineral.</p>
+<p class="ref">ESDM. (2020, February 17). <i>Pakai teknologi USC, PLTU Jawa 8 berpotensi hemat Rp 1 triliun</i> (Siaran Pers 073.Pers/04/SJI/2020).</p>
+<p class="ref">ESDM. (2024, November 28). <i>Keputusan Menteri ESDM No. 310.K/BN.05/MEM.S/2024</i> (national vital-object designation). https://jdih.esdm.go.id/common/dokumen-external/2024kmesdm310k.pdf</p>
+<p class="ref">Fuentes Valenzuela, L., Degleris, A., El Gamal, A., Pavone, M., &amp; Rajagopal, R. (2024). Dynamic locational marginal emissions via implicit differentiation. <i>IEEE Transactions on Power Systems, 39</i>(1), 1138–1147.</p>
+<p class="ref">Gagnon, P., &amp; Cole, W. (2022). Planning for the evolution of the electric grid with a long-run marginal emission rate. <i>iScience, 25</i>(3), 103915. https://doi.org/10.1016/j.isci.2022.103915</p>
+<p class="ref">Ikhsan, R. R. N. (2026). <i>Jamali Power System Dataset</i> (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20098065</p>
+<p class="ref">Kansai Electric Power Co. (n.d.). <i>Tanjung Jati B coal-fired power station units 5 and 6</i>. Retrieved 11 November 2026.</p>
+<p class="ref">Mayes, S., Klein, N., &amp; Sanders, K. T. (2024). Using neural networks to forecast marginal emissions factors: A CAISO case study. <i>Journal of Cleaner Production, 434</i>, 139895. https://doi.org/10.1016/j.jclepro.2023.139895</p>
+<p class="ref">PT PLN (Persero). (2025a). <i>Rencana Usaha Penyediaan Tenaga Listrik (RUPTL) 2025–2034</i>. Kepmen ESDM No. 188.K/TL.03/MEM.L/2025.</p>
+<p class="ref">PT PLN (Persero). (2025b). <i>Statistik PLN 2024 / PLN Statistics 2024</i>. https://www.pln.co.id/laporan-statistik-id</p>
+<p class="ref">PT PLN Indonesia Power. (n.d.). <i>Laporan Statistik 2024 / 2024 Statistic Report</i>. Retrieved 11 November 2026.</p>
+<p class="ref">PT PLN Nusantara Power. (n.d.). <i>Statistik Perusahaan 2020–2024 / Corporate Statistics 2020–2024</i>. Retrieved 11 November 2026.</p>
+<p class="ref">S3researchUSC. (n.d.). <i>MEF-Regression</i> [Source code and notebooks]. https://github.com/S3researchUSC/MEF-Regression</p>
+<p class="ref">Siler-Evans, K. (2012). <i>Evaluating interventions in the U.S. electricity system</i> [Doctoral dissertation, Carnegie Mellon University], Chapter 2.</p>
+<p class="ref">Siler-Evans, K., Azevedo, I. L., &amp; Morgan, M. G. (2012). Marginal emissions factors for the U.S. electricity system. <i>Environmental Science &amp; Technology, 46</i>(9), 4742–4748. https://doi.org/10.1021/es300145v</p>
+<p class="ref">Sumber Segara Primadaya. (n.d.). <i>Profile</i>. https://www.ssprimadaya.co.id/en/about/profile. Retrieved 11 November 2026.</p>
+<p class="ref">UNFCCC. (2018). <i>TOOL07: Tool to calculate the emission factor for an electricity system</i> (Version 07.0).</p>
+<p class="ref">U.S. Environmental Protection Agency. (2024). <i>AVERT user manual</i> (Version 4.3).</p>
+
+</body>
+</html>

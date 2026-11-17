@@ -1,0 +1,3 @@
+ILLUSTRATIVE SYNTHETIC EXAMPLE — NOT A JAMALI MEF
+This folder contains dry-run or provisional pilot outputs.
+Do not copy toy β values into the Jamali findings summary.

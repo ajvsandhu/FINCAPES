@@ -1,0 +1,3 @@
+demand_mw,marginal_plant,marginal_fuel,illustrative_mef_tco2_per_mwh,illustrative_var_cost_usd_per_mwh,note,snapshot
+2200.0,UP Pacitan,coal,1.0,28.347420634920635,,night
+4200.0,UP Muara Karang,gas,0.42,62.51873015873016,demand above cartoon stack; last unit treated as marginal,peak

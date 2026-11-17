@@ -1,0 +1,10 @@
+{
+  "disclaimer": "ILLUSTRATIVE TOY COUNTERFACTUAL \u2014 NOT JAMALI",
+  "extra_geothermal_mw": 500.0,
+  "extra_geothermal_mwh_total": 4392000.0,
+  "coal_displaced_mwh": 1696121.3509865513,
+  "gas_displaced_mwh": 2695878.6490134485,
+  "oil_displaced_mwh": -0.0,
+  "co2_avoided_tonnes": 2827907.720110219,
+  "implied_avoided_tco2_per_extra_geo_mwh": 0.6438769854531464
+}

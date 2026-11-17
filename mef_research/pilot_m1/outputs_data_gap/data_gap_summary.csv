@@ -1,0 +1,9 @@
+ba,frequency,beta_tco2_per_mwh,r2,n_obs_after_diff,n_periods,note
+MISO,hourly,0.5991604953635323,0.7180232366712307,4366,4367,
+MISO,daily,0.46844737495451433,0.5794918028950609,181,182,
+MISO,monthly,0.4321291536890653,0.9293585474925786,5,6,
+MISO,annual_like,,,0,1,single aggregate period; regression of changes impossible
+CISO,hourly,0.1857057430587045,0.3356133589173338,4365,4366,
+CISO,daily,0.1584467714579282,0.461517741344023,181,182,
+CISO,monthly,0.11020848973659346,0.8098125211854019,5,6,
+CISO,annual_like,,,0,1,single aggregate period; regression of changes impossible

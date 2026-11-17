@@ -1,0 +1,25 @@
+{
+  "disclaimer": "PUBLIC EIA-930 CISO DEMO \u2014 NOT A JAMALI MEF",
+  "input": "mef_research/pilot_m1/public_demo/ciso_2024H1_interval_operations.csv",
+  "emissions_construction": "provided_co2_tonnes",
+  "n_intervals_after_diff": 4366,
+  "train_fraction": 0.75,
+  "train_fit": {
+    "alpha": -0.8367058379423309,
+    "beta_tco2_per_mwh": 0.1801816033768262,
+    "se_beta": 0.0046589356545896675,
+    "r2": 0.3137166839670893,
+    "n": 3274,
+    "resid_sd": 250.03751250105984
+  },
+  "test_refit": {
+    "alpha": 0.7287711660679584,
+    "beta_tco2_per_mwh": 0.19818030455729438,
+    "se_beta": 0.007531689980388879,
+    "r2": 0.3884535331568575,
+    "n": 1092,
+    "resid_sd": 268.95827164009506
+  },
+  "test_r2_using_train_beta": 0.38522686089744673,
+  "jamali_mef_claim_allowed": "only_after_review_of_real_uip2b_inputs"
+}

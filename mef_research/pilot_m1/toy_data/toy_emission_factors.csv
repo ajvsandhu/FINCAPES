@@ -1,0 +1,6 @@
+fuel,tco2_per_mwh
+coal,1.0
+gas,0.42
+oil,0.75
+geo,0.0
+other,0.05
