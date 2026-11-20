@@ -68,7 +68,7 @@
   "repository_inputs": [
     {
       "source_id": "L6",
-      "repository_path": "grid_data_sources/raw/ruptl_2025_2034.pdf",
+      "repository_path": "mef_research/supporting_inputs/ruptl_2025_2034.pdf",
       "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
       "acquisition_status": "Existing repository snapshot; not newly downloaded in this extension",
       "reviewed_date": "2026-11-10",

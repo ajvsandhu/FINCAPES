@@ -1,7 +1,7 @@
 region,method,period,mef_kg_per_mwh,dominant_marginal_fuel,aef_vs_mef_note,source
-MRO (US Midwest),Historical regression,2006–2011,834,Coal (~79%),2007 AEF within ~2% of MEF,"Siler-Evans (2012), Tables 2.1–2.2"
-RFC (US Mid-Atlantic),Historical regression,2006–2011,731,Coal (~70%),2007 AEF ~11% below MEF,"Siler-Evans (2012), Tables 2.1–2.2"
-SPP (US Southwest),Historical regression,2006–2011,596,Gas (~65%),2007 AEF 35% above MEF for CO2,"Siler-Evans (2012), Tables 2.1–2.2"
-TRE (Texas),Historical regression,2006–2011,527,Gas (~84%),2007 AEF 12% above MEF for CO2,"Siler-Evans (2012), Tables 2.1–2.2"
-WECC (US West),Historical regression,2006–2011,486,Gas (~86%),2007 AEF ≈ MEF for CO2; large AEF–MEF gaps for SO2/NOx,"Siler-Evans (2012), Tables 2.1–2.2"
-NPCC (US Northeast),Historical regression,2006–2011,489,Gas (~81%),2007 AEF 25% below MEF for CO2,"Siler-Evans (2012), Tables 2.1–2.2"
+US Midwest (MRO),Historical regression,2006–2011,834,Coal (~79%),2007 AEF within ~2% of MEF,"Siler-Evans (2012), Tables 2.1–2.2"
+US Mid-Atlantic (RFC),Historical regression,2006–2011,731,Coal (~70%),2007 AEF ~11% below MEF,"Siler-Evans (2012), Tables 2.1–2.2"
+US Southwest (SPP),Historical regression,2006–2011,596,Gas (~65%),2007 AEF 35% above MEF for CO2,"Siler-Evans (2012), Tables 2.1–2.2"
+Texas (TRE),Historical regression,2006–2011,527,Gas (~84%),2007 AEF 12% above MEF for CO2,"Siler-Evans (2012), Tables 2.1–2.2"
+US West (WECC),Historical regression,2006–2011,486,Gas (~86%),2007 AEF ≈ MEF for CO2; large AEF–MEF gaps for SO2/NOx,"Siler-Evans (2012), Tables 2.1–2.2"
+US Northeast (NPCC),Historical regression,2006–2011,489,Gas (~81%),2007 AEF 25% below MEF for CO2,"Siler-Evans (2012), Tables 2.1–2.2"

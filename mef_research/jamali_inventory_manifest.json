@@ -3,7 +3,7 @@
   "scope": "Bounded inventory; incomplete existing unit coverage",
   "inputs": [
     {
-      "path": "grid_data_sources/raw/ruptl_2025_2034.pdf",
+      "path": "mef_research/supporting_inputs/ruptl_2025_2034.pdf",
       "sha256": "1308ee580c7c1642fe7817e000c87cb2dc87053e1fcef90606dcc1da396fd002",
       "inspected_pdf_pages": [
         48,
@@ -104,15 +104,15 @@
       "sha256": "0e7aad69f64fa3d5b6fca829875f1df00b873efd22354ff0b0fdfc16e410c40c"
     },
     {
-      "path": "ruptl_eda/output/ruptl_historical_sales.csv",
+      "path": "mef_research/supporting_inputs/ruptl_historical_sales.csv",
       "sha256": "2dd93cf74caedde79a8728b42302afb25ef88eb356b2acb1435acf6f38016228"
     },
     {
-      "path": "geothermal_ml_data_research/data/wayang_windu_monthly_main_meter_2018_2021.csv",
+      "path": "mef_research/supporting_inputs/wayang_windu_monthly_main_meter_2018_2021.csv",
       "sha256": "50a471aed7890c91248db33c42f94ece29fb98bea741df7756921584bfe73e89"
     },
     {
-      "path": "geothermal_ml_data_research/data/wayang_windu_daily_examples.csv",
+      "path": "mef_research/supporting_inputs/wayang_windu_daily_examples.csv",
       "sha256": "a0692c1664b85ad63e102acb56652314599cda7dca980ebe69dd919e605ee76a"
     }
   ],

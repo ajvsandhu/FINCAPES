@@ -21,7 +21,7 @@
   "repository_inputs": [
     {
       "source_id": "J3a",
-      "repository_path": "ruptl_eda/output/ruptl_projected_sales.csv",
+      "repository_path": "mef_research/supporting_inputs/ruptl_projected_sales.csv",
       "size_bytes": 2963,
       "sha256": "caffa0e96f587eca1d5e880c0c601d19181fcd5ae1a03546b52cd0fb37746a71",
       "format": "csv",
@@ -29,7 +29,7 @@
     },
     {
       "source_id": "J3b",
-      "repository_path": "ruptl_eda/output/ruptl_projected_generation.csv",
+      "repository_path": "mef_research/supporting_inputs/ruptl_projected_generation.csv",
       "size_bytes": 18304,
       "sha256": "6df3a682cd400f20e14fa4486c01548fb8ac83c283da0e83423bd56b58b99091",
       "format": "csv",
@@ -39,7 +39,7 @@
   "existing_primary_input": {
     "source_id": "J1",
     "hash_reference": "long_run_review_manifest.json:repository_inputs:L6",
-    "repository_path": "grid_data_sources/raw/ruptl_2025_2034.pdf",
+    "repository_path": "mef_research/supporting_inputs/ruptl_2025_2034.pdf",
     "source_url": "https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf",
     "inspected_pdf_pages": [48, 324, 350, 351, 355, 360, 361, 362, 363, 484, 485, 918],
     "visually_checked_pdf_pages": [324, 360, 484],

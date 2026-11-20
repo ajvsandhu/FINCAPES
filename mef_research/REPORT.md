@@ -1,6 +1,6 @@
 # Towards estimating marginal emission factors for Jamali
 
-**Working report: initial scoping findings from 6 November 2026, methodological review deepened 10 November 2026.** No numerical MEF has been estimated. This is the new active report. The [previous report](../FINCAPES_revised_research_report.md) is preserved as background.
+**Working report: initial scoping findings from 6 November 2026, methodological review deepened 10 November 2026.** No numerical MEF has been estimated. This is the new active report. Earlier published-factor / credit-sensitivity work was removed from this repository; this MEF readiness report is the sole active research deliverable.
 
 ## 1. Research purpose
 

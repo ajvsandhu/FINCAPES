@@ -29,10 +29,10 @@ Access failure is not proof that a dataset does not exist or is legally unavaila
 
 | Evidence inspected in the existing repository | Potential use | Why it is not sufficient on its own |
 |---|---|---|
-| RUPTL coverage documented in the previous report and `grid_data_sources/data_inventory.csv`: annual historical Jamali generation and planning tables | System context and annual reconciliation | Annual aggregates/plans do not identify interval operating responses; 2024 historical generation is partial/unaudited to October |
+| RUPTL coverage documented in the previous report : annual historical Jamali generation and planning tables | System context and annual reconciliation | Annual aggregates/plans do not identify interval operating responses; 2024 historical generation is partial/unaudited to October |
 | Ember annual Indonesian extracts, described in the previous report | National context and broad consistency checks | Not a Jamali operational series; lifecycle averages are not marginal operational factors; no Indonesian monthly records were found in the earlier inspected extracts |
-| Wayang Windu monthly records and earlier daily-report leads in `geothermal_ml_data_research/README.md` | Plant-output context and measurement lessons | One geothermal field does not observe the response of the rest of Jamali; a complete older daily series has not been extracted |
-| ESDM factor tables and `policy_regulatory_review/README.md` | Published accounting benchmark and regulatory context | CM/OM/BM entries are not observed interval system-emissions labels |
+| Wayang Windu monthly records and earlier daily-report leads in `supporting_inputs/wayang_windu_sources.csv` / `wayang_windu_audit.json` | Plant-output context and measurement lessons | One geothermal field does not observe the response of the rest of Jamali; a complete older daily series has not been extracted |
+| ESDM factor tables  (published ESDM CM/OM/BM entries) | Published accounting benchmark and regulatory context | CM/OM/BM entries are not observed interval system-emissions labels |
 | GENESIS plans, grid mapping and original accounting outputs | Background on geothermal additions and geography | Future capacity/timing assumptions are not historical dispatch observations |
 | WDI macro indicators and foreign geothermal datasets | Possible context or separate method demonstrations | Geography, frequency and targets do not supply the missing Jamali operating response |
 

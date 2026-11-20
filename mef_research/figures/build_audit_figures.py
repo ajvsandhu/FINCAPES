@@ -29,10 +29,13 @@ plt.rcParams.update(
 )
 
 
-def _save(fig: plt.Figure, name: str) -> Path:
+def _save(fig: plt.Figure, name: str, *, rect: tuple[float, float, float, float] | None = None) -> Path:
     OUT.mkdir(parents=True, exist_ok=True)
     path = OUT / name
-    fig.tight_layout()
+    if rect is None:
+        fig.tight_layout()
+    else:
+        fig.tight_layout(rect=rect)
     fig.savefig(path, dpi=160, bbox_inches="tight")
     plt.close(fig)
     return path
@@ -53,16 +56,16 @@ def fig_register_counts() -> Path:
     ax.set_title("Partial Jamali register coverage (audited evidence counts)")
     for bar, value in zip(bars, counts.values()):
         ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 3, str(value), ha="center")
-    ax.text(
+    fig.text(
+        0.5,
         0.02,
-        0.98,
         "Not a complete unit census. Isolated systems excluded from interconnected Jamali unless connected.",
-        transform=ax.transAxes,
-        va="top",
+        ha="center",
+        va="bottom",
         fontsize=8,
         color="#444",
     )
-    return _save(fig, "01_register_counts.png")
+    return _save(fig, "01_register_counts.png", rect=(0, 0.08, 1, 1))
 
 
 def fig_planned_technology() -> Path:
@@ -174,43 +177,58 @@ def fig_ip_capacity_top() -> Path:
 
 
 def fig_readiness_gap() -> Path:
-    routes = [
-        "Historical\nregression",
-        "AVERT-style\nhistorical",
-        "Reduced-order\ndispatch",
-        "Network-\nresolved",
-        "ML\nforecasting",
-        "Long-run\ncapacity",
-        "CM accounting\nbenchmark",
+    """Status table — not a progress/completeness bar chart."""
+    rows = [
+        ("M1 Historical regression", "First pilot — blocked on interval data", "#c4a35a"),
+        ("M2 Reduced-order dispatch", "Some fleet inputs; same data gate", "#c4a35a"),
+        ("M5 AVERT-style historical", "Not ready this stage", "#a35d4a"),
+        ("M3 Network-resolved", "Not ready this stage", "#a35d4a"),
+        ("M4 ML forecasting", "Not ready this stage", "#a35d4a"),
+        ("Long-run capacity expansion", "Separate programme — not this stage", "#a35d4a"),
+        ("CM accounting benchmark", "Published factors available — not an observed MEF", "#6b8f71"),
     ]
-    # 0 = missing, 1 = partial, 2 = available for that route's purpose
-    status = [1, 0, 1, 0, 0, 0, 2]
-    labels = {
-        0: "Missing for pilot",
-        1: "Partial / blocked by interval data",
-        2: "Available (not an observed MEF)",
-    }
-    colors = {0: "#a35d4a", 1: "#c4a35a", 2: "#6b8f71"}
-    fig, ax = plt.subplots(figsize=(9.5, 4.5))
-    ax.bar(routes, status, color=[colors[s] for s in status])
-    ax.set_ylim(0, 2.6)
-    ax.set_yticks([0, 1, 2])
-    ax.set_yticklabels(["Missing", "Partial", "Available"])
-    ax.set_title("Method readiness snapshot (qualitative)")
-    handles = [
-        plt.Rectangle((0, 0), 1, 1, color=colors[k], label=labels[k]) for k in (0, 1, 2)
-    ]
-    ax.legend(handles=handles, loc="upper right", fontsize=8)
-    ax.text(
-        0.02,
-        0.98,
-        "All short-run numerical MEF routes remain blocked without time-aligned UIP2B data.",
-        transform=ax.transAxes,
-        va="top",
+    fig, ax = plt.subplots(figsize=(10.2, 5.2))
+    ax.set_axis_off()
+    ax.set_title("What’s ready vs what’s not (status, not % complete)", pad=14, fontsize=13)
+    table = ax.table(
+        cellText=[[route, status] for route, status, _ in rows],
+        colLabels=["Route", "Status for Jamali right now"],
+        cellLoc="left",
+        colLoc="left",
+        loc="center",
+        bbox=[0.02, 0.12, 0.96, 0.78],
+    )
+    table.auto_set_font_size(False)
+    table.set_fontsize(10)
+    table.auto_set_column_width([0, 1])
+    for (row, col), cell in table.get_celld().items():
+        cell.set_edgecolor("#d0d0d0")
+        cell.set_linewidth(0.6)
+        cell.PAD = 0.04
+        if row == 0:
+            cell.set_facecolor("#2f5d8a")
+            cell.set_text_props(color="white", weight="bold")
+            cell.set_height(0.09)
+        else:
+            route, status, color = rows[row - 1]
+            cell.set_height(0.095)
+            if col == 0:
+                cell.set_facecolor("#f7f7f7" if row % 2 else "white")
+                cell.set_text_props(weight="bold", color="#1f3a56")
+            else:
+                cell.set_facecolor(color)
+                cell.set_text_props(color="white" if color != "#c4a35a" else "#1f1f1f")
+    fig.text(
+        0.5,
+        0.04,
+        "Gold = pathway defined but blocked without time-aligned UIP2B interval data.  "
+        "Green = accounting benchmark only — not a Jamali MEF.",
+        ha="center",
+        va="bottom",
         fontsize=8,
         color="#444",
     )
-    return _save(fig, "08_method_readiness.png")
+    return _save(fig, "08_method_readiness.png", rect=(0, 0.08, 1, 1))
 
 
 def main() -> None:

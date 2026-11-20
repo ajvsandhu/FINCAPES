@@ -114,8 +114,13 @@ def main() -> None:
     }
     (OUT / "illustration_summary.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
 
-    fig, ax = plt.subplots(figsize=(9, 5))
+    fig, ax = plt.subplots(figsize=(11, 5.2))
     colors = {"geo": "#6b8f71", "coal": "#4a4a4a", "gas": "#2f5d8a"}
+    fuel_label = {"geo": "geothermal", "coal": "coal", "gas": "gas"}
+    # Legend proxies (drawn once)
+    ax.barh(0, 0, color=colors["geo"], label="Geothermal")
+    ax.barh(0, 0, color=colors["coal"], label="Coal plants")
+    ax.barh(0, 0, color=colors["gas"], label="Gas plant")
     for _, r in fleet.iterrows():
         ax.barh(
             0,
@@ -125,31 +130,39 @@ def main() -> None:
             edgecolor="white",
             height=0.45,
         )
-        if r["cartoon_capacity_mw"] >= 400:
-            ax.text(
-                r["stack_mw_start"] + r["cartoon_capacity_mw"] / 2,
-                0,
-                r["name"].replace("UP ", ""),
-                ha="center",
-                va="center",
-                fontsize=7,
-                color="white",
-            )
+        plant = r["name"].replace("UP ", "").replace(" (must-run cartoon)", "")
+        if r["fuel"] == "geo":
+            display = f"{plant}\n(must-run)"
+        else:
+            display = f"{plant}\n({fuel_label[r['fuel']]})"
+        # Labels above the stack so plant + fuel stay readable
+        ax.text(
+            r["stack_mw_start"] + r["cartoon_capacity_mw"] / 2,
+            0.32,
+            display,
+            ha="center",
+            va="bottom",
+            fontsize=8,
+            color="#1f1f1f",
+            clip_on=False,
+        )
     ax.axvline(night_demand, color="#c4a35a", ls="--", label=f"Night demand {night_demand:.0f} MW")
     ax.axvline(peak_demand, color="#a35d4a", ls="--", label=f"Peak demand {peak_demand:.0f} MW")
     ax.set_yticks([])
+    ax.set_ylim(-0.4, 0.85)
     ax.set_xlabel("Cartoon cumulative capacity (MW)")
     ax.set_title("Stylised Jamali merit-order illustration (night vs peak)")
     ax.legend(loc="upper right", fontsize=8)
-    ax.text(
-        0.02,
+    fig.text(
+        0.5,
         0.02,
         "ILLUSTRATIVE ONLY — uses NP heat rates + assumed fuel prices; not a Jamali MEF or calibrated dispatch model.",
-        transform=ax.transAxes,
+        ha="center",
+        va="bottom",
         fontsize=8,
         color="#a35d4a",
     )
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.08, 1, 1))
     fig.savefig(OUT / "jamali_merit_order_night_peak.png", dpi=160)
     plt.close(fig)
 

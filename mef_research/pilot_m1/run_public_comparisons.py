@@ -21,6 +21,12 @@ HERE = Path(__file__).resolve().parent
 DEMO = HERE / "public_demo"
 OUT = HERE / "outputs_public_compare"
 BAS = ("CISO", "ERCO", "MISO", "PJM")
+BA_LABELS = {
+    "CISO": "California\n(CISO)",
+    "ERCO": "Texas\n(ERCOT)",
+    "MISO": "US Midwest\n(MISO)",
+    "PJM": "Mid-Atlantic\n(PJM)",
+}
 TRAIN_FRACTION = 0.75
 
 
@@ -126,19 +132,20 @@ def plot_aef_vs_mef(summary: pd.DataFrame, path: Path) -> None:
     ax.bar(x - width / 2, summary["aef_tco2_per_mwh"], width, label="AEF (avg intensity)", color="#6b8f71")
     ax.bar(x + width / 2, summary["demand_mef_tco2_per_mwh"], width, label="Demand MEF (β)", color="#2f5d8a")
     ax.set_xticks(x)
-    ax.set_xticklabels(summary["ba"])
+    ax.set_xticklabels([BA_LABELS.get(ba, ba) for ba in summary["ba"]])
     ax.set_ylabel("tCO₂ / MWh")
-    ax.set_title("Public demo: AEF vs demand-based MEF")
+    ax.set_title("Public demo: AEF vs demand-based MEF (US grids)")
     ax.legend()
-    ax.text(
-        0.02,
+    fig.text(
+        0.5,
         0.02,
         "PUBLIC EIA-930 DEMO — NOT JAMALI. Constructed CO₂; Jan–Jun 2024.",
-        transform=ax.transAxes,
+        ha="center",
+        va="bottom",
         fontsize=8,
         color="#a35d4a",
     )
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.08, 1, 1))
     fig.savefig(path, dpi=160)
     plt.close(fig)
 
@@ -150,9 +157,9 @@ def plot_demand_vs_fossil(summary: pd.DataFrame, path: Path) -> None:
     ax.bar(x - width / 2, summary["demand_mef_tco2_per_mwh"], width, label="ΔCO₂ ~ Δdemand", color="#2f5d8a")
     ax.bar(x + width / 2, summary["fossil_mef_tco2_per_mwh"], width, label="ΔCO₂ ~ Δfossil gen", color="#a35d4a")
     ax.set_xticks(x)
-    ax.set_xticklabels(summary["ba"])
+    ax.set_xticklabels([BA_LABELS.get(ba, ba) for ba in summary["ba"]])
     ax.set_ylabel("MEF β (tCO₂ / MWh)")
-    ax.set_title("Public demo: demand MEF vs fossil-generation MEF")
+    ax.set_title("Public demo: demand MEF vs fossil-generation MEF (US grids)")
     ax.legend()
     ax.text(
         0.02,
@@ -171,7 +178,13 @@ def plot_multi_ba_hour(profiles: pd.DataFrame, path: Path) -> None:
     fig, ax = plt.subplots(figsize=(9, 5))
     for ba, part in profiles.groupby("ba"):
         part = part.sort_values("hour")
-        ax.plot(part["hour"], part["demand_mef"], "-o", label=ba, markersize=3)
+        ax.plot(
+            part["hour"],
+            part["demand_mef"],
+            "-o",
+            label=BA_LABELS.get(ba, ba).replace("\n", " "),
+            markersize=3,
+        )
     ax.set_xlabel("Local hour of day")
     ax.set_ylabel("Demand MEF β (tCO₂ / MWh)")
     ax.set_title("Public demo: hour-of-day demand MEFs across balancing authorities")

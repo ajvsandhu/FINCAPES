@@ -35,7 +35,7 @@ def run():
     for source in manifest['inputs']:
         path = ROOT / source['path']
         assert sha(path) == source['sha256'], path
-    pdf = fitz.open(ROOT / 'grid_data_sources/raw/ruptl_2025_2034.pdf')
+    pdf = fitz.open(ROOT / 'mef_research/supporting_inputs/ruptl_2025_2034.pdf')
     snapshots = {}
     pages = manifest['inputs'][0]['inspected_pdf_pages']
     for n in pages:
@@ -169,14 +169,14 @@ def run():
     write('capacity_observations.csv',seed['capacity_observations'])
     write('reconciliation.csv',reconciliations+seed['reconciliations'])
     # Real local samples; no generic load shape or emissions factor is manufactured.
-    monthly=list(csv.DictReader((ROOT/'geothermal_ml_data_research/data/wayang_windu_monthly_main_meter_2018_2021.csv').open()))
-    daily=list(csv.DictReader((ROOT/'geothermal_ml_data_research/data/wayang_windu_daily_examples.csv').open()))
+    monthly=list(csv.DictReader((ROOT/'mef_research/supporting_inputs/wayang_windu_monthly_main_meter_2018_2021.csv').open()))
+    daily=list(csv.DictReader((ROOT/'mef_research/supporting_inputs/wayang_windu_daily_examples.csv').open()))
     assert len(monthly)==42 and len({r['month'] for r in monthly})==42
     assert len(daily)==len({r['date'] for r in daily})
     write('sample_wayang_windu_monthly.csv',monthly)
     write('sample_wayang_windu_daily.csv',daily)
     # Published annual demand proxy, not coincident interval system load.
-    sales=[r for r in csv.DictReader((ROOT/'ruptl_eda/output/ruptl_historical_sales.csv').open()) if r['grid']=='Jamali']
+    sales=[r for r in csv.DictReader((ROOT/'mef_research/supporting_inputs/ruptl_historical_sales.csv').open()) if r['grid']=='Jamali']
     write('sample_historical_sales.csv',sales)
     write('annual_operating_characteristics.csv',[
         dict(name=n,year=2024,nphr_kcal_per_net_kwh=heat,eaf_percent=eaf,

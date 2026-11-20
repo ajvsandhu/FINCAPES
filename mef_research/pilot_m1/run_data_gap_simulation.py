@@ -19,6 +19,10 @@ HERE = Path(__file__).resolve().parent
 DEMO = HERE / "public_demo"
 OUT = HERE / "outputs_data_gap"
 BAS = ("MISO", "CISO")  # coal-heavier vs cleaner contrast
+BA_LABELS = {
+    "MISO": "US Midwest (MISO)",
+    "CISO": "California (CISO)",
+}
 
 
 def fit_beta(x: np.ndarray, y: np.ndarray) -> dict:
@@ -120,18 +124,19 @@ def main() -> None:
         part = summary[(summary["ba"] == ba) & (summary["frequency"].isin(order))]
         vals = [part.loc[part["frequency"] == f, "beta_tco2_per_mwh"].iloc[0] for f in order]
         ax.bar(order, vals, color=["#2f5d8a", "#6b8f71", "#c4a35a"])
-        ax.set_title(ba)
+        ax.set_title(BA_LABELS.get(ba, ba))
         ax.set_ylabel("Demand MEF β (tCO₂/MWh)")
         ax.axhline(0, color="#999", lw=0.8)
-    fig.suptitle("Data-gap simulation: MEF estimate under coarser aggregation")
+    fig.suptitle("Data-gap simulation: MEF estimate under coarser aggregation (US grids)")
     fig.text(
-        0.02,
+        0.5,
         0.01,
         "PUBLIC DEMO — NOT JAMALI. Annual totals cannot support a change-on-change regression at all.",
+        ha="center",
         fontsize=8,
         color="#a35d4a",
     )
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.06, 1, 1))
     fig.savefig(OUT / "data_gap_mef_by_frequency.png", dpi=160)
     plt.close(fig)
 

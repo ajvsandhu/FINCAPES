@@ -14,7 +14,7 @@ OUT = Path(__file__).resolve().parent / "public_demo"
 # CO2 MEF units: kg/MWh. This is published evidence, not a new estimation.
 ROWS = [
     {
-        "region": "MRO (US Midwest)",
+        "region": "US Midwest (MRO)",
         "method": "Historical regression",
         "period": "2006–2011",
         "mef_kg_per_mwh": 834,
@@ -23,7 +23,7 @@ ROWS = [
         "source": "Siler-Evans (2012), Tables 2.1–2.2",
     },
     {
-        "region": "RFC (US Mid-Atlantic)",
+        "region": "US Mid-Atlantic (RFC)",
         "method": "Historical regression",
         "period": "2006–2011",
         "mef_kg_per_mwh": 731,
@@ -32,7 +32,7 @@ ROWS = [
         "source": "Siler-Evans (2012), Tables 2.1–2.2",
     },
     {
-        "region": "SPP (US Southwest)",
+        "region": "US Southwest (SPP)",
         "method": "Historical regression",
         "period": "2006–2011",
         "mef_kg_per_mwh": 596,
@@ -41,7 +41,7 @@ ROWS = [
         "source": "Siler-Evans (2012), Tables 2.1–2.2",
     },
     {
-        "region": "TRE (Texas)",
+        "region": "Texas (TRE)",
         "method": "Historical regression",
         "period": "2006–2011",
         "mef_kg_per_mwh": 527,
@@ -50,7 +50,7 @@ ROWS = [
         "source": "Siler-Evans (2012), Tables 2.1–2.2",
     },
     {
-        "region": "WECC (US West)",
+        "region": "US West (WECC)",
         "method": "Historical regression",
         "period": "2006–2011",
         "mef_kg_per_mwh": 486,
@@ -59,7 +59,7 @@ ROWS = [
         "source": "Siler-Evans (2012), Tables 2.1–2.2",
     },
     {
-        "region": "NPCC (US Northeast)",
+        "region": "US Northeast (NPCC)",
         "method": "Historical regression",
         "period": "2006–2011",
         "mef_kg_per_mwh": 489,
@@ -81,15 +81,16 @@ def main() -> None:
     ax.barh(plot_df["region"], plot_df["mef_kg_per_mwh"], color="#2f5d8a")
     ax.set_xlabel("Published short-run CO₂ MEF (kg/MWh)")
     ax.set_title("Published US regional MEFs (Siler-Evans, 2006–2011)")
-    ax.text(
-        0.02,
+    fig.text(
+        0.5,
         0.02,
         "Published evidence only — not Jamali estimates. Midwest MEF ≈ 70% higher than West.",
-        transform=ax.transAxes,
+        ha="center",
+        va="bottom",
         fontsize=8,
         color="#444",
     )
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.08, 1, 1))
     fig_path = OUT / "literature_region_mefs.png"
     fig.savefig(fig_path, dpi=160)
     plt.close(fig)

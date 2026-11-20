@@ -26,7 +26,7 @@
 
 - Revised v04 monthly main-meter report, Annex 5, printed pp.90–94: https://cdm.unfccc.int/UserManagement/FileStorage/FSK5I6HGV4BJ39YARNEOXZ18Q7MWUP
 - Daily examples, source pages in CSV: https://cdm.unfccc.int/UserManagement/FileStorage/ZIPR0YEJTQNBMXU7SOL1V5WKGFAHC4 and https://cdm.unfccc.int/UserManagement/FileStorage/UB8CZX0TPHOS5YE6QI7R2MJKNFADLW
-- Full version/access limits: `../geothermal_ml_data_research/sources.csv` and `output/wayang_windu_audit.json` in that research directory. Five daily dates are examples, not continuous coverage. Timezone and compatible full-grid boundary remain unverified.
+- Full version/access limits: `supporting_inputs/wayang_windu_sources.csv` and `supporting_inputs/wayang_windu_audit.json`. Five daily dates are examples, not continuous coverage. Timezone and compatible full-grid boundary remain unverified.
 
 **Discovery only, not numerical evidence:** indexed third-party UIP2B statistics-book copy https://id.scribd.com/document/939866929/BUKU-STATISTIK-UIP2B-JAMALI — no primary binary, interval schema or access terms verified; not promoted to an acquired official dataset.
 
@@ -34,9 +34,9 @@
 
 Reviewed **10 November 2026**. Source IDs J1–J3 refer to [JAMALI_INPUT_AUDIT.md](JAMALI_INPUT_AUDIT.md); hashes, access attempts and page coverage are in [planning_input_audit_manifest.json](planning_input_audit_manifest.json).
 
-- **J1 / L6 — PLN (2025a):** PT PLN (Persero). *RUPTL 2025–2034*. Primary PDF: https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf . Existing repository snapshot: `../grid_data_sources/raw/ruptl_2025_2034.pdf`. Targeted evidence: Table 5.69 (PDF p.324 / V-88); Tables 5.86–5.87 (PDF pp.351, 355 / V-115, V-119); §V.5.7.3.2 item 5 (PDF p.360 / V-124); local-addition footnotes (PDF pp.361–362); regional generation totals/import footnotes (PDF pp.484–485 / V-248–249); isolated East Java systems (PDF p.918 / B-94); reporting responsibilities (PDF p.48 / I-11); planning constraints (PDF p.350 / V-114). Annual projections are not operating observations.
+- **J1 / L6 — PLN (2025a):** PT PLN (Persero). *RUPTL 2025–2034*. Primary PDF: https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf . Existing repository snapshot: `supporting_inputs/ruptl_2025_2034.pdf`. Targeted evidence: Table 5.69 (PDF p.324 / V-88); Tables 5.86–5.87 (PDF pp.351, 355 / V-115, V-119); §V.5.7.3.2 item 5 (PDF p.360 / V-124); local-addition footnotes (PDF pp.361–362); regional generation totals/import footnotes (PDF pp.484–485 / V-248–249); isolated East Java systems (PDF p.918 / B-94); reporting responsibilities (PDF p.48 / I-11); planning constraints (PDF p.350 / V-114). Annual projections are not operating observations.
 - **J2 — PLN (2025b):** PT PLN (Persero). *Statistik PLN 2024 / PLN Statistics 2024*. Preface dated June 2025; calendar-year 2024 coverage defined at PDF p.11 / ix. Official index: https://www.pln.co.id/laporan-statistik-id . Official download: https://www.pln.co.id/webapi/media/file/webkorp/asset/Statistik2024.pdf . Archived: `raw/pln_statistics_2024_official.pdf`, 106 pages. Selected evidence: definitions (PDF pp.8–11 / vi–ix); reporting notes and annual balances (PDF pp.16, 19–21); annual fuel use (Table 24, PDF p.66 / 50); annual fuel unit prices (Table 25, PDF p.67 / 51); annual energy by fuel (Table 26, PDF pp.68–69 / 52–53). Full PDF acquired, selected sections inspected; not a claim of full numerical extraction, interval coverage or open-data licensing.
-- **J3a/J3b:** repository derivatives `../ruptl_eda/output/ruptl_projected_sales.csv` and `../ruptl_eda/output/ruptl_projected_generation.csv`, checked against J1. Not independent publications.
+- **J3a/J3b:** repository derivatives `supporting_inputs/ruptl_projected_sales.csv` and `supporting_inputs/ruptl_projected_generation.csv`, checked against J1. Not independent publications.
 
 Additional provenance/access routes checked (not new modelling datasets):
 
@@ -203,12 +203,12 @@ United Nations Framework Convention on Climate Change. (2018, August 31). *TOOL0
 PT PLN (Persero). (2025a). *Rencana Usaha Penyediaan Tenaga Listrik (RUPTL) 2025–2034*. Approved through Kepmen ESDM No. 188.K/TL.03/MEM.L/2025, 26 May 2025. The suffix distinguishes this publication from Statistics 2024 (2025b) in the targeted audit.
 
 - Existing source URL: https://gatrik.esdm.go.id/gatrik/gatrik-api/storage/migrasi/download_index/files/b967d-ruptl-pln-2025-2034-pub-.pdf
-- Existing repository snapshot: `../grid_data_sources/raw/ruptl_2025_2034.pdf`; not newly downloaded for this extension.
+- Existing repository snapshot: `supporting_inputs/ruptl_2025_2034.pdf`; not newly downloaded for this extension.
 - Focused rechecks: least-cost planning, PDF p.55; Table 5.69, PDF p.324; Tables 5.86–5.89 and regional-balance discussion, PDF pp.351–362; Tables 5.143–5.144, PDF pp.483–485; Tables 5.179–5.180, PDF p.513.
 - Planning assumptions and outputs, not historical operational targets or a complete optimisation input package. The electrical boundary must be reconciled with the regional label.
 
 ## Coverage and maintenance notes
 
-This file records sources used for the new MEF first-stage review, not every unrelated search result. Existing Indonesian regulatory sources remain documented in [the policy source manifest](../policy_regulatory_review/source_manifest.json); earlier datasets retain their original provenance. The present copy-ready section does not make a new legal-applicability conclusion.
+This file records sources used for the new MEF first-stage review, not every unrelated search result. The present copy-ready section does not make a new legal-applicability conclusion.
 
 For each later source actually used, add authors/institution, title, date/version, exact URL/DOI, access date, evidence depth and supported claims. Save a snapshot/hash where possible. Keep discovery leads, failed access attempts and sources used as evidence distinct. Do not fill missing bibliographic metadata by guessing.

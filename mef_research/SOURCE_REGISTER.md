@@ -99,11 +99,11 @@ The historical `https://p3bjawabali.pln.co.id/` address was located through olde
 
 The following files were inspected as existing evidence, not newly downloaded for this review:
 
-- `../ruptl_eda/output/ruptl_historical_generation.csv`: annual generation, including Jamali; `partial_year` flag.
-- `../ruptl_eda/output/ruptl_projected_emissions.csv`: future scenario emissions, not observed history.
-- `../ember_indonesia_eda/output/ember_indonesia_electricity_generation_yearly.csv`: national annual series, including aggregate rows.
-- `../geothermal_ml_data_research/data/wayang_windu_monthly_main_meter_2018_2021.csv`: monthly plant records.
-- `../grid_data_sources/data_inventory.csv` and the previous research report: provenance and previously documented boundaries.
+- `supporting_inputs/ruptl_historical_generation.csv`: annual generation, including Jamali; `partial_year` flag.
+- `supporting_inputs/ruptl_projected_emissions.csv`: future scenario emissions, not observed history.
+- National Ember annual series: previously screened as national context only; not retained in this MEF-focused repository.
+- `supporting_inputs/wayang_windu_monthly_main_meter_2018_2021.csv`: monthly plant records.
+- RUPTL and PLN statistics snapshots retained under `supporting_inputs/` and `raw/`.
 
 ## Long-run extension — 10 November 2026
 
