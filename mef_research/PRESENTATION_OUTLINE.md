@@ -27,6 +27,21 @@
 
 ---
 
+## Slide 2b — Geothermal is the intervention (main point)
+**Not a side example — the whole study hangs on this.**
+
+1. **Why geothermal:** near must-run / steady injection into Jamali → something else backs down  
+2. **Short-run:** which fossil (or other) plants reduce hour by hour → short-run MEF  
+3. **Long-run:** what gets built/retired over project life → separate programme  
+4. **CM + carbon credits:** CM is the usual accounting factor for that avoided emissions story  
+5. **Why no number yet:** no interval UIP2B-class data → cannot claim MEF beats CM for Jamali geothermal  
+
+**Say:** “We’re not studying MEFs in the abstract. We’re asking what it would take to measure geothermal’s grid emissions impact, and whether CM is good enough for that.”
+
+**Figure (optional):** stylised merit-order night/peak or toy geothermal displacement — label clearly as illustration.
+
+---
+
 ## Slide 3 — MEF vs CM (30 seconds)
 | | MEF | CM |
 |---|---|---|
@@ -34,7 +49,9 @@
 | Needs | Time-aligned operating data | Annual published factors |
 | Status for us | Not estimable yet for Jamali | Available as benchmark only |
 
-**Say:** “MEF is conceptually better for ‘what does geothermal displace?’ But we won’t claim it’s better than CM until we can measure it.”
+**Carbon credits:** motivation for assessing CM — projects may seek credits that use CM-type factors. This work does **not** issue credits or declare CM invalid.
+
+**Say:** “MEF is conceptually better for ‘what does geothermal displace?’ But we won’t claim it’s better than CM until we can measure it — and pass a credibility check.”
 
 ---
 
@@ -125,9 +142,22 @@ Public EIA demos (CISO / ERCO / MISO / PJM):
 
 ---
 
-## Slide 11 — Recommendations / next decision
+## Slide 11 — Credibility before “prefer MEF over CM”
+Protocol: [`CREDIBILITY_PROTOCOL.md`](CREDIBILITY_PROTOCOL.md)
+
+1. Define estimand first (perturbation, boundary, horizon)  
+2. Check **fit** and **marginal response** separately — don’t score MEF vs CM as truth  
+3. Triangulate (M1 + second method where possible) + uncertainty  
+4. Only then compare to CM: is the gap large and robust?  
+5. Outcomes: inform assessment / report both / discuss rules — not automatic replacement  
+
+**Say:** “Getting data and fitting a model is not enough. Credibility is the gate before any carbon-credit conversation about preferring MEF.”
+
+---
+
+## Slide 12 — Recommendations / next decision
 1. **Request** ≥1 year half-hourly UIP2B data (draft ready, not sent)  
-2. **On receipt:** run historical-regression pilot (code ready)  
+2. **On receipt:** run historical-regression pilot (code ready) **under the credibility protocol**  
 3. Use plant register for emissions construction  
 4. Defer dispatch / network / ML / long-run until pilot proves value  
 5. If no data: publish readiness + CM benchmark — don’t fake MEFs from annual data  
@@ -136,9 +166,10 @@ Public EIA demos (CISO / ERCO / MISO / PJM):
 
 ---
 
-## Slide 12 — Bottom line
+## Slide 13 — Bottom line
 - Research question for this stage: **answered**  
-- Deliverable: **pathway + readiness + ready pilot**  
+- Deliverable: **pathway + readiness + ready pilot + credibility protocol**  
+- Carbon credits: **motivation only** — not eligibility or issuance  
 - Not delivered (and not claimed): **a Jamali MEF number**  
 - Next research phase starts when interval data arrive  
 

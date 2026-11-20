@@ -1,10 +1,16 @@
 # Next step: Jamali generator inventory and boundary mapping
 
-## Latest handoff: final readiness assessment completed
+## Latest handoff: geothermal spine + credibility + carbon credits (20 November 2026)
+
+Read draft **§1 Geothermal as the intervention** in [report_draft/jamali_mef_report_draft.html](report_draft/jamali_mef_report_draft.html) (PDF rebuilt). Also [CREDIBILITY_PROTOCOL.md](CREDIBILITY_PROTOCOL.md) and [REPORT.md](REPORT.md) §1A. This stage now includes: (1) geothermal as the explicit main intervention (short-run displacement, long-run capacity, CM/credits, why no number yet); (2) credibility protocol for when a future MEF may *inform* CM; (3) carbon credits as motivation only.
+
+**Stage status:** readiness research question is closable with geothermal spine + protocol in the deliverable. Empirical MEF estimation and any MEF-vs-CM preference claim remain **Phase 2**, gated on interval data.
+
+**Next decision (user):** authorise or decline sending the drafted request to PLN UIP2B/ESDM ([FINAL_READINESS.md](FINAL_READINESS.md)). If authorised and data arrive, run the M1 pilot **under the credibility protocol**. If declined, the deliverable is the readiness assessment + protocol + clearly labelled CM accounting benchmark. Do not resume open-ended source searching.
+
+## Earlier handoff: final readiness assessment completed
 
 Read [FINAL_READINESS.md](FINAL_READINESS.md). No numerical Jamali MEF is supported by currently accessible evidence; the binding gap for every short-run route is time-aligned interval demand plus generation by unit/fuel. Recommended first pilot: M1 historical regression, conditional on one year of half-hourly UIP2B data. A data request is drafted but **not sent**.
-
-**Next decision (user):** authorise or decline sending the drafted request to PLN UIP2B/ESDM. If authorised and data arrive, run the M1 pilot as specified in the assessment. If declined, the deliverable is the readiness assessment plus the clearly labelled CM accounting benchmark. Do not resume open-ended source searching.
 
 ## Earlier handoff: operating-data sample check completed (incompatible)
 

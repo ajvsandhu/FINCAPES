@@ -8,11 +8,25 @@ What data and modelling approaches would be needed to estimate the short- and lo
 
 The scope was broadened on 10 November 2026 to include capacity investment and retirement responses. The original short-run review remains a completed component. The [long-run review](LONG_RUN_REVIEW.md) contains copy-ready findings, a method-to-data table and the bounded feasibility decision; its [evidence ledger](LONG_RUN_EVIDENCE.md) records source depth and precise locations.
 
-The intended contribution is a documented pathway towards credible estimation. Replacing CM, discovering an ideal factor or demonstrating an ML win is not a predetermined outcome.
+The intended contribution is a documented pathway towards credible estimation of **geothermal’s** short- and long-run emissions effects on Jamali, and a basis for assessing CM in that setting. Replacing CM, discovering an ideal factor or demonstrating an ML win is not a predetermined outcome.
 
-## 2. Concepts and policy context — to develop
+## 1A. Geothermal as the intervention (main spine)
+
+Geothermal is not a side example. It is the intervention the research is organised around: additional low-carbon energy injected into the interconnected Jamali system, often as near must-run or high-priority output. Avoided emissions equal the emissions of whatever is displaced—not “geothermal is clean” in isolation.
+
+| Horizon | What geothermal does | What we would need to estimate |
+|---|---|---|
+| **Short-run** (fleet fixed) | Changes which existing plants are on the margin hour by hour (stylised logic: coal more often off-peak, gas more often at peak — illustrative only) | Interval demand, generation, emissions construction; demand vs injection estimand stated explicitly |
+| **Long-run** | Can also change what is built or retired over the project life | Separate with/without (or comparable) capacity-expansion design; not just averaged short-run MEFs |
+| **Accounting / credits** | CM is often used to quantify avoided grid emissions for geothermal-type projects | A future local MEF may *inform assessment* of CM; this stage does not issue credits or declare CM invalid |
+
+**Why no geothermal impact number yet:** no verified time-aligned Jamali interval operating package; annual tables, Wayang Windu samples and cartoons cannot support a numerical system MEF or a claim that MEF beats CM for Jamali geothermal. Full prose is in the draft report §1 ([report_draft/jamali_mef_report_draft.html](report_draft/jamali_mef_report_draft.html)).
+
+## 2. Concepts and policy context
 
 Define CM, average intensity and short-/long-run MEFs. Specify demand versus electricity-injection perturbations. Review applicable accounting context with version-specific primary sources. The existing regulatory review is a starting point, not a completed current-law determination.
+
+**Carbon credits (motivation, not a deliverable).** Geothermal projects may seek carbon credits or related emissions accounting; CM is often the published factor used in that workflow. Carbon crediting is therefore the policy context for assessing CM for this geothermal case. This study designs a pathway to estimate marginal emissions effects for Jamali; it does **not** determine credit eligibility or issue factors for use in crediting. Accounting compliance, operational MEF estimation and credit issuance remain distinct questions.
 
 The long-run extension now distinguishes fixed-fleet dispatch from models that allow capacity changes and explains why CM is not a simple grid average. That conceptual comparison does not resolve Indonesian programme-specific eligibility or justify replacing CM.
 
@@ -56,17 +70,35 @@ For the short-run route, the next task remains obtaining and inspecting a small 
 
 A transparent statistical baseline is the first route to assess if the response data become available. This is a proposal based on audit burden, not a demonstrated method ranking. If the records remain inaccessible or incompatible, the evidence-backed output will be a data-readiness roadmap rather than a fabricated MEF. Any grid change requires a documented rationale independent of desired results.
 
-## 6. Conditional pilot — not performed
+## 6. Conditional pilot and credibility protocol
 
-Include only if the feasibility gate is met. Report protocol, validation, estimates, sensitivities and identification limits. Otherwise replace this section with a concrete data-acquisition and modelling roadmap.
+**Pilot status:** not performed — the feasibility gate (time-aligned Jamali interval demand, generation and emissions construction) is not met.
 
-## 7. Policy and research recommendations — not yet established
+**Credibility protocol (stage-closing, 20 November 2026):** [CREDIBILITY_PROTOCOL.md](CREDIBILITY_PROTOCOL.md) defines how a future model-based MEF would be judged before it may inform assessment of CM. In brief:
 
-Tie each recommendation to an observed evidence gap. Separate data-disclosure improvements, modelling standards and any proposed crediting-rule change. Neither existing CM sensitivity nor a new short-run estimate proves the full long-run effect of planned geothermal.
+1. State the estimand (perturbation, boundary, horizon, units) before fitting.
+2. Check **observable fit** and **marginal-response credibility** separately; do not score MEF against CM as physical truth.
+3. Triangulate a short-run claim (primary M1 regression; second method on the same estimand where feasible) and report uncertainty.
+4. Only then place the MEF beside published CM and ask whether the gap is large and robust enough to *inform* CM assessment — reporting both, researching data access, or discussing rules remain possible outcomes; replacement of CM is not automatic.
+5. Carbon-credit implications are assessment inputs only; this stage does not issue credits or declare CM invalid.
 
-## 8. Conclusion — to be determined by evidence
+If interval data arrive, run the M1 pilot under that protocol. If not, the deliverable remains the readiness assessment plus the clearly labelled CM accounting benchmark.
 
-Summarise what available evidence supports, remaining barriers and practical next steps. A rigorous readiness assessment without a numerical MEF remains a valid result.
+## 7. Policy and research recommendations
+
+Tie each recommendation to an observed evidence gap. Separate **data-disclosure** improvements, **modelling / validation standards** (the credibility protocol) and any **proposed crediting-rule discussion**. Neither existing CM sensitivity nor a new short-run estimate proves the full long-run effect of planned geothermal.
+
+Practical recommendations from the completed readiness work:
+
+1. Authorise or decline the drafted PLN UIP2B / ESDM interval-data request ([FINAL_READINESS.md](FINAL_READINESS.md)).
+2. On receipt, run the historical-regression pilot and apply the credibility protocol before any MEF–CM preference claim.
+3. Keep ESDM CM/OM/BM as the published accounting benchmark until that protocol is passed.
+4. Treat carbon credits as policy motivation for assessing CM, not as an empirical output of this stage.
+5. Defer dispatch, network, ML and long-run capacity expansion until short-run identification and triangulation justify the extra input burden.
+
+## 8. Conclusion
+
+Available evidence supports a methods-and-data pathway for Jamali short-run MEF estimation and a separate, heavier long-run programme; it does **not** support a numerical Jamali MEF today. The binding barrier is inaccessible time-aligned operating data. The practical next research phase is obtaining those data and applying the credibility protocol so that any future MEF can inform — without presupposing — assessment of CM in a carbon-crediting context. A rigorous readiness assessment without a numerical MEF remains a valid result for this research question.
 
 ## Background appendix
 

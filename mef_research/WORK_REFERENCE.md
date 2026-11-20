@@ -10,7 +10,9 @@
 
 What data and modelling approaches would be needed to estimate the short- and long-run marginal emissions effects of geothermal development in Jamali, and how could these inform assessment of the combined-margin (CM) approach?
 
-**Current answer in one line:** methods are clear; public Jamali interval data are not; recommended first pilot is historical regression conditional on PLN UIP2B data.
+**Current answer in one line:** geothermal is the intervention (short-run displacement + long-run capacity effects); methods are clear; public Jamali interval data are not; recommended first pilot is historical regression conditional on PLN UIP2B data; a credibility protocol defines when a future MEF may inform CM assessment (carbon credits = motivation only).
+
+Supporting close-out docs: [`CREDIBILITY_PROTOCOL.md`](CREDIBILITY_PROTOCOL.md), [`FINAL_READINESS.md`](FINAL_READINESS.md), [`REPORT.md`](REPORT.md) (§1A geothermal spine), draft §1 in [`report_draft/jamali_mef_report_draft.html`](report_draft/jamali_mef_report_draft.html).
 
 ---
 
@@ -116,20 +118,23 @@ Using NP heat rates + assumed fuel prices: **night → coal on margin (~1.0 t/MW
 - Method demos on toy / public US data, clearly labelled.
 - That foreign evidence shows MEFs are system-specific and AEF≠MEF.
 - That annual Jamali data are insufficient for a short-run MEF pilot.
+- A protocol for validating a future MEF before it informs CM assessment.
+- That carbon crediting is the policy context for assessing CM (not a completed credit study).
 
 **Must not claim**
 - Any number as “the Jamali MEF.”
 - That toy / EIA / cartoon results are Indonesian geothermal impacts.
 - That MEF must replace CM.
 - That ML is ready for Jamali.
+- Credit eligibility, volumes or issuance for any project.
 
 ---
 
 ## 7. Next institutional decision
 
 Send or hold the drafted PLN UIP2B / ESDM data request.  
-If data arrive → run `run_pilot.py` on mapped inputs.  
-If not → deliver readiness assessment + labelled CM benchmark.
+If data arrive → run `run_pilot.py` on mapped inputs **and apply** [`CREDIBILITY_PROTOCOL.md`](CREDIBILITY_PROTOCOL.md).  
+If not → deliver readiness assessment + credibility protocol + labelled CM benchmark.
 
 ---
 

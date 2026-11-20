@@ -12,6 +12,10 @@ Establish what we would need to estimate how geothermal development affects both
 
 We are not assuming that MEF is always more suitable than CM, that present rules are wrong, or that an ML model can discover a uniquely ideal factor. MEF is itself an emission factor. Accounting compliance, operational emissions response and credit issuance are distinct questions.
 
+**Geothermal** is the intervention the study is organised around (Jamali injection → short-run displacement and possible long-run build/retire effects), not a decorative case study. Keep that spine visible in the report.
+
+**Carbon credits** are the policy motivation for assessing CM (geothermal projects may seek credits that currently rely on published CM-type factors). Include that context in the report; do not treat credit eligibility, volumes or issuance as deliverables of this readiness stage. The [credibility protocol](CREDIBILITY_PROTOCOL.md) states when a future model-based MEF may *inform* CM assessment.
+
 ## Supporting questions
 
 1. How do CM, average grid intensity and short- versus long-run MEFs differ in purpose and interpretation?
@@ -61,11 +65,11 @@ A long-run pilot has a separate gate: coherent system inputs, economic and polic
 
 ### 5. Report and recommendations
 
-Deliver a documented methods comparison, data inventory, variable rationale, feasibility judgement and practical roadmap. Include reproducible pilot scripts and tables only if a pilot is feasible. Distinguish recommendations for data access or research governance from proposed changes to crediting rules.
+Deliver a documented methods comparison, data inventory, variable rationale, feasibility judgement and practical roadmap. Include the [credibility protocol](CREDIBILITY_PROTOCOL.md) for judging a future MEF before any preference over CM. Include reproducible pilot scripts and tables only if a pilot is feasible. Distinguish recommendations for data access or research governance from proposed changes to crediting rules; keep carbon credits as motivation, not as an issued-factor claim.
 
 ## What success looks like
 
-A defensible account of **what can be estimated, what cannot yet be estimated, and what would make the next step possible**. A well-supported negative feasibility finding is a valid research result. No ML improvement, ideal CM weight or legal amendment is required for success.
+A defensible account of **what can be estimated, what cannot yet be estimated, and what would make the next step possible** — including how a future estimate would be validated before informing CM assessment in a carbon-crediting context. A well-supported negative feasibility finding is a valid research result. No ML improvement, ideal CM weight, legal amendment or credit issuance is required for success.
 
 ## Handoff safeguards
 
