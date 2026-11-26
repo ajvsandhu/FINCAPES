@@ -129,12 +129,12 @@ def plot_aef_vs_mef(summary: pd.DataFrame, path: Path) -> None:
     fig, ax = plt.subplots(figsize=(8.2, 4.8))
     x = np.arange(len(summary))
     width = 0.35
-    ax.bar(x - width / 2, summary["aef_tco2_per_mwh"], width, label="AEF (avg intensity)", color="#6b8f71")
-    ax.bar(x + width / 2, summary["demand_mef_tco2_per_mwh"], width, label="Demand MEF (β)", color="#2f5d8a")
+    ax.bar(x - width / 2, summary["aef_tco2_per_mwh"], width, label="AEF", color="#6b8f71")
+    ax.bar(x + width / 2, summary["demand_mef_tco2_per_mwh"], width, label="MEF", color="#2f5d8a")
     ax.set_xticks(x)
     ax.set_xticklabels([BA_LABELS.get(ba, ba) for ba in summary["ba"]])
     ax.set_ylabel("tCO₂ / MWh")
-    ax.set_title("Public demo: AEF vs demand-based MEF (US grids)")
+    ax.set_title("Public demo: AEF vs MEF (US grids)")
     ax.legend()
     fig.text(
         0.5,

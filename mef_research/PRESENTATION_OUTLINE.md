@@ -19,11 +19,12 @@
 ---
 
 ## Slide 2 — Research question
-**What data and modelling approaches would be needed to estimate the short- and long-run marginal emissions effects of geothermal in Jamali, and how could that inform assessment of the combined-margin (CM) approach?**
+**What data and methods would we need to estimate geothermal’s short- and long-run marginal emissions effects on Jamali — and how could that inform assessing the combined-margin (CM) approach?**
 
 - Short-run: which existing plants respond today  
 - Long-run: what gets built/retired later (separate, larger programme)  
-- Aim: credible pathway — not “MEF must replace CM”
+- Aim: credible pathway — not “MEF must replace CM”  
+- Full/report wording stays in MISSION.md; this is the slide-readable form only
 
 ---
 
