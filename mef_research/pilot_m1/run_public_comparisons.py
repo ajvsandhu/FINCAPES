@@ -27,6 +27,12 @@ BA_LABELS = {
     "MISO": "US Midwest\n(MISO)",
     "PJM": "Mid-Atlantic\n(PJM)",
 }
+BA_SHORT = {
+    "CISO": "California (CISO)",
+    "ERCO": "Texas (ERCOT)",
+    "MISO": "US Midwest (MISO)",
+    "PJM": "Mid-Atlantic (PJM)",
+}
 TRAIN_FRACTION = 0.75
 
 
@@ -182,18 +188,56 @@ def plot_multi_ba_hour(profiles: pd.DataFrame, path: Path) -> None:
             part["hour"],
             part["demand_mef"],
             "-o",
-            label=BA_LABELS.get(ba, ba).replace("\n", " "),
+            label=BA_SHORT.get(ba, ba),
             markersize=3,
         )
     ax.set_xlabel("Local hour of day")
-    ax.set_ylabel("Demand MEF β (tCO₂ / MWh)")
-    ax.set_title("Public demo: hour-of-day demand MEFs across balancing authorities")
+    ax.set_ylabel("MEF (tCO₂ / MWh)")
+    ax.set_title("Public demo: hour-of-day MEF across US grids")
     ax.set_xticks(range(0, 24, 2))
     ax.legend()
     ax.text(
         0.02,
         0.02,
         "PUBLIC EIA-930 DEMO — NOT JAMALI. Training-period hour profiles.",
+        transform=ax.transAxes,
+        fontsize=8,
+        color="#a35d4a",
+    )
+    fig.tight_layout()
+    fig.savefig(path, dpi=160)
+    plt.close(fig)
+
+
+def plot_ciso_erco_hour(profiles: pd.DataFrame, summary: pd.DataFrame, path: Path) -> None:
+    """Two-grid hour-of-day MEF chart used on the midterm slide."""
+    fig, ax = plt.subplots(figsize=(9, 5))
+    colors = {"CISO": "#2f5d8a", "ERCO": "#d17a22"}
+    overall = {
+        row["ba"]: float(row["demand_mef_tco2_per_mwh"])
+        for _, row in summary.iterrows()
+    }
+    for ba in ("CISO", "ERCO"):
+        part = profiles.loc[profiles["ba"] == ba].sort_values("hour")
+        beta = overall.get(ba, float("nan"))
+        ax.plot(
+            part["hour"],
+            part["demand_mef"],
+            "-o",
+            color=colors[ba],
+            label=f"{BA_SHORT[ba]} — overall MEF = {beta:.2f} t/MWh",
+            markersize=4,
+        )
+    ax.set_xlabel("Local hour of day")
+    ax.set_ylabel("MEF (tCO₂ / MWh)")
+    ax.set_title("Public demo: hour-of-day MEF — California (CISO) vs Texas (ERCOT)")
+    ax.set_xticks(range(0, 24, 2))
+    ax.axhline(0.0, color="#bbbbbb", linewidth=0.8)
+    ax.legend(loc="upper left")
+    ax.text(
+        0.02,
+        0.02,
+        "PUBLIC DEMO — NOT JAMALI. Constructed CO₂; demand-based regression.",
         transform=ax.transAxes,
         fontsize=8,
         color="#a35d4a",
@@ -217,6 +261,12 @@ def main() -> None:
     plot_aef_vs_mef(summary, OUT / "aef_vs_demand_mef.png")
     plot_demand_vs_fossil(summary, OUT / "demand_vs_fossil_mef.png")
     plot_multi_ba_hour(hour_profiles, OUT / "multi_ba_hour_demand_mef.png")
+    ciso_erco_name = "ciso_erco_hour_profile_compare.png"
+    plot_ciso_erco_hour(hour_profiles, summary, OUT / ciso_erco_name)
+    # Keep slide-facing copies next to the public demo inputs and report assets.
+    for dest_dir in (DEMO, HERE.parent / "report_draft" / "assets"):
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        (dest_dir / ciso_erco_name).write_bytes((OUT / ciso_erco_name).read_bytes())
 
     meta = {
         "disclaimer": "PUBLIC EIA-930 DEMO — NOT A JAMALI MEF",
